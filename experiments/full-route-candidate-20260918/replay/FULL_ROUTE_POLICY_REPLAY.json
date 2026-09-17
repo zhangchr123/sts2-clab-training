@@ -1,0 +1,68 @@
+{
+  "schema_version": "full-route-assembled-replay-v1",
+  "passed": true,
+  "decisions": 2805,
+  "candidate_rows": 4529,
+  "exact_parent_additivity": 2805,
+  "recorded_parent_exact": 2805,
+  "maximum_additivity_error": 0.0,
+  "maximum_recorded_parent_error": 0.0,
+  "natural_outcomes_used_for_weight_selection": false,
+  "offline_replay": {
+    "path": "/home/ubuntu/sts2-cloud-analysis/full-route-candidate-20260918-v1/RESULT.json",
+    "sha256": "f36ff8903bae39960b0ac76a607b688f570beff90845c3a6ccc4bf06e16d7b29",
+    "bytes": 233100
+  },
+  "selection_parent": {
+    "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/selection-effect-candidate-model.json",
+    "sha256": "03cba5dffb53cbf783ab6cd3d0d3da7e9d31db61335633b3675c05da39aefc27",
+    "bytes": 14374
+  },
+  "full_route_candidate": {
+    "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/full-route-candidate-model.json",
+    "sha256": "1343ba6f42f1ae7e2c5f138ec1d74f7b536b92fc1b4447ae2edc74498910e6b7",
+    "bytes": 14742
+  },
+  "combined_replay_sha256": "be9f489a368f5e61a36191fabb1520a2a42abdf5968e127fd6554860002bf6eb",
+  "migration": {
+    "historical_baseline": {
+      "path": "/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/models-selection-v1/migrated-baseline-model.json",
+      "sha256": "00371046c1c3e5cc81e0f2893932520d3375b5780d0c2dc7aa79ca8a9520274b",
+      "bytes": 63961
+    },
+    "historical_event": {
+      "path": "/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/models-selection-v1/event-effect-candidate-model.json",
+      "sha256": "d66e278ad2d8d52b21f658eb166c3102e7abbf5b4626881dfc701e5c6f030231",
+      "bytes": 14331
+    },
+    "historical_selection": {
+      "path": "/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/models-selection-v1/selection-effect-candidate-model.json",
+      "sha256": "af1539d4c85ca4bd340ac2d8fe315a05ce719672ffbef5034f5a438891afc983",
+      "bytes": 14604
+    },
+    "migrated_baseline": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/migrated-baseline-model.json",
+      "sha256": "f84396a31ede157994ccf060c47a7092c0ef73cd16d56b773874e5b6d6ea1488",
+      "bytes": 63702
+    },
+    "migrated_event": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/event-effect-candidate-model.json",
+      "sha256": "dc11e75d4ebe260d269aad2a198311e371ad7f9e79fe3efc81921f5ee1c621f5",
+      "bytes": 14091
+    },
+    "migrated_selection": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/selection-effect-candidate-model.json",
+      "sha256": "03cba5dffb53cbf783ab6cd3d0d3da7e9d31db61335633b3675c05da39aefc27",
+      "bytes": 14374
+    },
+    "full_route_candidate": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/full-route-candidate-model.json",
+      "sha256": "1343ba6f42f1ae7e2c5f138ec1d74f7b536b92fc1b4447ae2edc74498910e6b7",
+      "bytes": 14742
+    },
+    "baseline_parameters_equal": true,
+    "event_parameters_equal": true,
+    "selection_parameters_equal": true,
+    "constructors_validated": true
+  }
+}

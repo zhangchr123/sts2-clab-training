@@ -41,15 +41,21 @@
     },
     {
       "name": "selection-effect-smoke",
-      "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/run/public-status.json"
+      "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/run/public-status.json",
+      "optional_missing": true
     },
     {
       "name": "selection-effect-paired-evaluation",
-      "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/run/public-status.json"
+      "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/run/public-status.json",
+      "optional_missing": true
     },
     {
       "name": "selection-effect-independent-assessment",
       "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/assessment/public-status.json"
+    },
+    {
+      "name": "full-route-candidate",
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/public-status.json"
     }
   ],
   "processes": [],
