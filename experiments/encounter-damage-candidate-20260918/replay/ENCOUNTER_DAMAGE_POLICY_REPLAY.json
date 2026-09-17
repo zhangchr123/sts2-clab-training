@@ -1,0 +1,80 @@
+{
+  "schema_version": "encounter-damage-assembled-replay-v1",
+  "passed": true,
+  "decisions": 2805,
+  "candidate_rows": 4529,
+  "exact_parent_additivity": 2805,
+  "recorded_full_route_parent_exact": 2805,
+  "maximum_additivity_error": 0.0,
+  "maximum_recorded_parent_error": 0.0,
+  "natural_outcomes_used_for_policy_weight_selection": false,
+  "catalog_test_used_for_parameter_selection": false,
+  "offline_replay": {
+    "path": "/home/ubuntu/sts2-cloud-analysis/encounter-damage-candidate-20260918-v2/RESULT.json",
+    "sha256": "63d05a2352759fd4581c93ee08cf1763f58c3549ad3b6a0131f9f848a8ef5495",
+    "bytes": 350814
+  },
+  "full_route_parent": {
+    "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/sts2-solver-bridge/models-encounter-damage-v1/full-route-candidate-model.json",
+    "sha256": "14b12a437265cb65568ba29d437f574e7eebcd3d161c3d0f6b45e2431ae3dc9b",
+    "bytes": 15030
+  },
+  "encounter_damage_candidate": {
+    "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/sts2-solver-bridge/models-encounter-damage-v1/encounter-damage-candidate-model.json",
+    "sha256": "de9e2638256038f202262f3c2106f78336f0856a11e4a6d189aad5a5ae4efb66",
+    "bytes": 16214
+  },
+  "combined_replay_sha256": "7f6a5d6205a8eba369ea49cb3a3e9306e79dbae3c1039883aa6d78926d5129ef",
+  "migration": {
+    "historical_baseline": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/migrated-baseline-model.json",
+      "sha256": "f84396a31ede157994ccf060c47a7092c0ef73cd16d56b773874e5b6d6ea1488",
+      "bytes": 63702
+    },
+    "historical_event": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/event-effect-candidate-model.json",
+      "sha256": "dc11e75d4ebe260d269aad2a198311e371ad7f9e79fe3efc81921f5ee1c621f5",
+      "bytes": 14091
+    },
+    "historical_selection": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/selection-effect-candidate-model.json",
+      "sha256": "03cba5dffb53cbf783ab6cd3d0d3da7e9d31db61335633b3675c05da39aefc27",
+      "bytes": 14374
+    },
+    "migrated_baseline": {
+      "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/sts2-solver-bridge/models-encounter-damage-v1/migrated-baseline-model.json",
+      "sha256": "010fb8549d6d04f3c7c39900a71fa956e83b56f034ce6b834fd646f5b9b58262",
+      "bytes": 63967
+    },
+    "migrated_event": {
+      "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/sts2-solver-bridge/models-encounter-damage-v1/event-effect-candidate-model.json",
+      "sha256": "4989e1748a4615488daa0dd3bdc99cd6e56ba45f434ac0b2eddea5fdf98f44bc",
+      "bytes": 14350
+    },
+    "migrated_selection": {
+      "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/sts2-solver-bridge/models-encounter-damage-v1/selection-effect-candidate-model.json",
+      "sha256": "473c19ac003412654cc0c68eec8e796d595345782d6dd9eae481ba68f1a1bcdb",
+      "bytes": 14645
+    },
+    "full_route_candidate": {
+      "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/sts2-solver-bridge/models-encounter-damage-v1/full-route-candidate-model.json",
+      "sha256": "14b12a437265cb65568ba29d437f574e7eebcd3d161c3d0f6b45e2431ae3dc9b",
+      "bytes": 15030
+    },
+    "baseline_parameters_equal": true,
+    "event_parameters_equal": true,
+    "selection_parameters_equal": true,
+    "constructors_validated": true,
+    "encounter_damage_catalog": {
+      "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/sts2-solver-bridge/encounter_damage_catalog_v3.json",
+      "sha256": "ada21748c09c039627fa4e395b471e7e2d541aa67633aab93518bea2a3f3886d",
+      "bytes": 90833
+    },
+    "encounter_damage_candidate": {
+      "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/sts2-solver-bridge/models-encounter-damage-v1/encounter-damage-candidate-model.json",
+      "sha256": "de9e2638256038f202262f3c2106f78336f0856a11e4a6d189aad5a5ae4efb66",
+      "bytes": 16214
+    },
+    "encounter_damage_constructor_validated": true
+  }
+}

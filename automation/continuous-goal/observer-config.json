@@ -56,6 +56,10 @@
     {
       "name": "full-route-candidate",
       "path": "/home/ubuntu/sts2-full-route-stage-20260918/public-status.json"
+    },
+    {
+      "name": "encounter-damage-candidate",
+      "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/public-status.json"
     }
   ],
   "processes": [],
