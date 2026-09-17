@@ -19,6 +19,7 @@ SPOOL = Path('/home/ubuntu/sts2-agent/spool')
 STATE = ROOT / 'state.json'
 GOAL = ROOT / 'GOAL.json'
 EVAL_ASSESSMENT = Path('/home/ubuntu/sts2-cloud-eval/progress-aux/assessment/ASSESSMENT.json')
+DECISION_PRIORITIES = Path('/home/ubuntu/sts2-cloud-analysis/decision-structure-20260918-v1/PRIORITIES.json')
 atomic, read, require = pub.atomic, pub.read, pub.require
 CHILDREN = {}
 
@@ -156,6 +157,21 @@ def evaluation_context(path=EVAL_ASSESSMENT):
     return {key: value[key] for key in allowed if key in value}
 
 
+def decision_diagnostic_context(path=DECISION_PRIORITIES):
+    if not path.exists():
+        return None
+    value = read(path)
+    priorities = sorted(value['priorities'], key=lambda item: item['rank'])
+    return {
+        'audited_natural_runs': value['audited_natural_runs'],
+        'target_successes': value['target_successes'],
+        'near_target_failures': value['near_target_failures'],
+        'late_act3_review_decisions': value['late_act3_review_decisions'],
+        'controlled_acquisition_priority_areas': [item['area'] for item in priorities],
+        'natural_outcomes_used_for_fitting': value['interpretation']['natural_outcomes_used_for_fitting'],
+    }
+
+
 def ask(state, kind, snap=None, nudge=False):
     state['sequence'] += 1
     job_id = f"continuous_goal_{state['sequence']:06d}"
@@ -165,6 +181,9 @@ def ask(state, kind, snap=None, nudge=False):
     evaluation = evaluation_context()
     if evaluation is not None:
         context['progress_aux_evaluation'] = evaluation
+    diagnostics = decision_diagnostic_context()
+    if diagnostics is not None:
+        context['decision_diagnostics'] = diagnostics
     request_id = hashlib.sha256(json.dumps({'kind':kind,'context':context,'sequence':state['sequence']}, sort_keys=True).encode()).hexdigest()[:24]
     action = 'start_next_batch' if kind == 'start' else 'publish_and_continue'
     prompt = (

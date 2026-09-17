@@ -106,5 +106,38 @@ class GoalTests(unittest.TestCase):
             self.assertNotIn('raw_files_verified',context)
             self.assertNotIn('reason',context)
 
+    def test_decision_diagnostics_only_expose_bounded_priority_context(self):
+        with tempfile.TemporaryDirectory() as t:
+            path=Path(t)/'PRIORITIES.json'
+            path.write_text(json.dumps({
+                'audited_natural_runs':87,'target_successes':1,'near_target_failures':10,
+                'late_act3_review_decisions':27,
+                'priorities':[{'rank':2,'area':'ordered_selection','large_detail':'omit'},
+                              {'rank':1,'area':'events','large_detail':'omit'}],
+                'interpretation':{'natural_outcomes_used_for_fitting':False},
+                'near_target_review_queue':['must','not','enter','goal']}),encoding='utf-8')
+            context=g.decision_diagnostic_context(path)
+            self.assertEqual(context['controlled_acquisition_priority_areas'],['events','ordered_selection'])
+            self.assertFalse(context['natural_outcomes_used_for_fitting'])
+            self.assertNotIn('near_target_review_queue',context)
+
+    def test_combined_dynamic_context_stays_within_mailbox_budget(self):
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t);spool=root/'spool';(spool/'inbox').mkdir(parents=True)
+            state={'sequence':0,'closed':[],'current':None}
+            snap={'phase':'complete','completed':24,'valid':24,'invalid':0,
+                  'target_successes':1,'model_label':'fixture','model_sha256':'a'*64}
+            evaluation={'passed':True,'evaluation_complete':True,'games':120,'pairs':60,
+                        'candidate_gate_passed':False,'deployment_authorized':False}
+            diagnostics={'audited_natural_runs':87,'target_successes':1,'near_target_failures':10,
+                         'late_act3_review_decisions':27,
+                         'controlled_acquisition_priority_areas':['events','selection','route','reward','rest'],
+                         'natural_outcomes_used_for_fitting':False}
+            with patch.object(g,'ROOT',root),patch.object(g,'STATE',root/'state.json'),\
+                 patch.object(g,'SPOOL',spool),patch.object(g,'evaluation_context',return_value=evaluation),\
+                 patch.object(g,'decision_diagnostic_context',return_value=diagnostics):
+                g.ask(state,'review',snap)
+            self.assertLessEqual(len(state['pending']['job']['text']),4000)
+
 
 if __name__=='__main__':unittest.main(verbosity=2)
