@@ -20,6 +20,7 @@ STATE = ROOT / 'state.json'
 GOAL = ROOT / 'GOAL.json'
 EVAL_ASSESSMENT = Path('/home/ubuntu/sts2-cloud-eval/progress-aux/assessment/ASSESSMENT.json')
 EVENT_EVAL_ASSESSMENT = Path('/home/ubuntu/sts2-event-effect-paired-eval-20260918/assessment/ASSESSMENT.json')
+SELECTION_EVAL_ASSESSMENT = Path('/home/ubuntu/sts2-selection-effect-paired-eval-20260918/assessment/ASSESSMENT.json')
 DECISION_PRIORITIES = Path('/home/ubuntu/sts2-cloud-analysis/decision-structure-20260918-v1/PRIORITIES.json')
 atomic, read, require = pub.atomic, pub.read, pub.require
 CHILDREN = {}
@@ -192,6 +193,9 @@ def ask(state, kind, snap=None, nudge=False):
     event_evaluation = evaluation_context(EVENT_EVAL_ASSESSMENT)
     if event_evaluation is not None:
         context['event_effect_evaluation'] = event_evaluation
+    selection_evaluation = evaluation_context(SELECTION_EVAL_ASSESSMENT)
+    if selection_evaluation is not None:
+        context['selection_effect_evaluation'] = selection_evaluation
     diagnostics = decision_diagnostic_context()
     if diagnostics is not None:
         context['decision_diagnostics'] = diagnostics

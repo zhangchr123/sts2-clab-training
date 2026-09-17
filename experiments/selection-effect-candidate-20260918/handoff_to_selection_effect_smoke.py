@@ -17,6 +17,9 @@ RUN = BASE / "run"
 STATUS = BASE / "HANDOFF_STATUS.json"
 STAGE = Path("/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge")
 RUNNER = STAGE / "run_selection_effect_smoke.py"
+PAIRED_RUNNER = STAGE / "run_selection_effect_paired_eval.py"
+PAIRED_BASE = Path("/home/ubuntu/sts2-selection-effect-paired-eval-20260918")
+PAIRED_RUN = PAIRED_BASE / "run"
 PARENT_ASSESSMENT = Path(
     "/home/ubuntu/sts2-event-effect-paired-eval-20260918/assessment/ASSESSMENT.json"
 )
@@ -27,6 +30,7 @@ PARENT_HANDOFF_UNIT = "sts2-event-effect-smoke-handoff.service"
 PARENT_SMOKE_UNIT = "sts2-event-effect-smoke.service"
 PARENT_PAIRED_UNIT = "sts2-event-effect-paired-eval.service"
 SMOKE_UNIT = "sts2-selection-effect-smoke.service"
+PAIRED_UNIT = "sts2-selection-effect-paired-eval.service"
 
 
 def read(path):
@@ -213,6 +217,52 @@ def smoke_passed():
     return value.get("passed") is True and value.get("integration_passed") is True
 
 
+def prepare_paired_once():
+    if (PAIRED_RUN / "PROTOCOL.json").exists():
+        return
+    if any((PAIRED_RUN / name).exists() for name in ("STARTED.json", "RESULT.json", "RUNNER_ERROR.json")):
+        raise RuntimeError("Selection paired evaluation has terminal files without a protocol")
+    command(
+        "runuser", "-u", "ubuntu", "--", "/usr/bin/python3", str(PAIRED_RUNNER), "prepare",
+        timeout=180,
+    )
+    if not (PAIRED_RUN / "PROTOCOL.json").exists():
+        raise RuntimeError("Selection paired prepare did not write its protocol")
+
+
+def monitor_paired():
+    while active(PAIRED_UNIT):
+        progress = read(PAIRED_RUN / "public-status.json") if (PAIRED_RUN / "public-status.json").exists() else {}
+        atomic({
+            "phase": "selection_paired_evaluation_active",
+            "progress": progress,
+            "updated_unix": time.time(),
+            "automatic_retry": False,
+        })
+        time.sleep(30)
+    command("systemctl", "start", GOAL_UNIT)
+    atomic({
+        "phase": "selection_paired_evaluation_terminal_goal_resumed",
+        "service_result": show(PAIRED_UNIT, "Result"),
+        "exit_status": show(PAIRED_UNIT, "ExecMainStatus"),
+        "result_exists": (PAIRED_RUN / "RESULT.json").exists(),
+        "runner_error_exists": (PAIRED_RUN / "RUNNER_ERROR.json").exists(),
+        "goal_service_active": active(GOAL_UNIT),
+        "updated_unix": time.time(),
+        "automatic_retry": False,
+    })
+
+
+def start_paired_and_monitor():
+    prepare_paired_once()
+    command("systemctl", "start", PAIRED_UNIT)
+    time.sleep(1)
+    if not active(PAIRED_UNIT):
+        command("systemctl", "start", GOAL_UNIT)
+        raise RuntimeError("Selection paired service failed to become active")
+    monitor_paired()
+
+
 def monitor_smoke():
     while active(SMOKE_UNIT):
         progress = read(RUN / "public-status.json") if (RUN / "public-status.json").exists() else {}
@@ -223,9 +273,17 @@ def monitor_smoke():
             "automatic_retry": False,
         })
         time.sleep(15)
+    if smoke_passed():
+        atomic({
+            "phase": "selection_smoke_passed_starting_paired_evaluation",
+            "updated_unix": time.time(),
+            "automatic_retry": False,
+        })
+        start_paired_and_monitor()
+        return
     command("systemctl", "start", GOAL_UNIT)
     atomic({
-        "phase": "selection_smoke_passed_goal_resumed" if smoke_passed() else "selection_smoke_failed_goal_resumed",
+        "phase": "selection_smoke_failed_goal_resumed",
         "service_result": show(SMOKE_UNIT, "Result"),
         "exit_status": show(SMOKE_UNIT, "ExecMainStatus"),
         "result_exists": (RUN / "RESULT.json").exists(),
@@ -240,12 +298,18 @@ def main():
     if (RUN / "STARTED.json").exists():
         if active(SMOKE_UNIT):
             monitor_smoke()
+        elif smoke_passed() and not (PAIRED_RUN / "STARTED.json").exists():
+            start_paired_and_monitor()
+        elif active(PAIRED_UNIT):
+            monitor_paired()
         else:
             command("systemctl", "start", GOAL_UNIT)
             atomic({
-                "phase": "started_selection_smoke_not_replayed_goal_resumed",
+                "phase": "started_selection_evaluation_not_replayed_goal_resumed",
                 "result_exists": (RUN / "RESULT.json").exists(),
                 "runner_error_exists": (RUN / "RUNNER_ERROR.json").exists(),
+                "paired_result_exists": (PAIRED_RUN / "RESULT.json").exists(),
+                "paired_runner_error_exists": (PAIRED_RUN / "RUNNER_ERROR.json").exists(),
                 "goal_service_active": active(GOAL_UNIT),
                 "updated_unix": time.time(),
                 "automatic_retry": False,

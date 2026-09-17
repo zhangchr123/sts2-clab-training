@@ -41,3 +41,12 @@ the parent assessment is complete and its candidate improvement gate passed.
 If the parent is rejected, its smoke fails, or the assessment is unavailable
 after the parent chain terminates, the selection smoke is not run and the
 continuous goal remains active. The handoff never retries a started allocation.
+
+If that one-game smoke passes its complete integration audit, the same handoff
+prepares and starts a frozen 60-pair, 120-game evaluation against the admitted
+event parent. Each pair shares a fresh seed, arm order alternates for 30 pairs
+each, invalid games remain failures, and the first pair is an integration gate.
+The evaluation cannot retry, refit, extend its denominator, or deploy either
+model. A separate assessor recomputes the exact paired test and verifies all
+audit receipts and raw-source hashes before exposing a bounded result to the
+persistent MiniMax goal.

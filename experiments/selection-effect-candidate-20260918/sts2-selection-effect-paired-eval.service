@@ -1,0 +1,21 @@
+[Unit]
+Description=One-shot serialized public selection-effect paired natural evaluation
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/run_selection_effect_paired_eval.py run
+TimeoutStartSec=infinity
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=yes
+MemoryMax=3000M
+CPUQuota=300%
+TasksMax=160
+StandardOutput=journal
+StandardError=journal

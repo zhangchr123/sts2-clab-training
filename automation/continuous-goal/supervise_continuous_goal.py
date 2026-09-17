@@ -35,6 +35,7 @@ EXCLUSIVE_UNITS = (
     "sts2-event-effect-paired-eval.service",
     "sts2-selection-effect-smoke.service",
     "sts2-selection-effect-smoke-handoff.service",
+    "sts2-selection-effect-paired-eval.service",
 )
 STALE_SECONDS = 20 * 60
 
@@ -84,6 +85,8 @@ def evaluation_owns_boundary() -> bool:
         "waiting_for_selection_smoke_boundary",
         "selection_smoke_boundary_acquired",
         "selection_smoke_active",
+        "selection_smoke_passed_starting_paired_evaluation",
+        "selection_paired_evaluation_active",
     }
     for path in HANDOFF_STATUS_PATHS:
         handoff = read_json(path)

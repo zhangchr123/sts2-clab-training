@@ -42,6 +42,14 @@
     {
       "name": "selection-effect-smoke",
       "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/run/public-status.json"
+    },
+    {
+      "name": "selection-effect-paired-evaluation",
+      "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/run/public-status.json"
+    },
+    {
+      "name": "selection-effect-independent-assessment",
+      "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/assessment/public-status.json"
     }
   ],
   "processes": [],
