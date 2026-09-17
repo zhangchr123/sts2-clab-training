@@ -1,11 +1,11 @@
 {
   "batch": "defect-cloud-training-20260917a",
   "planned": 24,
-  "completed": 22,
-  "valid": 22,
+  "completed": 24,
+  "valid": 24,
   "invalid": 0,
   "target_successes": 0,
-  "phase": "running",
+  "phase": "complete",
   "receipts": [
     {
       "name": "defect-cloud-training-20260917a-000",
@@ -292,6 +292,32 @@
       "target_success": false,
       "max_act": 1,
       "max_floor": 14
+    },
+    {
+      "name": "defect-cloud-training-20260917a-022",
+      "seed": "defect-cloud-training-20260917a-fresh-022",
+      "audit": {
+        "bytes": 1467,
+        "sha256": "ae22793137dc4f02d1efa90d87c86a6f62c7f2ae0373547db82e74354629bed3"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 3,
+      "max_floor": 15
+    },
+    {
+      "name": "defect-cloud-training-20260917a-023",
+      "seed": "defect-cloud-training-20260917a-fresh-023",
+      "audit": {
+        "bytes": 1465,
+        "sha256": "0e55bac129ebc7fe8acd7a38cebc88ed6a6b942cefc80a884ef61829f56e1b5b"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 3,
+      "max_floor": 15
     }
   ],
   "protocol": {
@@ -302,6 +328,6 @@
   "new_batch_allowed": false,
   "partial_upload_authorized": true,
   "adapter_revision": 3,
-  "owner_state": "live",
-  "snapshot_id": "1fa1bea54e47a6577f434346"
+  "owner_state": "missing",
+  "snapshot_id": "6aabe4df3dafea85eecfc1a7"
 }
