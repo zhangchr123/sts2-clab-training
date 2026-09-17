@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "description": "Read-only 78-game natural structure snapshot; no fitting or deployment",
+  "files": [
+    {
+      "path": "analysis/natural-structure-20260918/README.md",
+      "bytes": 1518,
+      "sha256": "45af19a56a39cf7424d0da99c7ee6bb0fe2fc6e15ddf8af5e54f8717f015018d"
+    },
+    {
+      "path": "analysis/natural-structure-20260918/RESULT.json",
+      "bytes": 70653,
+      "sha256": "2aae6f2ccde7cb393c56fcde46e5dd8ff434ffa73073a778ee5e07294f4cb1bf"
+    },
+    {
+      "path": "analysis/natural-structure-20260918/analyze_cloud_natural_samples.py",
+      "bytes": 7828,
+      "sha256": "2bd0156818b79e3e2e5b50e0d67745ac8433256701a8e6f6776b535eaa06f8b3"
+    },
+    {
+      "path": "analysis/natural-structure-20260918/test_analyze_cloud_natural_samples.py",
+      "bytes": 941,
+      "sha256": "7488062ae07d01ba65046f250948c92cfca93abe61dcbf1427ef13b5513c1c56"
+    },
+    {
+      "path": "automation/goal_driver.py",
+      "bytes": 17079,
+      "sha256": "9be3be81418bdfa851dda5e136e2fb9dd8cf244fd6a6e7ae2bd01d790264460c"
+    }
+  ]
+}

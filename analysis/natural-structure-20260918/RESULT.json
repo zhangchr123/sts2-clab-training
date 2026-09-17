@@ -1,0 +1,2477 @@
+{
+  "samples": 78,
+  "valid": 78,
+  "invalid": 0,
+  "target_successes": 1,
+  "near_target_failures": 9,
+  "earlier_failures": 68,
+  "progress_distribution": {
+    "A3F9": 2,
+    "A2F16": 33,
+    "A2F13": 3,
+    "A2F10": 4,
+    "A3F15": 9,
+    "A2F8": 2,
+    "A2F4": 2,
+    "A2F5": 2,
+    "A1F17": 6,
+    "A1F12": 1,
+    "A2F12": 4,
+    "A2F14": 1,
+    "A1F14": 1,
+    "A1F8": 1,
+    "A2F6": 2,
+    "A2F11": 1,
+    "A3F16": 1,
+    "A2F7": 1,
+    "A1F13": 1,
+    "A1F9": 1
+  },
+  "deck_size": {
+    "minimum": 12,
+    "median": 23.0,
+    "mean": 23.064102564102566,
+    "maximum": 52,
+    "at_most_25": 71,
+    "26_to_36": 6,
+    "over_36": 1
+  },
+  "max_observed_deck_over_36_without_special_build": [],
+  "success_rows": [
+    {
+      "run_id": "defect-cloud-goal-20260917-000002-003",
+      "seed": "defect-cloud-goal-20260917-000002-fresh-003",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-003-audit.json",
+        "bytes": 1757,
+        "sha256": "fee9a641839ce5f684df54c1e6602f2bcd1e4fff3f154b8dffd7b0ca73634c35"
+      },
+      "integration_passed": true,
+      "target_success": true,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 16,
+      "final_hp": 0,
+      "decisions": 99,
+      "seconds": 456.5565797599993,
+      "final_deck_size": 25,
+      "max_observed_deck_size": 25,
+      "upgraded_cards": 6,
+      "final_deck": [
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COOLHEADED",
+          "name": "Coolheaded",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.HOLOGRAM",
+          "name": "Hologram",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SWEEPING_BEAM",
+          "name": "Sweeping Beam",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.CAPACITOR",
+          "name": "Capacitor",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.LIGHTNING_ROD",
+          "name": "Lightning Rod",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FIGHT_THROUGH",
+          "name": "Fight Through",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.LOOP",
+          "name": "Loop",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHAOS",
+          "name": "Chaos",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SHADOW_SHIELD",
+          "name": "Shadow Shield",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COOLANT",
+          "name": "Coolant",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHILL",
+          "name": "Chill",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ECHO_FORM",
+          "name": "Echo Form",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.MACHINE_LEARNING",
+          "name": "Machine Learning",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CAPACITOR",
+          "name": "Capacitor",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.MAD_SCIENCE",
+          "name": "Mad Science",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.OVERCLOCK",
+          "name": "Overclock",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHARGE_BATTERY",
+          "name": "Charge Battery",
+          "upgraded": true
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 13,
+      "card_rewards_skipped": 11,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.SILVER_CRUCIBLE",
+        "RELIC.TUNING_FORK",
+        "RELIC.WHETSTONE",
+        "RELIC.RED_MASK",
+        "RELIC.PAELS_EYE",
+        "RELIC.BOOK_OF_FIVE_RINGS",
+        "RELIC.STRAWBERRY",
+        "RELIC.HAPPY_FLOWER",
+        "RELIC.DATA_DISK",
+        "RELIC.MEAL_TICKET",
+        "RELIC.MUSIC_BOX",
+        "RELIC.BIG_MUSHROOM",
+        "RELIC.PENDULUM",
+        "RELIC.VAMBRACE",
+        "RELIC.LIZARD_TAIL"
+      ]
+    }
+  ],
+  "near_target_rows": [
+    {
+      "run_id": "defect-cloud-training-20260917a-009",
+      "seed": "defect-cloud-training-20260917a-fresh-009",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-009-audit.json",
+        "bytes": 1471,
+        "sha256": "7f534fce4e0207329ed31114d1f254f098efc6e8f1d989e1620fe1f6bb95f594"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 102,
+      "seconds": 272.90220237999984,
+      "final_deck_size": 22,
+      "max_observed_deck_size": 23,
+      "upgraded_cards": 6,
+      "final_deck": [
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GREED",
+          "name": "Greed",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SHADOW_SHIELD",
+          "name": "Shadow Shield",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COOLHEADED",
+          "name": "Coolheaded",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BOOT_SEQUENCE",
+          "name": "Boot Sequence",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.BYRDONIS_EGG",
+          "name": "Byrdonis Egg",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.BOOST_AWAY",
+          "name": "Boost Away",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DARKNESS",
+          "name": "Darkness",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FIGHT_THROUGH",
+          "name": "Fight Through",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FLAK_CANNON",
+          "name": "Flak Cannon",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CAPACITOR",
+          "name": "Capacitor",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.HAILSTORM",
+          "name": "Hailstorm",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.CHILL",
+          "name": "Chill",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.NULL",
+          "name": "Null",
+          "upgraded": true
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 12,
+      "card_rewards_skipped": 10,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.CURSED_PEARL",
+        "RELIC.INTIMIDATING_HELMET",
+        "RELIC.PEAR",
+        "RELIC.DRIFTWOOD",
+        "RELIC.STRIKE_DUMMY",
+        "RELIC.MOLTEN_EGG",
+        "RELIC.WHISPERING_EARRING",
+        "RELIC.ODDLY_SMOOTH_STONE"
+      ]
+    },
+    {
+      "run_id": "defect-cloud-training-20260917a-022",
+      "seed": "defect-cloud-training-20260917a-fresh-022",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-022-audit.json",
+        "bytes": 1467,
+        "sha256": "ae22793137dc4f02d1efa90d87c86a6f62c7f2ae0373547db82e74354629bed3"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 109,
+      "seconds": 328.1318444360004,
+      "final_deck_size": 26,
+      "max_observed_deck_size": 26,
+      "upgraded_cards": 11,
+      "final_deck": [
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BOOST_AWAY",
+          "name": "Boost Away",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.LOOP",
+          "name": "Loop",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.BALL_LIGHTNING",
+          "name": "Ball Lightning",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.BOOST_AWAY",
+          "name": "Boost Away",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COOLANT",
+          "name": "Coolant",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.CHARGE_BATTERY",
+          "name": "Charge Battery",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.HOLOGRAM",
+          "name": "Hologram",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BALL_LIGHTNING",
+          "name": "Ball Lightning",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.COMPILE_DRIVER",
+          "name": "Compile Driver",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.BOOT_SEQUENCE",
+          "name": "Boot Sequence",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFRAGMENT",
+          "name": "Defragment",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.COOLHEADED",
+          "name": "Coolheaded",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.METAMORPHOSIS",
+          "name": "Metamorphosis",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SHADOW_SHIELD",
+          "name": "Shadow Shield",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.NULL",
+          "name": "Null",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEBT",
+          "name": "Debt",
+          "upgraded": false
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 12,
+      "card_rewards_skipped": 14,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.LEAFY_POULTICE",
+        "RELIC.MOLTEN_EGG",
+        "RELIC.VEXING_PUZZLEBOX",
+        "RELIC.NUTRITIOUS_SOUP",
+        "RELIC.VAJRA",
+        "RELIC.MEAL_TICKET",
+        "RELIC.ANCHOR",
+        "RELIC.DAUGHTER_OF_THE_WIND",
+        "RELIC.BEAUTIFUL_BRACELET",
+        "RELIC.WHETSTONE",
+        "RELIC.UNSETTLING_LAMP",
+        "RELIC.BAG_OF_PREPARATION",
+        "RELIC.GAMBLING_CHIP"
+      ]
+    },
+    {
+      "run_id": "defect-cloud-training-20260917a-023",
+      "seed": "defect-cloud-training-20260917a-fresh-023",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-023-audit.json",
+        "bytes": 1465,
+        "sha256": "0e55bac129ebc7fe8acd7a38cebc88ed6a6b942cefc80a884ef61829f56e1b5b"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 98,
+      "seconds": 529.632035052,
+      "final_deck_size": 26,
+      "max_observed_deck_size": 26,
+      "upgraded_cards": 8,
+      "final_deck": [
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COLD_SNAP",
+          "name": "Cold Snap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BEAM_CELL",
+          "name": "Beam Cell",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CLUMSY",
+          "name": "Clumsy",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COOLHEADED",
+          "name": "Coolheaded",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CAPACITOR",
+          "name": "Capacitor",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BALL_LIGHTNING",
+          "name": "Ball Lightning",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.VOLTAIC",
+          "name": "Voltaic",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ALL_FOR_ONE",
+          "name": "All for One",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.COMPACT",
+          "name": "Compact",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.NULL",
+          "name": "Null",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.COOLHEADED",
+          "name": "Coolheaded",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.SHATTER",
+          "name": "Shatter",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.SHAME",
+          "name": "Shame",
+          "upgraded": false
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 14,
+      "card_rewards_skipped": 14,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.SMALL_CAPSULE",
+        "RELIC.REGAL_PILLOW",
+        "RELIC.WAR_PAINT",
+        "RELIC.MEAT_ON_THE_BONE",
+        "RELIC.POTION_BELT",
+        "RELIC.NUNCHAKU",
+        "RELIC.KUSARIGAMA",
+        "RELIC.TOASTY_MITTENS",
+        "RELIC.MR_STRUGGLES",
+        "RELIC.HAPPY_FLOWER",
+        "RELIC.DATA_DISK",
+        "RELIC.DIAMOND_DIADEM",
+        "RELIC.ETERNAL_FEATHER",
+        "RELIC.MINIATURE_CANNON",
+        "RELIC.POWER_CELL"
+      ]
+    },
+    {
+      "run_id": "defect-cloud-goal-20260917-000001-002",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-002",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-002-audit.json",
+        "bytes": 1490,
+        "sha256": "cb5a333868da2d22ac09465e192229c1e99b78d87ff1ec70d0f2d3968ba874b2"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 108,
+      "seconds": 293.180506728997,
+      "final_deck_size": 52,
+      "max_observed_deck_size": 52,
+      "upgraded_cards": 6,
+      "final_deck": [
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FTL",
+          "name": "FTL",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHARGE_BATTERY",
+          "name": "Charge Battery",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BEAM_CELL",
+          "name": "Beam Cell",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLASSWORK",
+          "name": "Glasswork",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COMPACT",
+          "name": "Compact",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHARGE_BATTERY",
+          "name": "Charge Battery",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.HOLOGRAM",
+          "name": "Hologram",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ECHO_FORM",
+          "name": "Echo Form",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.REFRACT",
+          "name": "Refract",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TRASH_TO_TREASURE",
+          "name": "Trash to Treasure",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SKIM",
+          "name": "Skim",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DEBT",
+          "name": "Debt",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.OVERCLOCK",
+          "name": "Overclock",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BOOT_SEQUENCE",
+          "name": "Boot Sequence",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FTL",
+          "name": "FTL",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHARGE_BATTERY",
+          "name": "Charge Battery",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BEAM_CELL",
+          "name": "Beam Cell",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLASSWORK",
+          "name": "Glasswork",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COMPACT",
+          "name": "Compact",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHARGE_BATTERY",
+          "name": "Charge Battery",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.HOLOGRAM",
+          "name": "Hologram",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ECHO_FORM",
+          "name": "Echo Form",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.REFRACT",
+          "name": "Refract",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TRASH_TO_TREASURE",
+          "name": "Trash to Treasure",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SKIM",
+          "name": "Skim",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DEBT",
+          "name": "Debt",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.OVERCLOCK",
+          "name": "Overclock",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BOOT_SEQUENCE",
+          "name": "Boot Sequence",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BAD_LUCK",
+          "name": "Bad Luck",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": false
+        }
+      ],
+      "special_builds": [
+        "REFLECTIONS_SHATTER"
+      ],
+      "card_rewards_taken": 14,
+      "card_rewards_skipped": 10,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.POMANDER",
+        "RELIC.STONE_CRACKER",
+        "RELIC.LASTING_CANDY",
+        "RELIC.LUCKY_FYSH",
+        "RELIC.SPARKLING_ROUGE",
+        "RELIC.PAELS_BLOOD",
+        "RELIC.BRONZE_SCALES",
+        "RELIC.KUNAI",
+        "RELIC.JUZU_BRACELET",
+        "RELIC.RED_MASK",
+        "RELIC.BRILLIANT_SCARF",
+        "RELIC.ROYAL_POISON",
+        "RELIC.VAJRA",
+        "RELIC.SHURIKEN",
+        "RELIC.STRIKE_DUMMY"
+      ]
+    },
+    {
+      "run_id": "defect-cloud-goal-20260917-000001-007",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-007",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-007-audit.json",
+        "bytes": 1483,
+        "sha256": "ab24f26f5816780815f675e2293beaaf40a1368e5e14cc553e8735d5d3a02da2"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 108,
+      "seconds": 280.3098191370009,
+      "final_deck_size": 25,
+      "max_observed_deck_size": 25,
+      "upgraded_cards": 7,
+      "final_deck": [
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.PHOTON_CUT",
+          "name": "Photon Cut",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.UNRELENTING",
+          "name": "Unrelenting",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BARRAGE",
+          "name": "Barrage",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SWEEPING_BEAM",
+          "name": "Sweeping Beam",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ECHO_FORM",
+          "name": "Echo Form",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BOOT_SEQUENCE",
+          "name": "Boot Sequence",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.TRASH_TO_TREASURE",
+          "name": "Trash to Treasure",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.GLASSWORK",
+          "name": "Glasswork",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ULTIMATE_DEFEND",
+          "name": "Ultimate Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLASSWORK",
+          "name": "Glasswork",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFRAGMENT",
+          "name": "Defragment",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.REFRACT",
+          "name": "Refract",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.CAPACITOR",
+          "name": "Capacitor",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.BOOT_SEQUENCE",
+          "name": "Boot Sequence",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.REGRET",
+          "name": "Regret",
+          "upgraded": false
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 16,
+      "card_rewards_skipped": 10,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.KALEIDOSCOPE",
+        "RELIC.BELLOWS",
+        "RELIC.PLANISPHERE",
+        "RELIC.BOOK_OF_FIVE_RINGS",
+        "RELIC.VAMBRACE",
+        "RELIC.PAELS_LEGION",
+        "RELIC.FESTIVE_POPPER",
+        "RELIC.VENERABLE_TEA_SET",
+        "RELIC.JEWELED_MASK",
+        "RELIC.BIG_MUSHROOM",
+        "RELIC.CAPTAINS_WHEEL",
+        "RELIC.MEAL_TICKET",
+        "RELIC.CENTENNIAL_PUZZLE",
+        "RELIC.RED_MASK",
+        "RELIC.VAJRA"
+      ]
+    },
+    {
+      "run_id": "defect-cloud-goal-20260917-000001-011",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-011",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-011-audit.json",
+        "bytes": 1478,
+        "sha256": "2236ac6209283b3cdf30bdbfa69b16c8179529683fbf2b8cb8038d0199411b43"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 97,
+      "seconds": 494.46137282900236,
+      "final_deck_size": 25,
+      "max_observed_deck_size": 25,
+      "upgraded_cards": 0,
+      "final_deck": [
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.REFRACT",
+          "name": "Refract",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.WHITE_NOISE",
+          "name": "White Noise",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BOOST_AWAY",
+          "name": "Boost Away",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.HOLOGRAM",
+          "name": "Hologram",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COOLHEADED",
+          "name": "Coolheaded",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHILL",
+          "name": "Chill",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLASSWORK",
+          "name": "Glasswork",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SKIM",
+          "name": "Skim",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ECHO_FORM",
+          "name": "Echo Form",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.SQUASH",
+          "name": "Squash",
+          "upgraded": false
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 9,
+      "card_rewards_skipped": 18,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.PRECISE_SCISSORS",
+        "RELIC.RED_MASK",
+        "RELIC.PETRIFIED_TOAD",
+        "RELIC.PAELS_FLESH",
+        "RELIC.BAG_OF_PREPARATION",
+        "RELIC.EMOTION_CHIP",
+        "RELIC.LASTING_CANDY",
+        "RELIC.MUSIC_BOX",
+        "RELIC.FESTIVE_POPPER",
+        "RELIC.ORNAMENTAL_FAN"
+      ]
+    },
+    {
+      "run_id": "defect-cloud-goal-20260917-000001-016",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-016",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-016-audit.json",
+        "bytes": 1507,
+        "sha256": "e5b98ecb25df73cd9ccafdcb2e8e7593a8a3606203810373bd02674c391e5f04"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 105,
+      "seconds": 331.11372840400145,
+      "final_deck_size": 24,
+      "max_observed_deck_size": 25,
+      "upgraded_cards": 1,
+      "final_deck": [
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GREED",
+          "name": "Greed",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHILL",
+          "name": "Chill",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.LIGHTNING_ROD",
+          "name": "Lightning Rod",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHILL",
+          "name": "Chill",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ROCKET_PUNCH",
+          "name": "Rocket Punch",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.HAILSTORM",
+          "name": "Hailstorm",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BEAM_CELL",
+          "name": "Beam Cell",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.THUNDER",
+          "name": "Thunder",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BUFFER",
+          "name": "Buffer",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FLAK_CANNON",
+          "name": "Flak Cannon",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TRASH_TO_TREASURE",
+          "name": "Trash to Treasure",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FOLLY",
+          "name": "Folly",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DECAY",
+          "name": "Decay",
+          "upgraded": false
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 7,
+      "card_rewards_skipped": 15,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.CURSED_PEARL",
+        "RELIC.TEA_OF_DISCOURTESY",
+        "RELIC.PANTOGRAPH",
+        "RELIC.TUNING_FORK",
+        "RELIC.GOLD_PLATED_CABLES",
+        "RELIC.BOOK_OF_FIVE_RINGS",
+        "RELIC.TOY_BOX",
+        "RELIC.STURDY_CLAMP",
+        "RELIC.DATA_DISK",
+        "RELIC.PLANISPHERE",
+        "RELIC.AMETHYST_AUBERGINE",
+        "RELIC.MEAT_ON_THE_BONE",
+        "RELIC.CENTENNIAL_PUZZLE",
+        "RELIC.PETRIFIED_TOAD",
+        "RELIC.MR_STRUGGLES",
+        "RELIC.PRESERVED_FOG",
+        "RELIC.INTIMIDATING_HELMET",
+        "RELIC.SYMBIOTIC_VIRUS"
+      ]
+    },
+    {
+      "run_id": "defect-cloud-goal-20260917-000001-019",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-019",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-019-audit.json",
+        "bytes": 1476,
+        "sha256": "0f066a48e5276fa2597bebffe37a1371a197d715b0a640fa690465c007e54ce2"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 109,
+      "seconds": 270.15368467400185,
+      "final_deck_size": 26,
+      "max_observed_deck_size": 26,
+      "upgraded_cards": 5,
+      "final_deck": [
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.THUNDER",
+          "name": "Thunder",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TESLA_COIL",
+          "name": "Tesla Coil",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.LEAP",
+          "name": "Leap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BALL_LIGHTNING",
+          "name": "Ball Lightning",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BYRDONIS_EGG",
+          "name": "Byrdonis Egg",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ECHO_FORM",
+          "name": "Echo Form",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.CHILL",
+          "name": "Chill",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BUFFER",
+          "name": "Buffer",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.EXTERMINATE",
+          "name": "Exterminate",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.TRASH_TO_TREASURE",
+          "name": "Trash to Treasure",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TRASH_TO_TREASURE",
+          "name": "Trash to Treasure",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FOLLY",
+          "name": "Folly",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.FIGHT_THROUGH",
+          "name": "Fight Through",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.BOOST_AWAY",
+          "name": "Boost Away",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.OVERCLOCK",
+          "name": "Overclock",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.CLUMSY",
+          "name": "Clumsy",
+          "upgraded": false
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 17,
+      "card_rewards_skipped": 11,
+      "relics": [
+        "RELIC.CRACKED_CORE",
+        "RELIC.PHIAL_HOLSTER",
+        "RELIC.JUZU_BRACELET",
+        "RELIC.MINIATURE_CANNON",
+        "RELIC.GLASS_EYE",
+        "RELIC.MEAL_TICKET",
+        "RELIC.LETTER_OPENER",
+        "RELIC.MERCURY_HOURGLASS",
+        "RELIC.PERMAFROST",
+        "RELIC.PRESERVED_FOG",
+        "RELIC.STONE_CRACKER",
+        "RELIC.WHETSTONE",
+        "RELIC.AKABEKO"
+      ]
+    },
+    {
+      "run_id": "defect-cloud-goal-20260917-000002-019",
+      "seed": "defect-cloud-goal-20260917-000002-fresh-019",
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-019-audit.json",
+        "bytes": 1492,
+        "sha256": "1eb8ec2111eb8e97928eb343324dc2277c5f4568409f9d3ffc3c19fa27d03fc1"
+      },
+      "integration_passed": true,
+      "target_success": false,
+      "outcome": "defeat",
+      "max_act": 3,
+      "max_floor": 15,
+      "final_hp": 0,
+      "decisions": 101,
+      "seconds": 359.93363705999946,
+      "final_deck_size": 24,
+      "max_observed_deck_size": 24,
+      "upgraded_cards": 2,
+      "final_deck": [
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.STRIKE_DEFECT",
+          "name": "Strike",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFEND_DEFECT",
+          "name": "Defend",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ZAP",
+          "name": "Zap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DUALCAST",
+          "name": "Dualcast",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.ASCENDERS_BANE",
+          "name": "Ascender's Bane",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.CHARGE_BATTERY",
+          "name": "Charge Battery",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.HOLOGRAM",
+          "name": "Hologram",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COMPACT",
+          "name": "Compact",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BALL_LIGHTNING",
+          "name": "Ball Lightning",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.THUNDER",
+          "name": "Thunder",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GO_FOR_THE_EYES",
+          "name": "Go for the Eyes",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.TURBO",
+          "name": "TURBO",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.COLD_SNAP",
+          "name": "Cold Snap",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.NULL",
+          "name": "Null",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.MODDED",
+          "name": "Modded",
+          "upgraded": true
+        },
+        {
+          "id": "CARD.CHILL",
+          "name": "Chill",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.GLACIER",
+          "name": "Glacier",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.DEFRAGMENT",
+          "name": "Defragment",
+          "upgraded": false
+        },
+        {
+          "id": "CARD.BULK_UP",
+          "name": "Bulk Up",
+          "upgraded": true
+        }
+      ],
+      "special_builds": [],
+      "card_rewards_taken": 14,
+      "card_rewards_skipped": 14,
+      "relics": [
+        "RELIC.INFUSED_CORE",
+        "RELIC.NUTRITIOUS_OYSTER",
+        "RELIC.BOWLER_HAT",
+        "RELIC.BELLOWS",
+        "RELIC.TOUCH_OF_OROBAS",
+        "RELIC.BRONZE_SCALES",
+        "RELIC.PANTOGRAPH",
+        "RELIC.AKABEKO",
+        "RELIC.LOOMING_FRUIT",
+        "RELIC.VAJRA",
+        "RELIC.PARRYING_SHIELD"
+      ]
+    }
+  ],
+  "category_metrics": {
+    "target_success": {
+      "runs": 1,
+      "final_deck_mean": 25.0,
+      "final_deck_median": 25,
+      "max_observed_deck_mean": 25.0,
+      "upgraded_cards_mean": 6.0,
+      "card_rewards_taken_mean": 13.0,
+      "card_rewards_skipped_mean": 11.0
+    },
+    "near_target_failure": {
+      "runs": 9,
+      "final_deck_mean": 27.77777777777778,
+      "final_deck_median": 25,
+      "max_observed_deck_mean": 28.0,
+      "upgraded_cards_mean": 5.111111111111111,
+      "card_rewards_taken_mean": 12.777777777777779,
+      "card_rewards_skipped_mean": 12.88888888888889
+    },
+    "earlier_failure": {
+      "runs": 68,
+      "final_deck_mean": 22.41176470588235,
+      "final_deck_median": 22.0,
+      "max_observed_deck_mean": 22.602941176470587,
+      "upgraded_cards_mean": 2.7205882352941178,
+      "card_rewards_taken_mean": 10.132352941176471,
+      "card_rewards_skipped_mean": 4.235294117647059
+    }
+  },
+  "success_card_counts": {
+    "CARD.DEFEND_DEFECT": 4,
+    "CARD.CAPACITOR": 2,
+    "CARD.ZAP": 1,
+    "CARD.DUALCAST": 1,
+    "CARD.ASCENDERS_BANE": 1,
+    "CARD.COOLHEADED": 1,
+    "CARD.HOLOGRAM": 1,
+    "CARD.SWEEPING_BEAM": 1,
+    "CARD.GO_FOR_THE_EYES": 1,
+    "CARD.LIGHTNING_ROD": 1,
+    "CARD.FIGHT_THROUGH": 1,
+    "CARD.LOOP": 1,
+    "CARD.CHAOS": 1,
+    "CARD.SHADOW_SHIELD": 1,
+    "CARD.COOLANT": 1,
+    "CARD.CHILL": 1,
+    "CARD.ECHO_FORM": 1,
+    "CARD.MACHINE_LEARNING": 1,
+    "CARD.MAD_SCIENCE": 1,
+    "CARD.OVERCLOCK": 1,
+    "CARD.CHARGE_BATTERY": 1
+  },
+  "near_target_card_counts": {
+    "CARD.DEFEND_DEFECT": 34,
+    "CARD.STRIKE_DEFECT": 20,
+    "CARD.GLACIER": 13,
+    "CARD.ZAP": 10,
+    "CARD.DUALCAST": 10,
+    "CARD.ASCENDERS_BANE": 10,
+    "CARD.TURBO": 9,
+    "CARD.GO_FOR_THE_EYES": 8,
+    "CARD.BOOT_SEQUENCE": 6,
+    "CARD.CHILL": 6,
+    "CARD.CHARGE_BATTERY": 6,
+    "CARD.TRASH_TO_TREASURE": 6,
+    "CARD.COOLHEADED": 5,
+    "CARD.BOOST_AWAY": 5,
+    "CARD.BALL_LIGHTNING": 5,
+    "CARD.HOLOGRAM": 5,
+    "CARD.GLASSWORK": 5,
+    "CARD.ECHO_FORM": 5,
+    "CARD.NULL": 4,
+    "CARD.BEAM_CELL": 4,
+    "CARD.COMPACT": 4,
+    "CARD.REFRACT": 4,
+    "CARD.CAPACITOR": 3,
+    "CARD.DEFRAGMENT": 3,
+    "CARD.DEBT": 3,
+    "CARD.SKIM": 3,
+    "CARD.OVERCLOCK": 3,
+    "CARD.THUNDER": 3,
+    "CARD.GREED": 2,
+    "CARD.SHADOW_SHIELD": 2,
+    "CARD.BYRDONIS_EGG": 2,
+    "CARD.FIGHT_THROUGH": 2,
+    "CARD.FLAK_CANNON": 2,
+    "CARD.HAILSTORM": 2,
+    "CARD.COLD_SNAP": 2,
+    "CARD.CLUMSY": 2,
+    "CARD.FTL": 2,
+    "CARD.BUFFER": 2,
+    "CARD.FOLLY": 2,
+    "CARD.DARKNESS": 1,
+    "CARD.LOOP": 1,
+    "CARD.COOLANT": 1,
+    "CARD.COMPILE_DRIVER": 1,
+    "CARD.METAMORPHOSIS": 1,
+    "CARD.VOLTAIC": 1,
+    "CARD.ALL_FOR_ONE": 1,
+    "CARD.SHATTER": 1,
+    "CARD.SHAME": 1,
+    "CARD.BAD_LUCK": 1,
+    "CARD.PHOTON_CUT": 1,
+    "CARD.UNRELENTING": 1,
+    "CARD.BARRAGE": 1,
+    "CARD.SWEEPING_BEAM": 1,
+    "CARD.ULTIMATE_DEFEND": 1,
+    "CARD.REGRET": 1,
+    "CARD.WHITE_NOISE": 1,
+    "CARD.SQUASH": 1,
+    "CARD.LIGHTNING_ROD": 1,
+    "CARD.ROCKET_PUNCH": 1,
+    "CARD.DECAY": 1,
+    "CARD.TESLA_COIL": 1,
+    "CARD.LEAP": 1,
+    "CARD.EXTERMINATE": 1,
+    "CARD.MODDED": 1,
+    "CARD.BULK_UP": 1
+  },
+  "all_valid_card_counts": {
+    "CARD.DEFEND_DEFECT": 299,
+    "CARD.STRIKE_DEFECT": 194,
+    "CARD.ZAP": 79,
+    "CARD.ASCENDERS_BANE": 79,
+    "CARD.DUALCAST": 75,
+    "CARD.TURBO": 73,
+    "CARD.GO_FOR_THE_EYES": 53,
+    "CARD.COOLHEADED": 47,
+    "CARD.BOOST_AWAY": 44,
+    "CARD.CHARGE_BATTERY": 43,
+    "CARD.GLACIER": 38,
+    "CARD.CHILL": 33,
+    "CARD.OVERCLOCK": 33,
+    "CARD.HOLOGRAM": 32,
+    "CARD.BOOT_SEQUENCE": 30,
+    "CARD.BULK_UP": 28,
+    "CARD.CAPACITOR": 26,
+    "CARD.COLD_SNAP": 25,
+    "CARD.REFRACT": 23,
+    "CARD.SHADOW_SHIELD": 23,
+    "CARD.BALL_LIGHTNING": 21,
+    "CARD.LIGHTNING_ROD": 20,
+    "CARD.FIGHT_THROUGH": 18,
+    "CARD.FTL": 16,
+    "CARD.SKIM": 15,
+    "CARD.WHITE_NOISE": 14,
+    "CARD.ECHO_FORM": 14,
+    "CARD.COMPACT": 14,
+    "CARD.BEAM_CELL": 13,
+    "CARD.CLAW": 13,
+    "CARD.DARKNESS": 13,
+    "CARD.GLASSWORK": 13,
+    "CARD.BARRAGE": 11,
+    "CARD.FLAK_CANNON": 11,
+    "CARD.TRASH_TO_TREASURE": 11,
+    "CARD.DEFRAGMENT": 11,
+    "CARD.ITERATION": 11,
+    "CARD.MACHINE_LEARNING": 10,
+    "CARD.SUBROUTINE": 10,
+    "CARD.BUFFER": 10,
+    "CARD.COOLANT": 9,
+    "CARD.CLUMSY": 9,
+    "CARD.LOOP": 9,
+    "CARD.BYRDONIS_EGG": 9,
+    "CARD.NULL": 9,
+    "CARD.COMPILE_DRIVER": 8,
+    "CARD.SHATTER": 8,
+    "CARD.ALL_FOR_ONE": 8,
+    "CARD.THUNDER": 8,
+    "CARD.ROCKET_PUNCH": 7,
+    "CARD.FOCUSED_STRIKE": 7,
+    "CARD.TESLA_COIL": 6,
+    "CARD.FERAL": 6,
+    "CARD.ENLIGHTENMENT": 6,
+    "CARD.MODDED": 6,
+    "CARD.UPROAR": 6,
+    "CARD.LEAP": 5,
+    "CARD.DEBT": 5,
+    "CARD.GUNK_UP": 5,
+    "CARD.DRAMATIC_ENTRANCE": 4,
+    "CARD.SQUASH": 4,
+    "CARD.GREED": 4,
+    "CARD.NEOWS_FURY": 4,
+    "CARD.ULTIMATE_STRIKE": 4,
+    "CARD.QUADCAST": 3,
+    "CARD.SUPERCRITICAL": 3,
+    "CARD.PECK": 3,
+    "CARD.ABUNDANCE": 3,
+    "CARD.SCRAPE": 3,
+    "CARD.PANIC_BUTTON": 3,
+    "CARD.METAMORPHOSIS": 3,
+    "CARD.CHAOS": 3,
+    "CARD.FUSION": 3,
+    "CARD.EXTERMINATE": 3,
+    "CARD.THE_GAMBIT": 2,
+    "CARD.BIASED_COGNITION": 2,
+    "CARD.THE_BOMB": 2,
+    "CARD.SCAVENGE": 2,
+    "CARD.HAILSTORM": 2,
+    "CARD.DOWSING": 2,
+    "CARD.STORM": 2,
+    "CARD.ULTIMATE_DEFEND": 2,
+    "CARD.TORIC_TOUGHNESS": 2,
+    "CARD.SWEEPING_BEAM": 2,
+    "CARD.AUTOMATION": 2,
+    "CARD.FOLLY": 2,
+    "CARD.DECAY": 2,
+    "CARD.NORMALITY": 2,
+    "CARD.SPOILS_MAP": 2,
+    "CARD.DEFLECT": 1,
+    "CARD.BREAKTHROUGH": 1,
+    "CARD.WELL_LAID_PLANS": 1,
+    "CARD.SPINNER": 1,
+    "CARD.MOMENTUM_STRIKE": 1,
+    "CARD.PILLAR_OF_CREATION": 1,
+    "CARD.JACK_OF_ALL_TRADES": 1,
+    "CARD.CATASTROPHE": 1,
+    "CARD.DOUBT": 1,
+    "CARD.JUGGLING": 1,
+    "CARD.KINGLY_KICK": 1,
+    "CARD.VOLTAIC": 1,
+    "CARD.SHAME": 1,
+    "CARD.GENETIC_ALGORITHM": 1,
+    "CARD.BAD_LUCK": 1,
+    "CARD.HAND_TRICK": 1,
+    "CARD.NOXIOUS_FUMES": 1,
+    "CARD.MIND_BLAST": 1,
+    "CARD.RAINBOW": 1,
+    "CARD.PHOTON_CUT": 1,
+    "CARD.UNRELENTING": 1,
+    "CARD.REGRET": 1,
+    "CARD.SMOKESTACK": 1,
+    "CARD.TEMPEST": 1,
+    "CARD.CLOAK_OF_STARS": 1,
+    "CARD.ORBIT": 1,
+    "CARD.SWORD_SAGE": 1,
+    "CARD.METEOR_STRIKE": 1,
+    "CARD.POOR_SLEEP": 1,
+    "CARD.MAD_SCIENCE": 1,
+    "CARD.THINKING_AHEAD": 1,
+    "CARD.RAMPAGE": 1,
+    "CARD.PARRY": 1,
+    "CARD.SEEKER_STRIKE": 1,
+    "CARD.DOUBLE_ENERGY": 1,
+    "CARD.SUNDER": 1,
+    "CARD.HYPERBEAM": 1
+  },
+  "card_reward_totals": {
+    "taken": 817,
+    "skipped": 415
+  },
+  "natural_outcomes_used_for_fitting": false,
+  "running_model_modified": false,
+  "audits": [
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-000-audit.json",
+      "bytes": 1483,
+      "sha256": "a27ad0b5ad12fe8d291fde327328951cb14572c0e114743d047b270d0a340d02"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-001-audit.json",
+      "bytes": 1483,
+      "sha256": "80acac05cc3d085e92fbaf4d31637bd618a168e798c41cdfb7ea49d70dd46849"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-002-audit.json",
+      "bytes": 1486,
+      "sha256": "97d6ff4c75b3d8a9c3c7beb9c317d50fe44441961ad5d28c17cf354051114e44"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-003-audit.json",
+      "bytes": 1476,
+      "sha256": "5c35ec9ec51ee5c11992b196ba3b9aca17a9828abdc0b579b35ae48c9041b87e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-004-audit.json",
+      "bytes": 1480,
+      "sha256": "53b0c036fcac23a01d96b437ec69512e00d3071baf57a4ba03de48e0eaf9f9cd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-005-audit.json",
+      "bytes": 1476,
+      "sha256": "84f0f138f45e3ebc38a2ffe2132af83494999f3dbb174338dd5a5a71c5c65706"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-006-audit.json",
+      "bytes": 1484,
+      "sha256": "4175ad38be87fa37946ab705c5797aab61e0c9543fc50b7e1e93eaad42e86e5d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-007-audit.json",
+      "bytes": 1468,
+      "sha256": "9aa835358559a68d0e6108f245ec1324fcf0300a341dbb1ed1ec8918cb2fd387"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-008-audit.json",
+      "bytes": 1475,
+      "sha256": "48dfabbdfa16a8871e184622f5e2c7edbec290419305966215cd4838b4710a19"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-009-audit.json",
+      "bytes": 1471,
+      "sha256": "7f534fce4e0207329ed31114d1f254f098efc6e8f1d989e1620fe1f6bb95f594"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-010-audit.json",
+      "bytes": 1478,
+      "sha256": "29d0554f3c40bfbd46f43d6f21921c58640d489cafce14ac3830419d360aa9f9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-011-audit.json",
+      "bytes": 1478,
+      "sha256": "d68b839a38ae21cdad9f1e9960182dbdd02a273b9e8f36e3278a69a80b509a78"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-012-audit.json",
+      "bytes": 1477,
+      "sha256": "3d8ff5cb55423dbb7a536d2140d2a9b4100144be42947459d174fba3e1ec06bc"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-013-audit.json",
+      "bytes": 1466,
+      "sha256": "d2d0975223f3f6dcdf56fafc7ae87432888aae6ba25a2b394be732854ddac8c2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-014-audit.json",
+      "bytes": 1491,
+      "sha256": "d61a1c5115780b3a28501180d4d4a63400753cd211fbeb1227bd668b98ab9896"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-015-audit.json",
+      "bytes": 1487,
+      "sha256": "8b48c347cb4abf9919ee1e7b2759c3c24300831bbf32145a0aee49a705fe860d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-016-audit.json",
+      "bytes": 1482,
+      "sha256": "0b4fdfbe58a092e52ddf1815bea0c579390555ffb6c7949a6bbbfa23f1d6b720"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-017-audit.json",
+      "bytes": 1497,
+      "sha256": "285877e1cb39463ae223e9e791b28aa4e6865beeea4d6e40e64bdf7ef5b6bc12"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-018-audit.json",
+      "bytes": 1481,
+      "sha256": "e4913f4291b95b85f41cccee64d197f57b88b3643afc9a4fe0f0a8c42374a886"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-019-audit.json",
+      "bytes": 1476,
+      "sha256": "e190db56db74cccf0589e007e4712ca9659e7cbb82ac37ec294fce8ac23f874a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-020-audit.json",
+      "bytes": 1480,
+      "sha256": "644f13b2a106ba0141a633e9d4746e9d430a376923c615b7329f343cc72cfa00"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-021-audit.json",
+      "bytes": 1476,
+      "sha256": "dbf7fbfc7fe4572efc7c230c4a68bf2640cdbbbfacbbd90bd3c92913c57fe60c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-022-audit.json",
+      "bytes": 1467,
+      "sha256": "ae22793137dc4f02d1efa90d87c86a6f62c7f2ae0373547db82e74354629bed3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-sampling-20260917a/defect-cloud-training-20260917a-023-audit.json",
+      "bytes": 1465,
+      "sha256": "0e55bac129ebc7fe8acd7a38cebc88ed6a6b942cefc80a884ef61829f56e1b5b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-000-audit.json",
+      "bytes": 1484,
+      "sha256": "f8149dc06b5459112d575326efdb7fe7aa2652714cb2d7b50a7f82cb0faf9a5e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-001-audit.json",
+      "bytes": 1492,
+      "sha256": "0c53b1a946a4070b8817ec40bab00f3680e5a5967a0ed4dd16b6c33148415e5b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-002-audit.json",
+      "bytes": 1490,
+      "sha256": "cb5a333868da2d22ac09465e192229c1e99b78d87ff1ec70d0f2d3968ba874b2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-003-audit.json",
+      "bytes": 1495,
+      "sha256": "3f4dc1f3ce1e0126bf29a0a98d4a66af3c9718c000420e33c29d75a42c20f7e5"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-004-audit.json",
+      "bytes": 1484,
+      "sha256": "bb7e2ba766571fbb85d9f1e441f5a9445f6281449807136e162e88b6f0e44fd0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-005-audit.json",
+      "bytes": 1483,
+      "sha256": "e81ed21e4b4f04ff68dd4d80536c7f514b190a05b1c78bb9a55a1e285d52e743"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-006-audit.json",
+      "bytes": 1488,
+      "sha256": "0749b46b20880281db268947663ac75962c0b981fc44d4c3b6cf0522dc16b50c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-007-audit.json",
+      "bytes": 1483,
+      "sha256": "ab24f26f5816780815f675e2293beaaf40a1368e5e14cc553e8735d5d3a02da2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-008-audit.json",
+      "bytes": 1489,
+      "sha256": "775aa94d30a07d4b642c82535ef192eb5d570fdead11fd20e996accb9a7ddfc2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-009-audit.json",
+      "bytes": 1495,
+      "sha256": "0c1886aec8c0e6ccf629f87e999a924e3c3b760e6db43e0391d5ec9b9a7da539"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-010-audit.json",
+      "bytes": 1474,
+      "sha256": "c1b33b3ed7433a9fb3f9006eb45d492f6cde419b89276c6a78ec7561bab195c9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-011-audit.json",
+      "bytes": 1478,
+      "sha256": "2236ac6209283b3cdf30bdbfa69b16c8179529683fbf2b8cb8038d0199411b43"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-012-audit.json",
+      "bytes": 1487,
+      "sha256": "10308f59d22f7721c0091c2a22e0281783150cbf9b1a2315184be21b9bef5732"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-013-audit.json",
+      "bytes": 1492,
+      "sha256": "5159008864b3707e306355f6180f62dc6dd6ef7ad84db12ba4018087c5c279e7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-014-audit.json",
+      "bytes": 1491,
+      "sha256": "b1f584c802e7d9db888f56a237a3c3f0500af0ae655393aa4a845896c360047f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-015-audit.json",
+      "bytes": 1475,
+      "sha256": "a49d8f5b2963d003737da10db3c8a6e2db5f4624d5227e74fd3287be0940fc01"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-016-audit.json",
+      "bytes": 1507,
+      "sha256": "e5b98ecb25df73cd9ccafdcb2e8e7593a8a3606203810373bd02674c391e5f04"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-017-audit.json",
+      "bytes": 1491,
+      "sha256": "956c9834971edf66b917823efcf907cb52d7947c930c21bb46b77479ac53a793"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-018-audit.json",
+      "bytes": 1500,
+      "sha256": "e7d6015e869837e09d4fae7e400321c81906833812ac667cb36e0ca14df8d06d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-019-audit.json",
+      "bytes": 1476,
+      "sha256": "0f066a48e5276fa2597bebffe37a1371a197d715b0a640fa690465c007e54ce2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-020-audit.json",
+      "bytes": 1504,
+      "sha256": "7fc940e9cdee3732d6ddedc962f6c959f5a6e6cb92dfa43eb61ad8da8f42b655"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-021-audit.json",
+      "bytes": 1491,
+      "sha256": "d9de7b85b3cdb0e1e27e0316bff9bb50c8a472fda82155c60b4830865bcaab84"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-022-audit.json",
+      "bytes": 1484,
+      "sha256": "e44244814ca7fe46a23f26630ad66bf7a756fb9caf509e13be1b674cc024ec65"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000001/defect-cloud-goal-20260917-000001-023-audit.json",
+      "bytes": 1484,
+      "sha256": "9473060ca9451792355ce665aca617e150e305b7b2c1b580675f883c0ba2ac78"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-000-audit.json",
+      "bytes": 1486,
+      "sha256": "12c861e9e94b4a9168d38aea54b802d4166ccf5b2e5b7080d6e05b3473e856ac"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-001-audit.json",
+      "bytes": 1483,
+      "sha256": "30b038c49bfbacf71ed74b97b778225639084011dcd6135d425693ac24e02aba"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-002-audit.json",
+      "bytes": 1484,
+      "sha256": "af8940f7b12e899da34268e638fd0625d7fba5d5973fbcb8cfeaac8e52bbdcec"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-003-audit.json",
+      "bytes": 1757,
+      "sha256": "fee9a641839ce5f684df54c1e6602f2bcd1e4fff3f154b8dffd7b0ca73634c35"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-004-audit.json",
+      "bytes": 1491,
+      "sha256": "6b3517e8fa208b45afe687edad66918d05a706eaa121d5ff954c2a3d0bd93835"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-005-audit.json",
+      "bytes": 1492,
+      "sha256": "37e71067bfe823d9fd16d27cbefd8cfe5e4fc1dc909a034ad58842a016c8a2ec"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-006-audit.json",
+      "bytes": 1483,
+      "sha256": "05e8b49f458f9887ecdd5862c190d71d83ed1058ebbe5a421b90b0677a86e4a4"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-007-audit.json",
+      "bytes": 1504,
+      "sha256": "5bf3dbdc6d5c131d49fd03343646afb9a601797fef43eb841823b47aa9bafb09"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-008-audit.json",
+      "bytes": 1484,
+      "sha256": "1ea1ac7e93e8ff2778e6a15f7a5300532c6b65d8e730fc838839e638d11f5895"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-009-audit.json",
+      "bytes": 1490,
+      "sha256": "b1c415590f188141aba08a0a152af06148cdedd734e86e7c54fb3df0c76553dd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-010-audit.json",
+      "bytes": 1470,
+      "sha256": "7684f90ff529dc2acc4d0fc41a47f9748b6708a1d506edbdcc0c6bf788943bee"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-011-audit.json",
+      "bytes": 1476,
+      "sha256": "56adb2bea7b96d004d77006ca3983a78462ef425657e69d0e22f0546314a2280"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-012-audit.json",
+      "bytes": 1483,
+      "sha256": "a6cf5c832c6607a1fc1c22c46e5fd6436d62d76a74ffb1ac7cf8cff5f7728b51"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-013-audit.json",
+      "bytes": 1471,
+      "sha256": "d276a9da242efdf0499b9d4c0fd04ad315a4614f58c3d5de8b7c07637a7b9514"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-014-audit.json",
+      "bytes": 1491,
+      "sha256": "357321f2c9de5058998319ebca65c7c53a137ed5d12a98b77a1d7bf76433916e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-015-audit.json",
+      "bytes": 1490,
+      "sha256": "2cae984e2020cbc3e3ba1a1796cf90721785a5ac372a4cc76006f43031b195fc"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-016-audit.json",
+      "bytes": 1484,
+      "sha256": "489b04cb199cf95fc167622a85f4df9441d6ebd49e439153001172778f9cae40"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-017-audit.json",
+      "bytes": 1489,
+      "sha256": "b7e74862fcede04ce01ba5ef97c5d192057a489715ead0e179ce46943c041c29"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-018-audit.json",
+      "bytes": 1487,
+      "sha256": "a49a1aab885d8f9d9b7a5eed6776e65deb44b94814dd2d04d58712da17da5bfe"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-019-audit.json",
+      "bytes": 1492,
+      "sha256": "1eb8ec2111eb8e97928eb343324dc2277c5f4568409f9d3ffc3c19fa27d03fc1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-020-audit.json",
+      "bytes": 1491,
+      "sha256": "a105c66fafa4f0a5e844f3d202420c828e4a4c48b2aae20e65fd4897c15ce736"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-021-audit.json",
+      "bytes": 1499,
+      "sha256": "2a0264d35646b73f61e2ccc317382d5b539e42579d2604b5e6c23da54571789f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-022-audit.json",
+      "bytes": 1484,
+      "sha256": "ea5fc0a37f6ab3cba9340afb6946c472c6e5f9491ba9d51ff5c5c85f2d420807"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/defect-cloud-goal-20260917-000002-023-audit.json",
+      "bytes": 1484,
+      "sha256": "90ae335d68948f6b41d54b2fa50443c9884313e4a742c2491ae0636930bdf5cd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000003/defect-cloud-goal-20260917-000003-000-audit.json",
+      "bytes": 1476,
+      "sha256": "13ab118040175f0c094c357a0de0b0d3243aecb56adcf317ef484e9608501501"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000003/defect-cloud-goal-20260917-000003-001-audit.json",
+      "bytes": 1491,
+      "sha256": "02b7cfb5d6473344bb7c4dff43201a5d7a51c25e6ffdb948447439ff650a30d2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000003/defect-cloud-goal-20260917-000003-002-audit.json",
+      "bytes": 1492,
+      "sha256": "b8ec2a920c0f1bbe906e0258cf9306a95b046ab1bb81847cde679cda9546b22f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000003/defect-cloud-goal-20260917-000003-003-audit.json",
+      "bytes": 1489,
+      "sha256": "69c87caacc84731f926189ce507307651e97b7a964e07282e294e99b5ab00902"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000003/defect-cloud-goal-20260917-000003-004-audit.json",
+      "bytes": 1491,
+      "sha256": "c35f850bd020d16afda8a92f1c2fa30143068d9e14f16c9eee2646d6126b651d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000003/defect-cloud-goal-20260917-000003-005-audit.json",
+      "bytes": 1484,
+      "sha256": "32aabcf48d5d827e7ed6102ec308c2071a79caff9664637fb77d10f0384674ad"
+    }
+  ]
+}
