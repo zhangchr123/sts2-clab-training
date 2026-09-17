@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "description": "Pre-outcome CLab migration and execution plan for the progress-auxiliary paired trial; candidate not deployed",
+  "files": [
+    {
+      "path": "experiments/progress-aux-eval-20260918/README.md",
+      "bytes": 1434,
+      "sha256": "196a74ec706188ee972c1c1b8f72b7b31d7d33cb46ca82ab2170975436f57d44"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/handoff_to_progress_aux_eval.py",
+      "bytes": 6624,
+      "sha256": "6fd21644ad24b176e956dd3b2aab576c6eb39ab9180899a7eeb31b83d271ffef"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/input/INDEPENDENT_READBACK.json",
+      "bytes": 2007,
+      "sha256": "561acc71fcb1554408f4bb937d2f4046c1465ed626b827bb862d9baf1636db65"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/input/allocation.json",
+      "bytes": 23263,
+      "sha256": "bc52dfd12a71f7c2dec61621592055c139a2c6aaf25d518055b74d3861f0411c"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/input/candidate-model.json",
+      "bytes": 212087,
+      "sha256": "d827d6c266d992ef6da709f56fba00620d8a0c1dc5826f5ec58e494793fe0c99"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/input/compact-rebound-model.json",
+      "bytes": 62784,
+      "sha256": "4ffb04c486ff4aaf2060640cdbf82efa60fb98ed804c2d9b1e8ffbfb84f46f8b"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/input/declaration.json",
+      "bytes": 88610,
+      "sha256": "560e94bd9fa6ec3485582b28fc539115e61ba545fa68ad23704537833c1e8e7f"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/input/protocol.json",
+      "bytes": 31755,
+      "sha256": "b19d640d8f78116e84595a36db1e874cb5ce61584ef6a31b65b9bf5d55a4d878"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/migrate_progress_aux_candidate.py",
+      "bytes": 6463,
+      "sha256": "ed30a6b1b48d1d797ec41c4b564e9526c876105849605def2dbfa985592cdd2d"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/output/MIGRATION_PROTOCOL.json",
+      "bytes": 1583,
+      "sha256": "194d0dcbb7376a3631a630b0212741085407ccf609b2f62eb61c717e1af04be8"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/output/MIGRATION_RESULT.json",
+      "bytes": 4320,
+      "sha256": "50731bee2f0aae4c2b0d7888bb47e112ac01481fda4aef323c3d1f6bff41070e"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/output/RUNTIME_READBACK.json",
+      "bytes": 836,
+      "sha256": "25852c938e99b510713923ccb0f479dc68b709c2426d42e409876ba81d7ff431"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/output/candidate-runtime-model.json",
+      "bytes": 212211,
+      "sha256": "d6af4d830e46023e9f04dfe9db6ddd7a8eea6c4342b58c49b019ff47a68f0440"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/run/PROTOCOL.json",
+      "bytes": 111897,
+      "sha256": "d4e5bd8123af2dc326274231854d3f915a32dcf46d14c997a8e79b9e68218e1d"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/run_cloud_progress_aux_eval.py",
+      "bytes": 18382,
+      "sha256": "cc9cba4496798ee81cd441e55af77ba5609fac79018ef6541d3cc437b5cc199a"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/test_migrate_progress_aux_candidate.py",
+      "bytes": 1832,
+      "sha256": "50ffd8a50873fdb824fb4cddfec4ea2da81e52b8264e3c51ec8526148290db2f"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/test_run_cloud_progress_aux_eval.py",
+      "bytes": 1432,
+      "sha256": "36216c126dbb55412c1d8ea25469f870d5aa3e0f7aa559bd4acc67aa2d6f4bac"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/test_verify_progress_aux_runtime.py",
+      "bytes": 450,
+      "sha256": "df6742d765f5552d0787de0122c93a034bbbab73d32281b1fef277c0730f810f"
+    },
+    {
+      "path": "experiments/progress-aux-eval-20260918/verify_progress_aux_runtime.py",
+      "bytes": 5479,
+      "sha256": "669df56ac1400c4ac6a19645239800965c8621cc3fdb51e62bf9042c199e9906"
+    },
+    {
+      "path": "automation/sts2-progress-aux-eval.service",
+      "bytes": 496,
+      "sha256": "9a01297aac6be870513bc0652fa881a4ac430dbdc5ffec1f8a4ef9bba21e52a5"
+    },
+    {
+      "path": "automation/sts2-progress-aux-handoff.service",
+      "bytes": 535,
+      "sha256": "987f18feda77bfa8caed6f74c8becb327956a7d3fcd8c7dd7c21deac5ed3544d"
+    },
+    {
+      "path": "automation/handoff_to_progress_aux_eval.py",
+      "bytes": 6624,
+      "sha256": "6fd21644ad24b176e956dd3b2aab576c6eb39ab9180899a7eeb31b83d271ffef"
+    }
+  ]
+}

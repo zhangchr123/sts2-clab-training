@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "gates": 123,
+  "seeds": 94,
+  "arms": 492,
+  "actual_outcome_labels_rebound": true,
+  "all_seed_splits_verified": true,
+  "all_oof_scores_reconstructed": true,
+  "all_six_bounded_optima_independently_checked": true,
+  "auxiliary_before": {
+    "informative_seeds": 83,
+    "informative_gates": 99,
+    "pairwise_nll": 0.9043724885032081
+  },
+  "auxiliary_after": {
+    "informative_seeds": 83,
+    "informative_gates": 99,
+    "pairwise_nll": 0.8473931246634705
+  },
+  "full_projected_gradient_max": 6.574894517719088e-10,
+  "fold_checks": [
+    {
+      "fold": 0,
+      "independent_projected_gradient_max": 2.0789952537292322e-09
+    },
+    {
+      "fold": 1,
+      "independent_projected_gradient_max": 1.0278309314770695e-09
+    },
+    {
+      "fold": 2,
+      "independent_projected_gradient_max": 7.90737197942093e-10
+    },
+    {
+      "fold": 3,
+      "independent_projected_gradient_max": 6.940513719300156e-10
+    },
+    {
+      "fold": 4,
+      "independent_projected_gradient_max": 1.5976358846980787e-09
+    }
+  ],
+  "maximum_public_score_error": 8.881784197001252e-16,
+  "natural_trial_eligible": true,
+  "result": {
+    "path": "E:\\sts2-training-workspaces\\reward-branch-outcomes-438\\offline-fit-progress-auxiliary-20260917cd\\RESULT.json",
+    "bytes": 349813,
+    "sha256": "3d80243c9629d4593f68f90dfca74cda7cc853199246b2d3f177e1f0a4cd66e4"
+  },
+  "model": {
+    "path": "E:\\sts2-training-workspaces\\reward-branch-outcomes-438\\offline-fit-progress-auxiliary-20260917cd\\candidate-model.json",
+    "bytes": 212087,
+    "sha256": "d827d6c266d992ef6da709f56fba00620d8a0c1dc5826f5ec58e494793fe0c99"
+  },
+  "verifier": {
+    "path": "C:\\Users\\zhangchr\\Documents\\code\\sts2-solver-bridge\\inspection\\verify_progress_auxiliary_fit_20260917.py",
+    "bytes": 13754,
+    "sha256": "ff2c8d038997fbb25e44a568f54dba43bcf7e777d1bd36789ea9ab234cb958e1"
+  },
+  "new_engine_games": 0,
+  "goal_complete": false
+}

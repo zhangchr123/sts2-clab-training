@@ -1,0 +1,722 @@
+[
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-000",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-000",
+    "pair": 0,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-000",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-000",
+    "pair": 0,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-001",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-001",
+    "pair": 1,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-001",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-001",
+    "pair": 1,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-002",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-002",
+    "pair": 2,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-002",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-002",
+    "pair": 2,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-003",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-003",
+    "pair": 3,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-003",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-003",
+    "pair": 3,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-004",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-004",
+    "pair": 4,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-004",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-004",
+    "pair": 4,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-005",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-005",
+    "pair": 5,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-005",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-005",
+    "pair": 5,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-006",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-006",
+    "pair": 6,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-006",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-006",
+    "pair": 6,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-007",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-007",
+    "pair": 7,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-007",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-007",
+    "pair": 7,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-008",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-008",
+    "pair": 8,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-008",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-008",
+    "pair": 8,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-009",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-009",
+    "pair": 9,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-009",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-009",
+    "pair": 9,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-010",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-010",
+    "pair": 10,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-010",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-010",
+    "pair": 10,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-011",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-011",
+    "pair": 11,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-011",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-011",
+    "pair": 11,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-012",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-012",
+    "pair": 12,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-012",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-012",
+    "pair": 12,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-013",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-013",
+    "pair": 13,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-013",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-013",
+    "pair": 13,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-014",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-014",
+    "pair": 14,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-014",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-014",
+    "pair": 14,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-015",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-015",
+    "pair": 15,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-015",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-015",
+    "pair": 15,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-016",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-016",
+    "pair": 16,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-016",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-016",
+    "pair": 16,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-017",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-017",
+    "pair": 17,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-017",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-017",
+    "pair": 17,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-018",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-018",
+    "pair": 18,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-018",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-018",
+    "pair": 18,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-019",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-019",
+    "pair": 19,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-019",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-019",
+    "pair": 19,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-020",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-020",
+    "pair": 20,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-020",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-020",
+    "pair": 20,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-021",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-021",
+    "pair": 21,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-021",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-021",
+    "pair": 21,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-022",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-022",
+    "pair": 22,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-022",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-022",
+    "pair": 22,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-023",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-023",
+    "pair": 23,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-023",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-023",
+    "pair": 23,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-024",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-024",
+    "pair": 24,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-024",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-024",
+    "pair": 24,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-025",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-025",
+    "pair": 25,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-025",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-025",
+    "pair": 25,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-026",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-026",
+    "pair": 26,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-026",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-026",
+    "pair": 26,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-027",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-027",
+    "pair": 27,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-027",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-027",
+    "pair": 27,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-028",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-028",
+    "pair": 28,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-028",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-028",
+    "pair": 28,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-029",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-029",
+    "pair": 29,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-029",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-029",
+    "pair": 29,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-030",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-030",
+    "pair": 30,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-030",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-030",
+    "pair": 30,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-031",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-031",
+    "pair": 31,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-031",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-031",
+    "pair": 31,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-032",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-032",
+    "pair": 32,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-032",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-032",
+    "pair": 32,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-033",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-033",
+    "pair": 33,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-033",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-033",
+    "pair": 33,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-034",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-034",
+    "pair": 34,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-034",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-034",
+    "pair": 34,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-035",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-035",
+    "pair": 35,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-035",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-035",
+    "pair": 35,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-036",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-036",
+    "pair": 36,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-036",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-036",
+    "pair": 36,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-037",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-037",
+    "pair": 37,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-037",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-037",
+    "pair": 37,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-038",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-038",
+    "pair": 38,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-038",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-038",
+    "pair": 38,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-039",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-039",
+    "pair": 39,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-039",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-039",
+    "pair": 39,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-040",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-040",
+    "pair": 40,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-040",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-040",
+    "pair": 40,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-041",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-041",
+    "pair": 41,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-041",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-041",
+    "pair": 41,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-042",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-042",
+    "pair": 42,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-042",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-042",
+    "pair": 42,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-043",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-043",
+    "pair": 43,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-043",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-043",
+    "pair": 43,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-044",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-044",
+    "pair": 44,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-044",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-044",
+    "pair": 44,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-045",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-045",
+    "pair": 45,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-045",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-045",
+    "pair": 45,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-046",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-046",
+    "pair": 46,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-046",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-046",
+    "pair": 46,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-047",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-047",
+    "pair": 47,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-047",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-047",
+    "pair": 47,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-048",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-048",
+    "pair": 48,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-048",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-048",
+    "pair": 48,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-049",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-049",
+    "pair": 49,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-049",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-049",
+    "pair": 49,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-050",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-050",
+    "pair": 50,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-050",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-050",
+    "pair": 50,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-051",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-051",
+    "pair": 51,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-051",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-051",
+    "pair": 51,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-052",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-052",
+    "pair": 52,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-052",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-052",
+    "pair": 52,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-053",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-053",
+    "pair": 53,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-053",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-053",
+    "pair": 53,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-054",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-054",
+    "pair": 54,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-054",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-054",
+    "pair": 54,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-055",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-055",
+    "pair": 55,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-055",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-055",
+    "pair": 55,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-056",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-056",
+    "pair": 56,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-056",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-056",
+    "pair": 56,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-057",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-057",
+    "pair": 57,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-057",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-057",
+    "pair": 57,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-058",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-058",
+    "pair": 58,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-058",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-058",
+    "pair": 58,
+    "arm": "candidate"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-control-059",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-059",
+    "pair": 59,
+    "arm": "control"
+  },
+  {
+    "label": "defect-progress-auxiliary-paired-20260917ce-candidate-059",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-059",
+    "pair": 59,
+    "arm": "candidate"
+  }
+]

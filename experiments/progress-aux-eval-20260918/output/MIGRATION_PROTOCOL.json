@@ -1,0 +1,47 @@
+{
+  "version": "cloud-progress-auxiliary-paired-migration-v1",
+  "declared_before_natural_evaluation": true,
+  "source_natural_evaluation_games_started": 0,
+  "allocation": {
+    "pairs": 60,
+    "games": 120,
+    "same_seed_arms": [
+      "control",
+      "candidate"
+    ]
+  },
+  "execution_amendment": {
+    "reason": "CLab has 4 GiB RAM; serialize the frozen allocation to one engine worker",
+    "workers": 1,
+    "allocation_and_order_unchanged": true,
+    "outcome_dependent_change": false
+  },
+  "assessment": "actual Act3 first boss; full A10 victory secondary; invalid retained in denominator",
+  "improvement_gate": "strictly more candidate target successes and exact one-sided paired p<=0.05",
+  "no_refit_on_evaluation": true,
+  "no_sample_extension": true,
+  "automatic_retry": false,
+  "automatic_deployment": false,
+  "sources": {
+    "current": {
+      "path": "/home/ubuntu/sts2-cloud-checks-20260917/linux-rebound-model.json",
+      "bytes": 63584,
+      "sha256": "59d11c9fe8c6d94d2968928aaf567a3fb73ec6b53252feb0e2b7f7e164eacac4"
+    },
+    "baseline": {
+      "path": "compact-rebound-model.json",
+      "bytes": 62784,
+      "sha256": "4ffb04c486ff4aaf2060640cdbf82efa60fb98ed804c2d9b1e8ffbfb84f46f8b"
+    },
+    "learned": {
+      "path": "candidate-model.json",
+      "bytes": 212087,
+      "sha256": "d827d6c266d992ef6da709f56fba00620d8a0c1dc5826f5ec58e494793fe0c99"
+    }
+  },
+  "candidate": {
+    "path": "../output/candidate-runtime-model.json",
+    "bytes": 212211,
+    "sha256": "d6af4d830e46023e9f04dfe9db6ddd7a8eea6c4342b58c49b019ff47a68f0440"
+  }
+}

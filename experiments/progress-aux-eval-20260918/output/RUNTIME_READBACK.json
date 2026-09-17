@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "gates": 254,
+  "scores_verified": 1016,
+  "changed_top_sets": 119,
+  "maximum_score_delta_error": 2.886579864025407e-15,
+  "control": {
+    "path": "/home/ubuntu/sts2-cloud-checks-20260917/linux-rebound-model.json",
+    "bytes": 63584,
+    "sha256": "59d11c9fe8c6d94d2968928aaf567a3fb73ec6b53252feb0e2b7f7e164eacac4"
+  },
+  "candidate": {
+    "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/output/candidate-runtime-model.json",
+    "bytes": 212211,
+    "sha256": "d6af4d830e46023e9f04dfe9db6ddd7a8eea6c4342b58c49b019ff47a68f0440"
+  },
+  "branch_input": {
+    "path": "/home/ubuntu/sts2-cloud-fit/functional-role-ci/input/INPUT.json",
+    "bytes": 8642575,
+    "sha256": "fd51be5dd69ea080da0241f27851099e859c98327980b3f1b76d1d94197b417f"
+  },
+  "natural_outcomes_read": false,
+  "production_deployed": false
+}

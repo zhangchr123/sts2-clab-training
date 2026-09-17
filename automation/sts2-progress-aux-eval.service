@@ -1,0 +1,19 @@
+[Unit]
+Description=One-shot serialized STS2 progress-auxiliary paired evaluation
+After=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/sts2-cloud-eval/progress-aux/input
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-cloud-eval/progress-aux/input/run_cloud_progress_aux_eval.py run
+Restart=no
+KillMode=control-group
+MemoryMax=3G
+OOMPolicy=stop
+TimeoutStartSec=infinity
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
