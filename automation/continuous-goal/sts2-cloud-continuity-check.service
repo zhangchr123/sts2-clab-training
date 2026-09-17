@@ -1,0 +1,9 @@
+[Unit]
+Description=Safe continuity check for CLab MiniMax training goal
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/ubuntu/sts2-cloud-goal/supervise_continuous_goal.py
+TimeoutStartSec=45
+

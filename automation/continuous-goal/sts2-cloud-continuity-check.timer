@@ -1,0 +1,12 @@
+[Unit]
+Description=Check CLab MiniMax training goal every two minutes
+
+[Timer]
+OnBootSec=90s
+OnUnitActiveSec=2min
+AccuracySec=15s
+Persistent=true
+Unit=sts2-cloud-continuity-check.service
+
+[Install]
+WantedBy=timers.target
