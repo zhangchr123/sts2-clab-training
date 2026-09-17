@@ -1,8 +1,8 @@
 {
   "batch": "defect-cloud-training-20260917a",
   "planned": 24,
-  "completed": 11,
-  "valid": 11,
+  "completed": 15,
+  "valid": 15,
   "invalid": 0,
   "target_successes": 0,
   "phase": "running",
@@ -149,6 +149,58 @@
       "target_success": false,
       "max_act": 2,
       "max_floor": 8
+    },
+    {
+      "name": "defect-cloud-training-20260917a-011",
+      "seed": "defect-cloud-training-20260917a-fresh-011",
+      "audit": {
+        "bytes": 1478,
+        "sha256": "d68b839a38ae21cdad9f1e9960182dbdd02a273b9e8f36e3278a69a80b509a78"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 4
+    },
+    {
+      "name": "defect-cloud-training-20260917a-012",
+      "seed": "defect-cloud-training-20260917a-fresh-012",
+      "audit": {
+        "bytes": 1477,
+        "sha256": "3d8ff5cb55423dbb7a536d2140d2a9b4100144be42947459d174fba3e1ec06bc"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 5
+    },
+    {
+      "name": "defect-cloud-training-20260917a-013",
+      "seed": "defect-cloud-training-20260917a-fresh-013",
+      "audit": {
+        "bytes": 1466,
+        "sha256": "d2d0975223f3f6dcdf56fafc7ae87432888aae6ba25a2b394be732854ddac8c2"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 1,
+      "max_floor": 17
+    },
+    {
+      "name": "defect-cloud-training-20260917a-014",
+      "seed": "defect-cloud-training-20260917a-fresh-014",
+      "audit": {
+        "bytes": 1491,
+        "sha256": "d61a1c5115780b3a28501180d4d4a63400753cd211fbeb1227bd668b98ab9896"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 1,
+      "max_floor": 12
     }
   ],
   "protocol": {
@@ -160,5 +212,5 @@
   "partial_upload_authorized": true,
   "adapter_revision": 3,
   "owner_state": "live",
-  "snapshot_id": "e10c2f91fa6c5a698db34a1a"
+  "snapshot_id": "34d26624c37ac3389a458e3d"
 }
