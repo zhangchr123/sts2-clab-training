@@ -1,0 +1,855 @@
+{
+  "protocol": {
+    "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/PROTOCOL.json",
+    "sha256": "b39378ff4f41b5e27166b608c9132510708769bf914e15802e794ec6cdfc704f",
+    "bytes": 57700
+  },
+  "result": {
+    "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000002/RESULT.json",
+    "sha256": "8356631df75160cd86a601af8e227b32d92042fbfd2501fbac187d7d98e53d87",
+    "bytes": 41627
+  },
+  "raw_originals_retained": true,
+  "sources": [
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-000/decisions.jsonl",
+      "sha256": "73073626c8fec63ee28048c74a3185a4b0ac1a1710e8485a6a566bffd7c0a03c",
+      "bytes": 3326778
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-000/manifest.json",
+      "sha256": "2b502921bb6947f233b6da2e50fa7209f07dd931f8426dde8ef6afb38fc59eed",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-000/status.json",
+      "sha256": "447fdaf74dd0527bb55eb6fb89b6615dd7f1845bd5dd9c90f019a910ec07cadd",
+      "bytes": 709
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-000/trace.jsonl",
+      "sha256": "57ac9f24340931c3b3bb221cffda797ba1e18ed1d9e714ddfd411fbfb796229f",
+      "bytes": 9152119
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-000/policy.jsonl",
+      "sha256": "e5b9ac64df679ed583994828962aa01d19d0ba5f155cdc5e6726c9eb64f69820",
+      "bytes": 4274509
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-000/state.json",
+      "sha256": "af1550b463d3281ed5fe09f764efd19ae13a89118e4f38a721a2e20c2660871b",
+      "bytes": 20903
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-000/report.json",
+      "sha256": "8f17fe60e338f165ef774a2412db1a3d2a21289939e906312bf4251cdd88ef33",
+      "bytes": 685
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-001/decisions.jsonl",
+      "sha256": "dfbb91b5a252e66cd018552c6b9b38a230db0c75966fbf91a556a23470f55fbb",
+      "bytes": 4288086
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-001/manifest.json",
+      "sha256": "9368de682ff934194b3243590c98bb070d9fb4f3f0d85d03334412daebb92604",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-001/status.json",
+      "sha256": "4641cd83dbece0de62aabf15c3a3f2e61238f677335295e8f2558ab5fff39d09",
+      "bytes": 706
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-001/trace.jsonl",
+      "sha256": "88b643d921fff7401e321092e63a1bd37895c526f886ac58828478e88d7b63e8",
+      "bytes": 8416150
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-001/policy.jsonl",
+      "sha256": "695f32a98f854580adbc2fffded72117d8d1cafa9f555615959379b75e06884c",
+      "bytes": 5960221
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-001/state.json",
+      "sha256": "02e4230efb1c38d15db2ee40e457d32aeadf7e99e006f78e2a865176eec85edb",
+      "bytes": 24164
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-001/report.json",
+      "sha256": "5978882468d1c3bd70751db4f15049ec0a9efa0c4a9fdd1923177ad6f163930e",
+      "bytes": 682
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-002/decisions.jsonl",
+      "sha256": "64815408e14c4236bd480e06276f2c68d5dc86803afe992df0fd2e9180e9f9ee",
+      "bytes": 3961267
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-002/manifest.json",
+      "sha256": "f0c7c0a75878df9212421a7d1d676609c1d5b1bc3f3a451cb6858b5caae99ec9",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-002/status.json",
+      "sha256": "a7b598e6cd7f21d63a4e51b1b26164c0fea0c8c1c2ccbcf403045d580ae6821b",
+      "bytes": 707
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-002/trace.jsonl",
+      "sha256": "dbeddc1f109f1b4eb916358673f53ede540bd47d40df19ee5b4879fe8627aee1",
+      "bytes": 8240006
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-002/policy.jsonl",
+      "sha256": "01f30a044b324f323132a51b236c6154f5aa9a9c5885172b499d083eb190588f",
+      "bytes": 5730851
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-002/state.json",
+      "sha256": "d91b111c34f6eecb185245b8fd8454170d9e4902221d98e78bf5c7d26e65aa10",
+      "bytes": 20730
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-002/report.json",
+      "sha256": "a6ff5cb67d2bd0a16d1b9bfdf1e871a78c3652b091f3ea29b2507cd27c1d78e7",
+      "bytes": 683
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-003/decisions.jsonl",
+      "sha256": "7066a21162a1c23562797323661aa50a209afc2855f6ffc34dd32fe2256122f8",
+      "bytes": 7238991
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-003/manifest.json",
+      "sha256": "8157843f3f30206f19d436cfe80bc6bb090d6cd329410f6322f6570b4a532365",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-003/status.json",
+      "sha256": "03ff9726e1e400130ea3f392d1b5b5d653b2c9d2275448432368d622658269c0",
+      "bytes": 699
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-003/trace.jsonl",
+      "sha256": "cd8a00ec35eb007d76dda0de6ddccdc739815ab314b75aeadd50edeb888aa5d9",
+      "bytes": 24088519
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-003/policy.jsonl",
+      "sha256": "5ee5b096951a3ba7d7fe3cd4411d672c9089650f19d0a44234f91898198228a5",
+      "bytes": 15179290
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-003/state.json",
+      "sha256": "fb385572439c1dfd576dfb4d79c3f5972112868e0925d0b11cbb3a2bf8acdadd",
+      "bytes": 27653
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-003/report.json",
+      "sha256": "2dcfc825287d192e945a5a901d20d8c8aff959fb3ec50fb395f261bd05d4d538",
+      "bytes": 675
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-004/decisions.jsonl",
+      "sha256": "b41edefb0b5e3c3bb207f81d7ab27de7788c26f9b8c06544418d4ba5af5f7562",
+      "bytes": 4108673
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-004/manifest.json",
+      "sha256": "f31bf65d8f8bd41b4952145d6ddf45efd9585a608a8f277a8abf10a4c2c5325c",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-004/status.json",
+      "sha256": "302291d68e3cf757f0c7b02945dc476bcd4e51ae4231c78f3ccd4d5a31e234f7",
+      "bytes": 714
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-004/trace.jsonl",
+      "sha256": "b89018813199a86fa99ffa800eb7ff8794fe0c40f0a8eb0f24755060c756bfe9",
+      "bytes": 7333104
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-004/policy.jsonl",
+      "sha256": "5a7dace51e637c524866b06edea8661a9f04db627bf6084aeb67438d0995973f",
+      "bytes": 5674962
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-004/state.json",
+      "sha256": "864fdc576b17112e4f6d79dec8ff12b76a9b6bf0a70cdee15cb25394bc2b21a2",
+      "bytes": 22832
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-004/report.json",
+      "sha256": "c478390eb8f1b55160c47abefa488f031d641a81797feae81fd66641dba4ad04",
+      "bytes": 690
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-005/decisions.jsonl",
+      "sha256": "28437dfc87f6933713fd5ff8c5b2b29b39bfc9f13a762bc41260f8f317b9f935",
+      "bytes": 3322627
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-005/manifest.json",
+      "sha256": "e7cb6924915dd05925c31decf91c0d800855c7bef06bfc9a31fb0d74141cdc06",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-005/status.json",
+      "sha256": "670cc5c15b6dac07c48d5428a863718f7a3ae46ad675a2b87766e9578494b55c",
+      "bytes": 715
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-005/trace.jsonl",
+      "sha256": "5517aa918b24be92b063cc16dd51f208c9944a617a620bba4d3d3bb21e4c2305",
+      "bytes": 7739231
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-005/policy.jsonl",
+      "sha256": "9fc79c746389a19fb851af144350b549799ea656fac9a87d1dfa1a817b1c8cc4",
+      "bytes": 4783980
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-005/state.json",
+      "sha256": "848ddc293fe5ccab1a78616568e525a427ff2695cc97c8e42926d59bf49eedc1",
+      "bytes": 20503
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-005/report.json",
+      "sha256": "ba05d6a701e7dec7a447a582cf88a25ce6da427dfaeb98c4a91c9d349ed06766",
+      "bytes": 691
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-006/decisions.jsonl",
+      "sha256": "ea6b6db439c46dff0fd7e7ccab2387ccabea2eb508a05a4160ce45178ab7dd2c",
+      "bytes": 4171278
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-006/manifest.json",
+      "sha256": "f2bc7ba4405021507230ceae5293901add29eefcff1ff2d32e67b8b3f441f13c",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-006/status.json",
+      "sha256": "b0f25e9e20999f9fa0d0ddc7d6631021aed50b0879837a671438df245f74328f",
+      "bytes": 706
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-006/trace.jsonl",
+      "sha256": "df722bf59c34aa6f81cdb5d9ffcd705982f7f67f6f3b939504dbc0cb014afbf9",
+      "bytes": 13612092
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-006/policy.jsonl",
+      "sha256": "b73d388d07e3782348e68459597c950ef93c73b732ce08ddb123577a6665a360",
+      "bytes": 4961343
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-006/state.json",
+      "sha256": "54149caac39c43fdbfd7d33fd3f6ee7e5f1273004e7c137e1b5dc9bbbbec20ed",
+      "bytes": 24748
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-006/report.json",
+      "sha256": "e12fce6ee4207694c4e50870a51c3e5b38735a477b96ff4bc42e3667c8f7ae9b",
+      "bytes": 682
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-007/decisions.jsonl",
+      "sha256": "17639b621192e53d8b59aed261033a3595570b202a7fc548977832851a3b3320",
+      "bytes": 3741957
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-007/manifest.json",
+      "sha256": "ee8e259aa07b1e221ef99d9110a660d47f3344c60b801c9f4d732bf2b8aed6d1",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-007/status.json",
+      "sha256": "275da0c4b1172b5aa44e7a9f5ec37ee798c0f749f0fc0be4fe8868be2e8c2391",
+      "bytes": 728
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-007/trace.jsonl",
+      "sha256": "a14f7a1602985e6acb797710c760ce9d7f1cb95950bf2b6541375af3a8eeafba",
+      "bytes": 8358925
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-007/policy.jsonl",
+      "sha256": "eec0fc651bd859077ae3acd7e68f3c445cd86eb67728beb28c194580aff3668e",
+      "bytes": 6626230
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-007/state.json",
+      "sha256": "0035022f8b54657297bd7ca9df67b23ae0f0222199847fb03928b8ae6aac8f29",
+      "bytes": 24008
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-007/report.json",
+      "sha256": "fd7c3f522ef83bacce431eb47dbda9d232d3853deca33fbad2e6cb767db17831",
+      "bytes": 704
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-008/decisions.jsonl",
+      "sha256": "c5438de251d9b654942c28cff21c6223ae5f78bd3e338c14c5355b32a5d27eb1",
+      "bytes": 4381743
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-008/manifest.json",
+      "sha256": "c3649c647ca94ece1b564df574a07038c77d7e30c014cdf598e9b0d30bddf89a",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-008/status.json",
+      "sha256": "91979c5ff5df135c464d3fbdeb9db36c1728819f2a67a12f891232d56cea9e4d",
+      "bytes": 707
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-008/trace.jsonl",
+      "sha256": "e923332ed23eb64c9c91a17c2bf826e5611119ed2c3116765478c278c052aaf2",
+      "bytes": 8020772
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-008/policy.jsonl",
+      "sha256": "54b54369f4998979322b9de411956b344b339a76fecc14f87abb2d04d1172096",
+      "bytes": 7425754
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-008/state.json",
+      "sha256": "cdf0c2c1e5625447b77138678493cf81085d1995c544494eb50721a80178bb3d",
+      "bytes": 20131
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-008/report.json",
+      "sha256": "86be318fb877ead67f4c09a185e9360278288c834bc25d855eaebf9bf82da932",
+      "bytes": 683
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-009/decisions.jsonl",
+      "sha256": "392376d9eb63f92686a8d59a72f19daebec591bb879c57c3ad5eff08c73a926b",
+      "bytes": 2881500
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-009/manifest.json",
+      "sha256": "23afdf157219ee385aba851840d6f286f68819726f9eeab49f8d98e03f005d9b",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-009/status.json",
+      "sha256": "192226ffa35fa212ec417406049df1cdb4c452295455711adf396feeec32b0c4",
+      "bytes": 714
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-009/trace.jsonl",
+      "sha256": "94a097659237838874799ae390a750f6744f1423ed744f0dbfc55017bc7f32c6",
+      "bytes": 5488077
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-009/policy.jsonl",
+      "sha256": "949914d32e6e8e7c84a4b701a53a356e12f222f8f8b6f47e0e1038f8a0305abe",
+      "bytes": 5957824
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-009/state.json",
+      "sha256": "89c40e6dd5c4f3185d5b9445932c089b14b9581b8ae1527b3e138d92c3aabad1",
+      "bytes": 19922
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-009/report.json",
+      "sha256": "31a3b8805e06603cbbd52956273d23c5c684df9b836923343f3d74d45e935c36",
+      "bytes": 690
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-010/decisions.jsonl",
+      "sha256": "4dc3a39b4be67bf6c19a1033632912addb796f3e587e1feb93a2eb56c926aaaa",
+      "bytes": 1679891
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-010/manifest.json",
+      "sha256": "30dbe174c020025bfeaca59779d491880c9f9038432a03cb29436d5a6c5b6170",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-010/status.json",
+      "sha256": "1399647be1866de619ed7be01a2e803ae5adcf27f057de0c86056cac4b056be2",
+      "bytes": 693
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-010/trace.jsonl",
+      "sha256": "5803d5e139cfb6bcf8c17353411d25f2914c609e88d63407013d60bee183a1d3",
+      "bytes": 5704865
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-010/policy.jsonl",
+      "sha256": "7ffda8aec8cd5d811453279b1b771e8b90b08cc2565e5de6f7cc9aab3e513791",
+      "bytes": 2082853
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-010/state.json",
+      "sha256": "59c4065ecdee2106f78bdd544fba1b7e55095acacf1b1ec2eef762a636926a72",
+      "bytes": 19033
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-010/report.json",
+      "sha256": "ff4188ed6151108695933a0ecfb98cf0d21acd150b3bdc24e676923bea3eea66",
+      "bytes": 669
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-011/decisions.jsonl",
+      "sha256": "e4c8c52470ae37c0686b99331063d4bb12358093cf0b72fdc63550f85e6bdb42",
+      "bytes": 2512633
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-011/manifest.json",
+      "sha256": "c075a78803294ad5974a0854c2823361b363eec2be1aeab8974ecb4450f60ef1",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-011/status.json",
+      "sha256": "15f742288ce8a3b4e0d646473bb0a31a30ca2c6b8ea27af2612bb74bb2f203a1",
+      "bytes": 699
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-011/trace.jsonl",
+      "sha256": "43bfbd6fece6e7c1f3957ab3d60baba24796f072e59e5cc213d16ce5f9c6f96b",
+      "bytes": 5843338
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-011/policy.jsonl",
+      "sha256": "345da1787ce5dbe97e9c5f5562c769805ba40b8d2fb255fcc0fdf42251c7cb8c",
+      "bytes": 4146527
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-011/state.json",
+      "sha256": "0d1be7294f37abd6182157d2ce9f422d67c642056e5e6c815b04faea0c1a42c6",
+      "bytes": 20204
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-011/report.json",
+      "sha256": "7f1fd7c78a8abd7e502106f464e88607a667d20d2bb33c33301eb7dd399486e0",
+      "bytes": 675
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-012/decisions.jsonl",
+      "sha256": "6f3747bcb61606a5d42d573e3d99d125e6177040c1c5298b8a18536b05655207",
+      "bytes": 4323274
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-012/manifest.json",
+      "sha256": "80556f4a1f14b22c6ec18f1accb9da379932b8d595d1c50d4ee7819d6e29c561",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-012/status.json",
+      "sha256": "762da929a63f9d719b61a666b48b8e712bc93c212f56a0238700f1f40243f32a",
+      "bytes": 706
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-012/trace.jsonl",
+      "sha256": "8a7dec881cf359bd5baf7a3bc3f8fbfcd92e730ac7ba2543f43e88aa34aeafb2",
+      "bytes": 10225962
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-012/policy.jsonl",
+      "sha256": "7afef2a698e15c7b9317c7a79ff37cb2dad68eee4f9386e8093dc287a1d83918",
+      "bytes": 11088006
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-012/state.json",
+      "sha256": "9937e3a55ab2c792e1f266e66bc9ba3baebbd79555859d3453c160d92e89863a",
+      "bytes": 24498
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-012/report.json",
+      "sha256": "304e57df38b3b1fc1cd9610a3ad5324b28b16909a77d476e309c981c8fe3d14f",
+      "bytes": 682
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-013/decisions.jsonl",
+      "sha256": "e5cead22da6807e8ad97e713f9eb1545081ab4053afed079907852f8d7e698ef",
+      "bytes": 1859124
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-013/manifest.json",
+      "sha256": "dd0022b52d933083c1a3d750b0ab6c8567358a51257e37296e4d4cf50abab3a6",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-013/status.json",
+      "sha256": "f012ffea917fb91a582a01310b193aa5ac5cad0ff3b1ec0af2c63d52c897aff5",
+      "bytes": 694
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-013/trace.jsonl",
+      "sha256": "1202f6e610b064edd85fab22f9ac49bd1c9d727062daf1b58e547915c8b89945",
+      "bytes": 5346361
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-013/policy.jsonl",
+      "sha256": "2e3a8cfe5e32e1f317480840933271216e704132f8919c3a488fabfd1917f6ef",
+      "bytes": 2652934
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-013/state.json",
+      "sha256": "5aeae0a3e974b9e496689fb627f668d2d61b99c45e3b7978c750411e822cbee4",
+      "bytes": 19478
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-013/report.json",
+      "sha256": "639e19e04c443b59b670c25821be381de9761e5a44094bce05db6ac7fbb48e6e",
+      "bytes": 670
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-014/decisions.jsonl",
+      "sha256": "75d0e2cdae101e8c84434c53923a5d934d1ebefcdb5e3738d31bc5d88e56c9c7",
+      "bytes": 4940905
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-014/manifest.json",
+      "sha256": "5d860bbd2f9b641ef97c259ada2b2ce773359b10023ab2366781bb168b716987",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-014/status.json",
+      "sha256": "6db9c947580c92756233ec1bdb76b05bf2518e925f982240b657d474617e7d45",
+      "bytes": 714
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-014/trace.jsonl",
+      "sha256": "016fd8c77e8b72c9cbed0a87c5dcc676fd6ce9448c95734f4665e803817e2dce",
+      "bytes": 9965441
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-014/policy.jsonl",
+      "sha256": "d855e3a9f47f613c9a0999de1631aeab2baa02c19aa111a7c9ff8554d6b0b2ec",
+      "bytes": 18571323
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-014/state.json",
+      "sha256": "fb0dc7a87a9a89b978c54383d851820892362d753782893293ae1cb760fd93f8",
+      "bytes": 21054
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-014/report.json",
+      "sha256": "45a65bec9eb1d63bd70ba0cc6f1ea15bd31c19369928c1553d640ef55adff163",
+      "bytes": 690
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-015/decisions.jsonl",
+      "sha256": "7bf8a711bbfa513b65ffecc9f6e0a362afde39be1d6260a53db7feb5520546d8",
+      "bytes": 4811028
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-015/manifest.json",
+      "sha256": "a1c30ef0cbae69932b7f58b3435fad1b9bf48531e002e51c03acde1e9be61912",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-015/status.json",
+      "sha256": "b9a68f42b04100133cf41e6916976a8acf92c1a16e0cf107e992cc07d3f6a556",
+      "bytes": 713
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-015/trace.jsonl",
+      "sha256": "82e2b95e0af908cd0f8f90ed6014b7c27293b30e996fe367d1e8f0efe72190f8",
+      "bytes": 8877353
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-015/policy.jsonl",
+      "sha256": "911eb6366034ed1d615abd9dce9436633e1fd157dfdff694a1b8c73e57644bd6",
+      "bytes": 6271128
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-015/state.json",
+      "sha256": "e8fc5d81d74ad5d8fac8b2937f18b422c3627de7b5d52c8c02f0525460be9cf0",
+      "bytes": 23542
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-015/report.json",
+      "sha256": "21c7e06855d1f4a9953c1259db9b21a35b6713c8ebbd518158f3a2e7b9362d5c",
+      "bytes": 689
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-016/decisions.jsonl",
+      "sha256": "8727a03fc09772a19c954a9621b19c739710b9423a1409d7a2a9b95cfdc1a342",
+      "bytes": 4602116
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-016/manifest.json",
+      "sha256": "8b99185baf195b53ee7ae56aeab108e7c3036e54fbdb87bef5c21cb17a549c1a",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-016/status.json",
+      "sha256": "2be9404de16f2a93b057c5b37b1d28731a5bdb622dc80640f0901d74399ae26f",
+      "bytes": 707
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-016/trace.jsonl",
+      "sha256": "c2f664df6ac574e903cb8b8d4e9139ac2b19e729c573ca50e40f5b05794d7808",
+      "bytes": 9637648
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-016/policy.jsonl",
+      "sha256": "49897ad5c1a8d968da1fd2c3eec3614486b6be250c94a57471f899285ebeae3c",
+      "bytes": 6900718
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-016/state.json",
+      "sha256": "f7f5054cf7d4158444aede110fd484c49111a3cce2785b6213260e40d9a2e3c6",
+      "bytes": 22795
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-016/report.json",
+      "sha256": "c9cd627e4584abd9804ab1567ebf4f86533bd766b3df2af567e70fac97bb1ecf",
+      "bytes": 683
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-017/decisions.jsonl",
+      "sha256": "64a7229a4553df78318491296fa64c32a4adceb3f245e5f1f655fe6e0688c33a",
+      "bytes": 3208360
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-017/manifest.json",
+      "sha256": "ea590ab5c6b72ee61b97483225baf6d6c1011c0c0c4016d379adb2bb48196508",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-017/status.json",
+      "sha256": "a3d3ce2f9cee15277d12f693c0aa9a680bf1777f1992d37e28808302bafd5ea5",
+      "bytes": 712
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-017/trace.jsonl",
+      "sha256": "d8374cb27b12f0e9d665b1b8259d87021929629e05225b1b2b2b8098a76e4836",
+      "bytes": 7078914
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-017/policy.jsonl",
+      "sha256": "5cf093eb34c8d0b42d983416ca1b60f315707ba30c614736ca7291253acfdea0",
+      "bytes": 9532720
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-017/state.json",
+      "sha256": "e59525c1119c748160545339f396a94b2843e68d75f9bd8fdc3434f4b7260e76",
+      "bytes": 21169
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-017/report.json",
+      "sha256": "19f0734e92275808a11bea68148e5db6ffa73eb72edec14ef2ea523dd55ac573",
+      "bytes": 688
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-018/decisions.jsonl",
+      "sha256": "4548ed2814858e33d257a66a0f6b05210d4f0a096c73e200f53696d7e150a0dd",
+      "bytes": 3684806
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-018/manifest.json",
+      "sha256": "15958fc6b110129026f75a1021855b590603db783363fba9270ab94917406216",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-018/status.json",
+      "sha256": "5ad21de424527029d627d5aa8016a681f4b0c08a6e304ece275b89c5543ede4d",
+      "bytes": 710
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-018/trace.jsonl",
+      "sha256": "dd86364081d9c4fb18deace54012bbbf7ac195ef5c8e5ccc599a20b7fafd0c02",
+      "bytes": 8527569
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-018/policy.jsonl",
+      "sha256": "7a9584c4e970eabdd2ea3d8f8e9a8c3f6f61452cafdd128b9fbcf767fae3043d",
+      "bytes": 11465501
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-018/state.json",
+      "sha256": "4d94d881fb0a12f34dd5b062089998589732da5e4d73b90833bc2c9a0e563177",
+      "bytes": 22442
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-018/report.json",
+      "sha256": "baa1afd320b7433a29bec34958421b6273aef82b0ec95355a2df03907a0167f3",
+      "bytes": 686
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-019/decisions.jsonl",
+      "sha256": "dcc218a369835f5f158951d075b8235a9439ddd4484f76fb9f610467cfca52f7",
+      "bytes": 7038007
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-019/manifest.json",
+      "sha256": "8c7bd5b83c79263e7040ba2a61b537c4a36d98cefc89fdcdee5216d4c7b5bfb8",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-019/status.json",
+      "sha256": "ff5bca3f97d0f567d1520db15de06538655297c2eb25440680bc4ab2a62a52fb",
+      "bytes": 715
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-019/trace.jsonl",
+      "sha256": "b11486d6794f9297c86291bf6d2237a96fac1b25ab881a719287359bab819b39",
+      "bytes": 18329120
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-019/policy.jsonl",
+      "sha256": "825389a17e26add5e46832481a413cd7719e78d0b2768e5c7deeb28c051d0b00",
+      "bytes": 9385493
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-019/state.json",
+      "sha256": "1de178232a01a57b23cf53acc30aaffe57bcfad0112637a7ebae91d5877be43f",
+      "bytes": 24016
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-019/report.json",
+      "sha256": "b6798606160f4fb9a728d92f9aae825f282d4939ee4147d583cff08f23dc3a88",
+      "bytes": 691
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-020/decisions.jsonl",
+      "sha256": "5c09bcee249cbf3e167059e89a4fee71ccbb38aa339ced835e5ba3f33adde8ba",
+      "bytes": 4953361
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-020/manifest.json",
+      "sha256": "f41b9f3b0216c75e3de48b34324ea11d74a4bfbb98e9f7ba5050e1e82b12fbe1",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-020/status.json",
+      "sha256": "fe3b12a7c30f26a5af2b52677e56e688d1bc34703f8e6bfcaf7c306e9fdacdab",
+      "bytes": 714
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-020/trace.jsonl",
+      "sha256": "f427171176b159237fa6e14111a1454cf22147c640647d50896bf9ff07e519cb",
+      "bytes": 10775409
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-020/policy.jsonl",
+      "sha256": "ee34f5f395860401bc0442df4218def98ead65e4108c114e1e38b754faed1aba",
+      "bytes": 7104084
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-020/state.json",
+      "sha256": "2dda1a3ed3c31854c73f618b843060ac8cecc8dfe677314dc4c765b00f8ff861",
+      "bytes": 24282
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-020/report.json",
+      "sha256": "1ffd0890a20ce2263aebc392573fe1fcab859124a41c35d7458839507219f460",
+      "bytes": 690
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-021/decisions.jsonl",
+      "sha256": "e40259074409330ec9f2bfe1dff51f67d6bdb7cfbbb190153534e954e6bdb37a",
+      "bytes": 1236143
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-021/manifest.json",
+      "sha256": "68bafdc5cdf2469beb2bfe5771f8a77f78906f727b27cd7f2116b591b45288e5",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-021/status.json",
+      "sha256": "daf42dbe1cd8b8c7ba7d3023990505f65383778b1461a65c9b55918e6994f015",
+      "bytes": 722
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-021/trace.jsonl",
+      "sha256": "778d4ab7b1f287099b891cdfdfdc2d9b3940d688a79e487daa4527a3be36cdd8",
+      "bytes": 2029991
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-021/policy.jsonl",
+      "sha256": "f4ce87b5ed5fe0e0606788e69c6749f2888d55ea333e4ae241a13bc421a1d7df",
+      "bytes": 1778446
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-021/state.json",
+      "sha256": "b50aff8c2e3c5b2c2f59a248a0adc8615e2837277cdd188799658de36bce2d57",
+      "bytes": 17385
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-021/report.json",
+      "sha256": "4da6b7535032f3335d41c77e3734cefa43f8ff1a844f1713b3cb274a8657cc0d",
+      "bytes": 698
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-022/decisions.jsonl",
+      "sha256": "5be040604ed30ba6297372e229563b7a0c6fe09c6ae05e8863623b0ba60d3275",
+      "bytes": 5564620
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-022/manifest.json",
+      "sha256": "aaa61965390c08e0a24de7bc30a18a14df82ea7a850a2d0b0bdcd710fba13c13",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-022/status.json",
+      "sha256": "35c0a7771b8e5cb5983f0de4fa624ffa287228d87ea9ec7c3bf33def3f10fb0c",
+      "bytes": 707
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-022/trace.jsonl",
+      "sha256": "34fe0a699736a973f6efce102e1f6f0dd57c6452f74d63ca016f57be7e001f78",
+      "bytes": 8999873
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-022/policy.jsonl",
+      "sha256": "925af0ec4f75c66be7140dab455d07637d95b2a82306c0dc42e277d8ca7f6fda",
+      "bytes": 20480653
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-022/state.json",
+      "sha256": "2e909d3eae99b2d210906b2f1d3906d181a19720cdd2b87149d19ab2b58eba30",
+      "bytes": 22407
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-022/report.json",
+      "sha256": "cb94d92ccab29f5d3f011c29b63ff34c33f3a69ac9431113c8328d5ab03ce8e5",
+      "bytes": 683
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-023/decisions.jsonl",
+      "sha256": "fa3dd79549f6615463ab9dd6e8171064c812948b608f7f01d9025d16226afc16",
+      "bytes": 4958618
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-023/manifest.json",
+      "sha256": "420789f59c81e01f67b9b5d5a1b2faa9024b615b6ae2d74435aae9b6670e8344",
+      "bytes": 59963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-023/status.json",
+      "sha256": "4fce815bdbbd213a1a8aa94c7a7bb328740e05946fa7909260a1446be7648427",
+      "bytes": 707
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-023/trace.jsonl",
+      "sha256": "b926482ca1c983a4b3164737d2be64d5a49e0051d21807db8b56037a41f3ccb3",
+      "bytes": 11856409
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-023/policy.jsonl",
+      "sha256": "00abbb38562642741ec9dfb6750e9a0e28eb3d8ceb92787c107e53de0487d86e",
+      "bytes": 13745242
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-023/state.json",
+      "sha256": "818da8044fa0abb870065fdb2836e78a79cff0183c1232f5a5d3dfd25b36153b",
+      "bytes": 23839
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs/defect-cloud-goal-20260917-000002-023/report.json",
+      "sha256": "89b13d5274b15387f114ecd189207a2b959a7bda0fde7324061f9f28383ddb32",
+      "bytes": 683
+    }
+  ]
+}
