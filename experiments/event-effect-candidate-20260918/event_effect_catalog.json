@@ -1,0 +1,2581 @@
+{
+  "schema_version": "event-effect-engine-catalog-v1",
+  "sources": {
+    "events": {
+      "name": "events.json",
+      "bytes": 46054,
+      "sha256": "a4ccd547cbc146705b5e523931bec90a1d238f16483f715b11d620e478cbbc9d"
+    },
+    "game_database": {
+      "name": "sts2_db.json",
+      "bytes": 528686,
+      "sha256": "05aea04ad9169ff7bb91e09607fbe0c1079347a80076b2287a70a4aecb6160f2"
+    },
+    "engine": {
+      "name": "sts2.dll",
+      "bytes": 9676288,
+      "sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4"
+    }
+  },
+  "events": {
+    "ABYSSAL_BATHS": {
+      "class": "AbyssalBaths",
+      "is_ancient": false
+    },
+    "AMALGAMATOR": {
+      "class": "Amalgamator",
+      "is_ancient": false
+    },
+    "AROMA_OF_CHAOS": {
+      "class": "AromaOfChaos",
+      "is_ancient": false
+    },
+    "BATTLEWORN_DUMMY": {
+      "class": "BattlewornDummy",
+      "is_ancient": false
+    },
+    "BRAIN_LEECH": {
+      "class": "BrainLeech",
+      "is_ancient": false
+    },
+    "BUGSLAYER": {
+      "class": "Bugslayer",
+      "is_ancient": false
+    },
+    "BYRDONIS_NEST": {
+      "class": "ByrdonisNest",
+      "is_ancient": false
+    },
+    "COLORFUL_PHILOSOPHERS": {
+      "class": "ColorfulPhilosophers",
+      "is_ancient": false
+    },
+    "COLOSSAL_FLOWER": {
+      "class": "ColossalFlower",
+      "is_ancient": false
+    },
+    "CRYSTAL_SPHERE": {
+      "class": "CrystalSphere",
+      "is_ancient": false
+    },
+    "DARV": {
+      "class": "Darv",
+      "is_ancient": true
+    },
+    "DENSE_VEGETATION": {
+      "class": "DenseVegetation",
+      "is_ancient": false
+    },
+    "DOLL_ROOM": {
+      "class": "DollRoom",
+      "is_ancient": false
+    },
+    "DOORS_OF_LIGHT_AND_DARK": {
+      "class": "DoorsOfLightAndDark",
+      "is_ancient": false
+    },
+    "DROWNING_BEACON": {
+      "class": "DrowningBeacon",
+      "is_ancient": false
+    },
+    "ENDLESS_CONVEYOR": {
+      "class": "EndlessConveyor",
+      "is_ancient": false
+    },
+    "FAKE_MERCHANT": {
+      "class": "FakeMerchant",
+      "is_ancient": false
+    },
+    "FIELD_OF_MAN_SIZED_HOLES": {
+      "class": "FieldOfManSizedHoles",
+      "is_ancient": false
+    },
+    "GRAVE_OF_THE_FORGOTTEN": {
+      "class": "GraveOfTheForgotten",
+      "is_ancient": false
+    },
+    "HUNGRY_FOR_MUSHROOMS": {
+      "class": "HungryForMushrooms",
+      "is_ancient": false
+    },
+    "INFESTED_AUTOMATON": {
+      "class": "InfestedAutomaton",
+      "is_ancient": false
+    },
+    "JUNGLE_MAZE_ADVENTURE": {
+      "class": "JungleMazeAdventure",
+      "is_ancient": false
+    },
+    "LOST_WISP": {
+      "class": "LostWisp",
+      "is_ancient": false
+    },
+    "LUMINOUS_CHOIR": {
+      "class": "LuminousChoir",
+      "is_ancient": false
+    },
+    "MORPHIC_GROVE": {
+      "class": "MorphicGrove",
+      "is_ancient": false
+    },
+    "NEOW": {
+      "class": "Neow",
+      "is_ancient": true
+    },
+    "NONUPEIPE": {
+      "class": "Nonupeipe",
+      "is_ancient": true
+    },
+    "OROBAS": {
+      "class": "Orobas",
+      "is_ancient": true
+    },
+    "PAEL": {
+      "class": "Pael",
+      "is_ancient": true
+    },
+    "POTION_COURIER": {
+      "class": "PotionCourier",
+      "is_ancient": false
+    },
+    "PUNCH_OFF": {
+      "class": "PunchOff",
+      "is_ancient": false
+    },
+    "RANWID_THE_ELDER": {
+      "class": "RanwidTheElder",
+      "is_ancient": false
+    },
+    "REFLECTIONS": {
+      "class": "Reflections",
+      "is_ancient": false
+    },
+    "RELIC_TRADER": {
+      "class": "RelicTrader",
+      "is_ancient": false
+    },
+    "ROOM_FULL_OF_CHEESE": {
+      "class": "RoomFullOfCheese",
+      "is_ancient": false
+    },
+    "ROUND_TEA_PARTY": {
+      "class": "RoundTeaParty",
+      "is_ancient": false
+    },
+    "SAPPHIRE_SEED": {
+      "class": "SapphireSeed",
+      "is_ancient": false
+    },
+    "SELF_HELP_BOOK": {
+      "class": "SelfHelpBook",
+      "is_ancient": false
+    },
+    "SLIPPERY_BRIDGE": {
+      "class": "SlipperyBridge",
+      "is_ancient": false
+    },
+    "SPIRALING_WHIRLPOOL": {
+      "class": "SpiralingWhirlpool",
+      "is_ancient": false
+    },
+    "SPIRIT_GRAFTER": {
+      "class": "SpiritGrafter",
+      "is_ancient": false
+    },
+    "STONE_OF_ALL_TIME": {
+      "class": "StoneOfAllTime",
+      "is_ancient": false
+    },
+    "SUNKEN_STATUE": {
+      "class": "SunkenStatue",
+      "is_ancient": false
+    },
+    "SUNKEN_TREASURY": {
+      "class": "SunkenTreasury",
+      "is_ancient": false
+    },
+    "SYMBIOTE": {
+      "class": "Symbiote",
+      "is_ancient": false
+    },
+    "TABLET_OF_TRUTH": {
+      "class": "TabletOfTruth",
+      "is_ancient": false
+    },
+    "TANX": {
+      "class": "Tanx",
+      "is_ancient": true
+    },
+    "TEA_MASTER": {
+      "class": "TeaMaster",
+      "is_ancient": false
+    },
+    "TEZCATARA": {
+      "class": "Tezcatara",
+      "is_ancient": true
+    },
+    "THE_ARCHITECT": {
+      "class": "TheArchitect",
+      "is_ancient": true
+    },
+    "THE_FUTURE_OF_POTIONS": {
+      "class": "TheFutureOfPotions",
+      "is_ancient": false
+    },
+    "THE_LANTERN_KEY": {
+      "class": "TheLanternKey",
+      "is_ancient": false
+    },
+    "THE_LEGENDS_WERE_TRUE": {
+      "class": "TheLegendsWereTrue",
+      "is_ancient": false
+    },
+    "THIS_OR_THAT": {
+      "class": "ThisOrThat",
+      "is_ancient": false
+    },
+    "TINKER_TIME": {
+      "class": "TinkerTime",
+      "is_ancient": false
+    },
+    "TRASH_HEAP": {
+      "class": "TrashHeap",
+      "is_ancient": false
+    },
+    "TRIAL": {
+      "class": "Trial",
+      "is_ancient": false
+    },
+    "UNREST_SITE": {
+      "class": "UnrestSite",
+      "is_ancient": false
+    },
+    "VAKUU": {
+      "class": "Vakuu",
+      "is_ancient": true
+    },
+    "WAR_HISTORIAN_REPY": {
+      "class": "WarHistorianRepy",
+      "is_ancient": false
+    },
+    "WATERLOGGED_SCRIPTORIUM": {
+      "class": "WaterloggedScriptorium",
+      "is_ancient": false
+    },
+    "WELCOME_TO_WONGOS": {
+      "class": "WelcomeToWongos",
+      "is_ancient": false
+    },
+    "WELLSPRING": {
+      "class": "Wellspring",
+      "is_ancient": false
+    },
+    "WHISPERING_HOLLOW": {
+      "class": "WhisperingHollow",
+      "is_ancient": false
+    },
+    "WOOD_CARVINGS": {
+      "class": "WoodCarvings",
+      "is_ancient": false
+    },
+    "ZEN_WEAVER": {
+      "class": "ZenWeaver",
+      "is_ancient": false
+    }
+  },
+  "event_options": {
+    "ABYSSAL_BATHS:ABSTAIN": {
+      "handler": "Abstain",
+      "raw_commands": [
+        "CreatureCmd.Heal"
+      ]
+    },
+    "ABYSSAL_BATHS:EXIT_BATHS": {
+      "handler": "ExitBaths",
+      "raw_commands": []
+    },
+    "ABYSSAL_BATHS:IMMERSE": {
+      "handler": "Immerse",
+      "raw_commands": []
+    },
+    "ABYSSAL_BATHS:LINGER": {
+      "handler": "Linger",
+      "raw_commands": []
+    },
+    "AMALGAMATOR:COMBINE_DEFENDS": {
+      "handler": "CombineDefends",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "AMALGAMATOR:COMBINE_STRIKES": {
+      "handler": "CombineStrikes",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "AROMA_OF_CHAOS:LET_GO": {
+      "handler": "LetGo",
+      "raw_commands": [
+        "CardCmd.TransformToRandom",
+        "CardSelectCmd.FromDeckForTransformation"
+      ]
+    },
+    "AROMA_OF_CHAOS:MAINTAIN_CONTROL": {
+      "handler": "MaintainControl",
+      "raw_commands": [
+        "CardCmd.Upgrade",
+        "CardSelectCmd.FromDeckForUpgrade"
+      ]
+    },
+    "BATTLEWORN_DUMMY:SETTING_1": {
+      "handler": "Setting1",
+      "raw_commands": []
+    },
+    "BATTLEWORN_DUMMY:SETTING_2": {
+      "handler": "Setting2",
+      "raw_commands": []
+    },
+    "BATTLEWORN_DUMMY:SETTING_3": {
+      "handler": "Setting3",
+      "raw_commands": []
+    },
+    "BRAIN_LEECH:RIP": {
+      "handler": "Rip",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "BRAIN_LEECH:SHARE_KNOWLEDGE": {
+      "handler": "ShareKnowledge",
+      "raw_commands": []
+    },
+    "BUGSLAYER:EXTERMINATION": {
+      "handler": "Extermination",
+      "raw_commands": []
+    },
+    "BUGSLAYER:SQUASH": {
+      "handler": "Squash",
+      "raw_commands": []
+    },
+    "BYRDONIS_NEST:EAT": {
+      "handler": "Eat",
+      "raw_commands": [
+        "CreatureCmd.GainMaxHp"
+      ]
+    },
+    "BYRDONIS_NEST:TAKE": {
+      "handler": "Take",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "COLOSSAL_FLOWER:EXTRACT_CURRENT_PRIZE_{NUMBEROFDIGS + 1}": {
+      "handler": "ExtractCurrentPrize",
+      "raw_commands": [
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "COLOSSAL_FLOWER:EXTRACT_INSTEAD": {
+      "handler": "ExtractInstead",
+      "raw_commands": [
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "COLOSSAL_FLOWER:POLLINOUS_CORE": {
+      "handler": "ObtainPollinousCore",
+      "raw_commands": [
+        "RelicCmd.Obtain"
+      ]
+    },
+    "COLOSSAL_FLOWER:REACH_DEEPER_{NUMBEROFDIGS + 1}": {
+      "handler": "ReachDeeper",
+      "raw_commands": []
+    },
+    "CRYSTAL_SPHERE:PAYMENT_PLAN": {
+      "handler": "PaymentPlan",
+      "raw_commands": [
+        "CardPileCmd.AddCurseToDeck"
+      ]
+    },
+    "CRYSTAL_SPHERE:UNCOVER_FUTURE": {
+      "handler": "UncoverFuture",
+      "raw_commands": [
+        "PlayerCmd.LoseGold"
+      ]
+    },
+    "DENSE_VEGETATION:FIGHT": {
+      "handler": "Fight",
+      "raw_commands": []
+    },
+    "DENSE_VEGETATION:REST": {
+      "handler": "Rest",
+      "raw_commands": [
+        "PlayerCmd.MimicRestSiteHeal"
+      ]
+    },
+    "DENSE_VEGETATION:TRUDGE_ON": {
+      "handler": "TrudgeOn",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "PlayerCmd.GainGold",
+        "VfxCmd.PlayNonCombatVfx"
+      ]
+    },
+    "DOLL_ROOM:EXAMINE": {
+      "handler": "Examine",
+      "raw_commands": [
+        "CreatureCmd.Damage"
+      ]
+    },
+    "DOLL_ROOM:RANDOM": {
+      "handler": "ChooseRandom",
+      "raw_commands": []
+    },
+    "DOLL_ROOM:TAKE_SOME_TIME": {
+      "handler": "TakeSomeTime",
+      "raw_commands": [
+        "CreatureCmd.Damage"
+      ]
+    },
+    "DOLL_ROOM:TITLE": {
+      "handler": "Func",
+      "raw_commands": []
+    },
+    "DOORS_OF_LIGHT_AND_DARK:DARK": {
+      "handler": "Dark",
+      "raw_commands": [
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "DOORS_OF_LIGHT_AND_DARK:LIGHT": {
+      "handler": "Light",
+      "raw_commands": [
+        "CardCmd.Upgrade"
+      ]
+    },
+    "DROWNING_BEACON:BOTTLE": {
+      "handler": "BottleOption",
+      "raw_commands": [
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "DROWNING_BEACON:CLIMB": {
+      "handler": "ClimbOption",
+      "raw_commands": [
+        "CreatureCmd.LoseMaxHp",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "ENDLESS_CONVEYOR:LEAVE": {
+      "handler": "Leave",
+      "raw_commands": []
+    },
+    "ENDLESS_CONVEYOR:LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "ENDLESS_CONVEYOR:OBSERVE_CHEF": {
+      "handler": "ObserveChef",
+      "raw_commands": [
+        "CardCmd.Upgrade"
+      ]
+    },
+    "ENDLESS_CONVEYOR:OPTIONKEY": {
+      "handler": "GrabSomethingOffTheBelt",
+      "raw_commands": [
+        "PlayerCmd.LoseGold"
+      ]
+    },
+    "FIELD_OF_MAN_SIZED_HOLES:ENTER_YOUR_HOLE": {
+      "handler": "EnterYourHole",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "FIELD_OF_MAN_SIZED_HOLES:RESIST": {
+      "handler": "Resist",
+      "raw_commands": [
+        "CardPileCmd.AddCursesToDeck",
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "GRAVE_OF_THE_FORGOTTEN:ACCEPT": {
+      "handler": "Accept",
+      "raw_commands": [
+        "RelicCmd.Obtain"
+      ]
+    },
+    "GRAVE_OF_THE_FORGOTTEN:CONFRONT": {
+      "handler": "Confront",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardPileCmd.AddCurseToDeck",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "GRAVE_OF_THE_FORGOTTEN:CONFRONT_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "INFESTED_AUTOMATON:STUDY": {
+      "handler": "Study",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "INFESTED_AUTOMATON:TOUCH_CORE": {
+      "handler": "TouchCore",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "JUNGLE_MAZE_ADVENTURE:JOIN_FORCES": {
+      "handler": "SafetyInNumbers",
+      "raw_commands": [
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "JUNGLE_MAZE_ADVENTURE:SOLO_QUEST": {
+      "handler": "DontNeedHelp",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "PlayerCmd.GainGold",
+        "VfxCmd.PlayNonCombatVfx"
+      ]
+    },
+    "LOST_WISP:CLAIM": {
+      "handler": "onChosen",
+      "raw_commands": []
+    },
+    "LOST_WISP:SEARCH": {
+      "handler": "Search",
+      "raw_commands": [
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "LUMINOUS_CHOIR:OFFER_TRIBUTE": {
+      "handler": "OfferTribute",
+      "raw_commands": [
+        "PlayerCmd.LoseGold",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "LUMINOUS_CHOIR:OFFER_TRIBUTE_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "LUMINOUS_CHOIR:REACH_INTO_THE_FLESH": {
+      "handler": "ReachIntoTheFlesh",
+      "raw_commands": [
+        "CardPileCmd.AddCurseToDeck",
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "MORPHIC_GROVE:GROUP": {
+      "handler": "Group",
+      "raw_commands": [
+        "CardCmd.TransformToRandom",
+        "CardSelectCmd.FromDeckForTransformation",
+        "PlayerCmd.LoseGold"
+      ]
+    },
+    "MORPHIC_GROVE:LONER": {
+      "handler": "Loner",
+      "raw_commands": [
+        "CreatureCmd.GainMaxHp"
+      ]
+    },
+    "OROBAS:OPTION_POOL_3_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "POTION_COURIER:GRAB_POTIONS": {
+      "handler": "GrabPotions",
+      "raw_commands": [
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "POTION_COURIER:RANSACK": {
+      "handler": "Ransack",
+      "raw_commands": [
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "PUNCH_OFF:FIGHT": {
+      "handler": "Fight",
+      "raw_commands": []
+    },
+    "PUNCH_OFF:I_CAN_TAKE_THEM": {
+      "handler": "TakeThem",
+      "raw_commands": []
+    },
+    "PUNCH_OFF:NAB": {
+      "handler": "Nab",
+      "raw_commands": [
+        "CardPileCmd.AddCurseToDeck",
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "RANWID_THE_ELDER:GOLD": {
+      "handler": "GiveGold",
+      "raw_commands": [
+        "PlayerCmd.LoseGold",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "RANWID_THE_ELDER:POTION_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "RANWID_THE_ELDER:RELIC_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "REFLECTIONS:SHATTER": {
+      "handler": "Shatter",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CardPileCmd.AddCurseToDeck"
+      ]
+    },
+    "REFLECTIONS:TOUCH_A_MIRROR": {
+      "handler": "TouchAMirror",
+      "raw_commands": [
+        "CardCmd.Downgrade",
+        "CardCmd.Preview",
+        "CardCmd.Upgrade"
+      ]
+    },
+    "RELIC_TRADER:BOTTOM": {
+      "handler": "Bottom",
+      "raw_commands": []
+    },
+    "RELIC_TRADER:MIDDLE": {
+      "handler": "Middle",
+      "raw_commands": []
+    },
+    "RELIC_TRADER:PROCEED": {
+      "handler": "Done",
+      "raw_commands": []
+    },
+    "RELIC_TRADER:TOP": {
+      "handler": "Top",
+      "raw_commands": []
+    },
+    "ROOM_FULL_OF_CHEESE:GORGE": {
+      "handler": "Gorge",
+      "raw_commands": []
+    },
+    "ROOM_FULL_OF_CHEESE:SEARCH": {
+      "handler": "Search",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "ROUND_TEA_PARTY:CONTINUE_FIGHT": {
+      "handler": "ContinueFight",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "ROUND_TEA_PARTY:ENJOY_TEA": {
+      "handler": "EnjoyTea",
+      "raw_commands": [
+        "CreatureCmd.Heal",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "ROUND_TEA_PARTY:PICK_FIGHT": {
+      "handler": "PickFight",
+      "raw_commands": []
+    },
+    "SAPPHIRE_SEED:EAT": {
+      "handler": "Eat",
+      "raw_commands": [
+        "CardCmd.Upgrade",
+        "CardSelectCmd.FromDeckForUpgrade",
+        "CreatureCmd.Heal"
+      ]
+    },
+    "SAPPHIRE_SEED:PLANT": {
+      "handler": "Plant",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "SELF_HELP_BOOK:NO_OPTIONS": {
+      "handler": "SkipBook",
+      "raw_commands": []
+    },
+    "SELF_HELP_BOOK:READ_ENTIRE_BOOK": {
+      "handler": "ReadEntireBook",
+      "raw_commands": []
+    },
+    "SELF_HELP_BOOK:READ_ENTIRE_BOOK_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "SELF_HELP_BOOK:READ_PASSAGE": {
+      "handler": "ReadPassage",
+      "raw_commands": []
+    },
+    "SELF_HELP_BOOK:READ_PASSAGE_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "SELF_HELP_BOOK:READ_THE_BACK": {
+      "handler": "ReadTheBack",
+      "raw_commands": []
+    },
+    "SELF_HELP_BOOK:READ_THE_BACK_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "SLIPPERY_BRIDGE:HOLD_ON_0": {
+      "handler": "HoldOn",
+      "raw_commands": [
+        "CreatureCmd.Damage"
+      ]
+    },
+    "SLIPPERY_BRIDGE:OVERCOME": {
+      "handler": "Overcome",
+      "raw_commands": [
+        "CardPileCmd.RemoveFromDeck"
+      ]
+    },
+    "SLIPPERY_BRIDGE:TEXTKEY": {
+      "handler": "HoldOn",
+      "raw_commands": [
+        "CreatureCmd.Damage"
+      ]
+    },
+    "SPIRALING_WHIRLPOOL:DRINK": {
+      "handler": "Drink",
+      "raw_commands": [
+        "CreatureCmd.Heal"
+      ]
+    },
+    "SPIRALING_WHIRLPOOL:OBSERVE": {
+      "handler": "ObserveTheSpiral",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "SPIRIT_GRAFTER:LET_IT_IN": {
+      "handler": "LetItIn",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CreatureCmd.Heal"
+      ]
+    },
+    "SPIRIT_GRAFTER:REJECTION": {
+      "handler": "Rejection",
+      "raw_commands": [
+        "CardCmd.Upgrade",
+        "CardSelectCmd.FromDeckForUpgrade",
+        "CreatureCmd.Damage"
+      ]
+    },
+    "STONE_OF_ALL_TIME:LIFT": {
+      "handler": "Lift",
+      "raw_commands": [
+        "CreatureCmd.GainMaxHp",
+        "PotionCmd.Discard"
+      ]
+    },
+    "STONE_OF_ALL_TIME:LIFT_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "STONE_OF_ALL_TIME:PUSH": {
+      "handler": "Push",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardCmd.Preview",
+        "CardSelectCmd.FromDeckForEnchantment",
+        "CreatureCmd.Damage"
+      ]
+    },
+    "STONE_OF_ALL_TIME:PUSH_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "SUNKEN_STATUE:DIVE_INTO_WATER": {
+      "handler": "DiveIntoWater",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "SUNKEN_STATUE:GRAB_SWORD": {
+      "handler": "GrabSword",
+      "raw_commands": [
+        "RelicCmd.Obtain"
+      ]
+    },
+    "SUNKEN_TREASURY:FIRST_CHEST": {
+      "handler": "FirstChest",
+      "raw_commands": [
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "SUNKEN_TREASURY:SECOND_CHEST": {
+      "handler": "SecondChest",
+      "raw_commands": [
+        "CardPileCmd.AddCurseToDeck",
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "SYMBIOTE:APPROACH": {
+      "handler": "Approach",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "SYMBIOTE:APPROACH_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "SYMBIOTE:KILL_WITH_FIRE": {
+      "handler": "KillWithFire",
+      "raw_commands": [
+        "CardCmd.TransformToRandom",
+        "CardSelectCmd.FromDeckForTransformation"
+      ]
+    },
+    "TABLET_OF_TRUTH:DECIPHER": {
+      "handler": "Decipher",
+      "raw_commands": []
+    },
+    "TABLET_OF_TRUTH:DECIPHER_1": {
+      "handler": "Decipher",
+      "raw_commands": []
+    },
+    "TABLET_OF_TRUTH:GIVE_UP": {
+      "handler": "GiveUp",
+      "raw_commands": []
+    },
+    "TABLET_OF_TRUTH:SMASH": {
+      "handler": "Smash",
+      "raw_commands": [
+        "CreatureCmd.Heal"
+      ]
+    },
+    "TEA_MASTER:BONE_TEA": {
+      "handler": "BoneTea",
+      "raw_commands": [
+        "PlayerCmd.LoseGold",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "TEA_MASTER:BONE_TEA_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "TEA_MASTER:EMBER_TEA": {
+      "handler": "EmberTea",
+      "raw_commands": [
+        "PlayerCmd.LoseGold",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "TEA_MASTER:EMBER_TEA_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "TEA_MASTER:TEA_OF_DISCOURTESY": {
+      "handler": "TeaOfDiscourtesy",
+      "raw_commands": [
+        "RelicCmd.Obtain"
+      ]
+    },
+    "THE_ARCHITECT:PROCEED": {
+      "handler": "WinRun",
+      "raw_commands": []
+    },
+    "THE_LANTERN_KEY:FIGHT": {
+      "handler": "Fight",
+      "raw_commands": []
+    },
+    "THE_LANTERN_KEY:KEEP_THE_KEY": {
+      "handler": "KeepTheKey",
+      "raw_commands": []
+    },
+    "THE_LANTERN_KEY:RETURN_THE_KEY": {
+      "handler": "ReturnTheKey",
+      "raw_commands": [
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "THE_LEGENDS_WERE_TRUE:NAB_THE_MAP": {
+      "handler": "NabTheMap",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "THE_LEGENDS_WERE_TRUE:SLOWLY_FIND_AN_EXIT": {
+      "handler": "SlowlyFindAnExit",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "THIS_OR_THAT:ORNATE": {
+      "handler": "Ornate",
+      "raw_commands": [
+        "CardPileCmd.AddCurseToDeck",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "THIS_OR_THAT:PLAIN": {
+      "handler": "Plain",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "TINKER_TIME:ATTACK": {
+      "handler": "Attack",
+      "raw_commands": []
+    },
+    "TINKER_TIME:CHOOSE_CARD_TYPE": {
+      "handler": "ChooseCardType",
+      "raw_commands": []
+    },
+    "TINKER_TIME:POWER": {
+      "handler": "Power",
+      "raw_commands": []
+    },
+    "TINKER_TIME:SKILL": {
+      "handler": "Skill",
+      "raw_commands": []
+    },
+    "TRASH_HEAP:DIVE_IN": {
+      "handler": "DiveIn",
+      "raw_commands": [
+        "CreatureCmd.Damage",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "TRASH_HEAP:GRAB": {
+      "handler": "Grab",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "TRIAL:ACCEPT": {
+      "handler": "Accept",
+      "raw_commands": []
+    },
+    "TRIAL:DOUBLE_DOWN": {
+      "handler": "DoubleDown",
+      "raw_commands": []
+    },
+    "TRIAL:GUILTY": {
+      "handler": "MerchantGuilty",
+      "raw_commands": [
+        "CardPileCmd.AddCurseToDeck",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "TRIAL:INNOCENT": {
+      "handler": "MerchantInnocent",
+      "raw_commands": [
+        "CardCmd.Upgrade",
+        "CardPileCmd.AddCurseToDeck",
+        "CardSelectCmd.FromDeckForUpgrade"
+      ]
+    },
+    "TRIAL:REJECT": {
+      "handler": "Reject",
+      "raw_commands": []
+    },
+    "UNREST_SITE:KILL": {
+      "handler": "Kill",
+      "raw_commands": [
+        "CreatureCmd.LoseMaxHp",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "UNREST_SITE:REST": {
+      "handler": "Rest",
+      "raw_commands": [
+        "CardPileCmd.AddCursesToDeck",
+        "CreatureCmd.Heal"
+      ]
+    },
+    "WAR_HISTORIAN_REPY:UNLOCK_CAGE": {
+      "handler": "InitialUnlockCage",
+      "raw_commands": []
+    },
+    "WAR_HISTORIAN_REPY:UNLOCK_CHEST": {
+      "handler": "InitialUnlockChest",
+      "raw_commands": []
+    },
+    "WATERLOGGED_SCRIPTORIUM:BLOODY_INK": {
+      "handler": "BloodyInk",
+      "raw_commands": [
+        "CreatureCmd.GainMaxHp"
+      ]
+    },
+    "WATERLOGGED_SCRIPTORIUM:PRICKLY_SPONGE": {
+      "handler": "PricklySponge",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardSelectCmd.FromDeckForEnchantment",
+        "PlayerCmd.LoseGold"
+      ]
+    },
+    "WATERLOGGED_SCRIPTORIUM:PRICKLY_SPONGE_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "WATERLOGGED_SCRIPTORIUM:TENTACLE_QUILL": {
+      "handler": "TentacleQuill",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardSelectCmd.FromDeckForEnchantment",
+        "PlayerCmd.LoseGold"
+      ]
+    },
+    "WATERLOGGED_SCRIPTORIUM:TENTACLE_QUILL_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "WELCOME_TO_WONGOS:BARGAIN_BIN": {
+      "handler": "BuyBargainBin",
+      "raw_commands": [
+        "PlayerCmd.LoseGold",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "WELCOME_TO_WONGOS:BARGAIN_BIN_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "WELCOME_TO_WONGOS:FEATURED_ITEM": {
+      "handler": "BuyFeaturedItem",
+      "raw_commands": [
+        "PlayerCmd.LoseGold",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "WELCOME_TO_WONGOS:FEATURED_ITEM_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "WELCOME_TO_WONGOS:LEAVE": {
+      "handler": "Leave",
+      "raw_commands": [
+        "CardCmd.Downgrade",
+        "CardCmd.Preview"
+      ]
+    },
+    "WELCOME_TO_WONGOS:MYSTERY_BOX": {
+      "handler": "BuyMysteryBox",
+      "raw_commands": [
+        "PlayerCmd.LoseGold",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "WELCOME_TO_WONGOS:MYSTERY_BOX_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "WELLSPRING:BATHE": {
+      "handler": "Bathe",
+      "raw_commands": [
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "WELLSPRING:BOTTLE": {
+      "handler": "Bottle",
+      "raw_commands": [
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "WHISPERING_HOLLOW:GOLD": {
+      "handler": "Gold",
+      "raw_commands": [
+        "PlayerCmd.LoseGold",
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "WHISPERING_HOLLOW:HUG": {
+      "handler": "Hug",
+      "raw_commands": [
+        "CardCmd.TransformToRandom",
+        "CardSelectCmd.FromDeckForTransformation",
+        "CreatureCmd.Damage"
+      ]
+    },
+    "WOOD_CARVINGS:BIRD": {
+      "handler": "Bird",
+      "raw_commands": [
+        "CardCmd.TransformTo",
+        "CardSelectCmd.FromDeckGeneric"
+      ]
+    },
+    "WOOD_CARVINGS:SNAKE": {
+      "handler": "Snake",
+      "raw_commands": [
+        "CardCmd.Enchant",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "WOOD_CARVINGS:SNAKE_LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    },
+    "WOOD_CARVINGS:TORUS": {
+      "handler": "Torus",
+      "raw_commands": [
+        "CardCmd.TransformTo",
+        "CardSelectCmd.FromDeckGeneric"
+      ]
+    },
+    "ZEN_WEAVER:ARACHNID_ACUPUNCTURE": {
+      "handler": "ArachnidAcupuncture",
+      "raw_commands": []
+    },
+    "ZEN_WEAVER:BREATHING_TECHNIQUES": {
+      "handler": "BreathingTechniques",
+      "raw_commands": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "PlayerCmd.LoseGold"
+      ]
+    },
+    "ZEN_WEAVER:EMOTIONAL_AWARENESS": {
+      "handler": "EmotionalAwareness",
+      "raw_commands": []
+    },
+    "ZEN_WEAVER:LOCKED": {
+      "handler": "null",
+      "raw_commands": []
+    }
+  },
+  "ancient_relics": {
+    "ALCHEMICAL_COFFER": {
+      "class": "AlchemicalCoffer",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "PlayerCmd.GainMaxPotionCount",
+        "PotionCmd.TryToProcure"
+      ]
+    },
+    "ARCANE_SCROLL": {
+      "class": "ArcaneScroll",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "ARCHAIC_TOOTH": {
+      "class": "ArchaicTooth",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant",
+        "CardCmd.Transform",
+        "CardCmd.Upgrade"
+      ]
+    },
+    "ASTROLABE": {
+      "class": "Astrolabe",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 3
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Transform",
+        "CardCmd.Upgrade",
+        "CardSelectCmd.FromDeckForTransformation"
+      ]
+    },
+    "BEAUTIFUL_BRACELET": {
+      "class": "BeautifulBracelet",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 4
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant<Swift>"
+      ]
+    },
+    "BIIIG_HUG": {
+      "class": "BiiigHug",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 4
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained",
+        "AfterShuffle"
+      ],
+      "internal_effects": [
+        "CardCmd.Preview",
+        "CardPileCmd.AddGeneratedCardToCombat",
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "BLACK_STAR": {
+      "class": "BlackStar",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "BLESSED_ANTLER": {
+      "class": "BlessedAntler",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1,
+        "cards": 3
+      },
+      "powers": {},
+      "hooks": [
+        "BeforeHandDraw"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.AddGeneratedCardsToCombat"
+      ]
+    },
+    "BLOOD_SOAKED_ROSE": {
+      "class": "BloodSoakedRose",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardPileCmd.AddCurseToDeck<Enthralled>"
+      ]
+    },
+    "BOOMING_CONCH": {
+      "class": "BoomingConch",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 2,
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterSideTurnStart"
+      ],
+      "internal_effects": [
+        "PlayerCmd.GainEnergy"
+      ]
+    },
+    "BRILLIANT_SCARF": {
+      "class": "BrilliantScarf",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 5
+      },
+      "powers": {},
+      "hooks": [
+        "AfterCardPlayed",
+        "AfterCombatEnd",
+        "BeforeSideTurnStart"
+      ],
+      "internal_effects": []
+    },
+    "CALLING_BELL": {
+      "class": "CallingBell",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardPileCmd.AddCurseToDeck<CurseOfTheBell>",
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "CHOICES_PARADOX": {
+      "class": "ChoicesParadox",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 5
+      },
+      "powers": {},
+      "hooks": [
+        "AfterPlayerTurnStart"
+      ],
+      "internal_effects": [
+        "CardCmd.ApplyKeyword",
+        "CardPileCmd.AddGeneratedCardToCombat",
+        "CardSelectCmd.FromSimpleGrid"
+      ]
+    },
+    "CLAWS": {
+      "class": "Claws",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 6
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant",
+        "CardCmd.Transform",
+        "CardCmd.Upgrade",
+        "CardSelectCmd.FromDeckForTransformation"
+      ]
+    },
+    "CROSSBOW": {
+      "class": "Crossbow",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterSideTurnStart"
+      ],
+      "internal_effects": [
+        "CardPileCmd.AddGeneratedCardsToCombat"
+      ]
+    },
+    "CURSED_PEARL": {
+      "class": "CursedPearl",
+      "rarity": "Ancient",
+      "numbers": {
+        "gold": 333
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardPileCmd.AddCurseToDeck<Greed>",
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "DELICATE_FROND": {
+      "class": "DelicateFrond",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "BeforeCombatStart"
+      ],
+      "internal_effects": [
+        "PotionCmd.TryToProcure"
+      ]
+    },
+    "DIAMOND_DIADEM": {
+      "class": "DiamondDiadem",
+      "rarity": "Ancient",
+      "numbers": {
+        "block": 20
+      },
+      "powers": {},
+      "hooks": [
+        "AfterSideTurnStart"
+      ],
+      "internal_effects": [
+        "CreatureCmd.GainBlock",
+        "PowerCmd.Apply<BlurPower>"
+      ]
+    },
+    "DISTINGUISHED_CAPE": {
+      "class": "DistinguishedCape",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 3
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "DOWSING_ROD": {
+      "class": "DowsingRod",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "DRIFTWOOD": {
+      "class": "Driftwood",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "DUSTY_TOME": {
+      "class": "DustyTome",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardCmd.Upgrade",
+        "CardPileCmd.Add"
+      ]
+    },
+    "ECTOPLASM": {
+      "class": "Ectoplasm",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterModifyingGoldGained"
+      ],
+      "internal_effects": []
+    },
+    "ELECTRIC_SHRYMP": {
+      "class": "ElectricShrymp",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant",
+        "CardCmd.Preview",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "EMPTY_CAGE": {
+      "class": "EmptyCage",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 2
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "FIDDLE": {
+      "class": "Fiddle",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 2
+      },
+      "powers": {},
+      "hooks": [
+        "AfterPreventingDraw"
+      ],
+      "internal_effects": []
+    },
+    "FISHING_ROD": {
+      "class": "FishingRod",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterCombatEnd"
+      ],
+      "internal_effects": [
+        "CardCmd.Upgrade"
+      ]
+    },
+    "FUR_COAT": {
+      "class": "FurCoat",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterCreatureAddedToCombat",
+        "AfterObtained",
+        "BeforeCombatStart"
+      ],
+      "internal_effects": [
+        "CreatureCmd.SetCurrentHp",
+        "VfxCmd.PlayOnCreatureCenter",
+        "VfxCmd.PlayOnCreatureCenters"
+      ]
+    },
+    "GLASS_EYE": {
+      "class": "GlassEye",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "GLITTER": {
+      "class": "Glitter",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [],
+      "internal_effects": [
+        "CardCmd.Enchant<Glam>"
+      ]
+    },
+    "GOLDEN_COMPASS": {
+      "class": "GoldenCompass",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": []
+    },
+    "GOLDEN_PEARL": {
+      "class": "GoldenPearl",
+      "rarity": "Ancient",
+      "numbers": {
+        "gold": 150
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "HEFTY_TABLET": {
+      "class": "HeftyTablet",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 3
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CardSelectCmd.FromChooseACardScreen"
+      ]
+    },
+    "IRON_CLUB": {
+      "class": "IronClub",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 4
+      },
+      "powers": {},
+      "hooks": [
+        "AfterCardPlayed"
+      ],
+      "internal_effects": [
+        "CardPileCmd.Draw"
+      ]
+    },
+    "JEWELED_MASK": {
+      "class": "JeweledMask",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "BeforeHandDraw"
+      ],
+      "internal_effects": [
+        "CardPileCmd.Add"
+      ]
+    },
+    "JEWELRY_BOX": {
+      "class": "JewelryBox",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "KALEIDOSCOPE": {
+      "class": "Kaleidoscope",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 2
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "LARGE_CAPSULE": {
+      "class": "LargeCapsule",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "RelicCmd.Obtain"
+      ]
+    },
+    "LAVA_ROCK": {
+      "class": "LavaRock",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "LEAD_PAPERWEIGHT": {
+      "class": "LeadPaperweight",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CardSelectCmd.FromChooseACardScreen"
+      ]
+    },
+    "LEAFY_POULTICE": {
+      "class": "LeafyPoultice",
+      "rarity": "Ancient",
+      "numbers": {
+        "max_hp": 12
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Transform",
+        "CreatureCmd.LoseMaxHp"
+      ]
+    },
+    "LOOMING_FRUIT": {
+      "class": "LoomingFruit",
+      "rarity": "Ancient",
+      "numbers": {
+        "max_hp": 31
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CreatureCmd.GainMaxHp"
+      ]
+    },
+    "LORDS_PARASOL": {
+      "class": "LordsParasol",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterRoomEntered"
+      ],
+      "internal_effects": []
+    },
+    "LOST_COFFER": {
+      "class": "LostCoffer",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "MASSIVE_SCROLL": {
+      "class": "MassiveScroll",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CardSelectCmd.FromChooseACardScreen"
+      ]
+    },
+    "MEAT_CLEAVER": {
+      "class": "MeatCleaver",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "MUSIC_BOX": {
+      "class": "MusicBox",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterCardPlayed",
+        "AfterCombatEnd",
+        "BeforeCardPlayed",
+        "BeforeSideTurnStart"
+      ],
+      "internal_effects": [
+        "CardCmd.ApplyKeyword",
+        "CardPileCmd.AddGeneratedCardToCombat"
+      ]
+    },
+    "NEOWS_BONES": {
+      "class": "NeowsBones",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "NEOWS_SACRIFICE": {
+      "class": "NeowsSacrifice",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "PotionCmd.TryToProcure<Ambergris>"
+      ]
+    },
+    "NEOWS_TALISMAN": {
+      "class": "NeowsTalisman",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Upgrade"
+      ]
+    },
+    "NEOWS_TORMENT": {
+      "class": "NeowsTorment",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "NEW_LEAF": {
+      "class": "NewLeaf",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.TransformToRandom",
+        "CardSelectCmd.FromDeckForTransformation"
+      ]
+    },
+    "NUTRITIOUS_OYSTER": {
+      "class": "NutritiousOyster",
+      "rarity": "Ancient",
+      "numbers": {
+        "max_hp": 11
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CreatureCmd.GainMaxHp"
+      ]
+    },
+    "NUTRITIOUS_SOUP": {
+      "class": "NutritiousSoup",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant<TezcatarasEmber>"
+      ]
+    },
+    "PAELS_BLOOD": {
+      "class": "PaelsBlood",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 1
+      },
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "PAELS_CLAW": {
+      "class": "PaelsClaw",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 3
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant<Goopy>"
+      ]
+    },
+    "PAELS_EYE": {
+      "class": "PaelsEye",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterCombatEnd",
+        "AfterObtained",
+        "AfterSideTurnStart",
+        "AfterTakingExtraTurn",
+        "BeforeCardPlayed",
+        "BeforeSideTurnEndEarly"
+      ],
+      "internal_effects": [
+        "CardCmd.Exhaust"
+      ]
+    },
+    "PAELS_FLESH": {
+      "class": "PaelsFlesh",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterCombatEnd",
+        "AfterSideTurnStart",
+        "BeforeCombatStart",
+        "BeforeSideTurnStart"
+      ],
+      "internal_effects": []
+    },
+    "PAELS_GROWTH": {
+      "class": "PaelsGrowth",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant<Clone>",
+        "CardCmd.Preview",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "PAELS_HORN": {
+      "class": "PaelsHorn",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "PAELS_LEGION": {
+      "class": "PaelsLegion",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterCardPlayed",
+        "AfterCombatEnd",
+        "AfterModifyingBlockAmount",
+        "AfterObtained",
+        "AfterSideTurnStart",
+        "BeforeCombatStart"
+      ],
+      "internal_effects": [
+        "CreatureCmd.TriggerAnim"
+      ]
+    },
+    "PAELS_TEARS": {
+      "class": "PaelsTears",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 2
+      },
+      "powers": {},
+      "hooks": [
+        "AfterCombatEnd",
+        "AfterSideTurnStart",
+        "BeforeSideTurnEnd"
+      ],
+      "internal_effects": [
+        "PlayerCmd.GainEnergy"
+      ]
+    },
+    "PAELS_TOOTH": {
+      "class": "PaelsTooth",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 5
+      },
+      "powers": {},
+      "hooks": [
+        "AfterCombatEnd",
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardCmd.Upgrade",
+        "CardPileCmd.Add",
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "PAELS_WING": {
+      "class": "PaelsWing",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [],
+      "internal_effects": [
+        "RelicCmd.Obtain"
+      ]
+    },
+    "PANDORAS_BOX": {
+      "class": "PandorasBox",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Transform"
+      ]
+    },
+    "PHIAL_HOLSTER": {
+      "class": "PhialHolster",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "PlayerCmd.GainMaxPotionCount",
+        "PotionCmd.TryToProcure"
+      ]
+    },
+    "PHILOSOPHERS_STONE": {
+      "class": "PhilosophersStone",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {
+        "STRENGTH": 1
+      },
+      "hooks": [
+        "AfterCreatureAddedToCombat",
+        "AfterRoomEntered"
+      ],
+      "internal_effects": [
+        "PowerCmd.Apply<StrengthPower>"
+      ]
+    },
+    "POMANDER": {
+      "class": "Pomander",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Upgrade",
+        "CardSelectCmd.FromDeckForUpgrade"
+      ]
+    },
+    "PRECARIOUS_SHEARS": {
+      "class": "PrecariousShears",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 2,
+        "damage": 16
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval",
+        "CreatureCmd.Damage"
+      ]
+    },
+    "PRECISE_SCISSORS": {
+      "class": "PreciseScissors",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "PRESERVED_FOG": {
+      "class": "PreservedFog",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 3
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardPileCmd.AddCurseToDeck<Folly>",
+        "CardPileCmd.RemoveFromDeck",
+        "CardSelectCmd.FromDeckForRemoval"
+      ]
+    },
+    "PRISMATIC_GEM": {
+      "class": "PrismaticGem",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "PUMPKIN_CANDLE": {
+      "class": "PumpkinCandle",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterCombatEnd",
+        "AfterObtained"
+      ],
+      "internal_effects": []
+    },
+    "RADIANT_PEARL": {
+      "class": "RadiantPearl",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 1
+      },
+      "powers": {},
+      "hooks": [
+        "BeforeHandDraw"
+      ],
+      "internal_effects": [
+        "CardPileCmd.AddGeneratedCardsToCombat"
+      ]
+    },
+    "RUNIC_PYRAMID": {
+      "class": "RunicPyramid",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "SAI": {
+      "class": "Sai",
+      "rarity": "Ancient",
+      "numbers": {
+        "block": 7
+      },
+      "powers": {},
+      "hooks": [
+        "AfterSideTurnStart"
+      ],
+      "internal_effects": [
+        "CreatureCmd.GainBlock"
+      ]
+    },
+    "SAND_CASTLE": {
+      "class": "SandCastle",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 6
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Upgrade"
+      ]
+    },
+    "SCROLL_BOXES": {
+      "class": "ScrollBoxes",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardPileCmd.Add",
+        "CardSelectCmd.FromChooseABundleScreen"
+      ]
+    },
+    "SEAL_OF_GOLD": {
+      "class": "SealOfGold",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1,
+        "gold": 3
+      },
+      "powers": {},
+      "hooks": [
+        "AfterSideTurnStart"
+      ],
+      "internal_effects": [
+        "PlayerCmd.GainEnergy",
+        "PlayerCmd.LoseGold"
+      ]
+    },
+    "SEA_GLASS": {
+      "class": "SeaGlass",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 15
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CardSelectCmd.FromSimpleGridForRewards"
+      ]
+    },
+    "SERE_TALON": {
+      "class": "SereTalon",
+      "rarity": "Ancient",
+      "numbers": {
+        "hp_loss": 9
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add",
+        "CreatureCmd.LoseMaxHp"
+      ]
+    },
+    "SIGNET_RING": {
+      "class": "SignetRing",
+      "rarity": "Ancient",
+      "numbers": {
+        "gold": 888
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "PlayerCmd.GainGold"
+      ]
+    },
+    "SILKEN_TRESS": {
+      "class": "SilkenTress",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterModifyingCardRewardOptions",
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant<Glam>",
+        "PlayerCmd.LoseGold"
+      ]
+    },
+    "SILVER_CRUCIBLE": {
+      "class": "SilverCrucible",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 3
+      },
+      "powers": {},
+      "hooks": [
+        "AfterModifyingCardRewardOptions",
+        "AfterRoomEntered"
+      ],
+      "internal_effects": [
+        "CardCmd.Upgrade"
+      ]
+    },
+    "SMALL_CAPSULE": {
+      "class": "SmallCapsule",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "SNECKO_EYE": {
+      "class": "SneckoEye",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 2
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained",
+        "BeforeCombatStart"
+      ],
+      "internal_effects": [
+        "PowerCmd.Apply<ConfusedPower>"
+      ]
+    },
+    "SOZU": {
+      "class": "Sozu",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "SPIKED_GAUNTLETS": {
+      "class": "SpikedGauntlets",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [],
+      "internal_effects": []
+    },
+    "STONE_HUMIDIFIER": {
+      "class": "StoneHumidifier",
+      "rarity": "Ancient",
+      "numbers": {
+        "max_hp": 5
+      },
+      "powers": {},
+      "hooks": [
+        "AfterRestSiteHeal"
+      ],
+      "internal_effects": [
+        "CreatureCmd.GainMaxHp"
+      ]
+    },
+    "STORYBOOK": {
+      "class": "Storybook",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "TANXS_WHISTLE": {
+      "class": "TanxsWhistle",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.PreviewCardPileAdd",
+        "CardPileCmd.Add"
+      ]
+    },
+    "THROWING_AXE": {
+      "class": "ThrowingAxe",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterCombatEnd",
+        "AfterModifyingCardPlayCount",
+        "AfterRoomEntered"
+      ],
+      "internal_effects": []
+    },
+    "TOASTY_MITTENS": {
+      "class": "ToastyMittens",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {
+        "STRENGTH": 1
+      },
+      "hooks": [
+        "AfterPlayerTurnStart"
+      ],
+      "internal_effects": [
+        "CardCmd.Exhaust",
+        "CardSelectCmd.FromHand",
+        "PowerCmd.Apply<StrengthPower>"
+      ]
+    },
+    "TOUCH_OF_OROBAS": {
+      "class": "TouchOfOrobas",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "RelicCmd.Replace"
+      ]
+    },
+    "TOY_BOX": {
+      "class": "ToyBox",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterCombatEnd",
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "RelicCmd.Melt",
+        "RewardsCmd.OfferCustom"
+      ]
+    },
+    "TRI_BOOMERANG": {
+      "class": "TriBoomerang",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 3
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Enchant<Instinct>",
+        "CardSelectCmd.FromDeckForEnchantment"
+      ]
+    },
+    "VELVET_CHOKER": {
+      "class": "VelvetChoker",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 6,
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterCardPlayed",
+        "AfterCombatEnd",
+        "AfterRoomEntered",
+        "BeforeSideTurnStart"
+      ],
+      "internal_effects": []
+    },
+    "VERY_HOT_COCOA": {
+      "class": "VeryHotCocoa",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 4
+      },
+      "powers": {},
+      "hooks": [
+        "AfterSideTurnStart"
+      ],
+      "internal_effects": [
+        "PlayerCmd.GainEnergy"
+      ]
+    },
+    "WAR_HAMMER": {
+      "class": "WarHammer",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 4
+      },
+      "powers": {},
+      "hooks": [
+        "AfterCombatVictory"
+      ],
+      "internal_effects": [
+        "CardCmd.Upgrade"
+      ]
+    },
+    "WHISPERING_EARRING": {
+      "class": "WhisperingEarring",
+      "rarity": "Ancient",
+      "numbers": {
+        "energy": 1
+      },
+      "powers": {},
+      "hooks": [
+        "AfterAutoPrePlayPhaseEnteredLate"
+      ],
+      "internal_effects": [
+        "CardCmd.AutoPlay",
+        "CardSelectCmd.PushSelector",
+        "TalkCmd.Play"
+      ]
+    },
+    "WINGED_BOOTS": {
+      "class": "WingedBoots",
+      "rarity": "Ancient",
+      "numbers": {},
+      "powers": {},
+      "hooks": [
+        "AfterRoomEntered"
+      ],
+      "internal_effects": []
+    },
+    "YUMMY_COOKIE": {
+      "class": "YummyCookie",
+      "rarity": "Ancient",
+      "numbers": {
+        "cards": 4
+      },
+      "powers": {},
+      "hooks": [
+        "AfterObtained"
+      ],
+      "internal_effects": [
+        "CardCmd.Upgrade",
+        "CardSelectCmd.FromDeckForUpgrade"
+      ]
+    }
+  },
+  "semantics": {
+    "event_commands": "engine-extracted structural calls; not complete outcome semantics",
+    "ancient_relics": "exact option/item id matches may identify offered Ancient relics",
+    "natural_outcomes_used": false,
+    "utility_weights_included": false
+  }
+}

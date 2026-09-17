@@ -1,0 +1,21 @@
+{
+  "schema_version": "assembled-event-policy-replay-v1",
+  "decisions": 667,
+  "greedy_set_changed": 448,
+  "tie_size_reduced": 433,
+  "exact_parent_additivity": 667,
+  "combined_sha256": "c2e65d4d653a0b7ae17f74180c665fc6c21e409fc848ef8cd1c3952dcefeb78b",
+  "contract": {
+    "version": "public-event-effects-v1",
+    "catalog_sha256": "e07aa9f039196b9cb4ba1fa6e45d010e2da4c2be9d796503704d2e7354ad6549",
+    "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+    "natural_outcomes_used": false,
+    "hidden_reward_or_future_state_used": false,
+    "gold_and_hp_cost_rescored": false,
+    "score_semantics": "fixed_expert_relative_utility_not_win_probability",
+    "unknown_effect_score": 0.0
+  },
+  "passed": true,
+  "natural_outcomes_used_for_weight_selection": false,
+  "game_execution_performed": false
+}

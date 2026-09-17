@@ -1,0 +1,20 @@
+[Unit]
+Description=Queue event-effect smoke after current paired evaluation at a clean boundary
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/ubuntu/sts2-event-effect-smoke-20260918
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-event-effect-smoke-20260918/handoff_to_event_effect_smoke.py
+Restart=on-failure
+RestartSec=30
+MemoryMax=128M
+TimeoutStartSec=infinity
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

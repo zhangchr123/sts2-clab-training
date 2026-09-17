@@ -19,13 +19,19 @@ from typing import Any
 
 GOAL_PATH = Path("/home/ubuntu/sts2-cloud-goal/GOAL.json")
 STATE_PATH = Path("/home/ubuntu/sts2-cloud-goal/state.json")
-HANDOFF_STATUS_PATH = Path(
-    "/home/ubuntu/sts2-cloud-eval/progress-aux/HANDOFF_STATUS.json"
+HANDOFF_STATUS_PATHS = (
+    Path("/home/ubuntu/sts2-cloud-eval/progress-aux/HANDOFF_STATUS.json"),
+    Path("/home/ubuntu/sts2-event-effect-smoke-20260918/HANDOFF_STATUS.json"),
 )
 STATUS_PATH = Path("/home/ubuntu/sts2-cloud-goal/continuity-status.json")
 GOAL_UNIT = "sts2-cloud-goal.service"
 OBSERVER_UNIT = "sts2-observer.service"
-EVAL_UNIT = "sts2-progress-aux-eval.service"
+EXCLUSIVE_UNITS = (
+    "sts2-progress-aux-eval.service",
+    "sts2-progress-aux-handoff.service",
+    "sts2-event-effect-smoke.service",
+    "sts2-event-effect-smoke-handoff.service",
+)
 STALE_SECONDS = 20 * 60
 
 
@@ -55,15 +61,26 @@ def process_identity_is_live(pid: Any, expected_start_ticks: Any) -> bool:
 
 
 def evaluation_owns_boundary() -> bool:
-    if unit_active(EVAL_UNIT):
+    if any(unit_active(unit) for unit in EXCLUSIVE_UNITS):
         return True
-    handoff = read_json(HANDOFF_STATUS_PATH)
-    status = str(handoff.get("status", "")).lower()
-    return status in {
+    owning_phases = {
         "evaluation_running",
         "evaluation_started",
         "goal_suspended_for_evaluation",
+        "waiting_for_clean_sampling_boundary",
+        "clean_boundary_acquired",
+        "paired_evaluation_active",
+        "waiting_for_predecessor_evaluation",
+        "waiting_for_event_smoke_boundary",
+        "event_smoke_boundary_acquired",
+        "event_smoke_active",
     }
+    for path in HANDOFF_STATUS_PATHS:
+        handoff = read_json(path)
+        phase = str(handoff.get("phase", handoff.get("status", ""))).lower()
+        if phase in owning_phases:
+            return True
+    return False
 
 
 def run_action(action: str, unit: str, dry_run: bool) -> None:

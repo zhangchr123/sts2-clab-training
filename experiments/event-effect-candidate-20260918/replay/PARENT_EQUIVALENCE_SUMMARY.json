@@ -1,0 +1,16 @@
+{
+  "schema_version": "parent-migration-equivalence-summary-v1",
+  "passed": true,
+  "decisions": 667,
+  "combined_sha256": "e55a90e0752675a3f3ec381fd106f9284b53741e3cdb856438bfc56cb904f20c",
+  "active_replay": {
+    "path": "active-parent-replay.json",
+    "bytes": 80168,
+    "sha256": "a37d123b267b08c996269dc185470e8962af8d5b04dbc231e90f209833bb1c6b"
+  },
+  "migrated_replay": {
+    "path": "migrated-parent-replay.json",
+    "bytes": 80146,
+    "sha256": "c36e2cbac066de63b8fba9f64b8ed70624300bca0aa2a9d026f836a23c8e4a95"
+  }
+}
