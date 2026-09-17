@@ -102,7 +102,8 @@ def snapshot():
               'valid': sum(r['valid'] for r in receipts), 'invalid': sum(not r['valid'] for r in receipts),
               'target_successes': sum(r['target_success'] for r in receipts),
               'phase': phase, 'receipts': receipts, 'protocol': file_info(BASE / 'PROTOCOL.json'),
-              'model_updated': False, 'new_batch_allowed': False}
+              'model_updated': False, 'new_batch_allowed': False,
+              'partial_upload_authorized': True, 'adapter_revision': 2}
     result['snapshot_id'] = digest(json.dumps(result, sort_keys=True).encode())[:24]
     return result
 
@@ -217,7 +218,10 @@ def submit(snap):
     job_id = 'publish_' + snap['snapshot_id']
     counts = {k: v for k, v in snap.items() if k not in ('receipts', 'protocol')}
     question = (
-        '用户已授权你接管本批次资料整理和上传决策。你仍不执行工具：由固定宿主适配器验证并执行你的结构化请求。'
+        '这是用户最新授权：新建独立私有仓库，交给MiniMax接管资料整理上传；明确允许分批上传已结束局。'
+        '这覆盖旧对话中任何“不归档中间局/只在24局全结束后上传”的限制。仍然保留“不新开训练批次”限制。'
+        '已完成局即使整批running也允许立即归档上传；当前就是一次已授权的中途上传验收。'
+        '你仍不直接执行工具：由固定宿主适配器验证并执行你的结构化请求。'
         '根据下方冻结快照，在已有完成局时选择 publish_snapshot，异常需要人工检查时可选 escalate，否则 wait。'
         'publish_snapshot 只归档冻结快照中的已结束局（包括无效局），生成你的报告并上传私有仓库 '
         'zhangchr123/sts2-clab-training；不修改模型、不删除原始资料、不新开批次。'
