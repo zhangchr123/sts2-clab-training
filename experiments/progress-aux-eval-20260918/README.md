@@ -9,3 +9,5 @@
 `sts2-progress-aux-handoff.service` 等当前持续采样批次干净闭合后自动切换到评估。它不会杀死活跃游戏；评估完成或失败后恢复 `sts2-cloud-goal.service`。已启动的评估在重启或故障后保留并不重跑。
 
 `sts2-progress-aux-assessor.service` 独立等待这次一次性评估终止。它重新计算 60 对精确单侧检验，逐项校验 120 份审计、模型绑定、冻结源码哈希和原始数据闭包，并把可复现压缩证据上传私有仓库。验收器不启动游戏、不重跑种子、不修改或部署模型；候选即使通过门禁也只进入独立部署审查。结论会在 Goal 服务下一次启动后进入 MiniMax 的受限上下文，训练仍由看门狗继续。
+
+`prepare_progress_aux_deployment.py` 为候选通过后提供显式 `prepare → activate → rollback` 流程。`prepare` 不改活动策略；`activate` 同时要求完整门禁、精确计划哈希、Goal 服务停止且不存在批次进程，只替换未来批次使用的模板；`rollback` 同样要求干净边界和精确激活记录哈希。该工具当前只部署和测试，尚未生成计划或激活候选。
