@@ -1,0 +1,36 @@
+[Unit]
+Description=Persistent MiniMax STS2 sampling goal and idle watchdog
+After=network-online.target sts2-observer.service
+Wants=network-online.target sts2-observer.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/sts2-cloud-goal
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-cloud-goal/goal_driver.py
+Restart=always
+RestartSec=30
+KillMode=control-group
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/ubuntu/sts2-cloud-goal /home/ubuntu/sts2-cloud-repo /home/ubuntu/sts2-agent/spool/inbox /home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/outputs
+PrivateTmp=yes
+ProtectKernelTunables=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+MemoryMax=2700M
+CPUQuota=300%
+TasksMax=160
+StandardOutput=journal
+StandardError=journal
+LogRateLimitIntervalSec=60s
+LogRateLimitBurst=20
+
+[Install]
+WantedBy=multi-user.target
