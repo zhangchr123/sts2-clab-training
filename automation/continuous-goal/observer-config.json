@@ -1,0 +1,52 @@
+{
+  "spool": "/home/ubuntu/sts2-agent/spool",
+  "dsh_home": "/home/ubuntu/sts2-agent/home",
+  "workspace": "/home/ubuntu/sts2-agent/workspace",
+  "command": [
+    "/home/ubuntu/sts2-agent/node-v24.21.0-linux-x64/bin/node",
+    "/home/ubuntu/sts2-agent/cli/node_modules/@deepseek-ai/dsh/lib/bin.js",
+    "--profile",
+    "acp",
+    "--patch",
+    "/home/ubuntu/sts2-agent/runtime/observer.patch.yml"
+  ],
+  "status_files": [
+    {
+      "name": "continuous-defect-goal",
+      "path": "/home/ubuntu/sts2-cloud-goal/public-status.json"
+    },
+    {
+      "name": "progress-aux-evaluation-handoff",
+      "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/HANDOFF_STATUS.json"
+    },
+    {
+      "name": "event-effect-smoke-handoff",
+      "path": "/home/ubuntu/sts2-event-effect-smoke-20260918/HANDOFF_STATUS.json"
+    },
+    {
+      "name": "event-effect-smoke",
+      "path": "/home/ubuntu/sts2-event-effect-smoke-20260918/run/public-status.json"
+    },
+    {
+      "name": "event-effect-paired-evaluation",
+      "path": "/home/ubuntu/sts2-event-effect-paired-eval-20260918/run/public-status.json"
+    },
+    {
+      "name": "event-effect-independent-assessment",
+      "path": "/home/ubuntu/sts2-event-effect-paired-eval-20260918/assessment/public-status.json"
+    }
+  ],
+  "processes": [],
+  "disks": [
+    {
+      "name": "cloud-training",
+      "path": "/home/ubuntu",
+      "min_free_bytes": 5368709120
+    }
+  ],
+  "poll_seconds": 30,
+  "min_call_interval_seconds": 600,
+  "max_calls_per_hour": 12,
+  "max_output_chars": 4000,
+  "prompt_timeout_seconds": 180
+}
