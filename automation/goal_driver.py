@@ -217,7 +217,8 @@ def close_batch(state, snap):
     batch = state['current']
     state.setdefault('closed', []).append({'id':batch['id'],'planned':24,'completed':snap['completed'],
         'valid':snap['valid'],'invalid':snap['invalid'],'target_successes':snap['target_successes'],
-        'phase':snap['phase'],'model_updated':False})
+        'phase':snap['phase'],'model_updated':snap.get('model_updated',False),
+        'model_sha256':snap.get('model_sha256'),'model_label':snap.get('model_label','legacy-unrecorded')})
     state['current'] = None
     record(state, 'batch_closed_goal_continues', batch_id=batch['id'])
 

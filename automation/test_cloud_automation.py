@@ -7,6 +7,30 @@ import cloud_automation as a
 
 
 class ContractTests(unittest.TestCase):
+    def test_known_model_lineage(self):
+        self.assertEqual(a.model_lineage(a.BASELINE_MODEL_SHA256), 'linux-validated-baseline-471')
+        self.assertEqual(a.model_lineage(a.PROGRESS_AUX_MODEL_SHA256), 'progress-aux-candidate-471')
+        self.assertTrue(a.model_lineage('a' * 64).startswith('nonbaseline-unregistered-'))
+
+    def test_snapshot_records_frozen_model_lineage(self):
+        with tempfile.TemporaryDirectory() as d:
+            base=Path(d);model=base/'model.json';model.write_text('{}')
+            info={'path':str(model),**a.file_info(model)}
+            jobs=[{'name':f'job-{i:02d}','seed':f'seed-{i:02d}'} for i in range(24)]
+            (base/'PROTOCOL.json').write_text(json.dumps({'batch_id':'lineage-batch','planned_games':24,
+                                                          'jobs':jobs,'model':info}))
+            (base/'public-status.json').write_text(json.dumps({'phase':'complete'}))
+            (base/'LAUNCH.json').write_text(json.dumps({'owner_pid':99999999,'start_ticks':'1'}))
+            audit={'job':jobs[0],'report':{'run_id':jobs[0]['name'],'outcome':'defeat'},
+                   'integration_passed':True,'goal':{'natural_goal_success':False}}
+            (base/(jobs[0]['name']+'-audit.json')).write_text(json.dumps(audit))
+            with patch.multiple(a,BASE=base,BATCH='lineage-batch',BASELINE_MODEL_SHA256=info['sha256'],
+                                KNOWN_MODEL_LABELS={info['sha256']:'fixture-baseline'}):
+                snap=a.snapshot()
+            self.assertEqual(snap['model_sha256'],info['sha256'])
+            self.assertEqual(snap['model_label'],'fixture-baseline')
+            self.assertFalse(snap['model_updated'])
+
     def test_owner_identity_reuse_and_missing_process(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d); folder = root / '123'; folder.mkdir()

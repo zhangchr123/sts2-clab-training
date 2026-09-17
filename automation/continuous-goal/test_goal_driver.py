@@ -55,7 +55,8 @@ class GoalTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as t:
             root=Path(t); batch={'id':'batch-1','path':str(root),'published':0}
             state={'current':batch,'pending':{'x':1},'closed':[]}
-            snap={'snapshot_id':'snap','completed':24,'valid':24,'invalid':0,'target_successes':0,'phase':'complete'}
+            snap={'snapshot_id':'snap','completed':24,'valid':24,'invalid':0,'target_successes':0,
+                  'phase':'complete','model_updated':True,'model_sha256':'abc','model_label':'candidate'}
             pending={'kind':'review','job_id':'goal_1','snapshot':snap}
             decision={'action':'publish_and_continue','summary_zh':'24局已结束，继续','next_focus':'未更新模型'}
             with patch.object(g,'ROOT',root),patch.object(g,'STATE',root/'state.json'),patch.object(g,'configure_publisher'),patch.object(g.pub,'publish',return_value={'commit':'abcd'}):
@@ -63,7 +64,9 @@ class GoalTests(unittest.TestCase):
             self.assertIsNone(state['current'])
             self.assertIn('MiniMax',state['continue_authorized'])
             self.assertEqual(len(state['closed']),1)
-            self.assertFalse(state['closed'][0]['model_updated'])
+            self.assertTrue(state['closed'][0]['model_updated'])
+            self.assertEqual(state['closed'][0]['model_sha256'],'abc')
+            self.assertEqual(state['closed'][0]['model_label'],'candidate')
 
     def test_interrupted_seeds_are_not_replayed(self):
         with tempfile.TemporaryDirectory() as t:

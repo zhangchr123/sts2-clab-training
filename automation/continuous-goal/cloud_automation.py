@@ -27,6 +27,12 @@ ALLOWED = {'decisions.jsonl', 'manifest.json', 'policy.jsonl', 'report.json',
            'state.json', 'status.json', 'trace.jsonl', 'AUDIT.json'}
 REQUIRED = ALLOWED - {'AUDIT.json'}
 SECRET = re.compile(rb'-----BEGIN (?:OPENSSH |RSA |EC )?PRIVATE KEY-----|github_pat_[A-Za-z0-9_]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{24,}')
+BASELINE_MODEL_SHA256 = '59d11c9fe8c6d94d2968928aaf567a3fb73ec6b53252feb0e2b7f7e164eacac4'
+PROGRESS_AUX_MODEL_SHA256 = 'd6af4d830e46023e9f04dfe9db6ddd7a8eea6c4342b58c49b019ff47a68f0440'
+KNOWN_MODEL_LABELS = {
+    BASELINE_MODEL_SHA256: 'linux-validated-baseline-471',
+    PROGRESS_AUX_MODEL_SHA256: 'progress-aux-candidate-471',
+}
 
 
 def read(path):
@@ -55,6 +61,10 @@ def file_info(path):
 def require(ok, message):
     if not ok:
         raise ValueError(message)
+
+
+def model_lineage(sha256):
+    return KNOWN_MODEL_LABELS.get(sha256, 'nonbaseline-unregistered-' + sha256[:12])
 
 
 def safe_bytes(path):
@@ -111,11 +121,16 @@ def snapshot():
     owner = owner_state(read(BASE / 'LAUNCH.json'))
     if phase == 'running' and owner != 'live':
         phase = 'failed'
+    model = protocol['model']
+    require(set(model) == {'path', 'bytes', 'sha256'} and
+            file_info(model['path']) == {'bytes': model['bytes'], 'sha256': model['sha256']},
+            'Frozen protocol model changed')
     result = {'batch': BATCH, 'planned': 24, 'completed': len(receipts),
               'valid': sum(r['valid'] for r in receipts), 'invalid': sum(not r['valid'] for r in receipts),
               'target_successes': sum(r['target_success'] for r in receipts),
               'phase': phase, 'receipts': receipts, 'protocol': file_info(BASE / 'PROTOCOL.json'),
-              'model_updated': False, 'new_batch_allowed': False,
+              'model_sha256': model['sha256'], 'model_label': model_lineage(model['sha256']),
+              'model_updated': model['sha256'] != BASELINE_MODEL_SHA256, 'new_batch_allowed': False,
               'partial_upload_authorized': True, 'adapter_revision': 3, 'owner_state': owner}
     result['snapshot_id'] = digest(json.dumps(result, sort_keys=True).encode())[:24]
     return result
@@ -206,7 +221,9 @@ def publish(snap, decision, model_result):
         '# CLab 当前批次报告\n\n'
         f"确定性统计：{snap['completed']}/{snap['planned']} 已结束并审计；"
         f"有效 {snap['valid']}，无效或未知 {snap['invalid']}，观测到第三幕首领目标成功 {snap['target_successes']}。\n\n"
-        '固定模型自然采样，不是与另一模型的成对比较，不据此声称训练提升。\n\n'
+        f"冻结模型：`{snap['model_label']}`，SHA256 `{snap['model_sha256']}`；"
+        f"相对原 Linux 基线是否更新：`{str(snap['model_updated']).lower()}`。\n\n"
+        '本批为单一冻结模型自然采样，不是与另一模型的成对比较，不据此单独声称训练提升。\n\n'
         '## MiniMax 报告（模型生成，以上方可核验统计为准）\n\n' + decision['summary_zh'] + '\n', encoding='utf-8')
     total = sum(p.stat().st_size for p in REPO.rglob('*') if p.is_file())
     require(total < LIMIT, 'Repository including Git history reached 900 MB budget')
