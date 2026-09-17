@@ -22,6 +22,7 @@ STATE_PATH = Path("/home/ubuntu/sts2-cloud-goal/state.json")
 HANDOFF_STATUS_PATHS = (
     Path("/home/ubuntu/sts2-cloud-eval/progress-aux/HANDOFF_STATUS.json"),
     Path("/home/ubuntu/sts2-event-effect-smoke-20260918/HANDOFF_STATUS.json"),
+    Path("/home/ubuntu/sts2-selection-effect-smoke-20260918/HANDOFF_STATUS.json"),
 )
 STATUS_PATH = Path("/home/ubuntu/sts2-cloud-goal/continuity-status.json")
 GOAL_UNIT = "sts2-cloud-goal.service"
@@ -32,6 +33,8 @@ EXCLUSIVE_UNITS = (
     "sts2-event-effect-smoke.service",
     "sts2-event-effect-smoke-handoff.service",
     "sts2-event-effect-paired-eval.service",
+    "sts2-selection-effect-smoke.service",
+    "sts2-selection-effect-smoke-handoff.service",
 )
 STALE_SECONDS = 20 * 60
 
@@ -77,6 +80,10 @@ def evaluation_owns_boundary() -> bool:
         "event_smoke_active",
         "event_smoke_passed_starting_paired_evaluation",
         "event_paired_evaluation_active",
+        "waiting_for_parent_event_independent_assessment",
+        "waiting_for_selection_smoke_boundary",
+        "selection_smoke_boundary_acquired",
+        "selection_smoke_active",
     }
     for path in HANDOFF_STATUS_PATHS:
         handoff = read_json(path)

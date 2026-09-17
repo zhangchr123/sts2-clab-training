@@ -34,3 +34,10 @@ evaluation and is not deployed. Its parent event-effect candidate is itself
 still waiting behind the active progress-auxiliary paired evaluation. Any later
 live trial must use new seeds, preserve failures, prohibit retries and fitting,
 and remain gated on the parent event candidate's independent result.
+
+`sts2-selection-effect-smoke-handoff.service` now waits for that independent
+parent assessment. It prepares and runs exactly one fresh-seed smoke only when
+the parent assessment is complete and its candidate improvement gate passed.
+If the parent is rejected, its smoke fails, or the assessment is unavailable
+after the parent chain terminates, the selection smoke is not run and the
+continuous goal remains active. The handoff never retries a started allocation.

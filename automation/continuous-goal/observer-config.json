@@ -34,6 +34,14 @@
     {
       "name": "event-effect-independent-assessment",
       "path": "/home/ubuntu/sts2-event-effect-paired-eval-20260918/assessment/public-status.json"
+    },
+    {
+      "name": "selection-effect-smoke-handoff",
+      "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/HANDOFF_STATUS.json"
+    },
+    {
+      "name": "selection-effect-smoke",
+      "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/run/public-status.json"
     }
   ],
   "processes": [],
