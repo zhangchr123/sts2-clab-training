@@ -1,0 +1,43 @@
+{
+  "run_id": "defect-cloud-training-20260917a-008",
+  "audit": {
+    "bytes": 1475,
+    "sha256": "48dfabbdfa16a8871e184622f5e2c7edbec290419305966215cd4838b4710a19"
+  },
+  "archive": {
+    "bytes": 1366960,
+    "sha256": "2f8cb645da8115f3b9a7c8bbe75bd85f48c4580d1ef329bf06a3a7e5f40f4eba"
+  },
+  "members": {
+    "decisions.jsonl": {
+      "bytes": 5218381,
+      "sha256": "1496dfb8465938aeb3d9b20546cfd7288e6e47e75216456d1c5757caef8261ba"
+    },
+    "manifest.json": {
+      "bytes": 59957,
+      "sha256": "e8e6505118895e39388f8d3c01ddab05763a4df7bc83077eebd5c2c2a7a4da7c"
+    },
+    "policy.jsonl": {
+      "bytes": 8159870,
+      "sha256": "c4023b9e2e324410afff3a1db862ccb02a8ce3c99a975660c850900ddf3a95fa"
+    },
+    "report.json": {
+      "bytes": 678,
+      "sha256": "28ef074fbb38fa8622feedb2898afaa692a7c84c986b42a3b45ede78750c0852"
+    },
+    "state.json": {
+      "bytes": 24614,
+      "sha256": "d8dd354fa25d2e20a6e3dd40f9e84a151e5eb2158c3220cb6bd189270cfe6641"
+    },
+    "status.json": {
+      "bytes": 702,
+      "sha256": "96c21afbc53c65dd06c70bd3a6e616a28508efc1d62adf62b667585fc525f678"
+    },
+    "trace.jsonl": {
+      "bytes": 16054795,
+      "sha256": "d0167afc581bbcb5eed0dc24390baee495d68f21ec07365e1c98a1193e008102"
+    }
+  },
+  "raw_originals_retained": true,
+  "metric_valid": true
+}

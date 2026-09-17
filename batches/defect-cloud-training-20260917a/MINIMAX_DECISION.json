@@ -1,15 +1,15 @@
 {
   "decision": {
-    "snapshot_id": "84f068f947fbd3687eebb6ad",
+    "snapshot_id": "e10c2f91fa6c5a698db34a1a",
     "action": "publish_snapshot",
-    "summary_zh": "批次 defect-cloud-training-20260917a 冻结快照：计划 24 局，已完成 7 局，有效 7 局，无效 0，target_successes=0，阶段 running，模型未更新，不允许新批次，但 partial_upload_authorized=true 且 adapter_revision=2 明确允许分批归档。进程 cloud-sampling-owner 仍 live，磁盘 53 GiB 正常。本快照已有 7 局已结束（含有效与无效局），按最新授权选择 publish_snapshot，归档冻结快照中的已结束局至私有仓库 zhangchr123/sts2-clab-training；不修改模型、不删除原始资料、不新开批次。实时计数可能继续增长，下一冻结快照可再行评估。"
+    "summary_zh": "批次 defect-cloud-training-20260917a 冻结快照：计划 24 局，已完成 11 局，有效 11 局，无效 0，target_successes=0，阶段 running，模型未更新，不允许新批次，partial_upload_authorized=true 且 adapter_revision=3 明确允许分批归档；owner_state=live。实时计数显示 11/24，进程 cloud-sampling-owner 仍 live，磁盘 53 GiB 正常。按最新授权，已有 11 局已结束（含有效与无效局），选择 publish_snapshot，归档冻结快照中的已结束局至私有仓库 zhangchr123/sts2-clab-training；不修改模型、不删除原始资料、不新开批次。下一冻结快照可再行评估。"
   },
   "model_receipt": {
-    "id": "publish_84f068f947fbd3687eebb6ad",
+    "id": "publish_e10c2f91fa6c5a698db34a1a",
     "result": {
       "permission_requests_denied": 0,
       "stopReason": "end_turn",
-      "text": "{\"snapshot_id\":\"84f068f947fbd3687eebb6ad\",\"action\":\"publish_snapshot\",\"summary_zh\":\"批次 defect-cloud-training-20260917a 冻结快照：计划 24 局，已完成 7 局，有效 7 局，无效 0，target_successes=0，阶段 running，模型未更新，不允许新批次，但 partial_upload_authorized=true 且 adapter_revision=2 明确允许分批归档。进程 cloud-sampling-owner 仍 live，磁盘 53 GiB 正常。本快照已有 7 局已结束（含有效与无效局），按最新授权选择 publish_snapshot，归档冻结快照中的已结束局至私有仓库 zhangchr123/sts2-clab-training；不修改模型、不删除原始资料、不新开批次。实时计数可能继续增长，下一冻结快照可再行评估。\"}"
+      "text": "{\"snapshot_id\":\"e10c2f91fa6c5a698db34a1a\",\"action\":\"publish_snapshot\",\"summary_zh\":\"批次 defect-cloud-training-20260917a 冻结快照：计划 24 局，已完成 11 局，有效 11 局，无效 0，target_successes=0，阶段 running，模型未更新，不允许新批次，partial_upload_authorized=true 且 adapter_revision=3 明确允许分批归档；owner_state=live。实时计数显示 11/24，进程 cloud-sampling-owner 仍 live，磁盘 53 GiB 正常。按最新授权，已有 11 局已结束（含有效与无效局），选择 publish_snapshot，归档冻结快照中的已结束局至私有仓库 zhangchr123/sts2-clab-training；不修改模型、不删除原始资料、不新开批次。下一冻结快照可再行评估。\"}"
     },
     "state": "completed"
   },
