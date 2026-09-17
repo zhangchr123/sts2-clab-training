@@ -1,0 +1,21 @@
+[Unit]
+Description=Independently verify the public event-effect paired evaluation
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/sts2-event-effect-paired-eval-20260918
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-event-effect-paired-eval-20260918/assessment/assess_event_effect_paired_eval.py
+Restart=on-failure
+RestartSec=60
+MemoryMax=768M
+TimeoutStartSec=infinity
+TimeoutStopSec=15
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

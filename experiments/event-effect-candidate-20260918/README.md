@@ -40,4 +40,6 @@ Each pair shares one new seed, control and candidate run first in 30 pairs each,
 invalid games remain failures, and the first pair is an integration gate.  The
 trial cannot retry, refit, extend its sample, or automatically deploy.  The
 continuous goal resumes after the paired service reaches either success or
-failure.
+failure.  A separate read-only assessor then recomputes the paired statistics,
+checks all 120 audit receipts and the raw source closure, and exposes only a
+bounded verified summary to the MiniMax goal driver.
