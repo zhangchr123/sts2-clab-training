@@ -175,7 +175,14 @@ def decision_diagnostic_context(path=DECISION_PRIORITIES):
 def ask(state, kind, snap=None, nudge=False):
     state['sequence'] += 1
     job_id = f"continuous_goal_{state['sequence']:06d}"
+    goal = read(GOAL)
     context = {k:v for k,v in (snap or {}).items() if k not in ('receipts', 'protocol')}
+    context['persistent_goal'] = {
+        'goal_id': goal['goal_id'],
+        'objective': goal['objective'],
+        'completion_policy': goal['completion_policy'],
+        'new_batches_allowed': goal['new_batches_allowed'],
+    }
     context['closed_batches'] = len(state.get('closed', []))
     context['baseline'] = {'games': 24, 'valid': 24, 'third_act_target_successes': 0}
     evaluation = evaluation_context()
@@ -188,12 +195,12 @@ def ask(state, kind, snap=None, nudge=False):
     action = 'start_next_batch' if kind == 'start' else 'publish_and_continue'
     prompt = (
         '用户最新明确指令：让你持续跑下去不要停，并设置脚本督促MiniMax一个goal。'
-        '旧的“24局后停止/不新开批次”授权已被这次指令覆盖。你的持久goal是持续推进鸡煲A10训练，朝稳定击败第三幕首个首领目标前进。'
+        '旧的“24局后停止/不新开批次”授权已被这次指令覆盖。你只有一个持久goal：' + goal['objective'] +
+        '除非用户明确暂停或改目标，否则批次结束、评估结束、模型回复超时和低胜率都不是停止条件。'
         '当前可执行阶段是固定已验证模型的持续自然局采样、诊断和归档。'
         '已对254个受控分支gate做过一次33参数拟合，但候选OOF选择值0.09737低于基线0.09825、NLL 1.45688高于1.41336，已被门禁拒绝且未部署。'
-        '当前78局可审计自然局快照仅1次目标成功、9次到达第三幕首Boss但未通过、68次更早失败；这是描述统计而非候选因果评估。'
-        '牌组纪律中71/78终局不超过25张、6局为26至36张，唯一超过36的52张局有REFLECTIONS_SHATTER特殊构筑豁免；没有发现未豁免超限。'
-        '因此绝不能把样本增加或这次拟合当成胜率提升；后续需要更高信号的受控分支样本和新的预声明拟合轮次。'
+        '冻结事实里的样本数和结果是当前权威快照；只能把自然局结果当描述统计，不能把样本增加或一次拟合当成胜率提升。'
+        '后续需要更高信号的受控分支样本、预声明的拟合轮次和干净的成对评估。'
         '每批24个全新种子，一批结束必须接新批；保留失败和未知，不重跑同一分配。'
         '你不直接执行工具，由固定宿主适配器执行允许的批次启动和GitHub归档上传。'
         '现在需要你选择 ' + action + ' 并给出简短复盘及下一步重点。'

@@ -1,0 +1,35 @@
+[Unit]
+Description=STS2 MiniMax read-only training observer
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/sts2-agent/workspace
+Environment=PATH=/home/ubuntu/sts2-agent/node-v24.21.0-linux-x64/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /home/ubuntu/sts2-agent/runtime/supervisor.py /home/ubuntu/sts2-agent/runtime/config.json
+Restart=always
+RestartSec=20
+UMask=0077
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/ubuntu/sts2-agent/home /home/ubuntu/sts2-agent/spool /home/ubuntu/sts2-agent/workspace
+PrivateTmp=yes
+ProtectKernelTunables=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+MemoryMax=768M
+TasksMax=64
+TimeoutStopSec=20
+StandardOutput=journal
+StandardError=journal
+LogRateLimitIntervalSec=60s
+LogRateLimitBurst=20
+
+[Install]
+WantedBy=multi-user.target

@@ -20,7 +20,7 @@ from typing import Any
 GOAL_PATH = Path("/home/ubuntu/sts2-cloud-goal/GOAL.json")
 STATE_PATH = Path("/home/ubuntu/sts2-cloud-goal/state.json")
 HANDOFF_STATUS_PATH = Path(
-    "/home/ubuntu/sts2-cloud-eval/progress-aux/handoff/STATUS.json"
+    "/home/ubuntu/sts2-cloud-eval/progress-aux/HANDOFF_STATUS.json"
 )
 STATUS_PATH = Path("/home/ubuntu/sts2-cloud-goal/continuity-status.json")
 GOAL_UNIT = "sts2-cloud-goal.service"

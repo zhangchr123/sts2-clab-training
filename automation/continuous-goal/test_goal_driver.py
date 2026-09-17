@@ -133,8 +133,14 @@ class GoalTests(unittest.TestCase):
                          'late_act3_review_decisions':27,
                          'controlled_acquisition_priority_areas':['events','selection','route','reward','rest'],
                          'natural_outcomes_used_for_fitting':False}
+            goal_path=root/'GOAL.json'
+            goal_path.write_text(json.dumps({
+                'goal_id':'fixture-goal','objective':'持续训练直到稳定通过第三幕首个Boss',
+                'completion_policy':'continue until the user explicitly pauses',
+                'new_batches_allowed':True}),encoding='utf-8')
             with patch.object(g,'ROOT',root),patch.object(g,'STATE',root/'state.json'),\
-                 patch.object(g,'SPOOL',spool),patch.object(g,'evaluation_context',return_value=evaluation),\
+                 patch.object(g,'SPOOL',spool),patch.object(g,'GOAL',goal_path),\
+                 patch.object(g,'evaluation_context',return_value=evaluation),\
                  patch.object(g,'decision_diagnostic_context',return_value=diagnostics):
                 g.ask(state,'review',snap)
             self.assertLessEqual(len(state['pending']['job']['text']),4000)
