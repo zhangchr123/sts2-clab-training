@@ -513,8 +513,9 @@ class _Audit:
         from selection_effect_policy import VERSION as SELECTION_EFFECT_POLICY
         from full_route_policy import VERSION as FULL_ROUTE_POLICY
         from encounter_damage_policy import VERSION as ENCOUNTER_DAMAGE_POLICY
+        from reward_mechanism_policy import VERSION as REWARD_MECHANISM_POLICY
         if ((model is not None and model["format"] == PREFIX_MODEL)
-                or manifest["provenance"].get("id") in (WHOLE_RUN_POLICY, CONTEXTUAL_POLICY, IDENTITY_POLICY, CIRCULATION_POLICY, CAPABILITY_POLICY, COMPACT_POLICY, TARGET_POLICY, RISK_POLICY, ROUTE_POLICY, REFERENCE_POLICY, PERSISTENT_POLICY, NEOW_POLICY, EVENT_EFFECT_POLICY, SELECTION_EFFECT_POLICY, FULL_ROUTE_POLICY, ENCOUNTER_DAMAGE_POLICY)):
+                or manifest["provenance"].get("id") in (WHOLE_RUN_POLICY, CONTEXTUAL_POLICY, IDENTITY_POLICY, CIRCULATION_POLICY, CAPABILITY_POLICY, COMPACT_POLICY, TARGET_POLICY, RISK_POLICY, ROUTE_POLICY, REFERENCE_POLICY, PERSISTENT_POLICY, NEOW_POLICY, EVENT_EFFECT_POLICY, SELECTION_EFFECT_POLICY, FULL_ROUTE_POLICY, ENCOUNTER_DAMAGE_POLICY, REWARD_MECHANISM_POLICY)):
             starts = [t for t in traces if t["request"].get("cmd") == "start_run"]
             self.check(len(starts) == 1 and traces[0] is starts[0]
                        and _equal(starts[0]["request"], {"cmd": "start_run", "character": "Defect",

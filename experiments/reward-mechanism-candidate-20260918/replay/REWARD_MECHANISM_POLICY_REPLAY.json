@@ -1,0 +1,87 @@
+{
+  "schema_version": "reward-mechanism-assembled-replay-v1",
+  "passed": true,
+  "decisions": 1496,
+  "candidate_rows": 6008,
+  "exact_parent_additivity": 1496,
+  "recorded_encounter_parent_exact": 1496,
+  "maximum_additivity_error": 0.0,
+  "maximum_recorded_parent_error": 0.0,
+  "policy_weights_fitted": false,
+  "natural_outcomes_used_for_policy_weight_selection": false,
+  "future_condition_probabilities_assumed": false,
+  "offline_replay": {
+    "path": "/home/ubuntu/sts2-cloud-analysis/reward-mechanism-candidate-20260918-v2/RESULT.json",
+    "sha256": "24f9f8a562c22eabed85148a3f3603bd3e04c75b11916371e9c711683b5b6413",
+    "bytes": 169467
+  },
+  "encounter_damage_parent": {
+    "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/encounter-damage-candidate-model.json",
+    "sha256": "417c92730bc42157abc20951f016d115d862ba8a4ecf7e1c26d177063a3d4d25",
+    "bytes": 16214
+  },
+  "reward_mechanism_candidate": {
+    "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/reward-mechanism-candidate-model.json",
+    "sha256": "01ea47f3bcb0f299f6a98fa8c3048cf54d0f159a3d095d204992919551bd713a",
+    "bytes": 19099
+  },
+  "combined_replay_sha256": "5c24c5a84c9a30a5170715ea5d67943f0d9da72a79cbf14ac3dc4c69d9688aa5",
+  "migration": {
+    "historical_baseline": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/migrated-baseline-model.json",
+      "sha256": "f84396a31ede157994ccf060c47a7092c0ef73cd16d56b773874e5b6d6ea1488",
+      "bytes": 63702
+    },
+    "historical_event": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/event-effect-candidate-model.json",
+      "sha256": "dc11e75d4ebe260d269aad2a198311e371ad7f9e79fe3efc81921f5ee1c621f5",
+      "bytes": 14091
+    },
+    "historical_selection": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/selection-effect-candidate-model.json",
+      "sha256": "03cba5dffb53cbf783ab6cd3d0d3da7e9d31db61335633b3675c05da39aefc27",
+      "bytes": 14374
+    },
+    "migrated_baseline": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/migrated-baseline-model.json",
+      "sha256": "0f45688525bf58ba810529b4193c8fd6d3c79454b47e4f46bd980e3e34e57086",
+      "bytes": 64030
+    },
+    "migrated_event": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/event-effect-candidate-model.json",
+      "sha256": "fa3111265cea551ca3d54dcdc0f6417c2702313cb01260b032aa7f7ead741215",
+      "bytes": 14350
+    },
+    "migrated_selection": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/selection-effect-candidate-model.json",
+      "sha256": "d1e4a0af51281676d68b8266c41d2ebd5a6a9281e463df82d2712c586a91993f",
+      "bytes": 14645
+    },
+    "full_route_candidate": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/full-route-candidate-model.json",
+      "sha256": "6487d4d99110b5bb8ad6f3a9e96b0dede8954ce0670ccb574b338cd8590d688b",
+      "bytes": 15030
+    },
+    "baseline_parameters_equal": true,
+    "event_parameters_equal": true,
+    "selection_parameters_equal": true,
+    "constructors_validated": true,
+    "encounter_damage_catalog": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/encounter_damage_catalog_v3.json",
+      "sha256": "ada21748c09c039627fa4e395b471e7e2d541aa67633aab93518bea2a3f3886d",
+      "bytes": 90833
+    },
+    "encounter_damage_candidate": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/encounter-damage-candidate-model.json",
+      "sha256": "417c92730bc42157abc20951f016d115d862ba8a4ecf7e1c26d177063a3d4d25",
+      "bytes": 16214
+    },
+    "encounter_damage_constructor_validated": true,
+    "reward_mechanism_candidate": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/reward-mechanism-candidate-model.json",
+      "sha256": "01ea47f3bcb0f299f6a98fa8c3048cf54d0f159a3d095d204992919551bd713a",
+      "bytes": 19099
+    },
+    "reward_mechanism_constructor_validated": true
+  }
+}

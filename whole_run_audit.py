@@ -17,6 +17,7 @@ from event_effect_policy import VERSION as EVENT_EFFECT_VERSION, EventEffectPoli
 from selection_effect_policy import VERSION as SELECTION_EFFECT_VERSION, SelectionEffectPolicy, FEATURE_SOURCES as SELECTION_EFFECT_SOURCES
 from full_route_policy import VERSION as FULL_ROUTE_VERSION, FullRoutePolicy, FEATURE_SOURCES as FULL_ROUTE_SOURCES
 from encounter_damage_policy import VERSION as ENCOUNTER_DAMAGE_VERSION, EncounterDamagePolicy, FEATURE_SOURCES as ENCOUNTER_DAMAGE_SOURCES
+from reward_mechanism_policy import VERSION as REWARD_MECHANISM_VERSION, RewardMechanismPolicy, FEATURE_SOURCES as REWARD_MECHANISM_SOURCES
 from run_metadata import file_evidence
 
 
@@ -34,7 +35,8 @@ REGISTRY = {VERSION: (WholeRunPolicy, FEATURE_SOURCES),
             EVENT_EFFECT_VERSION: (EventEffectPolicy, EVENT_EFFECT_SOURCES),
             SELECTION_EFFECT_VERSION: (SelectionEffectPolicy, SELECTION_EFFECT_SOURCES),
             FULL_ROUTE_VERSION: (FullRoutePolicy, FULL_ROUTE_SOURCES),
-            ENCOUNTER_DAMAGE_VERSION: (EncounterDamagePolicy, ENCOUNTER_DAMAGE_SOURCES)}
+            ENCOUNTER_DAMAGE_VERSION: (EncounterDamagePolicy, ENCOUNTER_DAMAGE_SOURCES),
+            REWARD_MECHANISM_VERSION: (RewardMechanismPolicy, REWARD_MECHANISM_SOURCES)}
 
 
 def validate_whole_run_choices(records, policies):
@@ -71,7 +73,9 @@ def validate_whole_run_choices(records, policies):
             CompactSelectionPolicy if isinstance(base, CompactDeckPolicy) else SelectionPolicy)
         policy = wrapper(base, max_evaluations=meta["sampling"]["selection_budget"])
         require(state_hash(policy.provenance) == state_hash(provenance), "manifest identity")
-        declared_sources = (base._encounter_damage_artifact["source_files"]
+        declared_sources = (base._reward_artifact["source_files"]
+                            if isinstance(base, RewardMechanismPolicy) else
+                            base._encounter_damage_artifact["source_files"]
                             if isinstance(base, EncounterDamagePolicy) else
                             base._full_route_artifact["source_files"]
                             if isinstance(base, FullRoutePolicy) else

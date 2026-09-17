@@ -56,6 +56,7 @@ def build_policy(seed, settings, *, ascension=10, epsilon=.1, model_path=None, s
         from selection_effect_policy import VERSION as SELECTION_EFFECT_FORMAT
         from full_route_policy import VERSION as FULL_ROUTE_FORMAT
         from encounter_damage_policy import VERSION as ENCOUNTER_DAMAGE_FORMAT
+        from reward_mechanism_policy import VERSION as REWARD_MECHANISM_FORMAT
         try:
             artifact = json.loads(Path(model_path).read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
@@ -63,12 +64,16 @@ def build_policy(seed, settings, *, ascension=10, epsilon=.1, model_path=None, s
         if not isinstance(artifact, dict):
             raise DataContractError("Model artifact must be a JSON object")
         model_format = artifact.get("format")
-        if model_format not in (LINEAR_FORMAT, SURVIVAL_FORMAT, INTERACTION_FORMAT, PREFIX_FORMAT, WHOLE_RUN_FORMAT, CONTEXTUAL_FORMAT, IDENTITY_FORMAT, CIRCULATION_FORMAT, CAPABILITY_FORMAT, COMPACT_FORMAT, TARGET_FORMAT, RISK_FORMAT, ROUTE_FORMAT, REFERENCE_FORMAT, PERSISTENT_FORMAT, NEOW_FORMAT, EVENT_EFFECT_FORMAT, SELECTION_EFFECT_FORMAT, FULL_ROUTE_FORMAT, ENCOUNTER_DAMAGE_FORMAT):
+        if model_format not in (LINEAR_FORMAT, SURVIVAL_FORMAT, INTERACTION_FORMAT, PREFIX_FORMAT, WHOLE_RUN_FORMAT, CONTEXTUAL_FORMAT, IDENTITY_FORMAT, CIRCULATION_FORMAT, CAPABILITY_FORMAT, COMPACT_FORMAT, TARGET_FORMAT, RISK_FORMAT, ROUTE_FORMAT, REFERENCE_FORMAT, PERSISTENT_FORMAT, NEOW_FORMAT, EVENT_EFFECT_FORMAT, SELECTION_EFFECT_FORMAT, FULL_ROUTE_FORMAT, ENCOUNTER_DAMAGE_FORMAT, REWARD_MECHANISM_FORMAT):
             raise DataContractError("Unsupported model artifact format: " + repr(model_format))
 
     policy = InitialPolicy(epsilon=epsilon, random_seed=seed)
     if model_path:
-        if model_format == ENCOUNTER_DAMAGE_FORMAT:
+        if model_format == REWARD_MECHANISM_FORMAT:
+            from reward_mechanism_policy import RewardMechanismPolicy
+            if ascension != 10: raise DataContractError("Reward mechanism policy requires Defect A10")
+            policy = RewardMechanismPolicy(model_path, solver_config=settings, seed=seed, epsilon=epsilon)
+        elif model_format == ENCOUNTER_DAMAGE_FORMAT:
             from encounter_damage_policy import EncounterDamagePolicy
             if ascension != 10: raise DataContractError("Encounter damage policy requires Defect A10")
             policy = EncounterDamagePolicy(model_path, solver_config=settings, seed=seed, epsilon=epsilon)

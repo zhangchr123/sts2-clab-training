@@ -1,7 +1,4 @@
 {
-  "spool": "/home/ubuntu/sts2-agent/spool",
-  "dsh_home": "/home/ubuntu/sts2-agent/home",
-  "workspace": "/home/ubuntu/sts2-agent/workspace",
   "command": [
     "/home/ubuntu/sts2-agent/node-v24.21.0-linux-x64/bin/node",
     "/home/ubuntu/sts2-agent/cli/node_modules/@deepseek-ai/dsh/lib/bin.js",
@@ -10,6 +7,21 @@
     "--patch",
     "/home/ubuntu/sts2-agent/runtime/observer.patch.yml"
   ],
+  "disks": [
+    {
+      "min_free_bytes": 5368709120,
+      "name": "cloud-training",
+      "path": "/home/ubuntu"
+    }
+  ],
+  "dsh_home": "/home/ubuntu/sts2-agent/home",
+  "max_calls_per_hour": 12,
+  "max_output_chars": 4000,
+  "min_call_interval_seconds": 600,
+  "poll_seconds": 30,
+  "processes": [],
+  "prompt_timeout_seconds": 180,
+  "spool": "/home/ubuntu/sts2-agent/spool",
   "status_files": [
     {
       "name": "continuous-defect-goal",
@@ -41,13 +53,13 @@
     },
     {
       "name": "selection-effect-smoke",
-      "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/run/public-status.json",
-      "optional_missing": true
+      "optional_missing": true,
+      "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/run/public-status.json"
     },
     {
       "name": "selection-effect-paired-evaluation",
-      "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/run/public-status.json",
-      "optional_missing": true
+      "optional_missing": true,
+      "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/run/public-status.json"
     },
     {
       "name": "selection-effect-independent-assessment",
@@ -60,19 +72,11 @@
     {
       "name": "encounter-damage-candidate",
       "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/public-status.json"
-    }
-  ],
-  "processes": [],
-  "disks": [
+    },
     {
-      "name": "cloud-training",
-      "path": "/home/ubuntu",
-      "min_free_bytes": 5368709120
+      "name": "reward-mechanism-candidate",
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/public-status.json"
     }
   ],
-  "poll_seconds": 30,
-  "min_call_interval_seconds": 600,
-  "max_calls_per_hour": 12,
-  "max_output_chars": 4000,
-  "prompt_timeout_seconds": 180
+  "workspace": "/home/ubuntu/sts2-agent/workspace"
 }

@@ -1,0 +1,416 @@
+{
+  "format": "whole-run-current-reward-mechanisms-v2",
+  "parent_model": {
+    "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/models-reward-mechanism-v4/encounter-damage-candidate-model.json",
+    "sha256": "417c92730bc42157abc20951f016d115d862ba8a4ecf7e1c26d177063a3d4d25",
+    "bytes": 16214
+  },
+  "parameters": {
+    "new_draw_per_cost": 0.3,
+    "new_immediate_energy_per_cost": 0.42,
+    "new_next_energy_per_cost": 0.28,
+    "weak_amount": 0.1,
+    "vulnerable_amount": 0.12,
+    "lightning_per_cost": 0.18,
+    "frost_per_cost": 0.24,
+    "dark_per_cost": 0.16,
+    "plasma_per_cost": 0.34,
+    "aoe": 0.1,
+    "generated_status_burden": -0.18,
+    "exhaust_control": 0.18,
+    "orb_slots": 0.1,
+    "strength_dexterity": 0.07,
+    "lost_orb_slots": -0.16,
+    "fixed_multihit_extra_damage_per_cost": 0.18,
+    "self_cost_reduction": 0.1,
+    "random_attack": 0.18,
+    "random_power": 0.16,
+    "discard_retrieval": 0.22,
+    "next_power_free": 0.16,
+    "claw_scaling": 0.12,
+    "orb_scaled_attack_support": 0.22,
+    "unique_orb_draw_support": 0.24,
+    "lightning_hook_support": 0.24,
+    "power_hook_support": 0.22,
+    "status_hook_support": 0.24,
+    "zero_cost_attack_hook_support": 0.25,
+    "orb_passive_support": 0.22,
+    "status_cost_reduction_support": 0.18,
+    "lightning_history_support": 0.26,
+    "energy_multiplier_support": 0.24,
+    "sustained_focus_support": 0.2,
+    "conditional_effect": -0.03
+  },
+  "parameter_names": [
+    "new_draw_per_cost",
+    "new_immediate_energy_per_cost",
+    "new_next_energy_per_cost",
+    "weak_amount",
+    "vulnerable_amount",
+    "lightning_per_cost",
+    "frost_per_cost",
+    "dark_per_cost",
+    "plasma_per_cost",
+    "aoe",
+    "generated_status_burden",
+    "exhaust_control",
+    "orb_slots",
+    "strength_dexterity",
+    "lost_orb_slots",
+    "fixed_multihit_extra_damage_per_cost",
+    "self_cost_reduction",
+    "random_attack",
+    "random_power",
+    "discard_retrieval",
+    "next_power_free",
+    "claw_scaling",
+    "orb_scaled_attack_support",
+    "unique_orb_draw_support",
+    "lightning_hook_support",
+    "power_hook_support",
+    "status_hook_support",
+    "zero_cost_attack_hook_support",
+    "orb_passive_support",
+    "status_cost_reduction_support",
+    "lightning_history_support",
+    "energy_multiplier_support",
+    "sustained_focus_support",
+    "conditional_effect"
+  ],
+  "solver_requested_config": {
+    "first_budget_ms": 30000,
+    "replan_budget_ms": 30000,
+    "setup_budget_ms": 30000,
+    "retry_budget_ms": 30000,
+    "max_replans": 35,
+    "solver_backend": "coordinator",
+    "potion_policy": "Smart",
+    "growth_budgets": {
+      "GeneticAlgorithm": 3
+    },
+    "act_boss_hp_strategy": "ProgressionFirst",
+    "final_boss_hp_strategy": "ProgressionFirst",
+    "search_profile": {
+      "beam_width": 30,
+      "max_expanded_nodes": 5000,
+      "max_card_branches_per_node": 24,
+      "max_pile_choice_branches_per_action": 12,
+      "max_hand_choice_branches_per_action": 12,
+      "recover_deferred_turn_frontier": false
+    }
+  },
+  "training": {
+    "purpose": "current-engine description-bound reward semantics candidate",
+    "offline_replay_result": {
+      "path": "/home/ubuntu/sts2-cloud-analysis/reward-mechanism-candidate-20260918-v2/RESULT.json",
+      "sha256": "24f9f8a562c22eabed85148a3f3603bd3e04c75b11916371e9c711683b5b6413",
+      "bytes": 169467
+    },
+    "policy_weights_fitted": false,
+    "natural_outcomes_used_for_policy_weight_selection": false,
+    "future_condition_probabilities_assumed": false,
+    "automatic_deployment": false
+  },
+  "source_files": {
+    "whole_run_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/whole_run_policy.py",
+      "sha256": "533a80857f76f1defaeec9e8feaa88ddb9a04dd8fa7f58959c5e2b8e808194e3",
+      "bytes": 7503
+    },
+    "initial_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/initial_policy.py",
+      "sha256": "f6f89736e57a7c95981250be90283549c853618198dea969fb95453f5204ea9c",
+      "bytes": 38312
+    },
+    "decision_data.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/decision_data.py",
+      "sha256": "9ac8b3f0ec25039774bb17201604094220c2907f5d5435bca6c7e11d7f9fe2ee",
+      "bytes": 37777
+    },
+    "selection_space.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/selection_space.py",
+      "sha256": "44e9152058858043d6fc3448f6182857de43f3d233b3ecea72c82055d7342b10",
+      "bytes": 7063
+    },
+    "mechanism_facts.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/mechanism_facts.py",
+      "sha256": "4b21dcc112a6ac0647319084305cbd7a579e2967865ad0dc19b64245aa7dff89",
+      "bytes": 4984
+    },
+    "selection_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/selection_policy.py",
+      "sha256": "7b75e5def87a7cbf0c44ccbaa226e6dd560af629c9281ee008919c743af9b944",
+      "bytes": 27417
+    },
+    "contextual_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/contextual_policy.py",
+      "sha256": "a7251ce3a64dc056a6856a4099b515867acc3192fb85355d36168683e8d0331c",
+      "bytes": 6602
+    },
+    "contextual_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/contextual_features.py",
+      "sha256": "ddbe897f319ecdb6693ecb3b5925d48b741241e037e1a4d0dd3853f998646d0e",
+      "bytes": 4410
+    },
+    "contextual_effects.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/contextual_effects.py",
+      "sha256": "7640de971fdac9302fe484298258ccab5e52ff43f54d2d3c88733937b362354e",
+      "bytes": 3098
+    },
+    "card_identity_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/card_identity_policy.py",
+      "sha256": "ea73573a583953727538a137fe9db13c0c73c215ffe5f5eb38202e87de1f4565",
+      "bytes": 7006
+    },
+    "card_identity_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/card_identity_features.py",
+      "sha256": "a761cf75e7ca3dd841af14c0198060f7b5553a7c93532de7934623d98eaba835",
+      "bytes": 1963
+    },
+    "card_identity_vocabulary.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/card_identity_vocabulary.py",
+      "sha256": "f600116c057c975e3248bbec144248dfdf13369288c00ab82346d987e32535cd",
+      "bytes": 3508
+    },
+    "acquisition_residual_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/acquisition_residual_features.py",
+      "sha256": "fc8a11aa94fdf64cb31415c0cd3281e220ac0aaeeb09843bce13873f31011f4e",
+      "bytes": 2837
+    },
+    "circulation_context_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/circulation_context_features.py",
+      "sha256": "248df9160d62afa33352752113be4bf0d223233fe263b42ac1e1142d2c011bf1",
+      "bytes": 3385
+    },
+    "circulation_context_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/circulation_context_policy.py",
+      "sha256": "8651afdf0f32235709268653d66c64c84a659ad441f0e43d52f4de03bbf670ae",
+      "bytes": 6022
+    },
+    "circulation_capability_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/circulation_capability_features.py",
+      "sha256": "1ed45414d09163a4d20e1b7c2136155f6003ac698bfe49f7832228dd01b93c9c",
+      "bytes": 4731
+    },
+    "circulation_capability_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/circulation_capability_policy.py",
+      "sha256": "8b34396bdff4b528316676a09f0cbeefe4f63e1ead22f709f96b5b3460c1a739",
+      "bytes": 6043
+    },
+    "event_cost_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/event_cost_features.py",
+      "sha256": "68dd35fc7557d30b55c23d83fad489a6c7fbebc99e57ec90f0872d3a77761623",
+      "bytes": 4370
+    },
+    "deck_discipline.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/deck_discipline.py",
+      "sha256": "bd5904ac355461b0c1e8d5567bf0bf6b9c6eefe9f0f08b90e2390fbd8655a91b",
+      "bytes": 6877
+    },
+    "compact_deck_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/compact_deck_policy.py",
+      "sha256": "41cf32585a3c9791881dfa2f7da7bd2efe317cb0b4da09d1cf5dff520e10d423",
+      "bytes": 8398
+    },
+    "selection_target_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/selection_target_features.py",
+      "sha256": "2ed361e5c157c432ec4160a8c9c263ddef382986b0464b032a2d9ff5b651a338",
+      "bytes": 3225
+    },
+    "selection_target_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/selection_target_policy.py",
+      "sha256": "a375f255e13d752183dc4a7b78cc8c3be4946ca7f7692ed4fdc0dd764622f6b7",
+      "bytes": 8438
+    },
+    "event_risk_guard.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/event_risk_guard.py",
+      "sha256": "3205b3ef780bbe9318e441c00507753b6fe4b68b2d22bd818d979b0eaf0c6f44",
+      "bytes": 3096
+    },
+    "event_risk_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/event_risk_policy.py",
+      "sha256": "9f95283391ab961ffcb485e5b80ab07e2970220fe25df62c7aa6196a2640529e",
+      "bytes": 8788
+    },
+    "map_observation.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/map_observation.py",
+      "sha256": "872a4e227f7f9d36e928479f9489d9f4bd5cd7d7014b598d103b478f07376421",
+      "bytes": 6352
+    },
+    "route_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/route_features.py",
+      "sha256": "21e70044bac40a71fbe1ebe4cffb92aa39dc466119908ce32286f1b45e385232",
+      "bytes": 9652
+    },
+    "public_route_learning.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/public_route_learning.py",
+      "sha256": "2d0c9851607ca65dc595bebb3082e045e0a391d8b7924964ea71a0a24f21ecbb",
+      "bytes": 7479
+    },
+    "public_route_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/public_route_policy.py",
+      "sha256": "7dab07461c47a3393fe3d919ebe36a7d4e1950089100173bcec0cdc87809790b",
+      "bytes": 9543
+    },
+    "reference_archetype_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/reference_archetype_features.py",
+      "sha256": "bcd591cbf8734bfb4ec882c28dcc1b44c1c2ba0b35f96d8addaf7dd0727c3c88",
+      "bytes": 8895
+    },
+    "reference_archetype_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/reference_archetype_policy.py",
+      "sha256": "f96694f1da6c554c180320b9fd416b990e233351ff284c118e51352b70f9d168",
+      "bytes": 8772
+    },
+    "noncombat_potions.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/noncombat_potions.py",
+      "sha256": "b1d8faf3313ab0a9296bb3d650324c61bd35708e685d4c0c5fffa16433ebe7ec",
+      "bytes": 3492
+    },
+    "merchant_removal_value.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/merchant_removal_value.py",
+      "sha256": "0ab0313af233db325a30756a05b40a8b0c522466aef660f98b001b8d54abf0cd",
+      "bytes": 6904
+    },
+    "persistent_power_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/persistent_power_features.py",
+      "sha256": "57507bdc0a1aa8ae0a6ec7b595015f9c67e041f6774ed697eda4724ef9e8d55d",
+      "bytes": 4985
+    },
+    "persistent_acquisition_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/persistent_acquisition_features.py",
+      "sha256": "336c53f6cb532fa5c15b9e696e539be1735a89b209034f2927cd47a5982066d1",
+      "bytes": 1323
+    },
+    "persistent_acquisition_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/persistent_acquisition_policy.py",
+      "sha256": "eb4884181091a8db2f46a809bfdb8d0d009801f85c10bca3258b246a0ad42300",
+      "bytes": 11045
+    },
+    "ancient_reward_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/ancient_reward_features.py",
+      "sha256": "b89cbbe5c412b97fe8f0d600976645b48cf17bc3ce2d4382fb46304228567135",
+      "bytes": 5660
+    },
+    "ancient_reward_catalog.json": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/ancient_reward_catalog.json",
+      "sha256": "c0a0bb69a62fec74a34db26df23922a166df915ed36aff906b478411e4ba9382",
+      "bytes": 6703
+    },
+    "persistent_acquisition_features_438.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/persistent_acquisition_features_438.py",
+      "sha256": "55c94ce867741c764b5339462d47320b3025da44983249ee843abd99f617cb6a",
+      "bytes": 2205
+    },
+    "functional_role_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/functional_role_features.py",
+      "sha256": "352c1ec3f06f03b668203d040deca335d03e91e53a0b8fc86fac5a26281dde27",
+      "bytes": 9098
+    },
+    "event_effect_catalog.json": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/event_effect_catalog.json",
+      "sha256": "e07aa9f039196b9cb4ba1fa6e45d010e2da4c2be9d796503704d2e7354ad6549",
+      "bytes": 57657
+    },
+    "event_effect_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/event_effect_features.py",
+      "sha256": "98a19ae098fbc78def9da55c50765b9dfbac55160257461087b4126e393c5a0b",
+      "bytes": 13195
+    },
+    "event_effect_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/event_effect_policy.py",
+      "sha256": "7c15ea1d033a1994c2554dc6ab2dcd06641989b88ef8b5d9a0a02100418990ca",
+      "bytes": 6378
+    },
+    "selection_effect_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/selection_effect_features.py",
+      "sha256": "9fe60ce904a46a6fab2a688365e209fe2a15e4ae7203df094ae02be0f6ab3d29",
+      "bytes": 8135
+    },
+    "selection_effect_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/selection_effect_policy.py",
+      "sha256": "ceff7563d7bb7c7b3d2a8778800e5002087e735a4e9dfcba13c38b8a0a3281ba",
+      "bytes": 6049
+    },
+    "full_route_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/full_route_features.py",
+      "sha256": "121b8313e1a47a84a701dff72dc57489320f438bae5cf0feb46f2b739fd4e16f",
+      "bytes": 13391
+    },
+    "full_route_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/full_route_policy.py",
+      "sha256": "c073a18d1c3eccf1453a2784a271789181675ad39c5aaf44a8023c6e0f40932f",
+      "bytes": 6068
+    },
+    "train_encounter_damage_catalog.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/train_encounter_damage_catalog.py",
+      "sha256": "036294f22aec6bd683d96768b46d845aacd6a2bf6011a8fe1d24f9a51d699a36",
+      "bytes": 15619
+    },
+    "encounter_damage_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/encounter_damage_features.py",
+      "sha256": "b99d771aaaa1b1ddbf0ae025f80c199d4953cb7c115b34945b9f7fa6e36100ad",
+      "bytes": 14133
+    },
+    "encounter_damage_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/encounter_damage_policy.py",
+      "sha256": "0df53d11ecd03e849d9f030e5911d32dcb1e92aacb01b26f80d13fe489aa1cc5",
+      "bytes": 8500
+    },
+    "current_cards_eng.json": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/current_cards_eng.json",
+      "sha256": "c469a0be87d57c1476b75a5d0d3031cebf47e65d380a4646aae0028a20c993c0",
+      "bytes": 99783
+    },
+    "reward_mechanism_facts.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/reward_mechanism_facts.py",
+      "sha256": "ce0b70c50fc216ac57723c79f3ab60e3024f3eeecc45918d4af62a2b91ca0c2c",
+      "bytes": 7720
+    },
+    "reward_mechanism_features.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/reward_mechanism_features.py",
+      "sha256": "f7d2c943fa19b0d43171f92d48faa767e32cf89e9ef539b9d40e67bf2d5fc22c",
+      "bytes": 13871
+    },
+    "reward_mechanism_policy.py": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/reward_mechanism_policy.py",
+      "sha256": "ea8802143aca49f6dc7d3c448e36bc11a81f5998483c112d11fb3f07ad4e1db6",
+      "bytes": 5832
+    }
+  },
+  "reward_facts": {
+    "version": "current-reward-description-semantics-v1",
+    "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+    "card_table_sha256": "c469a0be87d57c1476b75a5d0d3031cebf47e65d380a4646aae0028a20c993c0",
+    "facts": 43,
+    "source": "current exported English description templates plus explicit conservative semantics",
+    "hidden_runtime_state_used": false,
+    "future_condition_probabilities_claimed": false,
+    "catalog": {
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/sts2-solver-bridge/current_cards_eng.json",
+      "sha256": "c469a0be87d57c1476b75a5d0d3031cebf47e65d380a4646aae0028a20c993c0",
+      "bytes": 99783
+    },
+    "registry_sha256": "3817d78944cee3088e0f702e740a215f17686b92b6b24659586c8d86efab9e32"
+  },
+  "reward_feature_contract": {
+    "version": "current-reward-mechanism-features-v2",
+    "facts_contract": {
+      "version": "current-reward-description-semantics-v1",
+      "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+      "card_table_sha256": "c469a0be87d57c1476b75a5d0d3031cebf47e65d380a4646aae0028a20c993c0",
+      "facts": 43,
+      "source": "current exported English description templates plus explicit conservative semantics",
+      "hidden_runtime_state_used": false,
+      "future_condition_probabilities_claimed": false
+    },
+    "candidate_adjustment_abs_cap": 1.25,
+    "policy_weights_fitted": false,
+    "natural_outcomes_used_for_weight_selection": false,
+    "description_and_current_stats_required": true,
+    "future_condition_probabilities_assumed": false
+  },
+  "score_semantics": "validated_parent_score_plus_fixed_current_reward_semantic_utility_not_win_probability",
+  "calibrated_probability": false,
+  "automatic_deployment": false
+}
