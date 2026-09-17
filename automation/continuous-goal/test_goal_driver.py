@@ -7,6 +7,35 @@ import goal_driver as g
 
 
 class GoalTests(unittest.TestCase):
+    def test_complete_review_accepts_start_next_batch(self):
+        pending = {
+            'kind': 'review',
+            'request_id': 'req-complete',
+            'snapshot': {'phase': 'complete'},
+        }
+        decision = {
+            'request_id': 'req-complete',
+            'action': 'start_next_batch',
+            'summary_zh': '已完成本批。',
+            'next_focus': '归档后继续新批次。',
+        }
+        self.assertEqual(g.parse(json.dumps(decision, ensure_ascii=False), pending), decision)
+
+    def test_running_review_rejects_start_next_batch(self):
+        pending = {
+            'kind': 'review',
+            'request_id': 'req-running',
+            'snapshot': {'phase': 'running'},
+        }
+        decision = {
+            'request_id': 'req-running',
+            'action': 'start_next_batch',
+            'summary_zh': '本批仍在运行。',
+            'next_focus': '继续当前批次。',
+        }
+        with self.assertRaisesRegex(ValueError, 'Goal action not allowed'):
+            g.parse(json.dumps(decision, ensure_ascii=False), pending)
+
     def test_unique_runner_and_invalid_id(self):
         template="OUT=pathlib.Path('/home/ubuntu/sts2-cloud-sampling-20260917a')\nseed='defect-cloud-training-20260917a-fresh-000'\n"
         a=g.make_runner(template,'defect-cloud-goal-20260917-000001',Path('/tmp/one'))
@@ -57,6 +86,22 @@ class GoalTests(unittest.TestCase):
                 g.fallback(state,'start',None,'model_response_timeout_no_replay')
                 self.assertEqual(launch.call_count,1)
                 self.assertIn('User continuous-run authorization',launch.call_args.args[1])
+
+    def test_only_verified_evaluation_summary_enters_goal_context(self):
+        with tempfile.TemporaryDirectory() as t:
+            path=Path(t)/'ASSESSMENT.json'
+            path.write_text(json.dumps({
+                'passed':True,'evaluation_complete':True,'games':120,'pairs':60,
+                'control_first_boss_successes':2,'candidate_first_boss_successes':7,
+                'candidate_only_success':6,'control_only_success':1,'one_sided_paired_p':0.0546875,
+                'candidate_gate_passed':False,'deployment_authorized':False,
+                'next_action':'candidate_rejected_keep_control','raw_files_verified':999,
+                'reason':'must not leak unbounded verifier text'}),encoding='utf-8')
+            context=g.evaluation_context(path)
+            self.assertFalse(context['candidate_gate_passed'])
+            self.assertFalse(context['deployment_authorized'])
+            self.assertNotIn('raw_files_verified',context)
+            self.assertNotIn('reason',context)
 
 
 if __name__=='__main__':unittest.main(verbosity=2)

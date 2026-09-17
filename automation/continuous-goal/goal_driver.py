@@ -3,7 +3,6 @@
 Sampling uses a frozen validated runtime. Goal persistence is not a claim that
 weights improve: fitting/deployment remains a separate, explicitly recorded step.
 """
-import fcntl
 import hashlib
 import json
 import os
@@ -19,6 +18,7 @@ TEMPLATE = ROOT / 'runner_template.py'
 SPOOL = Path('/home/ubuntu/sts2-agent/spool')
 STATE = ROOT / 'state.json'
 GOAL = ROOT / 'GOAL.json'
+EVAL_ASSESSMENT = Path('/home/ubuntu/sts2-cloud-eval/progress-aux/assessment/ASSESSMENT.json')
 atomic, read, require = pub.atomic, pub.read, pub.require
 CHILDREN = {}
 
@@ -146,18 +146,35 @@ def observe(state):
     return snap
 
 
+def evaluation_context(path=EVAL_ASSESSMENT):
+    if not path.exists():
+        return None
+    value = read(path)
+    allowed = ('passed', 'evaluation_complete', 'games', 'pairs', 'control_first_boss_successes',
+               'candidate_first_boss_successes', 'candidate_only_success', 'control_only_success',
+               'one_sided_paired_p', 'candidate_gate_passed', 'deployment_authorized', 'next_action')
+    return {key: value[key] for key in allowed if key in value}
+
+
 def ask(state, kind, snap=None, nudge=False):
     state['sequence'] += 1
     job_id = f"continuous_goal_{state['sequence']:06d}"
     context = {k:v for k,v in (snap or {}).items() if k not in ('receipts', 'protocol')}
     context['closed_batches'] = len(state.get('closed', []))
     context['baseline'] = {'games': 24, 'valid': 24, 'third_act_target_successes': 0}
+    evaluation = evaluation_context()
+    if evaluation is not None:
+        context['progress_aux_evaluation'] = evaluation
     request_id = hashlib.sha256(json.dumps({'kind':kind,'context':context,'sequence':state['sequence']}, sort_keys=True).encode()).hexdigest()[:24]
     action = 'start_next_batch' if kind == 'start' else 'publish_and_continue'
     prompt = (
         '用户最新明确指令：让你持续跑下去不要停，并设置脚本督促MiniMax一个goal。'
         '旧的“24局后停止/不新开批次”授权已被这次指令覆盖。你的持久goal是持续推进鸡煲A10训练，朝稳定击败第三幕首个首领目标前进。'
-        '当前可执行阶段是固定已验证模型的持续自然局采样、诊断和归档；没有拟合新权重，所以绝不能把样本增加当成胜率提升。'
+        '当前可执行阶段是固定已验证模型的持续自然局采样、诊断和归档。'
+        '已对254个受控分支gate做过一次33参数拟合，但候选OOF选择值0.09737低于基线0.09825、NLL 1.45688高于1.41336，已被门禁拒绝且未部署。'
+        '当前78局可审计自然局快照仅1次目标成功、9次到达第三幕首Boss但未通过、68次更早失败；这是描述统计而非候选因果评估。'
+        '牌组纪律中71/78终局不超过25张、6局为26至36张，唯一超过36的52张局有REFLECTIONS_SHATTER特殊构筑豁免；没有发现未豁免超限。'
+        '因此绝不能把样本增加或这次拟合当成胜率提升；后续需要更高信号的受控分支样本和新的预声明拟合轮次。'
         '每批24个全新种子，一批结束必须接新批；保留失败和未知，不重跑同一分配。'
         '你不直接执行工具，由固定宿主适配器执行允许的批次启动和GitHub归档上传。'
         '现在需要你选择 ' + action + ' 并给出简短复盘及下一步重点。'
@@ -180,8 +197,17 @@ def parse(text, pending):
     value = json.loads(text.strip())
     require(isinstance(value,dict) and set(value)=={'request_id','action','summary_zh','next_focus'}, 'Goal decision schema differs')
     require(value['request_id']==pending['request_id'], 'Stale goal decision')
-    expected = 'start_next_batch' if pending['kind']=='start' else 'publish_and_continue'
-    require(value['action'] in (expected,'wait'), 'Goal action not allowed in this phase')
+    snap = pending.get('snapshot') or {}
+    if pending['kind'] == 'start':
+        allowed = {'start_next_batch', 'wait'}
+    elif snap.get('phase') in ('complete', 'failed'):
+        # A finished review both publishes the closed batch and starts the next one.
+        # MiniMax has used either verb for that combined transition; both are safe
+        # because execute() performs the same publish/close/continue sequence.
+        allowed = {'publish_and_continue', 'start_next_batch', 'wait'}
+    else:
+        allowed = {'publish_and_continue', 'wait'}
+    require(value['action'] in allowed, 'Goal action not allowed in this phase')
     for key in ('summary_zh','next_focus'):
         require(isinstance(value[key],str) and 1<=len(value[key])<=1000 and not pub.SECRET.search(value[key].encode()), 'Invalid goal narrative')
     return value
@@ -286,6 +312,7 @@ def tick(state):
 
 
 def main():
+    import fcntl
     ROOT.mkdir(exist_ok=True)
     lock=(ROOT/'goal.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     state=read(STATE) if STATE.exists() else {'next_batch':1,'sequence':0,'closed':[],'current':None,'pending':None}

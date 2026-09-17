@@ -3,7 +3,6 @@
 Sampling uses a frozen validated runtime. Goal persistence is not a claim that
 weights improve: fitting/deployment remains a separate, explicitly recorded step.
 """
-import fcntl
 import hashlib
 import json
 import os
@@ -19,6 +18,7 @@ TEMPLATE = ROOT / 'runner_template.py'
 SPOOL = Path('/home/ubuntu/sts2-agent/spool')
 STATE = ROOT / 'state.json'
 GOAL = ROOT / 'GOAL.json'
+EVAL_ASSESSMENT = Path('/home/ubuntu/sts2-cloud-eval/progress-aux/assessment/ASSESSMENT.json')
 atomic, read, require = pub.atomic, pub.read, pub.require
 CHILDREN = {}
 
@@ -146,12 +146,25 @@ def observe(state):
     return snap
 
 
+def evaluation_context(path=EVAL_ASSESSMENT):
+    if not path.exists():
+        return None
+    value = read(path)
+    allowed = ('passed', 'evaluation_complete', 'games', 'pairs', 'control_first_boss_successes',
+               'candidate_first_boss_successes', 'candidate_only_success', 'control_only_success',
+               'one_sided_paired_p', 'candidate_gate_passed', 'deployment_authorized', 'next_action')
+    return {key: value[key] for key in allowed if key in value}
+
+
 def ask(state, kind, snap=None, nudge=False):
     state['sequence'] += 1
     job_id = f"continuous_goal_{state['sequence']:06d}"
     context = {k:v for k,v in (snap or {}).items() if k not in ('receipts', 'protocol')}
     context['closed_batches'] = len(state.get('closed', []))
     context['baseline'] = {'games': 24, 'valid': 24, 'third_act_target_successes': 0}
+    evaluation = evaluation_context()
+    if evaluation is not None:
+        context['progress_aux_evaluation'] = evaluation
     request_id = hashlib.sha256(json.dumps({'kind':kind,'context':context,'sequence':state['sequence']}, sort_keys=True).encode()).hexdigest()[:24]
     action = 'start_next_batch' if kind == 'start' else 'publish_and_continue'
     prompt = (
@@ -299,6 +312,7 @@ def tick(state):
 
 
 def main():
+    import fcntl
     ROOT.mkdir(exist_ok=True)
     lock=(ROOT/'goal.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     state=read(STATE) if STATE.exists() else {'next_batch':1,'sequence':0,'closed':[],'current':None,'pending':None}
