@@ -30,4 +30,14 @@ An isolated one-game smoke protocol is frozen with SHA-256
 It uses one new seed, cannot retry, and is ineligible for fitting, selection,
 sample extension, or automatic deployment.  A systemd handoff waits for the
 active progress-auxiliary paired evaluation to finish, acquires a clean sampling
-boundary, runs this smoke once, and resumes the continuous goal afterward.
+boundary, and runs this smoke once.
+
+If and only if the smoke passes its full integration audit, the same serialized
+handoff starts a frozen 60-pair, 120-game natural evaluation.  The paired
+protocol SHA-256 is
+`01c7db5ac45b8bb5f39098045503a56e2be39564a48ed403bccb307a790cc579`.
+Each pair shares one new seed, control and candidate run first in 30 pairs each,
+invalid games remain failures, and the first pair is an integration gate.  The
+trial cannot retry, refit, extend its sample, or automatically deploy.  The
+continuous goal resumes after the paired service reaches either success or
+failure.

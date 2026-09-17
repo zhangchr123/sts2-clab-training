@@ -1,5 +1,5 @@
 [Unit]
-Description=One-shot isolated STS2 public event-effect integration smoke
+Description=One-shot serialized public event-effect paired natural evaluation
 After=network-online.target
 Wants=network-online.target
 
@@ -9,7 +9,7 @@ User=ubuntu
 Group=ubuntu
 WorkingDirectory=/home/ubuntu/sts2-event-effect-stage-20260918/sts2-solver-bridge
 Environment=PYTHONUNBUFFERED=1
-ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-event-effect-stage-20260918/sts2-solver-bridge/run_event_effect_smoke.py run
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-event-effect-stage-20260918/sts2-solver-bridge/run_event_effect_paired_eval.py run
 TimeoutStartSec=infinity
 TimeoutStopSec=30
 UMask=0077

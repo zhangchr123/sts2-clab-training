@@ -19,6 +19,8 @@ GOAL_UNIT = "sts2-cloud-goal.service"
 PREDECESSOR_EVAL_UNIT = "sts2-progress-aux-eval.service"
 PREDECESSOR_HANDOFF_UNIT = "sts2-progress-aux-handoff.service"
 SMOKE_UNIT = "sts2-event-effect-smoke.service"
+PAIRED_UNIT = "sts2-event-effect-paired-eval.service"
+PAIRED_RUN = Path("/home/ubuntu/sts2-event-effect-paired-eval-20260918/run")
 
 
 def atomic(value):
@@ -155,6 +157,47 @@ def wait_for_boundary():
         return
 
 
+def start_paired_and_monitor():
+    command("systemctl", "start", PAIRED_UNIT)
+    time.sleep(1)
+    if not active(PAIRED_UNIT):
+        command("systemctl", "start", GOAL_UNIT)
+        raise RuntimeError("event-effect paired service failed to become active")
+    while active(PAIRED_UNIT):
+        progress = {}
+        path = PAIRED_RUN / "public-status.json"
+        if path.exists():
+            progress = json.loads(path.read_text(encoding="utf-8"))
+        atomic({
+            "phase": "event_paired_evaluation_active",
+            "progress": progress,
+            "updated_unix": time.time(),
+            "automatic_retry": False,
+        })
+        time.sleep(30)
+    result = show(PAIRED_UNIT, "Result")
+    exit_status = show(PAIRED_UNIT, "ExecMainStatus")
+    command("systemctl", "start", GOAL_UNIT)
+    atomic({
+        "phase": "event_paired_evaluation_terminal_goal_resumed",
+        "service_result": result,
+        "exit_status": exit_status,
+        "result_exists": (PAIRED_RUN / "RESULT.json").exists(),
+        "runner_error_exists": (PAIRED_RUN / "RUNNER_ERROR.json").exists(),
+        "goal_service_active": active(GOAL_UNIT),
+        "updated_unix": time.time(),
+        "automatic_retry": False,
+    })
+
+
+def smoke_passed():
+    path = RUN / "RESULT.json"
+    if not path.exists():
+        return False
+    result = json.loads(path.read_text(encoding="utf-8"))
+    return result.get("passed") is True and result.get("integration_passed") is True
+
+
 def monitor_smoke():
     while active(SMOKE_UNIT):
         progress = {}
@@ -170,9 +213,18 @@ def monitor_smoke():
         time.sleep(15)
     result = show(SMOKE_UNIT, "Result")
     exit_status = show(SMOKE_UNIT, "ExecMainStatus")
+    if result == "success" and exit_status == "0" and smoke_passed():
+        atomic({
+            "phase": "event_smoke_passed_starting_paired_evaluation",
+            "smoke_result_exists": True,
+            "updated_unix": time.time(),
+            "automatic_retry": False,
+        })
+        start_paired_and_monitor()
+        return
     command("systemctl", "start", GOAL_UNIT)
     atomic({
-        "phase": "event_smoke_terminal_goal_resumed",
+        "phase": "event_smoke_failed_goal_resumed",
         "service_result": result,
         "exit_status": exit_status,
         "result_exists": (RUN / "RESULT.json").exists(),
@@ -190,13 +242,21 @@ def main():
     if (RUN / "STARTED.json").exists():
         if active(SMOKE_UNIT):
             monitor_smoke()
+        elif smoke_passed() and not (PAIRED_RUN / "STARTED.json").exists():
+            wait_for_predecessor()
+            wait_for_boundary()
+            start_paired_and_monitor()
+        elif active(PAIRED_UNIT):
+            start_paired_and_monitor()
         else:
             if not active(PREDECESSOR_EVAL_UNIT) and not active(PREDECESSOR_HANDOFF_UNIT):
                 command("systemctl", "start", GOAL_UNIT)
             atomic({
-                "phase": "started_smoke_not_replayed_goal_resumed",
+                "phase": "started_evaluation_not_replayed_goal_resumed",
                 "result_exists": (RUN / "RESULT.json").exists(),
                 "runner_error_exists": (RUN / "RUNNER_ERROR.json").exists(),
+                "paired_result_exists": (PAIRED_RUN / "RESULT.json").exists(),
+                "paired_runner_error_exists": (PAIRED_RUN / "RUNNER_ERROR.json").exists(),
                 "goal_service_active": active(GOAL_UNIT),
                 "updated_unix": time.time(),
                 "automatic_retry": False,
