@@ -1,0 +1,32 @@
+[Unit]
+Description=MiniMax-directed STS2 audited archive publisher
+After=network-online.target sts2-observer.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/sts2-cloud-automation
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-cloud-automation/cloud_automation.py
+Restart=no
+UMask=0077
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/ubuntu/sts2-cloud-automation /home/ubuntu/sts2-cloud-repo /home/ubuntu/sts2-agent/spool/inbox
+PrivateTmp=yes
+ProtectKernelTunables=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+MemoryMax=384M
+TasksMax=32
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+LogRateLimitIntervalSec=60s
+LogRateLimitBurst=20
+
+[Install]
+WantedBy=multi-user.target

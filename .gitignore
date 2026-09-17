@@ -1,0 +1,7 @@
+*.pem
+*.key
+.credentials*
+.env*
+__pycache__/
+*.tmp
+*.sqlite*
