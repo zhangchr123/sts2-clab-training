@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "commit": "c933f49f6237af542441bb4e6c80865f6465f77c",
+  "source": "Independent GitHub API download and ZIP member SHA256 readback",
+  "games": 7,
+  "zip_bytes": 8323075,
+  "tracked_file_bytes": 8500076,
+  "files": 26,
+  "private": true,
+  "model_action": "publish_snapshot",
+  "receipts": [
+    {
+      "run_id": "defect-cloud-training-20260917a-000",
+      "bytes": 1559536,
+      "sha256": "5c2ee0f2d2c2c99eb889bf81afb5d57088ba94539a21a6192e1301eef838d69c",
+      "all_members_verified": true
+    },
+    {
+      "run_id": "defect-cloud-training-20260917a-001",
+      "bytes": 1422956,
+      "sha256": "0eeb33683842e1cb85ebbb67c231f1b051f05dc76a8a54337cb0cc1618a41d3d",
+      "all_members_verified": true
+    },
+    {
+      "run_id": "defect-cloud-training-20260917a-002",
+      "bytes": 1194460,
+      "sha256": "dda4afe2079a1dfe630b03ed4cce3123fc4033f2906e0f1f728deac03c39e7d2",
+      "all_members_verified": true
+    },
+    {
+      "run_id": "defect-cloud-training-20260917a-003",
+      "bytes": 1021478,
+      "sha256": "c6cfa1a5dfd6bcb49611a12b2c3163514f6f77dd0ed3dfc14cc9d68ad92f2c5a",
+      "all_members_verified": true
+    },
+    {
+      "run_id": "defect-cloud-training-20260917a-004",
+      "bytes": 897265,
+      "sha256": "8b80bc2d2452e64ffe435ad115644bf9192aa9692e55ed3632d450b045ebf16e",
+      "all_members_verified": true
+    },
+    {
+      "run_id": "defect-cloud-training-20260917a-005",
+      "bytes": 1126294,
+      "sha256": "825d09c844a1d457df91f1f5b3c965f008c9896f8005482669defccf5de5c1dc",
+      "all_members_verified": true
+    },
+    {
+      "run_id": "defect-cloud-training-20260917a-006",
+      "bytes": 1101086,
+      "sha256": "ffc20d41bf1ac5c53a390b9241959ab15bafa1690bb39a047aa0d902120edf05",
+      "all_members_verified": true
+    }
+  ]
+}

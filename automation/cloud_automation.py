@@ -80,6 +80,16 @@ def safe_bytes(path):
     return data
 
 
+def owner_state(launch, proc_root=Path('/proc')):
+    try:
+        fields = (proc_root / str(int(launch['owner_pid'])) / 'stat').read_text().rsplit(')', 1)[1].split()
+        return 'live' if fields[19] == str(launch['start_ticks']) and fields[0] != 'Z' else 'identity_mismatch_or_zombie'
+    except FileNotFoundError:
+        return 'missing'
+    except (OSError, ValueError, KeyError, IndexError):
+        return 'unknown'
+
+
 def snapshot():
     protocol = read(BASE / 'PROTOCOL.json')
     require(protocol['batch_id'] == BATCH and protocol['planned_games'] == 24, 'Unexpected training protocol')
@@ -98,12 +108,15 @@ def snapshot():
     progress = read(BASE / 'public-status.json')
     # Never use a changing worker's raw log as an archive input.
     phase = progress['phase'] if progress['phase'] in ('complete', 'failed') else 'running'
+    owner = owner_state(read(BASE / 'LAUNCH.json'))
+    if phase == 'running' and owner != 'live':
+        phase = 'failed'
     result = {'batch': BATCH, 'planned': 24, 'completed': len(receipts),
               'valid': sum(r['valid'] for r in receipts), 'invalid': sum(not r['valid'] for r in receipts),
               'target_successes': sum(r['target_success'] for r in receipts),
               'phase': phase, 'receipts': receipts, 'protocol': file_info(BASE / 'PROTOCOL.json'),
               'model_updated': False, 'new_batch_allowed': False,
-              'partial_upload_authorized': True, 'adapter_revision': 2}
+              'partial_upload_authorized': True, 'adapter_revision': 3, 'owner_state': owner}
     result['snapshot_id'] = digest(json.dumps(result, sort_keys=True).encode())[:24]
     return result
 
@@ -270,7 +283,7 @@ def run():
         else:
             snap = snapshot()
             changed = snap['snapshot_id'] != state.get('seen_snapshot')
-            due = snap['completed'] and (state['last_published_count'] == 0 or snap['completed'] - state['last_published_count'] >= 4 or snap['phase'] in ('complete', 'failed'))
+            due = (snap['completed'] > 0 or snap['phase'] in ('complete', 'failed')) and (state['last_published_count'] == 0 or snap['completed'] - state['last_published_count'] >= 4 or snap['phase'] in ('complete', 'failed'))
             if changed and due:
                 # Durable intent precedes inbox publish; same job ID can be re-published safely.
                 state['pending'] = {'job_id': 'publish_' + snap['snapshot_id'], 'snapshot': snap}

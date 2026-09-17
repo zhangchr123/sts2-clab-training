@@ -7,6 +7,19 @@ import cloud_automation as a
 
 
 class ContractTests(unittest.TestCase):
+    def test_owner_identity_reuse_and_missing_process(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d); folder = root / '123'; folder.mkdir()
+            launch = {'owner_pid': 123, 'start_ticks': '456'}
+            fields = ['S'] + ['0'] * 18 + ['456']
+            stat = folder / 'stat'
+            stat.write_text('123 (name with spaces) ' + ' '.join(fields))
+            self.assertEqual(a.owner_state(launch, root), 'live')
+            fields[19] = '457'; stat.write_text('123 (name with spaces) ' + ' '.join(fields))
+            self.assertEqual(a.owner_state(launch, root), 'identity_mismatch_or_zombie')
+            stat.unlink()
+            self.assertEqual(a.owner_state(launch, root), 'missing')
+
     def test_decision_rejects_unapproved_actions_and_extra_parameters(self):
         good = {'snapshot_id': 'abc', 'action': 'publish_snapshot', 'summary_zh': '仅归档完成局。'}
         self.assertEqual(a.parse_decision(json.dumps(good), 'abc'), good)
