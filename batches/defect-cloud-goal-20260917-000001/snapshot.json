@@ -1,0 +1,126 @@
+{
+  "batch": "defect-cloud-goal-20260917-000001",
+  "planned": 24,
+  "completed": 8,
+  "valid": 8,
+  "invalid": 0,
+  "target_successes": 0,
+  "phase": "running",
+  "receipts": [
+    {
+      "name": "defect-cloud-goal-20260917-000001-000",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-000",
+      "audit": {
+        "bytes": 1484,
+        "sha256": "f8149dc06b5459112d575326efdb7fe7aa2652714cb2d7b50a7f82cb0faf9a5e"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000001-001",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-001",
+      "audit": {
+        "bytes": 1492,
+        "sha256": "0c53b1a946a4070b8817ec40bab00f3680e5a5967a0ed4dd16b6c33148415e5b"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000001-002",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-002",
+      "audit": {
+        "bytes": 1490,
+        "sha256": "cb5a333868da2d22ac09465e192229c1e99b78d87ff1ec70d0f2d3968ba874b2"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 3,
+      "max_floor": 15
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000001-003",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-003",
+      "audit": {
+        "bytes": 1495,
+        "sha256": "3f4dc1f3ce1e0126bf29a0a98d4a66af3c9718c000420e33c29d75a42c20f7e5"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 4
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000001-004",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-004",
+      "audit": {
+        "bytes": 1484,
+        "sha256": "bb7e2ba766571fbb85d9f1e441f5a9445f6281449807136e162e88b6f0e44fd0"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000001-005",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-005",
+      "audit": {
+        "bytes": 1483,
+        "sha256": "e81ed21e4b4f04ff68dd4d80536c7f514b190a05b1c78bb9a55a1e285d52e743"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000001-006",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-006",
+      "audit": {
+        "bytes": 1488,
+        "sha256": "0749b46b20880281db268947663ac75962c0b981fc44d4c3b6cf0522dc16b50c"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000001-007",
+      "seed": "defect-cloud-goal-20260917-000001-fresh-007",
+      "audit": {
+        "bytes": 1483,
+        "sha256": "ab24f26f5816780815f675e2293beaaf40a1368e5e14cc553e8735d5d3a02da2"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 3,
+      "max_floor": 15
+    }
+  ],
+  "protocol": {
+    "bytes": 57700,
+    "sha256": "b65c3a882d58b6f7c9d757362276ff9a6a929435c351bf3baee57c9d2a4db5cb"
+  },
+  "model_updated": false,
+  "new_batch_allowed": true,
+  "partial_upload_authorized": true,
+  "adapter_revision": 3,
+  "owner_state": "live",
+  "snapshot_id": "3801c0de3d94519cf2517307",
+  "goal_id": "defect-continuous-training-20260917"
+}
