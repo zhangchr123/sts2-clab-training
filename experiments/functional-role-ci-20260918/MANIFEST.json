@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "description": "Persistent MiniMax goal sources and rejected functional-role fit; no deployed model",
+  "files": [
+    {
+      "path": "automation/goal_driver.py",
+      "bytes": 16733,
+      "sha256": "7a19cbbf992cfd8d2a2cde9ee97f8ff63fea25a2ae2a57149f5edbe653ebf2b5"
+    },
+    {
+      "path": "automation/test_goal_driver.py",
+      "bytes": 4960,
+      "sha256": "768d10b3ea453281a2d146c931d4cbfe600839011c87c3d98afff291d8453576"
+    },
+    {
+      "path": "automation/sts2-cloud-goal.service",
+      "bytes": 1007,
+      "sha256": "402aa9b8ee1dd799e3bd7669ada4a57f262d3243f1819cada264197864040c0e"
+    },
+    {
+      "path": "automation/CONTINUOUS_GOAL.json",
+      "bytes": 988,
+      "sha256": "c3b00339a917546601bcd461880333eb2a68ae675cfaa0a9593113445acb3ee2"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/EXPORT_RESULT.json",
+      "bytes": 642,
+      "sha256": "4cd138906886994c20b93d248fa00641c751319df3f91d0e1bdb36dc78f771ab"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/INPUT.json.gz",
+      "bytes": 750511,
+      "sha256": "dbf6f96b08ae2ad2bb873d026a3ce8f55fac6d89b2a005917995cbee6d57332b"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/README.md",
+      "bytes": 1155,
+      "sha256": "248a1c931d02059352d690e2fcbb44f99f6ade4135e5b6153becbedf05589d2d"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/cloud_fit_functional_role.py",
+      "bytes": 16342,
+      "sha256": "8763aed9bdd9a9b0e0fdfab46886413d5f9fb48e9b30cb03691534445d47c286"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/output/EVALUATION_ALLOCATION.json",
+      "bytes": 9235,
+      "sha256": "760b8c6a2ce1eaf5f705ac3110dabad5d75b9c2039c2e8487394fc4beb8335f6"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/output/FIT_STARTED.json",
+      "bytes": 260,
+      "sha256": "ebefa06f922dcbf2435a115ffb82b16c150bcf601137feb70f41f0c859fdeac4"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/output/NOT_ADMITTED.json",
+      "bytes": 254,
+      "sha256": "f056b482f6ca849d3edb27cc475ebe98289119019c276914b399e4747cba1bbe"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/output/OOF.json",
+      "bytes": 152491,
+      "sha256": "651e6e18d824dd3993ffbda26cf5a39fa5e2ab1c08e3cb1fd3eacce569c9a146"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/output/RESULT.json",
+      "bytes": 47657,
+      "sha256": "83c9c8de3fa96553b921a6d65c87e54712745d209fa9cd945c74ef2a4b3e8ea4"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/output/candidate-overlay.json",
+      "bytes": 2927,
+      "sha256": "68332bbf2ac5146ba4d15e98f451caa6ef711dffd8a9ecc3054ae94df1dd8cf2"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/output/protocol.json",
+      "bytes": 3875,
+      "sha256": "d6139ebfd47a4cc637e3b345f3c7b7f1ad17a0b0ce1f4b4b4850dca6b5610fb3"
+    },
+    {
+      "path": "experiments/functional-role-ci-20260918/test_cloud_fit_functional_role.py",
+      "bytes": 2131,
+      "sha256": "b6fe267ac74064f0f1ded0427f7f095cfd2bd937728c7baa2220aabbc311835d"
+    }
+  ]
+}

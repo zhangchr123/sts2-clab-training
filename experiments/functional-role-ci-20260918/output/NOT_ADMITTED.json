@@ -1,0 +1,8 @@
+{
+  "reason": "frozen whole-seed OOF gates failed",
+  "result": {
+    "path": "/home/ubuntu/sts2-cloud-fit/functional-role-ci/output/RESULT.json",
+    "bytes": 47657,
+    "sha256": "83c9c8de3fa96553b921a6d65c87e54712745d209fa9cd945c74ef2a4b3e8ea4"
+  }
+}

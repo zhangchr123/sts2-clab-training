@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "input": {
+    "path": "E:\\sts2-cloud-deployment-20260917\\functional-role-fit-input-20260918\\INPUT.json",
+    "bytes": 8642575,
+    "sha256": "fd51be5dd69ea080da0241f27851099e859c98327980b3f1b76d1d94197b417f"
+  },
+  "complete_valid_gates": 254,
+  "excluded_gates": 20,
+  "independent_seeds": 95,
+  "predeclared_protocol": {
+    "path": "E:\\sts2-training-workspaces\\functional-role-expanded-learning-20260917ci\\protocol.json",
+    "bytes": 62498,
+    "sha256": "3fae320461abd48fd22edd31c29deefa1b84482a754ed4211390b9aad547457d"
+  },
+  "natural_evaluation_read": false,
+  "optimization_run": false
+}

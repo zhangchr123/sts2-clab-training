@@ -1,0 +1,20 @@
+{
+  "goal_id": "defect-continuous-training-20260917",
+  "enabled": true,
+  "status": "active",
+  "objective": "持续推进鸡煲A10训练，朝稳定击败第三幕首个首领前进；持续采样、审计、复盘和归档，不能在24局后停止。",
+  "authorized_by": "User explicitly requested continuous CLab operation and a script-driven MiniMax goal.",
+  "current_stage": "continuous_validated_fixed_policy_sampling",
+  "model_updates_implemented": false,
+  "completion_policy": "Never automatically claim stable success from sample count or one successful batch. Continue until user pauses or changes scope.",
+  "batch_size": 24,
+  "parallel_workers": 1,
+  "idle_nudge_seconds": 300,
+  "model_response_watchdog_seconds": 600,
+  "model_calls_per_hour": 12,
+  "new_batches_allowed": true,
+  "same_seed_retry_allowed": false,
+  "local_windows_training_remains_paused": true,
+  "cloud_disk_reserve_bytes": 8589934592,
+  "repository_budget_bytes": 900000000
+}

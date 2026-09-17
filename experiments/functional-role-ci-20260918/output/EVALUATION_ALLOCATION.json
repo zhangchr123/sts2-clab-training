@@ -1,0 +1,299 @@
+{
+  "declared_before_fit": true,
+  "jobs": [
+    {
+      "pair": 0,
+      "seed": "defect-functional-role-paired-20260918-000",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-000"
+    },
+    {
+      "pair": 0,
+      "seed": "defect-functional-role-paired-20260918-000",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-000"
+    },
+    {
+      "pair": 1,
+      "seed": "defect-functional-role-paired-20260918-001",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-001"
+    },
+    {
+      "pair": 1,
+      "seed": "defect-functional-role-paired-20260918-001",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-001"
+    },
+    {
+      "pair": 2,
+      "seed": "defect-functional-role-paired-20260918-002",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-002"
+    },
+    {
+      "pair": 2,
+      "seed": "defect-functional-role-paired-20260918-002",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-002"
+    },
+    {
+      "pair": 3,
+      "seed": "defect-functional-role-paired-20260918-003",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-003"
+    },
+    {
+      "pair": 3,
+      "seed": "defect-functional-role-paired-20260918-003",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-003"
+    },
+    {
+      "pair": 4,
+      "seed": "defect-functional-role-paired-20260918-004",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-004"
+    },
+    {
+      "pair": 4,
+      "seed": "defect-functional-role-paired-20260918-004",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-004"
+    },
+    {
+      "pair": 5,
+      "seed": "defect-functional-role-paired-20260918-005",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-005"
+    },
+    {
+      "pair": 5,
+      "seed": "defect-functional-role-paired-20260918-005",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-005"
+    },
+    {
+      "pair": 6,
+      "seed": "defect-functional-role-paired-20260918-006",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-006"
+    },
+    {
+      "pair": 6,
+      "seed": "defect-functional-role-paired-20260918-006",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-006"
+    },
+    {
+      "pair": 7,
+      "seed": "defect-functional-role-paired-20260918-007",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-007"
+    },
+    {
+      "pair": 7,
+      "seed": "defect-functional-role-paired-20260918-007",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-007"
+    },
+    {
+      "pair": 8,
+      "seed": "defect-functional-role-paired-20260918-008",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-008"
+    },
+    {
+      "pair": 8,
+      "seed": "defect-functional-role-paired-20260918-008",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-008"
+    },
+    {
+      "pair": 9,
+      "seed": "defect-functional-role-paired-20260918-009",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-009"
+    },
+    {
+      "pair": 9,
+      "seed": "defect-functional-role-paired-20260918-009",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-009"
+    },
+    {
+      "pair": 10,
+      "seed": "defect-functional-role-paired-20260918-010",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-010"
+    },
+    {
+      "pair": 10,
+      "seed": "defect-functional-role-paired-20260918-010",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-010"
+    },
+    {
+      "pair": 11,
+      "seed": "defect-functional-role-paired-20260918-011",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-011"
+    },
+    {
+      "pair": 11,
+      "seed": "defect-functional-role-paired-20260918-011",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-011"
+    },
+    {
+      "pair": 12,
+      "seed": "defect-functional-role-paired-20260918-012",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-012"
+    },
+    {
+      "pair": 12,
+      "seed": "defect-functional-role-paired-20260918-012",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-012"
+    },
+    {
+      "pair": 13,
+      "seed": "defect-functional-role-paired-20260918-013",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-013"
+    },
+    {
+      "pair": 13,
+      "seed": "defect-functional-role-paired-20260918-013",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-013"
+    },
+    {
+      "pair": 14,
+      "seed": "defect-functional-role-paired-20260918-014",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-014"
+    },
+    {
+      "pair": 14,
+      "seed": "defect-functional-role-paired-20260918-014",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-014"
+    },
+    {
+      "pair": 15,
+      "seed": "defect-functional-role-paired-20260918-015",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-015"
+    },
+    {
+      "pair": 15,
+      "seed": "defect-functional-role-paired-20260918-015",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-015"
+    },
+    {
+      "pair": 16,
+      "seed": "defect-functional-role-paired-20260918-016",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-016"
+    },
+    {
+      "pair": 16,
+      "seed": "defect-functional-role-paired-20260918-016",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-016"
+    },
+    {
+      "pair": 17,
+      "seed": "defect-functional-role-paired-20260918-017",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-017"
+    },
+    {
+      "pair": 17,
+      "seed": "defect-functional-role-paired-20260918-017",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-017"
+    },
+    {
+      "pair": 18,
+      "seed": "defect-functional-role-paired-20260918-018",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-018"
+    },
+    {
+      "pair": 18,
+      "seed": "defect-functional-role-paired-20260918-018",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-018"
+    },
+    {
+      "pair": 19,
+      "seed": "defect-functional-role-paired-20260918-019",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-019"
+    },
+    {
+      "pair": 19,
+      "seed": "defect-functional-role-paired-20260918-019",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-019"
+    },
+    {
+      "pair": 20,
+      "seed": "defect-functional-role-paired-20260918-020",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-020"
+    },
+    {
+      "pair": 20,
+      "seed": "defect-functional-role-paired-20260918-020",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-020"
+    },
+    {
+      "pair": 21,
+      "seed": "defect-functional-role-paired-20260918-021",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-021"
+    },
+    {
+      "pair": 21,
+      "seed": "defect-functional-role-paired-20260918-021",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-021"
+    },
+    {
+      "pair": 22,
+      "seed": "defect-functional-role-paired-20260918-022",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-022"
+    },
+    {
+      "pair": 22,
+      "seed": "defect-functional-role-paired-20260918-022",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-022"
+    },
+    {
+      "pair": 23,
+      "seed": "defect-functional-role-paired-20260918-023",
+      "arm": "control",
+      "run_id": "defect-functional-role-paired-20260918-control-023"
+    },
+    {
+      "pair": 23,
+      "seed": "defect-functional-role-paired-20260918-023",
+      "arm": "candidate",
+      "run_id": "defect-functional-role-paired-20260918-candidate-023"
+    }
+  ],
+  "pairs": 24,
+  "games": 48,
+  "fresh_seed_prefix": "defect-functional-role-paired-20260918-",
+  "gate": "candidate target successes > control and exact one-sided paired p <= 0.05; invalid retained as failure",
+  "no_refit_on_evaluation": true,
+  "no_sample_extension": true
+}

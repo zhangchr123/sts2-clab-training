@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-09-17T18:26:36.811857+00:00",
+  "protocol": {
+    "path": "/home/ubuntu/sts2-cloud-fit/functional-role-ci/output/protocol.json",
+    "bytes": 3875,
+    "sha256": "d6139ebfd47a4cc637e3b345f3c7b7f1ad17a0b0ce1f4b4b4850dca6b5610fb3"
+  }
+}
