@@ -1,0 +1,57 @@
+{
+  "schema_version": "selection-effect-assembled-replay-v1",
+  "passed": true,
+  "decisions": 91,
+  "candidate_rows": 3604,
+  "exact_parent_additivity": 91,
+  "recorded_parent_exact": 91,
+  "maximum_additivity_error": 0.0,
+  "maximum_recorded_parent_error": 1.7763568394002505e-15,
+  "natural_outcomes_used_for_weight_selection": false,
+  "offline_replay": {
+    "path": "/home/ubuntu/sts2-cloud-analysis/selection-effect-candidate-replay-20260918-v1/RESULT.json",
+    "sha256": "aa56b783c8fd95e961f202e0f5a47fb91152905a0893fe448ee7d5684b692e80",
+    "bytes": 6731172
+  },
+  "event_parent": {
+    "path": "/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/models-selection-v1/event-effect-candidate-model.json",
+    "sha256": "d66e278ad2d8d52b21f658eb166c3102e7abbf5b4626881dfc701e5c6f030231",
+    "bytes": 14331
+  },
+  "selection_candidate": {
+    "path": "/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/models-selection-v1/selection-effect-candidate-model.json",
+    "sha256": "af1539d4c85ca4bd340ac2d8fe315a05ce719672ffbef5034f5a438891afc983",
+    "bytes": 14604
+  },
+  "combined_replay_sha256": "bbe3d588570ae6fd31b7d844d06481e413399667b36fe7fd8f1d62ca38921487",
+  "migration": {
+    "historical_baseline": {
+      "path": "/home/ubuntu/sts2-event-effect-stage-20260918/sts2-solver-bridge/models/migrated-baseline-model.json",
+      "sha256": "cefb1b119e41bf0b59f99aee116a96f407b2eb9f13b7c96da31cf074752387de",
+      "bytes": 63796
+    },
+    "historical_event": {
+      "path": "/home/ubuntu/sts2-event-effect-stage-20260918/sts2-solver-bridge/models/event-effect-candidate-model.json",
+      "sha256": "29cfd41a47dab503565404a97c9574a6c1cae91b9db6df38308a8f3260826f31",
+      "bytes": 14132
+    },
+    "migrated_baseline": {
+      "path": "/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/models-selection-v1/migrated-baseline-model.json",
+      "sha256": "00371046c1c3e5cc81e0f2893932520d3375b5780d0c2dc7aa79ca8a9520274b",
+      "bytes": 63961
+    },
+    "migrated_event": {
+      "path": "/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/models-selection-v1/event-effect-candidate-model.json",
+      "sha256": "d66e278ad2d8d52b21f658eb166c3102e7abbf5b4626881dfc701e5c6f030231",
+      "bytes": 14331
+    },
+    "selection_candidate": {
+      "path": "/home/ubuntu/sts2-selection-effect-stage-20260918/sts2-solver-bridge/models-selection-v1/selection-effect-candidate-model.json",
+      "sha256": "af1539d4c85ca4bd340ac2d8fe315a05ce719672ffbef5034f5a438891afc983",
+      "bytes": 14604
+    },
+    "baseline_parameters_equal": true,
+    "event_parameters_equal": true,
+    "constructors_validated": true
+  }
+}
