@@ -1,0 +1,172 @@
+{
+  "format": "whole-run-current-engine-event-outcomes-v2",
+  "parent_model": {
+    "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+    "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8",
+    "bytes": 17542
+  },
+  "solver_requested_config": {
+    "first_budget_ms": 30000,
+    "replan_budget_ms": 30000,
+    "setup_budget_ms": 30000,
+    "retry_budget_ms": 30000,
+    "max_replans": 35,
+    "solver_backend": "coordinator",
+    "potion_policy": "Smart",
+    "growth_budgets": {
+      "GeneticAlgorithm": 3
+    },
+    "act_boss_hp_strategy": "ProgressionFirst",
+    "final_boss_hp_strategy": "ProgressionFirst",
+    "search_profile": {
+      "beam_width": 30,
+      "max_expanded_nodes": 5000,
+      "max_card_branches_per_node": 24,
+      "max_pile_choice_branches_per_action": 12,
+      "max_hand_choice_branches_per_action": 12,
+      "recover_deferred_turn_frontier": false
+    }
+  },
+  "training": {
+    "purpose": "current-engine event outcomes for Bugslayer, Self Help Book, public-resolved This Or That, and the source-bound public Future of Potions reward distribution",
+    "future_potions_public_reward_pool_cards": 86,
+    "future_potions_bridge_option_variables_validated": true,
+    "future_potions_bridge_full_regression_terminations": 25,
+    "policy_weights_fitted": false,
+    "natural_outcomes_used_for_policy_weight_selection": false,
+    "other_random_event_outcomes_resolved": false,
+    "automatic_deployment": false
+  },
+  "source_files": {
+    "event_outcome_facts.json": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/event_outcome_facts.json",
+      "sha256": "aefb164ddf7f64fba382923864e2d4013fa02dc64209316de359c2419d319ae9",
+      "bytes": 3082
+    },
+    "event_outcome_features.py": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/event_outcome_features.py",
+      "sha256": "2dc910854e00355e0a9198cef8e618b02b0ca575ff88b878fa93f32a24b75d40",
+      "bytes": 20938
+    },
+    "event_outcome_policy.py": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/event_outcome_policy.py",
+      "sha256": "b245ead2923c896b13c8edc0696d066a107f036b5f4a6c6c5e4e1eb892ac7281",
+      "bytes": 8623
+    },
+    "reference_facts/current_engine/Bugslayer.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/Bugslayer.cs",
+      "sha256": "772fd742b0fefeb21a2f849a9d78524e5b7291bf99306cc71c9cd71fe34ce11b",
+      "bytes": 1677
+    },
+    "reference_facts/current_engine/Exterminate.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/Exterminate.cs",
+      "sha256": "307cf98977f462c7d7dc66f0f9fbd2275b7bd108f2aa37ca3f0b43ed1c9ba3d9",
+      "bytes": 1131
+    },
+    "reference_facts/current_engine/Squash.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/Squash.cs",
+      "sha256": "9cb71457028fd46cb215b872850fe3f3178e84867467f6546e69ef9bca024d0d",
+      "bytes": 1603
+    },
+    "reference_facts/current_engine/SelfHelpBook.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/SelfHelpBook.cs",
+      "sha256": "efaa3eeaf96fb3ca30477b12e1598bdb8374d58b87880f8129efa888ee6ed46e",
+      "bytes": 5211
+    },
+    "reference_facts/current_engine/Sharp.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/Sharp.cs",
+      "sha256": "1de8537303cbb6860d4f55b117c0a8cd6179f3c455456b87393c0a7d135339c5",
+      "bytes": 520
+    },
+    "reference_facts/current_engine/Nimble.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/Nimble.cs",
+      "sha256": "5b1e5a9075e3f0cff0e39b644dae1a749cc6460721a13423c62231ec93f75142",
+      "bytes": 397
+    },
+    "reference_facts/current_engine/Swift.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/Swift.cs",
+      "sha256": "d8fd0ca9b8a13b21c409f2a281633b04f97cb6d303a48457e44d768c83ca1ad5",
+      "bytes": 688
+    },
+    "reference_facts/current_engine/ThisOrThat.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/ThisOrThat.cs",
+      "sha256": "4402a2f72326ffecc103ea1f2bd246cd86f07bb63df929bd362f44dc12dc70d3",
+      "bytes": 1942
+    },
+    "reference_facts/current_engine/TheFutureOfPotions.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/TheFutureOfPotions.cs",
+      "sha256": "d41b850f9c988274803a7fdac9ce15c5ed372d35fd1a8f5c69e481a8fef1989a",
+      "bytes": 5497
+    },
+    "reference_facts/current_engine/CardFactory.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/CardFactory.cs",
+      "sha256": "6e404e3de100d5477dd77cc91d54b251da3f089468ae685097964cb4ef16a95e",
+      "bytes": 14506
+    },
+    "reference_facts/current_engine/CardCreationOptions.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/CardCreationOptions.cs",
+      "sha256": "c87c4b261686d2b1c54c578aa425734c4ea17eac84b4e19049e41278647b6a73",
+      "bytes": 10054
+    },
+    "reference_facts/current_engine/CardReward.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/current_engine/CardReward.cs",
+      "sha256": "352e40b1010d2388ed8d1581e527a92bbdf7b9d9a258cfa5ddf9b2f3f62ba40a",
+      "bytes": 13857
+    },
+    "reference_facts/bridge/defect-current-public-reward-pool-v1.json": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/bridge/defect-current-public-reward-pool-v1.json",
+      "sha256": "5d9ff0baedfff3e8d6988db48ee6e6be387d06606b06a84108a0df3d833f1d7f",
+      "bytes": 60821
+    },
+    "reference_facts/bridge/DefectRewardPoolProbe.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/bridge/DefectRewardPoolProbe.cs",
+      "sha256": "ec81c7b0e39b6b60705925a3b64fd4ba71e47a56fe3a5114cb68768798d46310",
+      "bytes": 2724
+    },
+    "reference_facts/bridge/event-option-vars-live-probe-input.jsonl": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/bridge/event-option-vars-live-probe-input.jsonl",
+      "sha256": "59fe905bdf542bc6a6d7336630b33da3d8f6ce63b23ba98f7b302c056434e0df",
+      "bytes": 278
+    },
+    "reference_facts/bridge/event-option-vars-live-probe-output.jsonl": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/bridge/event-option-vars-live-probe-output.jsonl",
+      "sha256": "262cabea0e4946691978be7fca55ab29bea94eebf1a3670edbe75ac04717d404",
+      "bytes": 22111
+    },
+    "reference_facts/bridge/RunSimulator.EventOptionVars.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/bridge/RunSimulator.EventOptionVars.cs",
+      "sha256": "84257d083fde432b8fbe329e72d1cf5f6366bb02ecfc486736d67460be94638c",
+      "bytes": 1986
+    },
+    "reference_facts/bridge/cards_eng.json": {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/bridge/cards_eng.json",
+      "sha256": "c469a0be87d57c1476b75a5d0d3031cebf47e65d380a4646aae0028a20c993c0",
+      "bytes": 99783
+    }
+  },
+  "facts": {
+    "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/event_outcome_facts.json",
+    "sha256": "aefb164ddf7f64fba382923864e2d4013fa02dc64209316de359c2419d319ae9",
+    "bytes": 3082
+  },
+  "event_outcome_contract": {
+    "version": "public-current-engine-event-outcomes-v2",
+    "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+    "facts_schema": "current-engine-event-outcome-facts-v2",
+    "natural_outcomes_used": false,
+    "hidden_runtime_state_used": false,
+    "other_random_options_resolved": false,
+    "source_bound_random_distribution_options": [
+      "THE_FUTURE_OF_POTIONS:POTION"
+    ],
+    "card_value_probability_calibrated": false,
+    "parent_event_prior_replaced_for_exact_options": true,
+    "future_potions_reward_pool_schema": "defect-current-public-reward-pool-v1",
+    "future_potions_reward_count": 3,
+    "future_potions_public_relic_hooks_fail_closed": true,
+    "candidate_adjustment_abs_cap": 4.5
+  },
+  "score_semantics": "validated_parent_plus_source_bound_event_expected_utility_not_win_probability",
+  "calibrated_probability": false,
+  "automatic_deployment": false
+}

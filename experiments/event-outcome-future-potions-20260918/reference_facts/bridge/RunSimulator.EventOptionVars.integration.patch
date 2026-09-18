@@ -1,0 +1,27 @@
+diff --git a/src/Sts2Headless/RunSimulator.cs b/src/Sts2Headless/RunSimulator.cs
+--- a/src/Sts2Headless/RunSimulator.cs
++++ b/src/Sts2Headless/RunSimulator.cs
+@@
+                     if (localEvent.DynamicVars?.Values != null)
+                     {
+                         optVars = new Dictionary<string, object?>();
+                         foreach (var dv in localEvent.DynamicVars.Values)
+-                            optVars[dv.Name] = (int)dv.BaseValue;
++                        {
++                            if (TryGetPublicLocVariable(dv, out var value))
++                                optVars[dv.Name] = value;
++                        }
+                     }
+@@
+                     catch { }
+                 }
++
++                // Some choices expose per-option information only through their public
++                // localized labels (for example The Future of Potions' potion, rarity,
++                // and card type). These exact option values take precedence over the
++                // event-wide defaults above.
++                optVars ??= new Dictionary<string, object?>();
++                MergePublicLocVariables(optVars, opt.Title);
++                MergePublicLocVariables(optVars, opt.Description);
+ 
+                 // `RandomCard` (Slippery Bridge / Overcome) carries a *deck index*, but the

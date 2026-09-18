@@ -1,0 +1,4 @@
+{"cmd":"start_run","character":"Defect","ascension":10,"seed":"event-option-vars-live-probe-20260918","lang":"en"}
+{"cmd":"set_player","potions":["ATTACK_POTION","ENTROPIC_BREW","FOCUS_POTION"]}
+{"cmd":"enter_room","type":"event","event":"THE_FUTURE_OF_POTIONS"}
+{"cmd":"quit"}

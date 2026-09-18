@@ -1,0 +1,2237 @@
+{
+  "schema_version": "defect-current-public-reward-pool-v1",
+  "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+  "character": "Defect",
+  "ascension": 10,
+  "multiplayer_constraint": "SingleplayerOnly",
+  "count": 86,
+  "cards": [
+    {
+      "id": "CARD.ADAPTIVE_STRIKE",
+      "cost": 2,
+      "type": "Attack",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "damage": 18
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "damage": 23
+        },
+        "description": "ADAPTIVE_STRIKE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.ALL_FOR_ONE",
+      "cost": 2,
+      "type": "Attack",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "damage": 10
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "damage": 14
+        },
+        "description": "ALL_FOR_ONE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.BALL_LIGHTNING",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 7
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 10
+        },
+        "description": "BALL_LIGHTNING.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.BARRAGE",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 5,
+        "calculationbase": 0,
+        "calculationextra": 1,
+        "calculatedhits": 0
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 7,
+          "calculationbase": 0,
+          "calculationextra": 1,
+          "calculatedhits": 0
+        },
+        "description": "BARRAGE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.BEAM_CELL",
+      "cost": 0,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 3,
+        "vulnerablepower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "damage": 4,
+          "vulnerablepower": 2
+        },
+        "description": "BEAM_CELL.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.BIASED_COGNITION",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Ancient",
+      "upgraded": false,
+      "stats": {
+        "focuspower": 5,
+        "biasedcognitionpower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "focuspower": 6,
+          "biasedcognitionpower": 1
+        },
+        "description": "BIASED_COGNITION.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.BOOST_AWAY",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "block": 6
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "block": 9
+        },
+        "description": "BOOST_AWAY.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.BOOT_SEQUENCE",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "block": 10
+      },
+      "keywords": [
+        "Innate",
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "block": 13
+        },
+        "description": "BOOT_SEQUENCE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.BUFFER",
+      "cost": 2,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "bufferpower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "bufferpower": 2
+        },
+        "description": "BUFFER.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.BULK_UP",
+      "cost": 2,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "orbslots": 1,
+        "strengthpower": 2,
+        "dexteritypower": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "orbslots": 1,
+          "strengthpower": 3,
+          "dexteritypower": 3
+        },
+        "description": "BULK_UP.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.CAPACITOR",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "repeat": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "repeat": 3
+        },
+        "description": "CAPACITOR.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.CHAOS",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "repeat": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "repeat": 2
+        },
+        "description": "CHAOS.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.CHARGE_BATTERY",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "block": 7,
+        "energy": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 10,
+          "energy": 1
+        },
+        "description": "CHARGE_BATTERY.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.CHILL",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": null,
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "CHILL.description",
+        "added_keywords": null,
+        "removed_keywords": [
+          "Exhaust"
+        ]
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.CLAW",
+      "cost": 0,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 3,
+        "increase": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "damage": 4,
+          "increase": 3
+        },
+        "description": "CLAW.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.COLD_SNAP",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 6
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 9
+        },
+        "description": "COLD_SNAP.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.COMPACT",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "block": 6
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 7
+        },
+        "description": "COMPACT.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.COMPILE_DRIVER",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 7,
+        "calculationbase": 0,
+        "calculationextra": 1,
+        "calculatedcards": 0
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 10,
+          "calculationbase": 0,
+          "calculationextra": 1,
+          "calculatedcards": 0
+        },
+        "description": "COMPILE_DRIVER.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.CONSUMING_SHADOW",
+      "cost": 2,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "repeat": 2,
+        "consumingshadowpower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "repeat": 3,
+          "consumingshadowpower": 1
+        },
+        "description": "CONSUMING_SHADOW.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.COOLANT",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "coolantpower": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "coolantpower": 3
+        },
+        "description": "COOLANT.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.COOLHEADED",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "cards": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "cards": 2
+        },
+        "description": "COOLHEADED.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.CREATIVE_AI",
+      "cost": 3,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "creativeai": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "creativeai": 1
+        },
+        "description": "CREATIVE_AI.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.DARKNESS",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": null,
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": null,
+        "description": "DARKNESS.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.DEFEND_DEFECT",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Basic",
+      "upgraded": false,
+      "stats": {
+        "block": 5
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 8
+        },
+        "description": "DEFEND_DEFECT.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.DEFRAGMENT",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "focuspower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "focuspower": 2
+        },
+        "description": "DEFRAGMENT.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.DOUBLE_ENERGY",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": null,
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "DOUBLE_ENERGY.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.DUALCAST",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Basic",
+      "upgraded": false,
+      "stats": null,
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "DUALCAST.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.ECHO_FORM",
+      "cost": 3,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "echoform": 1
+      },
+      "keywords": [
+        "Ethereal"
+      ],
+      "after_upgrade": {
+        "cost": 3,
+        "stats": {
+          "echoform": 1
+        },
+        "description": "ECHO_FORM.description",
+        "added_keywords": null,
+        "removed_keywords": [
+          "Ethereal"
+        ]
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.FERAL",
+      "cost": 2,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "feralpower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "feralpower": 1
+        },
+        "description": "FERAL.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.FIGHT_THROUGH",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "block": 13
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 17
+        },
+        "description": "FIGHT_THROUGH.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.FLAK_CANNON",
+      "cost": 2,
+      "type": "Attack",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "damage": 8,
+        "calculationbase": 0,
+        "calculationextra": 1,
+        "calculatedhits": 0
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "damage": 11,
+          "calculationbase": 0,
+          "calculationextra": 1,
+          "calculatedhits": 0
+        },
+        "description": "FLAK_CANNON.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.FOCUSED_STRIKE",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 9,
+        "focuspower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 11,
+          "focuspower": 2
+        },
+        "description": "FOCUSED_STRIKE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.FTL",
+      "cost": 0,
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "damage": 5,
+        "playmax": 3,
+        "cards": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "damage": 6,
+          "playmax": 4,
+          "cards": 1
+        },
+        "description": "FTL.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.FUSION",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": null,
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 1,
+        "stats": null,
+        "description": "FUSION.description",
+        "added_keywords": null,
+        "removed_keywords": [
+          "Exhaust"
+        ]
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.GENETIC_ALGORITHM",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "block": 1,
+        "increase": 3
+      },
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 1,
+          "increase": 4
+        },
+        "description": "GENETIC_ALGORITHM.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.GLACIER",
+      "cost": 2,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "block": 6
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "block": 9
+        },
+        "description": "GLACIER.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.GLASSWORK",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "block": 5
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 8
+        },
+        "description": "GLASSWORK.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.GO_FOR_THE_EYES",
+      "cost": 0,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 3,
+        "weakpower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "damage": 4,
+          "weakpower": 2
+        },
+        "description": "GO_FOR_THE_EYES.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.GUNK_UP",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 4,
+        "repeat": 3
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 5,
+          "repeat": 3
+        },
+        "description": "GUNK_UP.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.HAILSTORM",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "hailstormpower": 6
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "hailstormpower": 8
+        },
+        "description": "HAILSTORM.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.HELIX_DRILL",
+      "cost": 0,
+      "type": "Attack",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "damage": 3,
+        "calculationbase": 0,
+        "calculationextra": 1,
+        "calculatedhits": 0
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "damage": 5,
+          "calculationbase": 0,
+          "calculationextra": 1,
+          "calculatedhits": 0
+        },
+        "description": "HELIX_DRILL.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.HOLOGRAM",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "block": 3
+      },
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 5
+        },
+        "description": "HOLOGRAM.description",
+        "added_keywords": null,
+        "removed_keywords": [
+          "Exhaust"
+        ]
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.HOTFIX",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "focuspower": 2
+      },
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "focuspower": 2
+        },
+        "description": "HOTFIX.description",
+        "added_keywords": null,
+        "removed_keywords": [
+          "Exhaust"
+        ]
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.HYPERBEAM",
+      "cost": 2,
+      "type": "Attack",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "damage": 24,
+        "focuspower": 3
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "damage": 30,
+          "focuspower": 3
+        },
+        "description": "HYPERBEAM.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.ICE_LANCE",
+      "cost": 3,
+      "type": "Attack",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "damage": 19,
+        "repeat": 3
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 3,
+        "stats": {
+          "damage": 24,
+          "repeat": 3
+        },
+        "description": "ICE_LANCE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.ITERATION",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "iterationpower": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "iterationpower": 3
+        },
+        "description": "ITERATION.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.LEAP",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "block": 9
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 12
+        },
+        "description": "LEAP.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.LIGHTNING_ROD",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "block": 4,
+        "lightningrodpower": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "block": 7,
+          "lightningrodpower": 2
+        },
+        "description": "LIGHTNING_ROD.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.LOOP",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "loop": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "loop": 2
+        },
+        "description": "LOOP.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.MACHINE_LEARNING",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "cards": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "cards": 1
+        },
+        "description": "MACHINE_LEARNING.description",
+        "added_keywords": [
+          "Innate"
+        ],
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.METEOR_STRIKE",
+      "cost": 5,
+      "type": "Attack",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "damage": 24
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 5,
+        "stats": {
+          "damage": 30
+        },
+        "description": "METEOR_STRIKE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.MODDED",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "repeat": 1,
+        "cards": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "repeat": 1,
+          "cards": 2
+        },
+        "description": "MODDED.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.MOMENTUM_STRIKE",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 11
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 15
+        },
+        "description": "MOMENTUM_STRIKE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.MULTI_CAST",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": null,
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "MULTI_CAST.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.NULL",
+      "cost": 2,
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "damage": 10,
+        "weakpower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "damage": 13,
+          "weakpower": 2
+        },
+        "description": "NULL.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.OVERCLOCK",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "cards": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "cards": 3
+        },
+        "description": "OVERCLOCK.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.QUADCAST",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Ancient",
+      "upgraded": false,
+      "stats": {
+        "repeat": 4
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "repeat": 4
+        },
+        "description": "QUADCAST.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.RAINBOW",
+      "cost": 2,
+      "type": "Skill",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": null,
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 2,
+        "stats": null,
+        "description": "RAINBOW.description",
+        "added_keywords": null,
+        "removed_keywords": [
+          "Exhaust"
+        ]
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.REBOOT",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "cards": 4
+      },
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "cards": 6
+        },
+        "description": "REBOOT.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.REFRACT",
+      "cost": 3,
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "repeat": 2,
+        "damage": 10
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 3,
+        "stats": {
+          "repeat": 2,
+          "damage": 13
+        },
+        "description": "REFRACT.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.ROCKET_PUNCH",
+      "cost": 2,
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "damage": 13,
+        "cards": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "damage": 14,
+          "cards": 2
+        },
+        "description": "ROCKET_PUNCH.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SCAVENGE",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "energy": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "energy": 3
+        },
+        "description": "SCAVENGE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SCRAPE",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "damage": 7,
+        "cards": 4
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 10,
+          "cards": 5
+        },
+        "description": "SCRAPE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SHADOW_SHIELD",
+      "cost": 2,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "block": 11
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "block": 15
+        },
+        "description": "SHADOW_SHIELD.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SHATTER",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "damage": 7
+      },
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 11
+        },
+        "description": "SHATTER.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SIGNAL_BOOST",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "signalboostpower": 1
+      },
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "signalboostpower": 1
+        },
+        "description": "SIGNAL_BOOST.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SKIM",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "cards": 3
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "cards": 4
+        },
+        "description": "SKIM.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SMOKESTACK",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "smokestackpower": 5
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "smokestackpower": 7
+        },
+        "description": "SMOKESTACK.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SPINNER",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "spinnerpower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "spinnerpower": 1
+        },
+        "description": "SPINNER.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.STORM",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "stormpower": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "stormpower": 2
+        },
+        "description": "STORM.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.STRIKE_DEFECT",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Basic",
+      "upgraded": false,
+      "stats": {
+        "damage": 6
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 9
+        },
+        "description": "STRIKE_DEFECT.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SUBROUTINE",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": null,
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "SUBROUTINE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SUNDER",
+      "cost": 3,
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "damage": 26,
+        "energy": 3
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 3,
+        "stats": {
+          "damage": 34,
+          "energy": 3
+        },
+        "description": "SUNDER.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SUPERCRITICAL",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "energy": 4
+      },
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "energy": 6
+        },
+        "description": "SUPERCRITICAL.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SWEEPING_BEAM",
+      "cost": 1,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 6,
+        "cards": 1
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "damage": 9,
+          "cards": 1
+        },
+        "description": "SWEEPING_BEAM.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SYNCHRONIZE",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "calculationbase": 0,
+        "calculationextra": 1,
+        "calculatedfocus": 0
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "calculationbase": 0,
+          "calculationextra": 2,
+          "calculatedfocus": 0
+        },
+        "description": "SYNCHRONIZE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.SYNTHESIS",
+      "cost": 2,
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "damage": 14
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "damage": 20
+        },
+        "description": "SYNTHESIS.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.TEMPEST",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": null,
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "TEMPEST.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.TESLA_COIL",
+      "cost": 0,
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "damage": 3
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "damage": 4
+        },
+        "description": "TESLA_COIL.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.THUNDER",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": {
+        "thunderpower": 8
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 1,
+        "stats": {
+          "thunderpower": 11
+        },
+        "description": "THUNDER.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.TRASH_TO_TREASURE",
+      "cost": 1,
+      "type": "Power",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": null,
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "TRASH_TO_TREASURE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.TURBO",
+      "cost": 0,
+      "type": "Skill",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "energy": 2
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": {
+          "energy": 3
+        },
+        "description": "TURBO.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.UPROAR",
+      "cost": 2,
+      "type": "Attack",
+      "rarity": "Common",
+      "upgraded": false,
+      "stats": {
+        "damage": 6
+      },
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 2,
+        "stats": {
+          "damage": 8
+        },
+        "description": "UPROAR.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.VOLTAIC",
+      "cost": 3,
+      "type": "Skill",
+      "rarity": "Rare",
+      "upgraded": false,
+      "stats": {
+        "calculationbase": 0,
+        "calculationextra": 1,
+        "calculatedchannels": 0
+      },
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 3,
+        "stats": {
+          "calculationbase": 0,
+          "calculationextra": 1,
+          "calculatedchannels": 0
+        },
+        "description": "VOLTAIC.description",
+        "added_keywords": null,
+        "removed_keywords": [
+          "Exhaust"
+        ]
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.WHITE_NOISE",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "upgraded": false,
+      "stats": null,
+      "keywords": [
+        "Exhaust"
+      ],
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "WHITE_NOISE.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    },
+    {
+      "id": "CARD.ZAP",
+      "cost": 1,
+      "type": "Skill",
+      "rarity": "Basic",
+      "upgraded": false,
+      "stats": null,
+      "keywords": null,
+      "after_upgrade": {
+        "cost": 0,
+        "stats": null,
+        "description": "ZAP.description",
+        "added_keywords": null,
+        "removed_keywords": null
+      },
+      "is_upgradable": true,
+      "current_upgrade_level": 0,
+      "upgrade_preview_basis": "canonical_plus_upgrade_level",
+      "upgrade_preview_instance_modifiers_copied": false,
+      "upgrade_preview_status": "available"
+    }
+  ]
+}

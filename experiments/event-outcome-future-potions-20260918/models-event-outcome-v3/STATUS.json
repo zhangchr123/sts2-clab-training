@@ -1,0 +1,56 @@
+{
+  "schema_version": "candidate-publication-v2",
+  "status": "validated_not_deployed",
+  "candidate": {
+    "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/event-outcome-candidate-model.json",
+    "sha256": "906d75bf6adc285df1f4835c2099420252e946849608dbc4143ea85101dc45a3",
+    "bytes": 8913
+  },
+  "parent": {
+    "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+    "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8",
+    "bytes": 17542
+  },
+  "frozen_replay": {
+    "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/EVENT_OUTCOME_POLICY_REPLAY.json",
+    "sha256": "e89cdc69e87307393f21bcd7c739f1d61fb44fb87177dd7e376243a342867ba1",
+    "bytes": 143107
+  },
+  "live_policy_probe": {
+    "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/FUTURE_POTIONS_LIVE_POLICY_PROBE.json",
+    "sha256": "7e89a000590c2362a1e8cc87d09d8973554bc5809338dd174c99a188add935d0",
+    "bytes": 9302
+  },
+  "bridge_full_run_regression": {
+    "path": "/home/ubuntu/sts2-option-vars-regression-20260918/regression/public-status.json",
+    "sha256": "e5bd4a6fef0e9d11a6302867939bddadc8ae747485a9a72c3cbb42d24a3618d3",
+    "bytes": 1098
+  },
+  "behavior": {
+    "historical_event_decisions_replayed": 667,
+    "historical_source_bound_rows": 105,
+    "historical_greedy_changed_decisions": 34,
+    "historical_maximum_additivity_error": 0.0,
+    "live_future_options_resolved": 2,
+    "live_future_greedy_changed": true,
+    "live_future_maximum_all_pool_adjustment": 4.060227756933843,
+    "bridge_natural_runs_terminated": 25,
+    "bridge_regression_failures": 0
+  },
+  "scope": [
+    "BUGSLAYER deterministic card acquisition",
+    "SELF_HELP_BOOK deterministic source-bound enchantment utility",
+    "THIS_OR_THAT PLAIN public-resolved deterministic classification",
+    "THE_FUTURE_OF_POTIONS public precommitted exact reward distribution"
+  ],
+  "limitations": [
+    "relative fixed utility, not calibrated win probability",
+    "reward pool bound to current headless Defect A10 unlock state",
+    "known public card-reward modifying relics fail closed",
+    "historical states without option variables remain unresolved",
+    "prospective third-act first-boss evaluation not yet run"
+  ],
+  "prospective_evaluation_run": false,
+  "automatic_deployment": false,
+  "blocking_gate": "wait for the admitted parent chain and a separately declared clean prospective evaluation"
+}

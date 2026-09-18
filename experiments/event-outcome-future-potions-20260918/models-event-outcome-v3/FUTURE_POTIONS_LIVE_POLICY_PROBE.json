@@ -1,0 +1,272 @@
+{
+  "schema_version": "future-potions-live-policy-probe-v1",
+  "passed": true,
+  "model": {
+    "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/event-outcome-candidate-model.json",
+    "sha256": "906d75bf6adc285df1f4835c2099420252e946849608dbc4143ea85101dc45a3",
+    "bytes": 8913
+  },
+  "parent": {
+    "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+    "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8",
+    "bytes": 17542
+  },
+  "probe": {
+    "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/reference_facts/bridge/event-option-vars-live-probe-output.jsonl",
+    "sha256": "262cabea0e4946691978be7fca55ab29bea94eebf1a3670edbe75ac04717d404",
+    "bytes": 22111
+  },
+  "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+  "event_state_hash": "4724bdaf2eb9f148c65d01aef02e2a556d454fd3a8218bd0e628d301be41914c",
+  "rows": [
+    {
+      "candidate_id": "action:cde22b595290c26237e745f9",
+      "request": {
+        "action": "choose_option",
+        "args": {
+          "option_index": 0
+        },
+        "cmd": "action"
+      },
+      "parent_score": -0.25,
+      "candidate_score": 2.464294587390279,
+      "adjustment": 2.714294587390279,
+      "missing": [
+        "event_card_value_calibration",
+        "future_potions_card_reward_hook_calibration"
+      ],
+      "detail": {
+        "applied": true,
+        "identity": "THE_FUTURE_OF_POTIONS:POTION",
+        "kind": "public_precommitted_random_card_reward",
+        "source": "TheFutureOfPotions.GenerateInitialOptions/Trade and CardFactory.CreateForReward",
+        "parent_score": -0.25,
+        "exact_score": 2.464294587390279,
+        "value_detail": {
+          "applied": true,
+          "potion_id": "ATTACK_POTION",
+          "target_rarity": "Common",
+          "target_type": "Skill",
+          "filtered_pool_size": 8,
+          "reward_count": 3,
+          "distinct_uniform_without_replacement": true,
+          "all_rewards_upgraded": true,
+          "expected_best_card_delta_from_skip": 2.714294587390279,
+          "potion_loss_utility": 0.25,
+          "card_values": [
+            {
+              "card_id": "CARD.BOOST_AWAY",
+              "delta_from_skip": 2.1391690189065127
+            },
+            {
+              "card_id": "CARD.CHARGE_BATTERY",
+              "delta_from_skip": 2.6329462679803144
+            },
+            {
+              "card_id": "CARD.COOLHEADED",
+              "delta_from_skip": 2.5906639989355402
+            },
+            {
+              "card_id": "CARD.HOLOGRAM",
+              "delta_from_skip": 2.0980797528291575
+            },
+            {
+              "card_id": "CARD.HOTFIX",
+              "delta_from_skip": -0.043835925312649904
+            },
+            {
+              "card_id": "CARD.LEAP",
+              "delta_from_skip": 1.0475725135624643
+            },
+            {
+              "card_id": "CARD.LIGHTNING_ROD",
+              "delta_from_skip": 2.1125203869362084
+            },
+            {
+              "card_id": "CARD.TURBO",
+              "delta_from_skip": 3.1109051360818407
+            }
+          ]
+        },
+        "natural_outcomes_used": false,
+        "hidden_runtime_state_used": false
+      }
+    },
+    {
+      "candidate_id": "action:357a36a2945f4497cc2e0a9d",
+      "request": {
+        "action": "choose_option",
+        "args": {
+          "option_index": 1
+        },
+        "cmd": "action"
+      },
+      "parent_score": -0.25,
+      "candidate_score": 3.810227756933843,
+      "adjustment": 4.060227756933843,
+      "missing": [
+        "event_card_value_calibration",
+        "future_potions_card_reward_hook_calibration"
+      ],
+      "detail": {
+        "applied": true,
+        "identity": "THE_FUTURE_OF_POTIONS:POTION",
+        "kind": "public_precommitted_random_card_reward",
+        "source": "TheFutureOfPotions.GenerateInitialOptions/Trade and CardFactory.CreateForReward",
+        "parent_score": -0.25,
+        "exact_score": 3.810227756933843,
+        "value_detail": {
+          "applied": true,
+          "potion_id": "ENTROPIC_BREW",
+          "target_rarity": "Rare",
+          "target_type": "Power",
+          "filtered_pool_size": 9,
+          "reward_count": 3,
+          "distinct_uniform_without_replacement": true,
+          "all_rewards_upgraded": true,
+          "expected_best_card_delta_from_skip": 4.310227756933843,
+          "potion_loss_utility": 0.5,
+          "card_values": [
+            {
+              "card_id": "CARD.BUFFER",
+              "delta_from_skip": 3.1298614304564643
+            },
+            {
+              "card_id": "CARD.CONSUMING_SHADOW",
+              "delta_from_skip": -1.1839504077355596
+            },
+            {
+              "card_id": "CARD.COOLANT",
+              "delta_from_skip": 2.660798462338491
+            },
+            {
+              "card_id": "CARD.CREATIVE_AI",
+              "delta_from_skip": 1.2303408166359784
+            },
+            {
+              "card_id": "CARD.DEFRAGMENT",
+              "delta_from_skip": 5.035971327325335
+            },
+            {
+              "card_id": "CARD.ECHO_FORM",
+              "delta_from_skip": 4.849101894991184
+            },
+            {
+              "card_id": "CARD.MACHINE_LEARNING",
+              "delta_from_skip": 4.032514349942817
+            },
+            {
+              "card_id": "CARD.SPINNER",
+              "delta_from_skip": 1.8510680682429146
+            },
+            {
+              "card_id": "CARD.TRASH_TO_TREASURE",
+              "delta_from_skip": 2.9335002689255374
+            }
+          ]
+        },
+        "natural_outcomes_used": false,
+        "hidden_runtime_state_used": false
+      }
+    }
+  ],
+  "greedy_before": [
+    "action:357a36a2945f4497cc2e0a9d",
+    "action:cde22b595290c26237e745f9"
+  ],
+  "greedy_after": [
+    "action:357a36a2945f4497cc2e0a9d"
+  ],
+  "maximum_additivity_error": 0.0,
+  "all_pool_envelope": [
+    {
+      "rarity": "Common",
+      "type": "Attack",
+      "pool_size": 12,
+      "expected_best_card_delta_from_skip": 2.0404395591893127,
+      "exact_score": 1.7904395591893127,
+      "adjustment_from_parent_minus_0_25": 2.0404395591893127,
+      "minimum_single_card_delta": 0.6434549874152196,
+      "maximum_single_card_delta": 2.6696855998600775
+    },
+    {
+      "rarity": "Common",
+      "type": "Skill",
+      "pool_size": 8,
+      "expected_best_card_delta_from_skip": 2.714294587390279,
+      "exact_score": 2.464294587390279,
+      "adjustment_from_parent_minus_0_25": 2.714294587390279,
+      "minimum_single_card_delta": -0.043835925312649904,
+      "maximum_single_card_delta": 3.1109051360818407
+    },
+    {
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "pool_size": 8,
+      "expected_best_card_delta_from_skip": 2.4350637514725593,
+      "exact_score": 2.085063751472559,
+      "adjustment_from_parent_minus_0_25": 2.335063751472559,
+      "minimum_single_card_delta": 0.02032422003624554,
+      "maximum_single_card_delta": 2.714060762658108
+    },
+    {
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "pool_size": 17,
+      "expected_best_card_delta_from_skip": 3.1791912384943917,
+      "exact_score": 2.8291912384943916,
+      "adjustment_from_parent_minus_0_25": 3.0791912384943916,
+      "minimum_single_card_delta": -0.017122109901399174,
+      "maximum_single_card_delta": 4.0290516571282335
+    },
+    {
+      "rarity": "Uncommon",
+      "type": "Power",
+      "pool_size": 10,
+      "expected_best_card_delta_from_skip": 2.276642220318153,
+      "exact_score": 1.9266422203181528,
+      "adjustment_from_parent_minus_0_25": 2.176642220318153,
+      "minimum_single_card_delta": 0.9877585017332358,
+      "maximum_single_card_delta": 2.6551949614220147
+    },
+    {
+      "rarity": "Rare",
+      "type": "Attack",
+      "pool_size": 8,
+      "expected_best_card_delta_from_skip": 2.8744625848149465,
+      "exact_score": 2.3744625848149465,
+      "adjustment_from_parent_minus_0_25": 2.6244625848149465,
+      "minimum_single_card_delta": 0.7119011054277142,
+      "maximum_single_card_delta": 3.1793668365448005
+    },
+    {
+      "rarity": "Rare",
+      "type": "Skill",
+      "pool_size": 8,
+      "expected_best_card_delta_from_skip": 2.4980874346195674,
+      "exact_score": 1.9980874346195674,
+      "adjustment_from_parent_minus_0_25": 2.2480874346195674,
+      "minimum_single_card_delta": 0.9674360443345762,
+      "maximum_single_card_delta": 3.183806861601991
+    },
+    {
+      "rarity": "Rare",
+      "type": "Power",
+      "pool_size": 9,
+      "expected_best_card_delta_from_skip": 4.310227756933843,
+      "exact_score": 3.810227756933843,
+      "adjustment_from_parent_minus_0_25": 4.060227756933843,
+      "minimum_single_card_delta": -1.1839504077355596,
+      "maximum_single_card_delta": 5.035971327325335
+    }
+  ],
+  "maximum_all_pool_adjustment": 4.060227756933843,
+  "candidate_adjustment_abs_cap": 4.5,
+  "interpretation": {
+    "real_bridge_state": true,
+    "public_option_variables_only": true,
+    "hidden_rng_or_future_state_used": false,
+    "win_probability_calibrated": false,
+    "automatic_deployment": false
+  }
+}

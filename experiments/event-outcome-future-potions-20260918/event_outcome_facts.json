@@ -1,0 +1,100 @@
+{
+  "schema_version": "current-engine-event-outcome-facts-v2",
+  "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+  "natural_outcomes_used": false,
+  "hidden_runtime_state_used": false,
+  "options": {
+    "BUGSLAYER:EXTERMINATION": {
+      "kind": "deterministic_add_card",
+      "source": "Bugslayer.Extermination",
+      "card": {
+        "id": "CARD.EXTERMINATE",
+        "cost": 1,
+        "type": "Attack",
+        "target": "AllEnemies",
+        "damage": 3,
+        "hits": 4,
+        "vulnerable": 0
+      }
+    },
+    "BUGSLAYER:SQUASH": {
+      "kind": "deterministic_add_card",
+      "source": "Bugslayer.Squash",
+      "card": {
+        "id": "CARD.SQUASH",
+        "cost": 1,
+        "type": "Attack",
+        "target": "AnyEnemy",
+        "damage": 10,
+        "hits": 1,
+        "vulnerable": 2
+      }
+    },
+    "SELF_HELP_BOOK:READ_THE_BACK": {
+      "kind": "deterministic_select_enchant",
+      "source": "SelfHelpBook.ReadTheBack",
+      "card_type": "Attack",
+      "enchantment": "Sharp",
+      "amount": 2,
+      "effect": "powered_attack_damage_additive"
+    },
+    "SELF_HELP_BOOK:READ_PASSAGE": {
+      "kind": "deterministic_select_enchant",
+      "source": "SelfHelpBook.ReadPassage",
+      "card_type": "Skill",
+      "enchantment": "Nimble",
+      "amount": 2,
+      "effect": "block_additive",
+      "requires_positive_block": true
+    },
+    "SELF_HELP_BOOK:READ_ENTIRE_BOOK": {
+      "kind": "deterministic_select_enchant",
+      "source": "SelfHelpBook.ReadEntireBook",
+      "card_type": "Power",
+      "enchantment": "Swift",
+      "amount": 2,
+      "effect": "draw_once_on_first_play_each_combat"
+    },
+    "THIS_OR_THAT:PLAIN": {
+      "kind": "deterministic_public_resolved",
+      "source": "ThisOrThat.Plain",
+      "effect": "lose_fixed_hp_and_gain_public_resolved_gold",
+      "parent_score_authoritative": true
+    },
+    "THE_FUTURE_OF_POTIONS:POTION": {
+      "kind": "public_precommitted_random_card_reward",
+      "source": "TheFutureOfPotions.GenerateInitialOptions/Trade and CardFactory.CreateForReward",
+      "option_order": "first_three_nonempty_public_potion_entries",
+      "public_option_variables": {
+        "Potion": "stable potion title key",
+        "Rarity": "target card rarity key",
+        "Type": "precommitted target card type key"
+      },
+      "reward_count": 3,
+      "distinct": true,
+      "uniform_within_filtered_pool": true,
+      "forced_upgrade_after_generation": true,
+      "can_skip_reward": true,
+      "potion_loss_utility_by_target_rarity": {
+        "Common": 0.25,
+        "Uncommon": 0.35,
+        "Rare": 0.5
+      },
+      "unsupported_public_relic_modifiers": [
+        "RELIC.DINGY_RUG",
+        "RELIC.DRIFTWOOD",
+        "RELIC.FRESNEL_LENS",
+        "RELIC.FROZEN_EGG",
+        "RELIC.GLITTER",
+        "RELIC.LASTING_CANDY",
+        "RELIC.LAVA_LAMP",
+        "RELIC.MOLTEN_EGG",
+        "RELIC.PRISMATIC_GEM",
+        "RELIC.SILKEN_TRESS",
+        "RELIC.SILVER_CRUCIBLE",
+        "RELIC.TOXIC_EGG",
+        "RELIC.WING_CHARM"
+      ]
+    }
+  }
+}

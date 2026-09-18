@@ -1,0 +1,40 @@
+{
+  "completed_characters": 5,
+  "failures": 0,
+  "phase": "passed",
+  "planned_characters": 5,
+  "requirement": "five natural full runs for each of five characters; every run must terminate",
+  "results": {
+    "Defect": {
+      "bytes": 257107,
+      "completed": 5,
+      "sha256": "eede290db44924bf1d484a502c7afbf0f8d9622411f0dffdd8a8251473ae29a5",
+      "wins": 0
+    },
+    "Ironclad": {
+      "bytes": 172524,
+      "completed": 5,
+      "sha256": "6afc9f020eedfa824f22dbae7bb246e41aa419d66a492b5a25e2cdbe80e4e86c",
+      "wins": 0
+    },
+    "Necrobinder": {
+      "bytes": 186539,
+      "completed": 5,
+      "sha256": "cec302ab271f4585ca53c8e8d599cad35da1fe53d9491dce10735789300642a9",
+      "wins": 0
+    },
+    "Regent": {
+      "bytes": 230147,
+      "completed": 5,
+      "sha256": "6058673ea245075c3fe8b1f03a3ef628f2699d5691ab452a1cae78ef71ef4bef",
+      "wins": 0
+    },
+    "Silent": {
+      "bytes": 230424,
+      "completed": 5,
+      "sha256": "b52864a07ae35b4d57b2076ab76e8f3f8e74e312f76bc97a019299d993f18dce",
+      "wins": 0
+    }
+  },
+  "updated_unix": 1789696694.6233482
+}
