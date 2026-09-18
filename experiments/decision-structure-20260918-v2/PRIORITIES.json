@@ -1,0 +1,98 @@
+{
+  "schema_version": "cloud-controlled-acquisition-priorities-v2",
+  "source": {
+    "path": "/home/ubuntu/sts2-cloud-analysis/decision-structure-20260918-v2/RESULT.json",
+    "bytes": 390898,
+    "sha256": "cf79e742c4a630a165e1da0b0256571b2216599d849983aa0f9519281dd47559"
+  },
+  "audited_natural_runs": 115,
+  "target_successes": 4,
+  "near_target_failures": 12,
+  "earlier_failures": 98,
+  "invalid_runs": 1,
+  "late_act3_review_decisions": 28,
+  "late_act3_review_actions": {
+    "event_choice": 14,
+    "card_select": 4,
+    "crystal_sphere": 6,
+    "rest_site": 1,
+    "shop": 1,
+    "map_select": 1,
+    "card_reward": 1
+  },
+  "near_target_review_queue_total": 693,
+  "near_target_review_queue_retained": 250,
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "event_effect_and_probability",
+      "near_target_decisions": 129,
+      "missing_signal_decisions": 129,
+      "margin_at_most_0_10": 107,
+      "include_subsystems": [
+        "known_events",
+        "hidden_rewards",
+        "crystal_sphere_minigame"
+      ],
+      "next_evidence": "new controlled event branches with explicit effects, costs, probabilities and terminal public outcomes"
+    },
+    {
+      "rank": 2,
+      "area": "ordered_card_selection_and_transform_effects",
+      "near_target_decisions": 63,
+      "missing_signal_decisions": 38,
+      "margin_at_most_0_10": 50,
+      "include_subsystems": [
+        "selection_effects",
+        "upgrade_instance_modifications",
+        "transform_outcomes"
+      ],
+      "next_evidence": "new controlled ordered-selection branches retaining evaluated-subset search receipts"
+    },
+    {
+      "rank": 3,
+      "area": "route_damage_and_full_path_evaluation",
+      "near_target_decisions": 564,
+      "missing_signal_decisions": 564,
+      "margin_at_most_0_10": 27,
+      "include_subsystems": [
+        "encounter_damage_distribution",
+        "full_route_evaluation"
+      ],
+      "next_evidence": "new route branch acquisitions with encounter distributions and downstream path summaries"
+    },
+    {
+      "rank": 4,
+      "area": "card_reward_mechanism_and_current_stats",
+      "near_target_decisions": 312,
+      "missing_signal_decisions": 108,
+      "margin_at_most_0_10": 28,
+      "include_subsystems": [
+        "mechanism_coverage",
+        "current_card_stats",
+        "energy_effect_semantics"
+      ],
+      "next_evidence": "controlled reward gates emphasizing functional substitutes, rarity and current-cost semantics"
+    },
+    {
+      "rank": 5,
+      "area": "rest_heal_and_future_route_damage",
+      "near_target_decisions": 90,
+      "missing_signal_decisions": 90,
+      "margin_at_most_0_10": 8,
+      "include_subsystems": [
+        "actual_rest_heal_amount",
+        "future_route_damage_distribution"
+      ],
+      "next_evidence": "controlled rest-versus-smith gates with actual heal and downstream damage evidence"
+    }
+  ],
+  "interpretation": {
+    "descriptive_not_causal": true,
+    "natural_outcomes_used_for_fitting": false,
+    "candidate_selection_or_refit_performed": false,
+    "running_model_modified": false,
+    "score_margins_are_probabilities": false,
+    "purpose": "prioritize new controlled branch acquisition and public feature coverage work"
+  }
+}

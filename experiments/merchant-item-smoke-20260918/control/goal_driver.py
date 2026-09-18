@@ -25,7 +25,7 @@ MERCHANT_HANDOFF_STATUS = Path('/home/ubuntu/sts2-merchant-item-smoke-20260918/H
 MERCHANT_SMOKE_STATUS = Path('/home/ubuntu/sts2-merchant-item-smoke-20260918/run/public-status.json')
 MERCHANT_PAIRED_STATUS = Path('/home/ubuntu/sts2-merchant-item-paired-eval-20260918/run/public-status.json')
 MERCHANT_PAIRED_RESULT = Path('/home/ubuntu/sts2-merchant-item-paired-eval-20260918/run/RESULT.json')
-DECISION_PRIORITIES = Path('/home/ubuntu/sts2-cloud-analysis/decision-structure-20260918-v1/PRIORITIES.json')
+DECISION_PRIORITIES = Path('/home/ubuntu/sts2-cloud-analysis/decision-structure-20260918-v2/PRIORITIES.json')
 atomic, read, require = pub.atomic, pub.read, pub.require
 CHILDREN = {}
 

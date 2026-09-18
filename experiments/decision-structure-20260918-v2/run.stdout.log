@@ -1,0 +1,1 @@
+{"samples": 115, "category_counts": {"target_success": 4, "near_target_failure": 12, "earlier_failure": 98, "invalid": 1}, "policy_versions_by_run": {"59d11c9fe8c6d94d2968928aaf567a3fb73ec6b53252feb0e2b7f7e164eacac4": 115}, "near_target_review_queue_total": 693, "all_margin_metrics": {"decisions": 7384, "multi_candidate_decisions": 5481, "ties": 962, "margin_at_most_0_10": 1431}}
