@@ -1,0 +1,36 @@
+{
+  "automatic_deployment": false,
+  "frozen_replay": {
+    "bytes": 142989,
+    "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/MERCHANT_ITEM_POLICY_REPLAY.json",
+    "sha256": "843e4326c635a1e8dc91329d8adc6234d86e2869a89c1c9f30296c4579902d94"
+  },
+  "live_policy_probe": {
+    "bytes": 14207,
+    "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/MERCHANT_ITEM_LIVE_POLICY_PROBE.json",
+    "sha256": "9cae2da96e76390f56c729d34fba8f825775e5d2c68a94b629cdbbabc5a981f9"
+  },
+  "model": {
+    "bytes": 4186,
+    "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+    "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+  },
+  "natural_outcomes_used_for_parameter_selection": false,
+  "next_gate": "fresh_seed_isolated_integration_smoke_then_predeclared_paired_evaluation",
+  "passed": true,
+  "phase": "offline_validated_waiting_prospective_smoke",
+  "status": "validated_not_deployed",
+  "updated_unix": 1789701036.6690056,
+  "validation": {
+    "applied_rows": 462,
+    "buy_potion_greedy_rows": 20,
+    "buy_relic_greedy_rows": 5,
+    "changed_greedy_decisions": 41,
+    "clean_runs_replayed": 95,
+    "discard_potion_greedy_rows": 17,
+    "live_probe_passed": true,
+    "maximum_absolute_adjustment": 3.5999999999999996,
+    "shop_decisions": 403,
+    "unit_tests_passed": 6
+  }
+}

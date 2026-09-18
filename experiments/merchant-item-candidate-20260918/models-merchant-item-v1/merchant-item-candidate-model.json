@@ -1,0 +1,109 @@
+{
+  "automatic_deployment": false,
+  "calibrated_probability": false,
+  "facts": {
+    "bytes": 8075,
+    "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/merchant_item_facts.json",
+    "sha256": "eaf1257dbb8c28d7e537cdea79dc81810c7caaefac02d4473596f3c583aac387"
+  },
+  "format": "whole-run-source-bound-merchant-items-v1",
+  "merchant_item_contract": {
+    "candidate_adjustment_abs_cap": 4.5,
+    "current_engine_source_bound": true,
+    "discard_compares_affordable_visible_shop_potions": true,
+    "natural_outcomes_used_for_parameter_selection": false,
+    "policy_weights_fitted": false,
+    "prior": {
+      "block": 0.15,
+      "block_at_full_deficit": 0.08,
+      "damage": 0.18,
+      "draw": 0.6,
+      "energy": 0.5,
+      "generated_attack_choice": 0.72,
+      "generated_colorless_choice": 0.55,
+      "generated_power_choice": 0.64,
+      "generated_skill_choice": 0.72,
+      "heal_hp": 0.1,
+      "max_hp": 0.06,
+      "orb_capacity_per_orb_source": 0.12,
+      "orb_slot_per_slot": 0.1,
+      "persistent_relic_combat_uses": 2.0,
+      "sustained_focus_per_orb_source": 0.32,
+      "temporary_focus_per_orb_source": 0.13,
+      "vulnerable": 0.12,
+      "weak": 0.1
+    },
+    "public_state_only": true,
+    "purchase_keeps_parent_gold_opportunity_cost": true,
+    "unknown_items_keep_parent_score": true,
+    "version": "public-source-bound-merchant-items-v1"
+  },
+  "parent_model": {
+    "bytes": 8913,
+    "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/event-outcome-candidate-model.json",
+    "sha256": "906d75bf6adc285df1f4835c2099420252e946849608dbc4143ea85101dc45a3"
+  },
+  "score_semantics": "validated_parent_plus_source_bound_merchant_item_utility_not_win_probability",
+  "solver_requested_config": {
+    "act_boss_hp_strategy": "ProgressionFirst",
+    "final_boss_hp_strategy": "ProgressionFirst",
+    "first_budget_ms": 30000,
+    "growth_budgets": {
+      "GeneticAlgorithm": 3
+    },
+    "max_replans": 35,
+    "potion_policy": "Smart",
+    "replan_budget_ms": 30000,
+    "retry_budget_ms": 30000,
+    "search_profile": {
+      "beam_width": 30,
+      "max_card_branches_per_node": 24,
+      "max_expanded_nodes": 5000,
+      "max_hand_choice_branches_per_action": 12,
+      "max_pile_choice_branches_per_action": 12,
+      "recover_deferred_turn_frontier": false
+    },
+    "setup_budget_ms": 30000,
+    "solver_backend": "coordinator"
+  },
+  "source_files": {
+    "merchant_item_facts.json": {
+      "bytes": 8075,
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/merchant_item_facts.json",
+      "sha256": "eaf1257dbb8c28d7e537cdea79dc81810c7caaefac02d4473596f3c583aac387"
+    },
+    "merchant_item_features.py": {
+      "bytes": 13863,
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/merchant_item_features.py",
+      "sha256": "1413c004e0e179cc4f437580c78233d95c7f2a932b2d1d5c76ec61eda01ec609"
+    },
+    "merchant_item_policy.py": {
+      "bytes": 5784,
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/merchant_item_policy.py",
+      "sha256": "996a427983b5f611a98da3b24c2c04f722d3cae03d87a8e3d437bca7172a3978"
+    },
+    "reference_facts/potions.json": {
+      "bytes": 10802,
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/potions.json",
+      "sha256": "2b3c5e0f6b80741273f4060444d0b40e9db5115ac3252f8476340858a701f5ca"
+    },
+    "reference_facts/relics.json": {
+      "bytes": 91491,
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/relics.json",
+      "sha256": "7379d2f141bc507fad392fd38d6d718667c6f55df5d2f6ce50ed0f5649403183"
+    },
+    "reference_facts/sts2_db.json": {
+      "bytes": 528686,
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/sts2_db.json",
+      "sha256": "05aea04ad9169ff7bb91e09607fbe0c1079347a80076b2287a70a4aecb6160f2"
+    }
+  },
+  "training": {
+    "automatic_deployment": false,
+    "covered_potions": 11,
+    "covered_relics": 3,
+    "natural_outcomes_used_for_parameter_selection": false,
+    "policy_weights_fitted": false,
+    "purpose": "source-bound merchant relic, potion purchase, and potion replacement utility"
+  }
+}

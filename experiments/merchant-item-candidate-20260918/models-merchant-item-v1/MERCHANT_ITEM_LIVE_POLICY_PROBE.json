@@ -1,0 +1,494 @@
+{
+  "automatic_deployment": false,
+  "candidate_model": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+  "parent_model": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/event-outcome-candidate-model.json",
+  "passed": true,
+  "probes": [
+    {
+      "applied": [
+        {
+          "adjustment": 3.5999999999999996,
+          "candidate_score": 2.998698954259667,
+          "detail": {
+            "amount": 20.0,
+            "cost": 50.0,
+            "covered": true,
+            "deck_size": 16,
+            "hp": 44.0,
+            "item_id": "POTION.FIRE_POTION",
+            "max_hp": 75.0,
+            "orb_sources": 1,
+            "parent_gold_score": -0.6013010457403329,
+            "utility": 3.5999999999999996,
+            "utility_kind": "damage"
+          },
+          "item_id": "POTION.FIRE_POTION",
+          "parent_score": -0.6013010457403329,
+          "request": {
+            "action": "buy_potion",
+            "args": {
+              "potion_index": 2
+            },
+            "cmd": "action"
+          }
+        }
+      ],
+      "candidate_applied_rows": 1,
+      "candidate_greedy": [
+        {
+          "item_id": "POTION.FIRE_POTION",
+          "request": {
+            "action": "buy_potion",
+            "args": {
+              "potion_index": 2
+            },
+            "cmd": "action"
+          },
+          "score": 2.998698954259667
+        }
+      ],
+      "decision_id": "defect-cloud-goal-20260917-000001-000:000009",
+      "max_unaffected_score_difference": 0.0,
+      "parent_greedy": [
+        {
+          "item_id": null,
+          "request": {
+            "action": "remove_card",
+            "cmd": "action"
+          },
+          "score": 2.096314046118322
+        }
+      ],
+      "run_id": "defect-cloud-goal-20260917-000001-000",
+      "target": "POTION.FIRE_POTION"
+    },
+    {
+      "applied": [
+        {
+          "adjustment": 2.62,
+          "candidate_score": 1.0079510019598397,
+          "detail": {
+            "cost": 203.0,
+            "covered": true,
+            "deck_size": 15,
+            "hp": 65.0,
+            "hp_gain": 22.0,
+            "item_id": "RELIC.LEES_WAFFLE",
+            "max_hp": 80.0,
+            "max_hp_gain": 7.0,
+            "orb_sources": 1,
+            "parent_gold_score": -1.6120489980401604,
+            "utility": 2.62,
+            "utility_kind": "lees_waffle"
+          },
+          "item_id": "RELIC.LEES_WAFFLE",
+          "parent_score": -1.6120489980401604,
+          "request": {
+            "action": "buy_relic",
+            "args": {
+              "relic_index": 2
+            },
+            "cmd": "action"
+          }
+        },
+        {
+          "adjustment": 0.55,
+          "candidate_score": -0.051301045740332896,
+          "detail": {
+            "cost": 50.0,
+            "covered": true,
+            "deck_size": 15,
+            "hp": 65.0,
+            "item_id": "POTION.COLORLESS_POTION",
+            "max_hp": 80.0,
+            "orb_sources": 1,
+            "parent_gold_score": -0.6013010457403329,
+            "utility": 0.55,
+            "utility_kind": "generated_colorless_choice"
+          },
+          "item_id": "POTION.COLORLESS_POTION",
+          "parent_score": -0.6013010457403329,
+          "request": {
+            "action": "buy_potion",
+            "args": {
+              "potion_index": 0
+            },
+            "cmd": "action"
+          }
+        },
+        {
+          "adjustment": 1.0,
+          "candidate_score": 0.39869895425966706,
+          "detail": {
+            "amount": 2.0,
+            "cost": 50.0,
+            "covered": true,
+            "deck_size": 15,
+            "hp": 65.0,
+            "item_id": "POTION.ENERGY_POTION",
+            "max_hp": 80.0,
+            "orb_sources": 1,
+            "parent_gold_score": -0.6013010457403329,
+            "utility": 1.0,
+            "utility_kind": "energy"
+          },
+          "item_id": "POTION.ENERGY_POTION",
+          "parent_score": -0.6013010457403329,
+          "request": {
+            "action": "buy_potion",
+            "args": {
+              "potion_index": 2
+            },
+            "cmd": "action"
+          }
+        },
+        {
+          "adjustment": 0.36666666666666664,
+          "candidate_score": -0.13333333333333336,
+          "detail": {
+            "covered": true,
+            "deck_size": 15,
+            "hp": 65.0,
+            "item_id": "POTION.COLORLESS_POTION",
+            "max_hp": 80.0,
+            "orb_sources": 1,
+            "replacement": {
+              "cost": 50.0,
+              "detail": {
+                "amount": 2.0,
+                "covered": true,
+                "deck_size": 15,
+                "hp": 65.0,
+                "item_id": "POTION.ENERGY_POTION",
+                "max_hp": 80.0,
+                "orb_sources": 1,
+                "utility": 1.0,
+                "utility_kind": "energy"
+              },
+              "item_id": "POTION.ENERGY_POTION",
+              "net": 0.4166666666666667
+            },
+            "replacement_net": 0.4166666666666667,
+            "utility": 0.55,
+            "utility_kind": "generated_colorless_choice"
+          },
+          "item_id": "POTION.COLORLESS_POTION",
+          "parent_score": -0.5,
+          "request": {
+            "action": "discard_potion",
+            "args": {
+              "potion_index": 0
+            },
+            "cmd": "action"
+          }
+        }
+      ],
+      "candidate_applied_rows": 4,
+      "candidate_greedy": [
+        {
+          "item_id": "RELIC.LEES_WAFFLE",
+          "request": {
+            "action": "buy_relic",
+            "args": {
+              "relic_index": 2
+            },
+            "cmd": "action"
+          },
+          "score": 1.0079510019598397
+        }
+      ],
+      "decision_id": "defect-cloud-goal-20260917-000001-016:000014",
+      "max_unaffected_score_difference": 0.0,
+      "parent_greedy": [
+        {
+          "item_id": "CARD.HAILSTORM",
+          "request": {
+            "action": "buy_card",
+            "args": {
+              "card_index": 4
+            },
+            "cmd": "action"
+          },
+          "score": 0.6843720499396337
+        }
+      ],
+      "run_id": "defect-cloud-goal-20260917-000001-016",
+      "target": "RELIC.LEES_WAFFLE"
+    },
+    {
+      "applied": [
+        {
+          "adjustment": 1.92,
+          "candidate_score": 0.6546176686265062,
+          "detail": {
+            "cost": 151.0,
+            "covered": true,
+            "deck_size": 22,
+            "focus": 1.0,
+            "hp": 62.0,
+            "item_id": "RELIC.DATA_DISK",
+            "max_hp": 96.0,
+            "orb_sources": 4,
+            "parent_gold_score": -1.2653823313734938,
+            "per_combat": 0.96,
+            "utility": 1.92,
+            "utility_kind": "data_disk"
+          },
+          "item_id": "RELIC.DATA_DISK",
+          "parent_score": -1.2653823313734938,
+          "request": {
+            "action": "buy_relic",
+            "args": {
+              "relic_index": 1
+            },
+            "cmd": "action"
+          }
+        },
+        {
+          "adjustment": 0.13666666666666666,
+          "candidate_score": -0.36333333333333334,
+          "detail": {
+            "amount": 2.0,
+            "covered": true,
+            "deck_size": 22,
+            "hp": 62.0,
+            "item_id": "POTION.FOCUS_POTION",
+            "max_hp": 96.0,
+            "orb_sources": 4,
+            "replacement": {
+              "cost": 50.0,
+              "detail": {
+                "amount": 2.0,
+                "covered": true,
+                "deck_size": 22,
+                "hp": 62.0,
+                "item_id": "POTION.ENERGY_POTION",
+                "max_hp": 96.0,
+                "orb_sources": 4,
+                "utility": 1.0,
+                "utility_kind": "energy"
+              },
+              "item_id": "POTION.ENERGY_POTION",
+              "net": 0.4166666666666667
+            },
+            "replacement_net": 0.4166666666666667,
+            "utility": 0.78,
+            "utility_kind": "temporary_focus"
+          },
+          "item_id": "POTION.FOCUS_POTION",
+          "parent_score": -0.5,
+          "request": {
+            "action": "discard_potion",
+            "args": {
+              "potion_index": 1
+            },
+            "cmd": "action"
+          }
+        }
+      ],
+      "candidate_applied_rows": 2,
+      "candidate_greedy": [
+        {
+          "item_id": "RELIC.DATA_DISK",
+          "request": {
+            "action": "buy_relic",
+            "args": {
+              "relic_index": 1
+            },
+            "cmd": "action"
+          },
+          "score": 0.6546176686265062
+        }
+      ],
+      "decision_id": "defect-cloud-goal-20260917-000002-019:000055",
+      "max_unaffected_score_difference": 0.0,
+      "parent_greedy": [
+        {
+          "item_id": null,
+          "request": {
+            "action": "leave_room",
+            "cmd": "action"
+          },
+          "score": 0.0
+        }
+      ],
+      "run_id": "defect-cloud-goal-20260917-000002-019",
+      "target": "RELIC.DATA_DISK"
+    },
+    {
+      "applied": [
+        {
+          "adjustment": 1.56,
+          "candidate_score": 0.09461766862650611,
+          "detail": {
+            "cost": 181.0,
+            "covered": true,
+            "deck_size": 22,
+            "hp": 106.0,
+            "item_id": "RELIC.RUNIC_CAPACITOR",
+            "max_hp": 125.0,
+            "orb_sources": 5,
+            "parent_gold_score": -1.465382331373494,
+            "per_combat": 0.78,
+            "slots": 3.0,
+            "utility": 1.56,
+            "utility_kind": "runic_capacitor"
+          },
+          "item_id": "RELIC.RUNIC_CAPACITOR",
+          "parent_score": -1.465382331373494,
+          "request": {
+            "action": "buy_relic",
+            "args": {
+              "relic_index": 2
+            },
+            "cmd": "action"
+          }
+        },
+        {
+          "adjustment": 0.39666666666666667,
+          "candidate_score": -0.10333333333333333,
+          "detail": {
+            "amount": 3.0,
+            "covered": true,
+            "deck_size": 22,
+            "hp": 106.0,
+            "item_id": "POTION.WEAK_POTION",
+            "max_hp": 125.0,
+            "orb_sources": 5,
+            "replacement": {
+              "cost": 50.0,
+              "detail": {
+                "amount": 2.0,
+                "covered": true,
+                "deck_size": 22,
+                "hp": 106.0,
+                "item_id": "POTION.FOCUS_POTION",
+                "max_hp": 125.0,
+                "orb_sources": 5,
+                "utility": 0.78,
+                "utility_kind": "temporary_focus"
+              },
+              "item_id": "POTION.FOCUS_POTION",
+              "net": 0.1966666666666667
+            },
+            "replacement_net": 0.1966666666666667,
+            "utility": 0.30000000000000004,
+            "utility_kind": "weak"
+          },
+          "item_id": "POTION.WEAK_POTION",
+          "parent_score": -0.5,
+          "request": {
+            "action": "discard_potion",
+            "args": {
+              "potion_index": 1
+            },
+            "cmd": "action"
+          }
+        }
+      ],
+      "candidate_applied_rows": 2,
+      "candidate_greedy": [
+        {
+          "item_id": "RELIC.RUNIC_CAPACITOR",
+          "request": {
+            "action": "buy_relic",
+            "args": {
+              "relic_index": 2
+            },
+            "cmd": "action"
+          },
+          "score": 0.09461766862650611
+        }
+      ],
+      "decision_id": "defect-cloud-goal-20260917-000002-019:000079",
+      "max_unaffected_score_difference": 0.0,
+      "parent_greedy": [
+        {
+          "item_id": null,
+          "request": {
+            "action": "leave_room",
+            "cmd": "action"
+          },
+          "score": 0.0
+        }
+      ],
+      "run_id": "defect-cloud-goal-20260917-000002-019",
+      "target": "RELIC.RUNIC_CAPACITOR"
+    },
+    {
+      "applied": [
+        {
+          "adjustment": 1.1966666666666665,
+          "candidate_score": 0.6966666666666665,
+          "detail": {
+            "amount": 2.0,
+            "covered": true,
+            "deck_size": 20,
+            "hp": 75.0,
+            "item_id": "POTION.FOCUS_POTION",
+            "max_hp": 75.0,
+            "orb_sources": 2,
+            "replacement": {
+              "cost": 50.0,
+              "detail": {
+                "amount": 12.0,
+                "covered": true,
+                "deck_size": 20,
+                "health_deficit": 0.0,
+                "hp": 75.0,
+                "item_id": "POTION.BLOCK_POTION",
+                "max_hp": 75.0,
+                "orb_sources": 2,
+                "utility": 1.7999999999999998,
+                "utility_kind": "block"
+              },
+              "item_id": "POTION.BLOCK_POTION",
+              "net": 1.2166666666666666
+            },
+            "replacement_net": 1.2166666666666666,
+            "utility": 0.52,
+            "utility_kind": "temporary_focus"
+          },
+          "item_id": "POTION.FOCUS_POTION",
+          "parent_score": -0.5,
+          "request": {
+            "action": "discard_potion",
+            "args": {
+              "potion_index": 0
+            },
+            "cmd": "action"
+          }
+        }
+      ],
+      "candidate_applied_rows": 1,
+      "candidate_greedy": [
+        {
+          "item_id": "POTION.FOCUS_POTION",
+          "request": {
+            "action": "discard_potion",
+            "args": {
+              "potion_index": 0
+            },
+            "cmd": "action"
+          },
+          "score": 0.6966666666666665
+        }
+      ],
+      "decision_id": "defect-cloud-goal-20260917-000001-007:000047",
+      "max_unaffected_score_difference": 0.0,
+      "parent_greedy": [
+        {
+          "item_id": null,
+          "request": {
+            "action": "leave_room",
+            "cmd": "action"
+          },
+          "score": 0.0
+        }
+      ],
+      "run_id": "defect-cloud-goal-20260917-000001-007",
+      "target": null
+    }
+  ],
+  "schema_version": "merchant-item-live-policy-probe-v1"
+}

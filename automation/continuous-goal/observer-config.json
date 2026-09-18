@@ -100,6 +100,10 @@
     {
       "name": "event-outcome-future-potions-candidate",
       "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/STATUS.json"
+    },
+    {
+      "name": "merchant-item-candidate",
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/STATUS.json"
     }
   ],
   "workspace": "/home/ubuntu/sts2-agent/workspace"
