@@ -1,0 +1,118 @@
+{
+  "format": "whole-run-current-engine-event-outcomes-v1",
+  "parent_model": {
+    "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+    "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8",
+    "bytes": 17542
+  },
+  "solver_requested_config": {
+    "first_budget_ms": 30000,
+    "replan_budget_ms": 30000,
+    "setup_budget_ms": 30000,
+    "retry_budget_ms": 30000,
+    "max_replans": 35,
+    "solver_backend": "coordinator",
+    "potion_policy": "Smart",
+    "growth_budgets": {
+      "GeneticAlgorithm": 3
+    },
+    "act_boss_hp_strategy": "ProgressionFirst",
+    "final_boss_hp_strategy": "ProgressionFirst",
+    "search_profile": {
+      "beam_width": 30,
+      "max_expanded_nodes": 5000,
+      "max_card_branches_per_node": 24,
+      "max_pile_choice_branches_per_action": 12,
+      "max_hand_choice_branches_per_action": 12,
+      "recover_deferred_turn_frontier": false
+    }
+  },
+  "training": {
+    "purpose": "current-engine deterministic event outcomes for Bugslayer, Self Help Book, and public-resolved This Or That",
+    "offline_replay_result": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/results/offline-replay-v1.json",
+      "sha256": "7a51384a350b6cd8987d2f9106b9c605c8d281097a0d15b0bd437dbb5e27f92f",
+      "bytes": 143071
+    },
+    "policy_weights_fitted": false,
+    "natural_outcomes_used_for_policy_weight_selection": false,
+    "random_event_outcomes_resolved": false,
+    "automatic_deployment": false
+  },
+  "source_files": {
+    "event_outcome_facts.json": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/event_outcome_facts.json",
+      "sha256": "59b2d91e81af9ede679abb2c86b3e07c0e39436ade368c539ff38461fc67c36b",
+      "bytes": 1906
+    },
+    "event_outcome_features.py": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/event_outcome_features.py",
+      "sha256": "1dabf4bc7d595b613e04c078e81e82da139cc8b44186c764fa56c21e3691c03d",
+      "bytes": 10867
+    },
+    "event_outcome_policy.py": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/event_outcome_policy.py",
+      "sha256": "78e5ae2f29c3f4e3184a99acf82cfa8f25c004d9672a876de7b82534c842d0cc",
+      "bytes": 5862
+    },
+    "reference_facts/current_engine/Bugslayer.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/reference_facts/current_engine/Bugslayer.cs",
+      "sha256": "772fd742b0fefeb21a2f849a9d78524e5b7291bf99306cc71c9cd71fe34ce11b",
+      "bytes": 1677
+    },
+    "reference_facts/current_engine/Exterminate.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/reference_facts/current_engine/Exterminate.cs",
+      "sha256": "307cf98977f462c7d7dc66f0f9fbd2275b7bd108f2aa37ca3f0b43ed1c9ba3d9",
+      "bytes": 1131
+    },
+    "reference_facts/current_engine/Squash.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/reference_facts/current_engine/Squash.cs",
+      "sha256": "9cb71457028fd46cb215b872850fe3f3178e84867467f6546e69ef9bca024d0d",
+      "bytes": 1603
+    },
+    "reference_facts/current_engine/SelfHelpBook.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/reference_facts/current_engine/SelfHelpBook.cs",
+      "sha256": "efaa3eeaf96fb3ca30477b12e1598bdb8374d58b87880f8129efa888ee6ed46e",
+      "bytes": 5211
+    },
+    "reference_facts/current_engine/Sharp.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/reference_facts/current_engine/Sharp.cs",
+      "sha256": "1de8537303cbb6860d4f55b117c0a8cd6179f3c455456b87393c0a7d135339c5",
+      "bytes": 520
+    },
+    "reference_facts/current_engine/Nimble.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/reference_facts/current_engine/Nimble.cs",
+      "sha256": "5b1e5a9075e3f0cff0e39b644dae1a749cc6460721a13423c62231ec93f75142",
+      "bytes": 397
+    },
+    "reference_facts/current_engine/Swift.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/reference_facts/current_engine/Swift.cs",
+      "sha256": "d8fd0ca9b8a13b21c409f2a281633b04f97cb6d303a48457e44d768c83ca1ad5",
+      "bytes": 688
+    },
+    "reference_facts/current_engine/ThisOrThat.cs": {
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/reference_facts/current_engine/ThisOrThat.cs",
+      "sha256": "4402a2f72326ffecc103ea1f2bd246cd86f07bb63df929bd362f44dc12dc70d3",
+      "bytes": 1942
+    }
+  },
+  "facts": {
+    "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/event_outcome_facts.json",
+    "sha256": "59b2d91e81af9ede679abb2c86b3e07c0e39436ade368c539ff38461fc67c36b",
+    "bytes": 1906
+  },
+  "event_outcome_contract": {
+    "version": "public-current-engine-deterministic-event-outcomes-v1",
+    "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+    "facts_schema": "current-engine-event-outcome-facts-v1",
+    "natural_outcomes_used": false,
+    "hidden_runtime_state_used": false,
+    "random_options_resolved": false,
+    "card_value_probability_calibrated": false,
+    "parent_event_prior_replaced_for_exact_options": true,
+    "candidate_adjustment_abs_cap": 2.0
+  },
+  "score_semantics": "validated_full_parent_replaced_by_deterministic_event_utility_not_win_probability",
+  "calibrated_probability": false,
+  "automatic_deployment": false
+}

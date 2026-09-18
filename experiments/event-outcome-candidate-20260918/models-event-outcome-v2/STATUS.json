@@ -1,0 +1,34 @@
+{
+  "schema_version": "candidate-publication-v1",
+  "status": "validated_not_deployed",
+  "candidate": {
+    "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/models-event-outcome-v2/event-outcome-candidate-model.json",
+    "sha256": "2f9744038e092b6c9de264026531c953560c264d2c044fccde67d5b6db700485",
+    "bytes": 5355
+  },
+  "parent": {
+    "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+    "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8",
+    "bytes": 17542
+  },
+  "replay": {
+    "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/models-event-outcome-v2/EVENT_OUTCOME_POLICY_REPLAY.json",
+    "sha256": "a54e1124a52df78b6b3eaac10ff43cfa782d9d3156e6946b76f49a21483c9514",
+    "bytes": 143071
+  },
+  "behavior": {
+    "event_decisions_replayed": 667,
+    "source_bound_rows": 105,
+    "greedy_changed_decisions": 34,
+    "maximum_additivity_error": 0.0
+  },
+  "scope": [
+    "BUGSLAYER deterministic card acquisition",
+    "SELF_HELP_BOOK deterministic source-bound enchantment utility",
+    "THIS_OR_THAT PLAIN public-resolved deterministic classification"
+  ],
+  "random_options_resolved": false,
+  "prospective_evaluation_run": false,
+  "automatic_deployment": false,
+  "blocking_gate": "wait for admitted parent candidate chain and a separately declared prospective evaluation"
+}

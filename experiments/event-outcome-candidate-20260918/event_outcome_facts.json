@@ -1,0 +1,65 @@
+{
+  "schema_version": "current-engine-event-outcome-facts-v1",
+  "engine_sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+  "natural_outcomes_used": false,
+  "hidden_runtime_state_used": false,
+  "options": {
+    "BUGSLAYER:EXTERMINATION": {
+      "kind": "deterministic_add_card",
+      "source": "Bugslayer.Extermination",
+      "card": {
+        "id": "CARD.EXTERMINATE",
+        "cost": 1,
+        "type": "Attack",
+        "target": "AllEnemies",
+        "damage": 3,
+        "hits": 4,
+        "vulnerable": 0
+      }
+    },
+    "BUGSLAYER:SQUASH": {
+      "kind": "deterministic_add_card",
+      "source": "Bugslayer.Squash",
+      "card": {
+        "id": "CARD.SQUASH",
+        "cost": 1,
+        "type": "Attack",
+        "target": "AnyEnemy",
+        "damage": 10,
+        "hits": 1,
+        "vulnerable": 2
+      }
+    },
+    "SELF_HELP_BOOK:READ_THE_BACK": {
+      "kind": "deterministic_select_enchant",
+      "source": "SelfHelpBook.ReadTheBack",
+      "card_type": "Attack",
+      "enchantment": "Sharp",
+      "amount": 2,
+      "effect": "powered_attack_damage_additive"
+    },
+    "SELF_HELP_BOOK:READ_PASSAGE": {
+      "kind": "deterministic_select_enchant",
+      "source": "SelfHelpBook.ReadPassage",
+      "card_type": "Skill",
+      "enchantment": "Nimble",
+      "amount": 2,
+      "effect": "block_additive",
+      "requires_positive_block": true
+    },
+    "SELF_HELP_BOOK:READ_ENTIRE_BOOK": {
+      "kind": "deterministic_select_enchant",
+      "source": "SelfHelpBook.ReadEntireBook",
+      "card_type": "Power",
+      "enchantment": "Swift",
+      "amount": 2,
+      "effect": "draw_once_on_first_play_each_combat"
+    },
+    "THIS_OR_THAT:PLAIN": {
+      "kind": "deterministic_public_resolved",
+      "source": "ThisOrThat.Plain",
+      "effect": "lose_fixed_hp_and_gain_public_resolved_gold",
+      "parent_score_authoritative": true
+    }
+  }
+}
