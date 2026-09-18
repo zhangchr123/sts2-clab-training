@@ -57,6 +57,7 @@ def build_policy(seed, settings, *, ascension=10, epsilon=.1, model_path=None, s
         from full_route_policy import VERSION as FULL_ROUTE_FORMAT
         from encounter_damage_policy import VERSION as ENCOUNTER_DAMAGE_FORMAT
         from reward_mechanism_policy import VERSION as REWARD_MECHANISM_FORMAT
+        from rest_heal_route_policy import VERSION as REST_HEAL_ROUTE_FORMAT
         try:
             artifact = json.loads(Path(model_path).read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
@@ -64,12 +65,16 @@ def build_policy(seed, settings, *, ascension=10, epsilon=.1, model_path=None, s
         if not isinstance(artifact, dict):
             raise DataContractError("Model artifact must be a JSON object")
         model_format = artifact.get("format")
-        if model_format not in (LINEAR_FORMAT, SURVIVAL_FORMAT, INTERACTION_FORMAT, PREFIX_FORMAT, WHOLE_RUN_FORMAT, CONTEXTUAL_FORMAT, IDENTITY_FORMAT, CIRCULATION_FORMAT, CAPABILITY_FORMAT, COMPACT_FORMAT, TARGET_FORMAT, RISK_FORMAT, ROUTE_FORMAT, REFERENCE_FORMAT, PERSISTENT_FORMAT, NEOW_FORMAT, EVENT_EFFECT_FORMAT, SELECTION_EFFECT_FORMAT, FULL_ROUTE_FORMAT, ENCOUNTER_DAMAGE_FORMAT, REWARD_MECHANISM_FORMAT):
+        if model_format not in (LINEAR_FORMAT, SURVIVAL_FORMAT, INTERACTION_FORMAT, PREFIX_FORMAT, WHOLE_RUN_FORMAT, CONTEXTUAL_FORMAT, IDENTITY_FORMAT, CIRCULATION_FORMAT, CAPABILITY_FORMAT, COMPACT_FORMAT, TARGET_FORMAT, RISK_FORMAT, ROUTE_FORMAT, REFERENCE_FORMAT, PERSISTENT_FORMAT, NEOW_FORMAT, EVENT_EFFECT_FORMAT, SELECTION_EFFECT_FORMAT, FULL_ROUTE_FORMAT, ENCOUNTER_DAMAGE_FORMAT, REWARD_MECHANISM_FORMAT, REST_HEAL_ROUTE_FORMAT):
             raise DataContractError("Unsupported model artifact format: " + repr(model_format))
 
     policy = InitialPolicy(epsilon=epsilon, random_seed=seed)
     if model_path:
-        if model_format == REWARD_MECHANISM_FORMAT:
+        if model_format == REST_HEAL_ROUTE_FORMAT:
+            from rest_heal_route_policy import RestHealRoutePolicy
+            if ascension != 10: raise DataContractError("Rest-heal route policy requires Defect A10")
+            policy = RestHealRoutePolicy(model_path, solver_config=settings, seed=seed, epsilon=epsilon)
+        elif model_format == REWARD_MECHANISM_FORMAT:
             from reward_mechanism_policy import RewardMechanismPolicy
             if ascension != 10: raise DataContractError("Reward mechanism policy requires Defect A10")
             policy = RewardMechanismPolicy(model_path, solver_config=settings, seed=seed, epsilon=epsilon)
@@ -268,6 +273,9 @@ def run_one(name, seed, *, ascension=10, settings=None, epsilon=.1, max_seconds=
             if isinstance(policy.base, EncounterDamagePolicy):
                 value = policy.base.make_encounter_damage_input(state, observation)
                 policy.base.set_encounter_damage_input(state, value)
+            from rest_heal_route_policy import RestHealRoutePolicy
+            if isinstance(policy.base, RestHealRoutePolicy) and observation is not None:
+                policy.base.set_rest_route_observation(state, observation)
             picked = policy.choose(state, candidates=candidates, selection_purpose=purpose)
             if observation is not None:
                 picked['map_observation'] = observation

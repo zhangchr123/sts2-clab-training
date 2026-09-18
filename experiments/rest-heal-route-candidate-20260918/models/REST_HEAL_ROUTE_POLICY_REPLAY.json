@@ -1,0 +1,101 @@
+{
+  "schema_version": "rest-heal-route-assembled-replay-v1",
+  "passed": true,
+  "decisions": 412,
+  "candidate_rows": 907,
+  "map_observations_replayed": 2805,
+  "rest_contexts_replayed": 412,
+  "exact_parent_additivity": 412,
+  "recorded_reward_parent_exact": 412,
+  "maximum_additivity_error": 0.0,
+  "maximum_recorded_parent_error": 1.7763568394002505e-15,
+  "policy_weights_fitted": false,
+  "natural_outcomes_used_for_policy_weight_selection": false,
+  "future_route_choice_probabilities_assumed": false,
+  "automatic_deployment": false,
+  "offline_replay": {
+    "path": "/home/ubuntu/sts2-cloud-analysis/rest-heal-route-candidate-20260918-v1/RESULT.json",
+    "sha256": "d506d5277bb1eddc9b81fac6462b7808555dce9a562c73a9dff3d8a82dbd6ed9",
+    "bytes": 78394
+  },
+  "offline_catalog": {
+    "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/encounter_damage_catalog_v3.json",
+    "sha256": "ada21748c09c039627fa4e395b471e7e2d541aa67633aab93518bea2a3f3886d",
+    "bytes": 90833
+  },
+  "reward_mechanism_parent": {
+    "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/reward-mechanism-candidate-model.json",
+    "sha256": "65c4a242b7e12b9f2ba471bd645d88c33fc25281e5e47972e9b44d3e9e3c58fc",
+    "bytes": 19043
+  },
+  "rest_heal_route_candidate": {
+    "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+    "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8",
+    "bytes": 17542
+  },
+  "combined_replay_sha256": "f85c43da3b25917ae4b5d912a9c868e3a3ba0de19ec4de7e022d900ad1060727",
+  "migration": {
+    "historical_baseline": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/migrated-baseline-model.json",
+      "sha256": "f84396a31ede157994ccf060c47a7092c0ef73cd16d56b773874e5b6d6ea1488",
+      "bytes": 63702
+    },
+    "historical_event": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/event-effect-candidate-model.json",
+      "sha256": "dc11e75d4ebe260d269aad2a198311e371ad7f9e79fe3efc81921f5ee1c621f5",
+      "bytes": 14091
+    },
+    "historical_selection": {
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/sts2-solver-bridge/models-full-route-v1/selection-effect-candidate-model.json",
+      "sha256": "03cba5dffb53cbf783ab6cd3d0d3da7e9d31db61335633b3675c05da39aefc27",
+      "bytes": 14374
+    },
+    "migrated_baseline": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+      "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba",
+      "bytes": 63922
+    },
+    "migrated_event": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/event-effect-candidate-model.json",
+      "sha256": "ab4f77001023ead97d3d230d58c76c6f19e9bdb92faf06d357a8c1be81845bda",
+      "bytes": 14306
+    },
+    "migrated_selection": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/selection-effect-candidate-model.json",
+      "sha256": "56d72fa2328e399e8a792fa18ec38dd231c421279bde58a4cffd52c342b64b3a",
+      "bytes": 14599
+    },
+    "full_route_candidate": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/full-route-candidate-model.json",
+      "sha256": "8d680af093da54a7aef1c69f0b77f40c647f167337cf7622c82aa92966ba54ec",
+      "bytes": 14982
+    },
+    "baseline_parameters_equal": true,
+    "event_parameters_equal": true,
+    "selection_parameters_equal": true,
+    "constructors_validated": true,
+    "encounter_damage_catalog": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/encounter_damage_catalog_v3.json",
+      "sha256": "ada21748c09c039627fa4e395b471e7e2d541aa67633aab93518bea2a3f3886d",
+      "bytes": 90833
+    },
+    "encounter_damage_candidate": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/encounter-damage-candidate-model.json",
+      "sha256": "ba3ecb3f96a5c62e70fd9d2568b7263c777dd31c9add55b4b36f90af7ea89b5e",
+      "bytes": 16161
+    },
+    "encounter_damage_constructor_validated": true,
+    "reward_mechanism_candidate": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/reward-mechanism-candidate-model.json",
+      "sha256": "65c4a242b7e12b9f2ba471bd645d88c33fc25281e5e47972e9b44d3e9e3c58fc",
+      "bytes": 19043
+    },
+    "reward_mechanism_constructor_validated": true,
+    "rest_heal_route_candidate": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+      "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8",
+      "bytes": 17542
+    },
+    "rest_heal_route_constructor_validated": true
+  }
+}

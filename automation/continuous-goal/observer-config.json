@@ -76,6 +76,10 @@
     {
       "name": "reward-mechanism-candidate",
       "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/public-status.json"
+    },
+    {
+      "name": "rest-heal-route-candidate",
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/public-status.json"
     }
   ],
   "workspace": "/home/ubuntu/sts2-agent/workspace"

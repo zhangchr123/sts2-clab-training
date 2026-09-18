@@ -18,6 +18,7 @@ from selection_effect_policy import VERSION as SELECTION_EFFECT_VERSION, Selecti
 from full_route_policy import VERSION as FULL_ROUTE_VERSION, FullRoutePolicy, FEATURE_SOURCES as FULL_ROUTE_SOURCES
 from encounter_damage_policy import VERSION as ENCOUNTER_DAMAGE_VERSION, EncounterDamagePolicy, FEATURE_SOURCES as ENCOUNTER_DAMAGE_SOURCES
 from reward_mechanism_policy import VERSION as REWARD_MECHANISM_VERSION, RewardMechanismPolicy, FEATURE_SOURCES as REWARD_MECHANISM_SOURCES
+from rest_heal_route_policy import VERSION as REST_HEAL_ROUTE_VERSION, RestHealRoutePolicy, FEATURE_SOURCES as REST_HEAL_ROUTE_SOURCES
 from run_metadata import file_evidence
 
 
@@ -36,7 +37,8 @@ REGISTRY = {VERSION: (WholeRunPolicy, FEATURE_SOURCES),
             SELECTION_EFFECT_VERSION: (SelectionEffectPolicy, SELECTION_EFFECT_SOURCES),
             FULL_ROUTE_VERSION: (FullRoutePolicy, FULL_ROUTE_SOURCES),
             ENCOUNTER_DAMAGE_VERSION: (EncounterDamagePolicy, ENCOUNTER_DAMAGE_SOURCES),
-            REWARD_MECHANISM_VERSION: (RewardMechanismPolicy, REWARD_MECHANISM_SOURCES)}
+            REWARD_MECHANISM_VERSION: (RewardMechanismPolicy, REWARD_MECHANISM_SOURCES),
+            REST_HEAL_ROUTE_VERSION: (RestHealRoutePolicy, REST_HEAL_ROUTE_SOURCES)}
 
 
 def validate_whole_run_choices(records, policies):
@@ -73,7 +75,9 @@ def validate_whole_run_choices(records, policies):
             CompactSelectionPolicy if isinstance(base, CompactDeckPolicy) else SelectionPolicy)
         policy = wrapper(base, max_evaluations=meta["sampling"]["selection_budget"])
         require(state_hash(policy.provenance) == state_hash(provenance), "manifest identity")
-        declared_sources = (base._reward_artifact["source_files"]
+        declared_sources = (base._rest_artifact["source_files"]
+                            if isinstance(base, RestHealRoutePolicy) else
+                            base._reward_artifact["source_files"]
                             if isinstance(base, RewardMechanismPolicy) else
                             base._encounter_damage_artifact["source_files"]
                             if isinstance(base, EncounterDamagePolicy) else
@@ -105,6 +109,8 @@ def validate_whole_run_choices(records, policies):
             if isinstance(base, EncounterDamagePolicy):
                 value = base.make_encounter_damage_input(record['state'], actual.get('map_observation'))
                 base.set_encounter_damage_input(record['state'], value)
+            if isinstance(base, RestHealRoutePolicy) and actual.get('map_observation') is not None:
+                base.set_rest_route_observation(record['state'], actual['map_observation'])
             expected = policy.choose(record["state"], candidates=record["candidate_set"],
                                      selection_purpose=context["purpose"] if context else None)
             require(set(actual) == set(expected) | {"decision_id", "selection_context"} | extra_keys
