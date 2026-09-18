@@ -1,0 +1,57 @@
+{
+  "run_id": "defect-progress-auxiliary-paired-20260917ce-control-030",
+  "seed": "defect-progress-auxiliary-paired-20260917ce-seed-030",
+  "pair": 30,
+  "arm": "control",
+  "report": {
+    "run_id": "defect-progress-auxiliary-paired-20260917ce-control-030",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-030",
+    "outcome": "defeat",
+    "decisions": 18,
+    "solver_calls": 3,
+    "seconds": 52.898429662993294,
+    "training_eligible_decisions": 18,
+    "exclusion_reasons": [],
+    "final_context": {
+      "act": 1,
+      "ascension": 10,
+      "second_boss": null,
+      "act_name": "Overgrowth",
+      "floor": 8,
+      "room_type": "Elite",
+      "combat_in_progress": true,
+      "integrity_recovery_used": false,
+      "encounter_id": "PHROG_PARASITE_ELITE",
+      "is_second_boss": false,
+      "boss": {
+        "id": "CEREMONIAL_BEAST_BOSS",
+        "name": "Ceremonial Beast"
+      }
+    },
+    "final_hp": 0,
+    "error": null
+  },
+  "goal": {
+    "schema_version": "actual-act3-first-boss-progress-v1",
+    "verified_first_boss_defeated": false,
+    "natural_goal_success": false,
+    "provenance_supplied_by_caller": true,
+    "proof": null,
+    "errors": [],
+    "max_act_observed": 1,
+    "max_floor_in_max_act": 8,
+    "shaped_progress_not_win_probability": 0.08,
+    "complete_A10_victory_claimed": false
+  },
+  "issues": [],
+  "explicit_map_readback": {
+    "passed": true,
+    "map_queries": 7
+  },
+  "policy_bound": true,
+  "integration_passed": true,
+  "invalid_failure_retained": false,
+  "goal_success": false,
+  "evaluation_only": true,
+  "refit_or_selection_eligible": false
+}

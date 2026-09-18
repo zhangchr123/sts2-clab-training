@@ -1,0 +1,66 @@
+{
+  "run_id": "defect-progress-auxiliary-paired-20260917ce-control-000",
+  "seed": "defect-progress-auxiliary-paired-20260917ce-seed-000",
+  "pair": 0,
+  "arm": "control",
+  "report": {
+    "run_id": "defect-progress-auxiliary-paired-20260917ce-control-000",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-000",
+    "outcome": "defeat",
+    "decisions": 99,
+    "solver_calls": 26,
+    "seconds": 288.4239715490039,
+    "training_eligible_decisions": 99,
+    "exclusion_reasons": [],
+    "final_context": {
+      "act": 3,
+      "ascension": 10,
+      "second_boss": "QUEEN_BOSS",
+      "act_name": "Glory",
+      "floor": 16,
+      "room_type": "Boss",
+      "combat_in_progress": true,
+      "integrity_recovery_used": false,
+      "encounter_id": "QUEEN_BOSS",
+      "is_second_boss": true,
+      "boss": {
+        "id": "AEONGLASS_BOSS",
+        "name": "Aeonglass"
+      }
+    },
+    "final_hp": 0,
+    "error": null
+  },
+  "goal": {
+    "schema_version": "actual-act3-first-boss-progress-v1",
+    "verified_first_boss_defeated": true,
+    "natural_goal_success": true,
+    "provenance_supplied_by_caller": true,
+    "proof": {
+      "entry_index": 1080,
+      "encounter_id": "AEONGLASS_BOSS",
+      "combat_id": 25,
+      "floor": 15,
+      "end_index": 1190,
+      "actual_hp_after": 8,
+      "end_state_hash": "c13beb8d056996e8f2e2c5f3a859aa813eabcb07e45819fd35fda429de828a7b",
+      "boundary": "map_select"
+    },
+    "errors": [],
+    "max_act_observed": 3,
+    "max_floor_in_max_act": 16,
+    "shaped_progress_not_win_probability": 4.0,
+    "complete_A10_victory_claimed": false
+  },
+  "issues": [],
+  "explicit_map_readback": {
+    "passed": true,
+    "map_queries": 48
+  },
+  "policy_bound": true,
+  "integration_passed": true,
+  "invalid_failure_retained": false,
+  "goal_success": true,
+  "evaluation_only": true,
+  "refit_or_selection_eligible": false
+}

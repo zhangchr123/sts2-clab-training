@@ -1,0 +1,57 @@
+{
+  "run_id": "defect-progress-auxiliary-paired-20260917ce-control-032",
+  "seed": "defect-progress-auxiliary-paired-20260917ce-seed-032",
+  "pair": 32,
+  "arm": "control",
+  "report": {
+    "run_id": "defect-progress-auxiliary-paired-20260917ce-control-032",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-032",
+    "outcome": "defeat",
+    "decisions": 44,
+    "solver_calls": 11,
+    "seconds": 149.82624667599885,
+    "training_eligible_decisions": 44,
+    "exclusion_reasons": [],
+    "final_context": {
+      "act": 2,
+      "ascension": 10,
+      "second_boss": null,
+      "act_name": "Hive",
+      "floor": 5,
+      "room_type": "Monster",
+      "combat_in_progress": false,
+      "integrity_recovery_used": false,
+      "encounter_id": "OVICOPTER_NORMAL",
+      "is_second_boss": false,
+      "boss": {
+        "id": "THE_INSATIABLE_BOSS",
+        "name": "The Insatiable"
+      }
+    },
+    "final_hp": 0,
+    "error": null
+  },
+  "goal": {
+    "schema_version": "actual-act3-first-boss-progress-v1",
+    "verified_first_boss_defeated": false,
+    "natural_goal_success": false,
+    "provenance_supplied_by_caller": true,
+    "proof": null,
+    "errors": [],
+    "max_act_observed": 2,
+    "max_floor_in_max_act": 5,
+    "shaped_progress_not_win_probability": 1.05,
+    "complete_A10_victory_claimed": false
+  },
+  "issues": [],
+  "explicit_map_readback": {
+    "passed": true,
+    "map_queries": 21
+  },
+  "policy_bound": true,
+  "integration_passed": true,
+  "invalid_failure_retained": false,
+  "goal_success": false,
+  "evaluation_only": true,
+  "refit_or_selection_eligible": false
+}

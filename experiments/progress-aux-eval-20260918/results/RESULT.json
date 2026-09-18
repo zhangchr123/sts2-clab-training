@@ -1,0 +1,28 @@
+{
+  "control": {
+    "games": 60,
+    "first_boss_successes": 3,
+    "full_victories": 1,
+    "invalid_failures": 0,
+    "outcomes": {
+      "defeat": 59,
+      "victory": 1
+    }
+  },
+  "candidate": {
+    "games": 60,
+    "first_boss_successes": 1,
+    "full_victories": 0,
+    "invalid_failures": 0,
+    "outcomes": {
+      "defeat": 60
+    }
+  },
+  "candidate_only_success": 1,
+  "control_only_success": 3,
+  "one_sided_paired_p": 0.9375,
+  "improvement_gate_passed": false,
+  "automatic_deployment": false,
+  "evaluation_used_for_refit": false,
+  "goal_complete": false
+}

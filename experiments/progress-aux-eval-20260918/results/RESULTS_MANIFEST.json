@@ -1,0 +1,1245 @@
+{
+  "schema_version": "progress-aux-results-archive-v1",
+  "assessment_passed": true,
+  "candidate_gate_passed": false,
+  "deployment_authorized": false,
+  "automatic_retry": false,
+  "game_archives": 120,
+  "files": [
+    {
+      "path": "ARCHIVE_INDEX.json",
+      "bytes": 203658,
+      "sha256": "2e059e9dcfd143f0af47a3ed6b8550d4a606ed7cc681ba79cfd238774da6088f"
+    },
+    {
+      "path": "ASSESSMENT.json",
+      "bytes": 1227,
+      "sha256": "44fb076d5df28ffb2ae028b3cba5ac1f213090a6ff36182b41cfe099543b4137"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 111897,
+      "sha256": "d4e5bd8123af2dc326274231854d3f915a32dcf46d14c997a8e79b9e68218e1d"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 576,
+      "sha256": "e028d1c43549e8abc3836bde94675f447b107b81e22567cd46452b4ea433eff2"
+    },
+    {
+      "path": "SOURCE_CLOSURE.json",
+      "bytes": 228387,
+      "sha256": "ebb838d347aa75935ed867d26c4e664217fe595f66dc5a234983648534bdd6d0"
+    },
+    {
+      "path": "STARTED.json",
+      "bytes": 74,
+      "sha256": "33ca268b479bccaf6be18508e64c8e9509ef45f3e256e60f7397279a479ff954"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-000-audit.json",
+      "bytes": 1622,
+      "sha256": "01dcdc8b681d94f9ba9e647fd253617cb438168d1f86665ccc4adcba2efa149c"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-001-audit.json",
+      "bytes": 1625,
+      "sha256": "4eaa5148e184ba9e2d4da83339deb462a540e6917bc426eba235f2e50cf8b88e"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-002-audit.json",
+      "bytes": 1608,
+      "sha256": "c321f2f825add2516af283dad7cf3785ae2654e5ecbe91a332062f0628cd4776"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-003-audit.json",
+      "bytes": 1631,
+      "sha256": "401e69353da0a82039d7b4191baedff4cdb18aaa19d7051a3152959d4708081e"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-004-audit.json",
+      "bytes": 1610,
+      "sha256": "af3cb1dc55bc87fba0f7efc69f065d6ffd3b50d736373fab3c94e14d9a30d421"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-005-audit.json",
+      "bytes": 1622,
+      "sha256": "7ccea83b395939de5b9ca31be947ad76f6df089cca5d4e656984a4fb986e238a"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-006-audit.json",
+      "bytes": 1625,
+      "sha256": "063746cff31695a0c65b4b4767947343afd5fd645afdc6727a572d6f22237135"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-007-audit.json",
+      "bytes": 1613,
+      "sha256": "28a417ac5569202ab435ad33e375c17528a0a5842e35e53c9722fd7e92847f96"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-008-audit.json",
+      "bytes": 1602,
+      "sha256": "a84524c26603e4fb77ab23474278024d88cc632d1f615a9ea071b9f50d520857"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-009-audit.json",
+      "bytes": 1617,
+      "sha256": "8b0cbaf146c8cfbe88fb89ef2cc6755420d51e30d2404c4626be7ef655a3bcd5"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-010-audit.json",
+      "bytes": 1622,
+      "sha256": "dd215a6eec72b3d364e48399ff7f746dd788f4b100dfee423f984ea62a105294"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-011-audit.json",
+      "bytes": 1625,
+      "sha256": "ab4d468111756744fd322772f56a0c5224d4fbec2e40b6d4476269b77e1f7a5a"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-012-audit.json",
+      "bytes": 1610,
+      "sha256": "c47b49a38daa705cbe8ee987328b767d160b9d5099aa0ff0ff880e9d67a83617"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-013-audit.json",
+      "bytes": 1626,
+      "sha256": "97ea52b6742da89ea180b388bd67d3e63cf57d2b25f9d85104ba760814492beb"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-014-audit.json",
+      "bytes": 1611,
+      "sha256": "3db5d4643ab1db86d060777513bd875759bd743754ce391058438f9739d821f6"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-015-audit.json",
+      "bytes": 1622,
+      "sha256": "f99aa116fa9392b507cba086e1e93e73b03df41bdcfae093ae1be8497fc73940"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-016-audit.json",
+      "bytes": 1622,
+      "sha256": "ba502358dc2f9b293e1a4341784d46ed9a0f6e07dabdde30306a32bc81885f0a"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-017-audit.json",
+      "bytes": 1636,
+      "sha256": "2b6b191a231d179a58b1ab81977f67bbd59de57abf0238d115a3219b2da5d3fe"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-018-audit.json",
+      "bytes": 1622,
+      "sha256": "f3cb2f22414adc1a3497248ed8b9b3e47aa9de6c3cff2b0bfe5925bfcc47a192"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-019-audit.json",
+      "bytes": 1626,
+      "sha256": "93f0a00b4ddc69dfb4d6724db3961b8ff2b1808dba5f9e922ca95e6a985cb83e"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-020-audit.json",
+      "bytes": 1617,
+      "sha256": "8bde0ee19e763a231806e5582edcfb5982649fbe175c7bb95cf9d945779d03e8"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-021-audit.json",
+      "bytes": 1633,
+      "sha256": "cdf3e22faef76b884d5e6660ebf3606bb035513127400d113543e21d5f3c218e"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-022-audit.json",
+      "bytes": 1624,
+      "sha256": "10001767e96316458658e52c22540fc9f2b7841a16ab90115d2e2137016e71c1"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-023-audit.json",
+      "bytes": 1640,
+      "sha256": "50acabfd769fdbc8796f191c039d9f43cc15007d4cd40eccbe8fca43a53b1b3a"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-024-audit.json",
+      "bytes": 1623,
+      "sha256": "024919981278ad92093db966f8fb10d89f03de4c60e067378afa95d6b3611a65"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-025-audit.json",
+      "bytes": 1622,
+      "sha256": "4620b3fcd0a52892300627c6231ac488a05d779072da9bab401c4807460ea4ac"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-026-audit.json",
+      "bytes": 1640,
+      "sha256": "756e12d3dc03f7aff15e5771bcaf359f61d4b07f33412b1ec67aefc3857532f7"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-027-audit.json",
+      "bytes": 1622,
+      "sha256": "a90cc6eabaed5eeb59c2d12b28d36c2a5ee4bd5a5e21e4a65dc4876e2b721cb5"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-028-audit.json",
+      "bytes": 1610,
+      "sha256": "e02f421c9e725975b4990f0bc05acc3e1db8bc46c92d26f2db26d299f4dd9fd2"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-029-audit.json",
+      "bytes": 1604,
+      "sha256": "540aaf22081b3c78e91685e326cf74754a581adc6cd60725e9c4baabc7fd1686"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-030-audit.json",
+      "bytes": 1621,
+      "sha256": "f71dd3f9ae93d9a7a25d84929f03cbe14dee9239898625be7642732afafe1584"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-031-audit.json",
+      "bytes": 1617,
+      "sha256": "1105416a597cb3e195264fa85bf5e60d8296e91ba95b0427263b965a2265698e"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-032-audit.json",
+      "bytes": 1623,
+      "sha256": "53ad8ab31b88772d14ac9658e7821f2aab042104b6f721e605dce753090258bf"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-033-audit.json",
+      "bytes": 1603,
+      "sha256": "702e26f19ce23c615701674bb49915a26d3e3bf09834098964ab705cf2ca6741"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-034-audit.json",
+      "bytes": 1628,
+      "sha256": "83acc871d8c0448759dd7ecd0e278a295307fa139858c40a1c2f6830d4b756ff"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-035-audit.json",
+      "bytes": 1618,
+      "sha256": "8ffdb2a57ff76b781a2246aee7aca284d11fb4bea176f3a7e132a1846b8b1e28"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-036-audit.json",
+      "bytes": 1641,
+      "sha256": "c3ae5ee2653a3d3d86d806ec8157cdb22cb0a5111079a8b6c08ed1aafe957987"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-037-audit.json",
+      "bytes": 1626,
+      "sha256": "88ef2488fb89ba1dfc19467d40a4c1ceecbe1243e88ca4516d662a1144aff750"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-038-audit.json",
+      "bytes": 1623,
+      "sha256": "e2c28ac43e4a304765b22daf2913365078b8a5f2462033cc7afc4670e6a64c21"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-039-audit.json",
+      "bytes": 1603,
+      "sha256": "c1e10e3fe4539457fb821c322fbee3d002de240d4cb8881e440e255865e7a866"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-040-audit.json",
+      "bytes": 1626,
+      "sha256": "2bb67ba9c298838822db95608400cbcf3ba72854ad6ab377f0e773056ac8d747"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-041-audit.json",
+      "bytes": 1613,
+      "sha256": "bbc5db589cda8a7652d37163e490917091d17bdaf314a64bfb44d70ef9fb05b7"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-042-audit.json",
+      "bytes": 1622,
+      "sha256": "bb49cb1d974cbd5fe14bda9e5ccdbf93f19351156e43d3f60106699427146bf3"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-043-audit.json",
+      "bytes": 1626,
+      "sha256": "90e18a5a80831b78318bb86294bf33a00bfffcbb6d11206ae6ea9a8b0858ceb6"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-044-audit.json",
+      "bytes": 1627,
+      "sha256": "83305ec20496b6606bd1aaaa7097d633a8e468e82b402445670606b08aef9388"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-045-audit.json",
+      "bytes": 1609,
+      "sha256": "ce495f600f2f06999fe2068247cc82e9aaeff4fb6c58e53efecd8cab03c81d50"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-046-audit.json",
+      "bytes": 1602,
+      "sha256": "a1efd1f1fdcb7f7816b07641496727c6673f0852861fe82024093d3ec7c815ea"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-047-audit.json",
+      "bytes": 1646,
+      "sha256": "116ae9d7b3a98975b858519e7136dee9ba9621f29d1f8fce064dcdc862cb3a2f"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-048-audit.json",
+      "bytes": 1622,
+      "sha256": "279325a8b065ea537d9e24dbbe568e1e261126ae388a91121d07beb81ae1a931"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-049-audit.json",
+      "bytes": 1624,
+      "sha256": "a767a72d8ac9ce74fc14daa4acc69aa47afcc7b5a5f809e73c826b3c8170fb6e"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-050-audit.json",
+      "bytes": 1624,
+      "sha256": "ee4747b3e1743a249e7c76cf93ebac4032d52d6323685bde87f6ae335ea6afbf"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-051-audit.json",
+      "bytes": 1604,
+      "sha256": "3fb35d7ebd2e87ab38bed68caaabe8817356c4af7f39b857c90dd42f9e281730"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-052-audit.json",
+      "bytes": 1618,
+      "sha256": "439b223cced5e2d7013981f112d2f69fef7db56445d198f016154e0e918b08e2"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-053-audit.json",
+      "bytes": 1893,
+      "sha256": "856be35be545c805fdc83ff06b7f1319fb75dc922fa021af56f46b9a8c4a5e31"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-054-audit.json",
+      "bytes": 1620,
+      "sha256": "c0c9443a9569d17e864183e99929c9da248ff29e07776099cbbe55addf35d386"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-055-audit.json",
+      "bytes": 1623,
+      "sha256": "5a9b0f9a07f2e172cceefe19da3381304d14142f021cac3e3728a061452ad434"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-056-audit.json",
+      "bytes": 1626,
+      "sha256": "b2f89e1d7a60b3a4b23b00e4a31aa2aeaf6594b9ab6bf624896d5c66a2a03836"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-057-audit.json",
+      "bytes": 1622,
+      "sha256": "7cf9c540fbfd4b00bedd5075cd8797320ab793d965a5830465b386d0a3fefd84"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-058-audit.json",
+      "bytes": 1603,
+      "sha256": "a350033abdac0152b95ae15bb18af19ed4b30bdf555b4892be80d4bbd5ef8280"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-candidate-059-audit.json",
+      "bytes": 1642,
+      "sha256": "784615a341af42c38742f0382b2ad91b68ac6acda833ff84f67f6c690feca596"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-000-audit.json",
+      "bytes": 1887,
+      "sha256": "a717702596b1d0e22f75e17d3ad08f86b01ec2f5e1b5f32af6806c30a718b30f"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-001-audit.json",
+      "bytes": 1618,
+      "sha256": "021dfa58e2e992124f154909369b86fb6329d0fd1179fea8d0e0e8a782beceb4"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-002-audit.json",
+      "bytes": 1617,
+      "sha256": "17cc27f917e62973c713d744a119681bd59d4d7d74f55d2b4bd2942386631920"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-003-audit.json",
+      "bytes": 1603,
+      "sha256": "150c8d315559eed880f652f9bd59d65ae64f6b35f18d0a4d5df98fcd51ad7fec"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-004-audit.json",
+      "bytes": 1603,
+      "sha256": "c50b68d2578331cf8375422d05b9793b0250aece0660329c67fa5fe40a7a7ba1"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-005-audit.json",
+      "bytes": 1617,
+      "sha256": "aad688d43beaff18073ec790659d25e41cd147c04993bd877e17c97dc22b452d"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-006-audit.json",
+      "bytes": 1634,
+      "sha256": "30314f97edf2754fe34d3892968caba540f42de6dbc48fb2260a75e669afe801"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-007-audit.json",
+      "bytes": 1619,
+      "sha256": "f22a2624c0cc39c78ad68472740aad06494483dda532744fddb89713ce58c3b7"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-008-audit.json",
+      "bytes": 1614,
+      "sha256": "eb7fc29289eb81605097d8d8f60c91b495b26332ffd03eaf79215e3deb86e46c"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-009-audit.json",
+      "bytes": 1613,
+      "sha256": "2dccda169f80e41a9f51dee269c8d4b987a4015643c6fbd05ad21430980770bd"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-010-audit.json",
+      "bytes": 1617,
+      "sha256": "0a7e36377c1e00506da1cd99f9866ac64f324bd41e0aa226b3e47b527f6bfada"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-011-audit.json",
+      "bytes": 1631,
+      "sha256": "746f05686b14652ac1de879091ab470771a477b3e141a51972c9f35e5391529a"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-012-audit.json",
+      "bytes": 1617,
+      "sha256": "1e8549850daa67d8b1efd065389cbf1e8afa2476ac0d5ac35b6f5ef07531f291"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-013-audit.json",
+      "bytes": 1621,
+      "sha256": "f5f7642315f5b694ea254875306488ddcf1f502d2ef219cbb0848dd5b618286b"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-014-audit.json",
+      "bytes": 1605,
+      "sha256": "25d1ccd48df328c8827c523763b557d9ce425aaf9c0d7096b1ad0571321816c5"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-015-audit.json",
+      "bytes": 1622,
+      "sha256": "24067296760d0cb40377b5b100ec05d60f6bf090651fac91915931c5c9c489af"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-016-audit.json",
+      "bytes": 1635,
+      "sha256": "4e6d858720951b69c5019b462761f3cf5cc882634dc256df8113c2d8c5444da8"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-017-audit.json",
+      "bytes": 1631,
+      "sha256": "cf00c077fcd22b869a35980346da1582f5d087daade315c978f76370fe51a003"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-018-audit.json",
+      "bytes": 1617,
+      "sha256": "6b91013e0014bd56cf841a3382a03b670c6aff53312eea14f34d31b6a2dd485b"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-019-audit.json",
+      "bytes": 1619,
+      "sha256": "9c2b2a032d0f916a539473d8874a095a73e78a5fb64e1c10b4af08282e22eeea"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-020-audit.json",
+      "bytes": 1619,
+      "sha256": "2477cc58a138044aa389d25954e698a059242914993b4c300181de7cd9737d42"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-021-audit.json",
+      "bytes": 1617,
+      "sha256": "501723e8150967155701267adef7b08438c4900b1ed2fb50e89e7d874271049a"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-022-audit.json",
+      "bytes": 1608,
+      "sha256": "371b5302d2d02e23ef7f50ad794b627f6ac2a62de910d43ea401b411b08d2441"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-023-audit.json",
+      "bytes": 1642,
+      "sha256": "8da4996291c66048349c21e9cf4ad6ca7d543d0745e575fb62c0665c746186cc"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-024-audit.json",
+      "bytes": 1618,
+      "sha256": "641505f84be76ec0934a98e11caa71f69681749da6f06d7f02ce1d74cafecb58"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-025-audit.json",
+      "bytes": 1617,
+      "sha256": "1c423dc00d9f8c0d60bd5a00ea789ef29f1920927b0cef68dfeb0b94634e41d6"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-026-audit.json",
+      "bytes": 1597,
+      "sha256": "0514d560a087872bc82d55651c5214bc618d79973e48ffd7bc3b91f530131d78"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-027-audit.json",
+      "bytes": 1618,
+      "sha256": "c929eee479b1e9f0e2e0a8289860799bfa329c57f79e4e16444a914dfabcfae2"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-028-audit.json",
+      "bytes": 1620,
+      "sha256": "958e57583d5e263bb5d98cdb21f29dd385cb7f81b811eb164a1a79dccb84c844"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-029-audit.json",
+      "bytes": 1598,
+      "sha256": "d816a38c63aa9ac6943582bb4763e3dc9e5312f27fb368be89f6a9a893c4576d"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-030-audit.json",
+      "bytes": 1624,
+      "sha256": "9f8e1b92df44e5f4edb00535ddb7be4b55a014f3c04a1bc9adb4ac6746ab33e6"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-031-audit.json",
+      "bytes": 1620,
+      "sha256": "1898265c4d4b91f1c6e4026ddf7e81dd015eef5f5d5e30bfc91240863bd3818c"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-032-audit.json",
+      "bytes": 1615,
+      "sha256": "e803393a5cd603fabe9b056f52de9927d2eac03a5867629df7146c7d5ee5c590"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-033-audit.json",
+      "bytes": 1617,
+      "sha256": "798667dde7a0ba0c6181979454645c50ef9593eddb0aa8f2573a7ea38c217864"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-034-audit.json",
+      "bytes": 1615,
+      "sha256": "a7eab1d10f40693200eccd4c2d3599699c59783c67d7535b682fa874c5238b85"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-035-audit.json",
+      "bytes": 1910,
+      "sha256": "0de231b9952395608539b837f5cb6dd683d16c3aec5deead0028c05ff9a70a36"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-036-audit.json",
+      "bytes": 1636,
+      "sha256": "7874b531b71f05e4c4cdbd042777874648270ecb1235c9fe07ddc8ed2543287a"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-037-audit.json",
+      "bytes": 1619,
+      "sha256": "150845c28a96682c98bcfe4f1bcdebd061cd26a81b8dab509993823683506a30"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-038-audit.json",
+      "bytes": 1893,
+      "sha256": "5710058615e9ae0b327b1f87215e063a33267862cec736fc3c010bb6e0944d31"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-039-audit.json",
+      "bytes": 1619,
+      "sha256": "ff8bf4ee12b8f5f973edf74a04aa644ebd667ae492058d4602152500fa0fea10"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-040-audit.json",
+      "bytes": 1613,
+      "sha256": "cb6f7be8e5995d65a8fb01fd65b82e8a9c757b9bb96364754458f6fa6d57b017"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-041-audit.json",
+      "bytes": 1617,
+      "sha256": "042831d6713534e1973c21352c107e049cc9c2e356f1d976353878f3d798f698"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-042-audit.json",
+      "bytes": 1616,
+      "sha256": "2ceb9a076c412566f6a981b05c8f4968c51c2df818dbd72ff2d1fe69e73f4d1f"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-043-audit.json",
+      "bytes": 1619,
+      "sha256": "ff766c5fa5c73c5bfa0590c907df5d9144e3a2183f9f30d4e5ee7c8d0390643e"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-044-audit.json",
+      "bytes": 1619,
+      "sha256": "913f92677ab80b6e654f35360477740e6b0a7681245b49e72b9bc4c532649800"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-045-audit.json",
+      "bytes": 1617,
+      "sha256": "b811f9f1114a289e94017770673bd49baf639c15ec504c61b0e165e937492bbc"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-046-audit.json",
+      "bytes": 1620,
+      "sha256": "b9c09a6991329f430d70ba0f363897708d8a02ec47a891accf7592b88a0ff499"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-047-audit.json",
+      "bytes": 1628,
+      "sha256": "53fbe448b524473e48d002f85d6b1fdcd773b7bffde3b607eb6957f1d3f93abe"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-048-audit.json",
+      "bytes": 1616,
+      "sha256": "a33ff789af32ae11c89bdcf79db6858c7c3bfac33c5f5a12cb2fee2b1a2e9419"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-049-audit.json",
+      "bytes": 1618,
+      "sha256": "7a327effa14c6fa5d4f742f2f9f11c9c43d399bb3cea6abfbf57af53335faa83"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-050-audit.json",
+      "bytes": 1618,
+      "sha256": "07ebcf9d6eb941e74076daa9d75d5e72c18efa9eadfdd72059e5c05f031ad51f"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-051-audit.json",
+      "bytes": 1619,
+      "sha256": "13154bcdca3813183d6bbd88aabd39e756ec2ba3f7a07f6e0fc0611ba46aa93a"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-052-audit.json",
+      "bytes": 1611,
+      "sha256": "5d28be8a9338028f4844ff0e85096a23899e43f9a45afdbd1fc2ead211c66542"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-053-audit.json",
+      "bytes": 1612,
+      "sha256": "14fbed53849da76ea89ebf43bdb7e871c5ac60b17b8bc2739578d9cb034af812"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-054-audit.json",
+      "bytes": 1614,
+      "sha256": "56e3675daafb9c3edf8cbb10e76fcfe993e519678fcec7fe7109767facabcd48"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-055-audit.json",
+      "bytes": 1612,
+      "sha256": "095753eabae05a84960bc2780cd79da91e706a7403e109302275e69588c319b4"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-056-audit.json",
+      "bytes": 1612,
+      "sha256": "94187b854badcfde9c6e3a98621f58e263c2bf7d82420be978debda4188c7ec0"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-057-audit.json",
+      "bytes": 1615,
+      "sha256": "857176452ef56fe3e5fb38f0d549a50e0044f00835ef490842e8991b29314593"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-058-audit.json",
+      "bytes": 1605,
+      "sha256": "13ac609c9a20b9772ad04db45d0d912e918dd1a7a2376a3f5fb7c58ac6594cd3"
+    },
+    {
+      "path": "defect-progress-auxiliary-paired-20260917ce-control-059-audit.json",
+      "bytes": 1600,
+      "sha256": "744769854253cc6e7746de34363b7e678f08c49d9ea6ee2446814cdfcdcb2fd4"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-000.zip",
+      "bytes": 896277,
+      "sha256": "5ff837b20b73ccdceacb462f588a43b968ddab4961158555292f567a52280f2b"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-001.zip",
+      "bytes": 996169,
+      "sha256": "703431dafd6543f12b28ac884e53b3b2acbc16efc78216abfd25d09d518db16a"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-002.zip",
+      "bytes": 471423,
+      "sha256": "85670ba93e92a1ceb25313195841b99960e8f70a873e82ca2eeb01744e7210dc"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-003.zip",
+      "bytes": 556591,
+      "sha256": "4512c35fdf223f78d11b4eefe112c3202b539baf9bc41470de8de22c8ce99693"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-004.zip",
+      "bytes": 1574951,
+      "sha256": "21401d4de18ac2f80195f3b3245f232bc276ddf839fb24b3a6b9879d82645d12"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-005.zip",
+      "bytes": 1140116,
+      "sha256": "d5dd5e5e0112d87247a409e0bade418e6121ca640259c7ecdf9f8fcacfe77ca9"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-006.zip",
+      "bytes": 1047626,
+      "sha256": "bba05aaaf586969741e4002a9a93753e61653db6c5252b0c428a96c3dccff88c"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-007.zip",
+      "bytes": 1963673,
+      "sha256": "e703d5a799e7a81f90a14208420cfe5ec0a9de2420b5fb09924fcbeacf2e7bc7"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-008.zip",
+      "bytes": 498605,
+      "sha256": "251b2884d3268f999a7349b7f2318542c5ce59963524457c3b58c5e02dc75029"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-009.zip",
+      "bytes": 1556224,
+      "sha256": "56475b9b1f6cd2b9846d01b3054d3140089c8a2d91f1c77921bdafaa2323d63e"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-010.zip",
+      "bytes": 1221535,
+      "sha256": "2ef1abc4399c4725bd17e8f250f948765d309220632027578d01742ccdf372a0"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-011.zip",
+      "bytes": 1128831,
+      "sha256": "b8d7dbe750faeb1a50e37627751b19fe07e3cb5db83846196f5ac839ed18c8c1"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-012.zip",
+      "bytes": 522316,
+      "sha256": "1438cd825b784de73faf9f010f3b7a6ea177afb2b82688967a39ee93fd870bb3"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-013.zip",
+      "bytes": 286720,
+      "sha256": "31437bbc2cf32c6796dadeef387311286fb179415856d0cc7e848f74ab9f48bb"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-014.zip",
+      "bytes": 249112,
+      "sha256": "5e4d1a74f98a5d071fd830e8d2f9ba4c18db6b3063811433046f670091ebd25c"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-015.zip",
+      "bytes": 1472530,
+      "sha256": "4f171bed904940b627e012985f707f306782a4fb83ceb0af0ab0e734898bfa92"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-016.zip",
+      "bytes": 656709,
+      "sha256": "9558c47137a581d3cf79cd8c972093cd2acabc2be582f77f99d5061e35862bfd"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-017.zip",
+      "bytes": 1672274,
+      "sha256": "e39f410bfd2b1dc0c9a42f4f5aa23c8273f31036f93d2a59c420ff3fb59ce4dd"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-018.zip",
+      "bytes": 836331,
+      "sha256": "d610c75c980cc9327ef79b1a43eee4edb660e3ced4359d16b77721003006416d"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-019.zip",
+      "bytes": 1135116,
+      "sha256": "e61c7cb17d1499e148112571fc5a26f27a7fcd96273f4d962fed3e8c1ad3b15b"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-020.zip",
+      "bytes": 2111246,
+      "sha256": "c68a5c98c22213588a0ce624c99dbf76090e260d3eccddbd47bc8a9eb04cf3b6"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-021.zip",
+      "bytes": 1362264,
+      "sha256": "22f2b9cfa91f3430ff90e1bb26a8a0f05cb46b2d628a5c0ec4132873ce9da793"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-022.zip",
+      "bytes": 1087155,
+      "sha256": "a8c5fe2f696b299039910f72cc423ffc45febe81346c77a5aa916246f62afb36"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-023.zip",
+      "bytes": 1747697,
+      "sha256": "ec7a99ed958955c60c78fee5ca130de72126e4b13396439720e4b035d66e978e"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-024.zip",
+      "bytes": 955793,
+      "sha256": "0e86ac6b59eb42cc0a8b63fdaf5cb0f644e72616eeaa2cd32b4cb4c179f3fb55"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-025.zip",
+      "bytes": 1093543,
+      "sha256": "68fb2bb999272758b9a9fea714d6d67169acee228af67cc92aab175114390866"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-026.zip",
+      "bytes": 845230,
+      "sha256": "44e82bf30cf89dd831964f17bfe47eedd44b2bae639f9a1a361fd8fc82406d72"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-027.zip",
+      "bytes": 1338233,
+      "sha256": "6048388f04c109f0942c374356e6896cb23a101a1123b6f5333210326c9543a1"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-028.zip",
+      "bytes": 217740,
+      "sha256": "c94482e1caeb9781bfc60acc9e7c11dccbc8d9dedb67996bdefecd50eb59b7fe"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-029.zip",
+      "bytes": 471128,
+      "sha256": "c0f266d2fad330479655c92bb5b0c5ac2e232e070a664e7a9423b255b3414e6e"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-030.zip",
+      "bytes": 1030876,
+      "sha256": "5b4a37122fc8a4740d514503ffec1d7a6aac8a92cf50047226f48bc6d90af74b"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-031.zip",
+      "bytes": 354811,
+      "sha256": "3a832853833a84517be34783c31425bed6313ecd017e89889b78df589941080b"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-032.zip",
+      "bytes": 1116518,
+      "sha256": "0ee3e46c6924edc2e4e955f71ae2a3f9025b7a37ab348e8e10fe4e4e7bc13591"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-033.zip",
+      "bytes": 465966,
+      "sha256": "eb2344ab68ad743c273d22484e2556b00b4c6e557b43e4388de875b329f7faae"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-034.zip",
+      "bytes": 617318,
+      "sha256": "5cfd6352bff8810ebce92ece15bbb7180c8af895af12f0dd61eb0a4dfa0c7b7c"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-035.zip",
+      "bytes": 1071967,
+      "sha256": "6ee6c6b4df7719809c5db1899c4eee0d5a3fc432e87c96d31a512082c68c073b"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-036.zip",
+      "bytes": 1633872,
+      "sha256": "3e5dc60ff50a33ee7aec284d5989cb97d977d641201ef7a7c90c42054de837d4"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-037.zip",
+      "bytes": 1049149,
+      "sha256": "0a891ce6a1202ec21ac81471e10162eb612c7922404c299cbc95484e8ee868f7"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-038.zip",
+      "bytes": 1148222,
+      "sha256": "2f355a03413a3e20d712dd1854c315b00aa1c1cf6a1d5b0b732f9ed40b232861"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-039.zip",
+      "bytes": 470997,
+      "sha256": "d9bca33074288639d1e5aaf8698ddaf5ec3c388393b8f529bee1eb708bd49e08"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-040.zip",
+      "bytes": 1190622,
+      "sha256": "0d8b4405f832fa16c55cbf9a2f1cd186bf673df6ec89d76ff6cb7e4b8b96bf7d"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-041.zip",
+      "bytes": 402990,
+      "sha256": "0f5fd1c1303116ba91bde4716965b815213a13e3a8e8ac399e98faf3b76642e4"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-042.zip",
+      "bytes": 1093267,
+      "sha256": "893b5cc66975d2d8f06c383ab2cf521907e30e4b070060f70b15d7996e25d553"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-043.zip",
+      "bytes": 1084616,
+      "sha256": "34b5901fe4b5eabf26ee17e9e1c1da86cf7b6925c5c79dbe67f575e2d5861aba"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-044.zip",
+      "bytes": 376377,
+      "sha256": "482e4848c6abbaa70faf4cbc47b3124d7982e00bc759b82b477239a9f0cbb61e"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-045.zip",
+      "bytes": 636793,
+      "sha256": "067637baf42a685df17935f5b555132b7005f88470472a04255018e48f77490d"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-046.zip",
+      "bytes": 537318,
+      "sha256": "b8474e6ba0a6c14b1b6e73a82f280378188fd529aa815ac23561156e499b0a5d"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-047.zip",
+      "bytes": 957171,
+      "sha256": "0e612585ea74d62f2f6df62bf06b9373cc8438411c3321dab6f8bfe81698ce9c"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-048.zip",
+      "bytes": 1323795,
+      "sha256": "0ab509ecb387dee0f7f0c45ca4e63dd890065233e84e78c9b84f3a0135204894"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-049.zip",
+      "bytes": 1162550,
+      "sha256": "2e15a8fe604ca46f060dd61c3841d32c096dda1fdea286444536112d8043a395"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-050.zip",
+      "bytes": 1614293,
+      "sha256": "450f7e64164cc746f477bacc3f415266525a2b8256bc8a68bd4e1e7f2e2f4527"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-051.zip",
+      "bytes": 227008,
+      "sha256": "ae35c1bd2417094a6114c37399ff27e9e32ed81452f8b4af8d73eb8397186117"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-052.zip",
+      "bytes": 1383981,
+      "sha256": "27d59dd3472c03e07ccbdce159e991db74c80b2d25c3a7c010dc9b65678a6859"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-053.zip",
+      "bytes": 1590993,
+      "sha256": "cf38a005183fbdbff9340792492f455f3e49d77b835bb5917b3fbb588129a9e0"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-054.zip",
+      "bytes": 745622,
+      "sha256": "5a6757445bf9e28894d5a956769d8bb431feab19e57ee5eddf910a25048382a7"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-055.zip",
+      "bytes": 1106166,
+      "sha256": "1fa3f311021dc0eb7746985e842c2985ac40af5a5db03a48aff53813fac1c6a2"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-056.zip",
+      "bytes": 1396871,
+      "sha256": "e471310f11d992e314eb4e295ce1e30c80d0c22c070fd24c08b3edf91d88127f"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-057.zip",
+      "bytes": 1018397,
+      "sha256": "c1820c46d4eeb1fe47289f60bf04909c34720b8c31174c3bfd9a15896032fd00"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-058.zip",
+      "bytes": 510911,
+      "sha256": "2989a9ada3cb21dad8255b1e167e3016e04c35d0db10c4a781834ed9b73d3d29"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-candidate-059.zip",
+      "bytes": 325064,
+      "sha256": "d4b1862bcd0a40e3bb8087df4e7214a62438c57539835302cd34e531c764957c"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-000.zip",
+      "bytes": 1745464,
+      "sha256": "7ce1a8827fb1269ed0aa2070dec84c759f5b1a1e3a3cd4da773f4242667e2809"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-001.zip",
+      "bytes": 1110679,
+      "sha256": "a7994612233751f4b465b16db1d8487c7a7bf6a995939f3b1a9911ef017f20cc"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-002.zip",
+      "bytes": 954307,
+      "sha256": "c7d5ab52b3712e603c0b4b91bc68740ba716500c5bf800d50f362a26ebfc2038"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-003.zip",
+      "bytes": 1915588,
+      "sha256": "946da731b795e46d550b7898182990a64c48d1f7dcdc1d542370f27b121aca93"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-004.zip",
+      "bytes": 1805912,
+      "sha256": "0debd132a8a977cdc7e5a5e1c156aac9d55bc3a308dc4ac81bd305d4b1b3c0f7"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-005.zip",
+      "bytes": 889250,
+      "sha256": "5af33b2e366064c41622530d2c2d6a7eef62cfb5d8be8f0ea07e98ff91904fa1"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-006.zip",
+      "bytes": 1153128,
+      "sha256": "df9c9d44e643f439ac68242d53ca654522ae6d5a19a2ca95db007b2513e1f650"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-007.zip",
+      "bytes": 1136529,
+      "sha256": "b0652621f2a9c738d550c71e2af8560a0a8d2a89dee7e92c2a05bb930597d281"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-008.zip",
+      "bytes": 936326,
+      "sha256": "3711e8684b26a831b49176e70f50cab242e6280669777fe1b02756bb176d6629"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-009.zip",
+      "bytes": 802032,
+      "sha256": "6a62954c12135dde87be9aa2804ac8340a887ec5e10d317a7c582d5d90999240"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-010.zip",
+      "bytes": 1253666,
+      "sha256": "e115841e39b2bf2bedead81a01b8a2b1cca665bfb62e8cf28b186465c62f31db"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-011.zip",
+      "bytes": 1208652,
+      "sha256": "3933e102059a965cf23f95c8d60d5c5396798cc5bb607dfb0a2a84e15d1a93dd"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-012.zip",
+      "bytes": 1110826,
+      "sha256": "0b8c1ee7972665d3be4c4550cdbe340b52f3e92a72911f9fe7400987ce4248b7"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-013.zip",
+      "bytes": 1234880,
+      "sha256": "85b7fdd4af47e9a595ee3f502a1745d7b9f2408699d0248a2839b31d5f200d86"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-014.zip",
+      "bytes": 253608,
+      "sha256": "31954cd0133662f9cd53752f42d15f09072d917abd3fbeeffb8a7821dab40e2c"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-015.zip",
+      "bytes": 1238632,
+      "sha256": "6a0771f5504f0725cb09b1c452b43a80881962d220b37a1cda54c8be865781c0"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-016.zip",
+      "bytes": 1703692,
+      "sha256": "391ab952b53a0a6214c47e536de1a8d6709abfa79b3fe703880167f120feb48b"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-017.zip",
+      "bytes": 1841600,
+      "sha256": "e0d4de1f7d437fdbd7120022a810dd17bdcf19c42aa5c672b7e5149e4b6469e8"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-018.zip",
+      "bytes": 1074540,
+      "sha256": "e1458043b37ada0843699981ae03a6d438907e6a27e2d9073e1b06d569dcf71f"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-019.zip",
+      "bytes": 1171732,
+      "sha256": "753cf8bcbaf0dfa0af78a827e33b6045dc62fe3d8fe61e90939935c6ecb2ae37"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-020.zip",
+      "bytes": 1693482,
+      "sha256": "15b94fa1aae24a0c1d22418dbe39f89aed61af7cf6a5b9f4ed7b10ddb7cb442f"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-021.zip",
+      "bytes": 1277117,
+      "sha256": "7483c1d2f1f30f93c778e84c81087bd0dceba0dbba03031b34f6a90cc556a52b"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-022.zip",
+      "bytes": 1688598,
+      "sha256": "d0210eba9b06b0b811bed497ad61b100bcb6d71bec0763926b4cf4cac855eaef"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-023.zip",
+      "bytes": 1615575,
+      "sha256": "351869eaf3990e3beead8dc792f984527cd60eb2115fb657839cfa68246e907a"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-024.zip",
+      "bytes": 979765,
+      "sha256": "1d96737ad9d330e8e922ddbfe76bf83834427e239327192f0ee4cf0e8df2b1d3"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-025.zip",
+      "bytes": 1172015,
+      "sha256": "d11495aa58d535c9bd59aae89aac7c94b9effc04b91b3defc78c42f19ce61fcc"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-026.zip",
+      "bytes": 467091,
+      "sha256": "aa5fe6999bc86069e99eead91dab9b498794cbb21e076df8e3fd5e1d278ace4c"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-027.zip",
+      "bytes": 1020323,
+      "sha256": "5e20a0699a955bcb39bdff866112ce60cd6a680a1f81316a9d7ce0da73b7e04d"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-028.zip",
+      "bytes": 1156518,
+      "sha256": "844786117926a67bf8e054a92c896efa1e6f17d40ec79e5fc42884d0fc6afc1f"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-029.zip",
+      "bytes": 481583,
+      "sha256": "fb18e87703960949e23acc820aaf3f13a10b2ae8709ccb4bec267efefc603bd0"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-030.zip",
+      "bytes": 256607,
+      "sha256": "0ee942ad30566a99fca1ccca1c40149f448eda46a418a706bc95a2edb1a3e6eb"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-031.zip",
+      "bytes": 1399999,
+      "sha256": "d47074276d83fbc18aba32af07eb7206492c8e87747ac099d998596932d3d6c1"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-032.zip",
+      "bytes": 727793,
+      "sha256": "e57031a682057dff98af2b21ff1af29ac9a452b7658ced5f45efd0ddcf7092dd"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-033.zip",
+      "bytes": 1164719,
+      "sha256": "4f5a239200df3ffa6c7c6b789e66365f2af0692d51444d62f129112337364784"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-034.zip",
+      "bytes": 971765,
+      "sha256": "485fd3ada9328ccb0333f0934e0e3219746655782c42a8d653ec091875012c5d"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-035.zip",
+      "bytes": 2151530,
+      "sha256": "1ee6f653f3c6c5b88eb20a91c0d281b8a3aae411b445286de27c8229f6729023"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-036.zip",
+      "bytes": 1868813,
+      "sha256": "a3a81eb746377846df303314561e61c312674d5b3585beab1a56c0246cc6ff57"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-037.zip",
+      "bytes": 1158556,
+      "sha256": "679736ba60b47370afd6b8af24b08c8e441eb91a461f7588c797e5d7b9f047d9"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-038.zip",
+      "bytes": 1757748,
+      "sha256": "564f109feb2309ff27cef05e084430b193097d305a380193f1b2a8d55c0c23da"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-039.zip",
+      "bytes": 1058619,
+      "sha256": "9fc6a9a089a933f49ad11387f175797a9f99b013f950bc5ac7bf8090e961a1d7"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-040.zip",
+      "bytes": 813673,
+      "sha256": "40398d16e49dafd0755986bec2a1d0d1d55115c93388bc80409cbcb9a05c712f"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-041.zip",
+      "bytes": 1145334,
+      "sha256": "b853cb05c2c8ff7943f4bdcf51204e0834a8407153b0bc8798c442bc48e5462b"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-042.zip",
+      "bytes": 1014061,
+      "sha256": "db260a4ef14a378bfd4b520ab09387c6f7e9b3959ee6aaa5a2bdbc2f5040cdd5"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-043.zip",
+      "bytes": 1291708,
+      "sha256": "7dfe0c88e487e0fcb732ddd8d6b3eca9f18bbda86da270f8903a5c3c163c35b0"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-044.zip",
+      "bytes": 1978454,
+      "sha256": "f9ff879010a3344aef4468acb7beb7ee226e9b1061e05c9425e0923fb9758528"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-045.zip",
+      "bytes": 1798315,
+      "sha256": "9f1f402c76423d5666be62e58ea88dc9cb2e525b797123ccd40752b652b3c0b1"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-046.zip",
+      "bytes": 1159063,
+      "sha256": "b3df7975f2e1804ff9ea29d6f1030042296abfb5e604410aa6f6801daa5c697f"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-047.zip",
+      "bytes": 352746,
+      "sha256": "da0ce12874e2a2323bc8381aa5a9817c987c647e59cd3606e58eddf2ce9a6c08"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-048.zip",
+      "bytes": 1338746,
+      "sha256": "91224ac889c7613cbf441500000717e35dbe9d86da7480e2e0b711e72c45c65d"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-049.zip",
+      "bytes": 1187319,
+      "sha256": "4454063abc080cc3b1491febab4ba8f206a8ffe1d5b3ecc67816f40ba921791d"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-050.zip",
+      "bytes": 1765293,
+      "sha256": "d7ee787f88592e53dbb729c707c7bcd7dba292577deb3dd1b64efc4baf2a042a"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-051.zip",
+      "bytes": 1121339,
+      "sha256": "4ff648addbd9373a20773a98528259500a74130af8a2107a8b22076b6ae8f41a"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-052.zip",
+      "bytes": 1439058,
+      "sha256": "39035e3ecd3f14a073754ba35126759800840edb7f3da2b8805603c86193a24c"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-053.zip",
+      "bytes": 1116188,
+      "sha256": "978152d237cd1773768992401faf54f3e9865ddf4a83a54968f77dc28fb73315"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-054.zip",
+      "bytes": 906334,
+      "sha256": "8fa0bbbcd943442765cab30be5e58d3ddd4d29abd8756a1fe5d775bd3c2f563a"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-055.zip",
+      "bytes": 2323982,
+      "sha256": "729eaf6db594a7fdaa48f4dd1129e33d4c30e0a9eb2e660d89d69deb1c1c0d51"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-056.zip",
+      "bytes": 1065213,
+      "sha256": "a2c8b2cdabf706872b5135aeab153e3733f987c6c6f560c0a372658e60ac163a"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-057.zip",
+      "bytes": 1304555,
+      "sha256": "448c7b71fbd8235064691d9a80a33aa15cb132031bf337befe51b1262020ee70"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-058.zip",
+      "bytes": 291977,
+      "sha256": "23f0b04fe9a9758cca3b4d235f7c9a786b6d6803e9c3a6f39605bd86541076fa"
+    },
+    {
+      "path": "games/defect-progress-auxiliary-paired-20260917ce-control-059.zip",
+      "bytes": 2045418,
+      "sha256": "fc486226127123e46c7635191611441359c7b9d0c9cbf0ca93353b6e525dc340"
+    },
+    {
+      "path": "public-status.json",
+      "bytes": 148,
+      "sha256": "960e06b026fdacc03f1f19c7bd14379e1a7451025c25333c50bed5283e87de59"
+    }
+  ]
+}

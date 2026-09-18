@@ -1,0 +1,57 @@
+{
+  "run_id": "defect-progress-auxiliary-paired-20260917ce-candidate-049",
+  "seed": "defect-progress-auxiliary-paired-20260917ce-seed-049",
+  "pair": 49,
+  "arm": "candidate",
+  "report": {
+    "run_id": "defect-progress-auxiliary-paired-20260917ce-candidate-049",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-049",
+    "outcome": "defeat",
+    "decisions": 57,
+    "solver_calls": 13,
+    "seconds": 155.41021262900904,
+    "training_eligible_decisions": 57,
+    "exclusion_reasons": [],
+    "final_context": {
+      "act": 2,
+      "ascension": 10,
+      "second_boss": null,
+      "act_name": "Hive",
+      "floor": 8,
+      "room_type": "Elite",
+      "combat_in_progress": false,
+      "integrity_recovery_used": false,
+      "encounter_id": "INFESTED_PRISMS_ELITE",
+      "is_second_boss": false,
+      "boss": {
+        "id": "THE_INSATIABLE_BOSS",
+        "name": "The Insatiable"
+      }
+    },
+    "final_hp": 0,
+    "error": null
+  },
+  "goal": {
+    "schema_version": "actual-act3-first-boss-progress-v1",
+    "verified_first_boss_defeated": false,
+    "natural_goal_success": false,
+    "provenance_supplied_by_caller": true,
+    "proof": null,
+    "errors": [],
+    "max_act_observed": 2,
+    "max_floor_in_max_act": 8,
+    "shaped_progress_not_win_probability": 1.08,
+    "complete_A10_victory_claimed": false
+  },
+  "issues": [],
+  "explicit_map_readback": {
+    "passed": true,
+    "map_queries": 24
+  },
+  "policy_bound": true,
+  "integration_passed": true,
+  "invalid_failure_retained": false,
+  "goal_success": false,
+  "evaluation_only": true,
+  "refit_or_selection_eligible": false
+}

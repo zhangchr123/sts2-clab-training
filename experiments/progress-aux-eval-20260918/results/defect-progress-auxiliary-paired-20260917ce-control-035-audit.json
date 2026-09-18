@@ -1,0 +1,66 @@
+{
+  "run_id": "defect-progress-auxiliary-paired-20260917ce-control-035",
+  "seed": "defect-progress-auxiliary-paired-20260917ce-seed-035",
+  "pair": 35,
+  "arm": "control",
+  "report": {
+    "run_id": "defect-progress-auxiliary-paired-20260917ce-control-035",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-035",
+    "outcome": "defeat",
+    "decisions": 106,
+    "solver_calls": 28,
+    "seconds": 388.3382398870017,
+    "training_eligible_decisions": 106,
+    "exclusion_reasons": [],
+    "final_context": {
+      "act": 3,
+      "ascension": 10,
+      "second_boss": "QUEEN_BOSS",
+      "act_name": "Glory",
+      "floor": 16,
+      "room_type": "Boss",
+      "combat_in_progress": false,
+      "integrity_recovery_used": false,
+      "encounter_id": "QUEEN_BOSS",
+      "is_second_boss": true,
+      "boss": {
+        "id": "TEST_SUBJECT_BOSS",
+        "name": "Test Subject #C{Count}"
+      }
+    },
+    "final_hp": 0,
+    "error": null
+  },
+  "goal": {
+    "schema_version": "actual-act3-first-boss-progress-v1",
+    "verified_first_boss_defeated": true,
+    "natural_goal_success": true,
+    "provenance_supplied_by_caller": true,
+    "proof": {
+      "entry_index": 1228,
+      "encounter_id": "TEST_SUBJECT_BOSS",
+      "combat_id": 27,
+      "floor": 15,
+      "end_index": 1326,
+      "actual_hp_after": 2,
+      "end_state_hash": "3c473ee63828e37504d239807503c77320825ff1207935c3d94665cdf9c7dc1e",
+      "boundary": "map_select"
+    },
+    "errors": [],
+    "max_act_observed": 3,
+    "max_floor_in_max_act": 16,
+    "shaped_progress_not_win_probability": 4.0,
+    "complete_A10_victory_claimed": false
+  },
+  "issues": [],
+  "explicit_map_readback": {
+    "passed": true,
+    "map_queries": 48
+  },
+  "policy_bound": true,
+  "integration_passed": true,
+  "invalid_failure_retained": false,
+  "goal_success": true,
+  "evaluation_only": true,
+  "refit_or_selection_eligible": false
+}

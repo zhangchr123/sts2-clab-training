@@ -1,0 +1,57 @@
+{
+  "run_id": "defect-progress-auxiliary-paired-20260917ce-control-016",
+  "seed": "defect-progress-auxiliary-paired-20260917ce-seed-016",
+  "pair": 16,
+  "arm": "control",
+  "report": {
+    "run_id": "defect-progress-auxiliary-paired-20260917ce-control-016",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-016",
+    "outcome": "defeat",
+    "decisions": 101,
+    "solver_calls": 25,
+    "seconds": 204.32618391900178,
+    "training_eligible_decisions": 101,
+    "exclusion_reasons": [],
+    "final_context": {
+      "act": 3,
+      "ascension": 10,
+      "second_boss": "AEONGLASS_BOSS",
+      "act_name": "Glory",
+      "floor": 15,
+      "room_type": "Boss",
+      "combat_in_progress": true,
+      "integrity_recovery_used": false,
+      "encounter_id": "TEST_SUBJECT_BOSS",
+      "is_second_boss": false,
+      "boss": {
+        "id": "TEST_SUBJECT_BOSS",
+        "name": "Test Subject #C{Count}"
+      }
+    },
+    "final_hp": 0,
+    "error": null
+  },
+  "goal": {
+    "schema_version": "actual-act3-first-boss-progress-v1",
+    "verified_first_boss_defeated": false,
+    "natural_goal_success": false,
+    "provenance_supplied_by_caller": true,
+    "proof": null,
+    "errors": [],
+    "max_act_observed": 3,
+    "max_floor_in_max_act": 15,
+    "shaped_progress_not_win_probability": 2.15,
+    "complete_A10_victory_claimed": false
+  },
+  "issues": [],
+  "explicit_map_readback": {
+    "passed": true,
+    "map_queries": 47
+  },
+  "policy_bound": true,
+  "integration_passed": true,
+  "invalid_failure_retained": false,
+  "goal_success": false,
+  "evaluation_only": true,
+  "refit_or_selection_eligible": false
+}

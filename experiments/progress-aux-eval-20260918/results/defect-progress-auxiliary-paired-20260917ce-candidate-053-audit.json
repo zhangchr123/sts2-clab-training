@@ -1,0 +1,66 @@
+{
+  "run_id": "defect-progress-auxiliary-paired-20260917ce-candidate-053",
+  "seed": "defect-progress-auxiliary-paired-20260917ce-seed-053",
+  "pair": 53,
+  "arm": "candidate",
+  "report": {
+    "run_id": "defect-progress-auxiliary-paired-20260917ce-candidate-053",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-053",
+    "outcome": "defeat",
+    "decisions": 106,
+    "solver_calls": 21,
+    "seconds": 212.26414860700606,
+    "training_eligible_decisions": 106,
+    "exclusion_reasons": [],
+    "final_context": {
+      "act": 3,
+      "ascension": 10,
+      "second_boss": "AEONGLASS_BOSS",
+      "act_name": "Glory",
+      "floor": 16,
+      "room_type": "Boss",
+      "combat_in_progress": true,
+      "integrity_recovery_used": false,
+      "encounter_id": "AEONGLASS_BOSS",
+      "is_second_boss": true,
+      "boss": {
+        "id": "QUEEN_BOSS",
+        "name": "Queen"
+      }
+    },
+    "final_hp": 0,
+    "error": null
+  },
+  "goal": {
+    "schema_version": "actual-act3-first-boss-progress-v1",
+    "verified_first_boss_defeated": true,
+    "natural_goal_success": true,
+    "provenance_supplied_by_caller": true,
+    "proof": {
+      "entry_index": 955,
+      "encounter_id": "QUEEN_BOSS",
+      "combat_id": 20,
+      "floor": 15,
+      "end_index": 1057,
+      "actual_hp_after": 10,
+      "end_state_hash": "a2b2f8700255974d536bdfb52ebe78c47623d8f37e493c7187b827dbd43bd49e",
+      "boundary": "map_select"
+    },
+    "errors": [],
+    "max_act_observed": 3,
+    "max_floor_in_max_act": 16,
+    "shaped_progress_not_win_probability": 4.0,
+    "complete_A10_victory_claimed": false
+  },
+  "issues": [],
+  "explicit_map_readback": {
+    "passed": true,
+    "map_queries": 48
+  },
+  "policy_bound": true,
+  "integration_passed": true,
+  "invalid_failure_retained": false,
+  "goal_success": true,
+  "evaluation_only": true,
+  "refit_or_selection_eligible": false
+}

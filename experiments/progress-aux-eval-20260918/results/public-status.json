@@ -1,0 +1,8 @@
+{
+  "phase": "complete",
+  "planned": 120,
+  "completed": 120,
+  "invalid": 0,
+  "control_target_successes": 3,
+  "candidate_target_successes": 1
+}

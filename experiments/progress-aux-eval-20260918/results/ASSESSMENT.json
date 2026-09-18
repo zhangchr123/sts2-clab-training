@@ -1,0 +1,35 @@
+{
+  "schema_version": "progress-aux-independent-assessment-v1",
+  "passed": true,
+  "evaluation_complete": true,
+  "games": 120,
+  "pairs": 60,
+  "audits_verified": 120,
+  "raw_files_verified": 840,
+  "control_first_boss_successes": 3,
+  "candidate_first_boss_successes": 1,
+  "candidate_only_success": 1,
+  "control_only_success": 3,
+  "one_sided_paired_p": 0.9375,
+  "candidate_gate_passed": false,
+  "deployment_authorized": false,
+  "automatic_retry": false,
+  "evaluation_used_for_refit": false,
+  "next_action": "candidate_rejected_keep_control_and_use_disagreements_for_next_fit",
+  "protocol": {
+    "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/run/PROTOCOL.json",
+    "bytes": 111897,
+    "sha256": "d4e5bd8123af2dc326274231854d3f915a32dcf46d14c997a8e79b9e68218e1d"
+  },
+  "result": {
+    "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/run/RESULT.json",
+    "bytes": 576,
+    "sha256": "e028d1c43549e8abc3836bde94675f447b107b81e22567cd46452b4ea433eff2"
+  },
+  "source_closure": {
+    "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/run/SOURCE_CLOSURE.json",
+    "bytes": 228387,
+    "sha256": "ebb838d347aa75935ed867d26c4e664217fe595f66dc5a234983648534bdd6d0"
+  },
+  "verified_unix": 1789700486.9887726
+}

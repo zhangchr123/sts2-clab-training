@@ -1,0 +1,57 @@
+{
+  "run_id": "defect-progress-auxiliary-paired-20260917ce-control-058",
+  "seed": "defect-progress-auxiliary-paired-20260917ce-seed-058",
+  "pair": 58,
+  "arm": "control",
+  "report": {
+    "run_id": "defect-progress-auxiliary-paired-20260917ce-control-058",
+    "seed": "defect-progress-auxiliary-paired-20260917ce-seed-058",
+    "outcome": "defeat",
+    "decisions": 22,
+    "solver_calls": 5,
+    "seconds": 34.7414469790092,
+    "training_eligible_decisions": 22,
+    "exclusion_reasons": [],
+    "final_context": {
+      "act": 1,
+      "ascension": 10,
+      "second_boss": null,
+      "act_name": "Overgrowth",
+      "floor": 11,
+      "room_type": "Elite",
+      "combat_in_progress": false,
+      "integrity_recovery_used": false,
+      "encounter_id": "BYGONE_EFFIGY_ELITE",
+      "is_second_boss": false,
+      "boss": {
+        "id": "VANTOM_BOSS",
+        "name": "Vantom"
+      }
+    },
+    "final_hp": 0,
+    "error": null
+  },
+  "goal": {
+    "schema_version": "actual-act3-first-boss-progress-v1",
+    "verified_first_boss_defeated": false,
+    "natural_goal_success": false,
+    "provenance_supplied_by_caller": true,
+    "proof": null,
+    "errors": [],
+    "max_act_observed": 1,
+    "max_floor_in_max_act": 11,
+    "shaped_progress_not_win_probability": 0.11,
+    "complete_A10_victory_claimed": false
+  },
+  "issues": [],
+  "explicit_map_readback": {
+    "passed": true,
+    "map_queries": 10
+  },
+  "policy_bound": true,
+  "integration_passed": true,
+  "invalid_failure_retained": false,
+  "goal_success": false,
+  "evaluation_only": true,
+  "refit_or_selection_eligible": false
+}
