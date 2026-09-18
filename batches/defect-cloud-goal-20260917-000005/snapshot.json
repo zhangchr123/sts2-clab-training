@@ -1,0 +1,23 @@
+{
+  "batch": "defect-cloud-goal-20260917-000005",
+  "planned": 24,
+  "completed": 0,
+  "valid": 0,
+  "invalid": 0,
+  "target_successes": 0,
+  "phase": "failed",
+  "receipts": [],
+  "protocol": {
+    "bytes": 57700,
+    "sha256": "abe2c5252926e17549beada8ffca1b9964818ffe80e74d7f79ea284287dde41f"
+  },
+  "model_sha256": "59d11c9fe8c6d94d2968928aaf567a3fb73ec6b53252feb0e2b7f7e164eacac4",
+  "model_label": "linux-validated-baseline-471",
+  "model_updated": false,
+  "new_batch_allowed": true,
+  "partial_upload_authorized": true,
+  "adapter_revision": 3,
+  "owner_state": "missing",
+  "snapshot_id": "8077b585f36e9437305a5113",
+  "goal_id": "defect-continuous-training-20260917"
+}
