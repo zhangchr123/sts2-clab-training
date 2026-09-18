@@ -1,0 +1,1353 @@
+{
+  "passed": true,
+  "planned": 24,
+  "completed": 24,
+  "receipts": [
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-000",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-000"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-000",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-000",
+        "outcome": "victory",
+        "decisions": 105,
+        "solver_calls": 27,
+        "seconds": 208.51155647500127,
+        "training_eligible_decisions": 105,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 3,
+          "ascension": 10,
+          "second_boss": "TEST_SUBJECT_BOSS",
+          "act_name": "Glory",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "TEST_SUBJECT_BOSS",
+          "is_second_boss": true,
+          "boss": {
+            "id": "AEONGLASS_BOSS",
+            "name": "Aeonglass"
+          }
+        },
+        "final_hp": 59,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": true,
+        "natural_goal_success": true,
+        "provenance_supplied_by_caller": true,
+        "proof": {
+          "entry_index": 1368,
+          "encounter_id": "AEONGLASS_BOSS",
+          "combat_id": 26,
+          "floor": 15,
+          "end_index": 1458,
+          "actual_hp_after": 81,
+          "end_state_hash": "0c3ad6ce8ee1caff8be16b9beb020d96222ab8acc9d8e926ea46d28a81db14fe",
+          "boundary": "map_select"
+        },
+        "errors": [],
+        "max_act_observed": 3,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 4.0,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 48
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-001",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-001"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-001",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-001",
+        "outcome": "defeat",
+        "decisions": 72,
+        "solver_calls": 18,
+        "seconds": 167.6976646730036,
+        "training_eligible_decisions": 72,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "KNOWLEDGE_DEMON_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "KNOWLEDGE_DEMON_BOSS",
+            "name": "Knowledge Demon"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 1.16,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 32
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-002",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-002"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-002",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-002",
+        "outcome": "defeat",
+        "decisions": 14,
+        "solver_calls": 5,
+        "seconds": 35.01552290499967,
+        "training_eligible_decisions": 14,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 1,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Overgrowth",
+          "floor": 7,
+          "room_type": "Elite",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "BYRDONIS_ELITE",
+          "is_second_boss": false,
+          "boss": {
+            "id": "VANTOM_BOSS",
+            "name": "Vantom"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 1,
+        "max_floor_in_max_act": 7,
+        "shaped_progress_not_win_probability": 0.07,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 6
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-003",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-003"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-003",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-003",
+        "outcome": "defeat",
+        "decisions": 66,
+        "solver_calls": 16,
+        "seconds": 232.00417000899324,
+        "training_eligible_decisions": 66,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 14,
+          "room_type": "Monster",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "MYTES_NORMAL",
+          "is_second_boss": false,
+          "boss": {
+            "id": "THE_INSATIABLE_BOSS",
+            "name": "The Insatiable"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 14,
+        "shaped_progress_not_win_probability": 1.1400000000000001,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 30
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-004",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-004"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-004",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-004",
+        "outcome": "defeat",
+        "decisions": 72,
+        "solver_calls": 17,
+        "seconds": 184.01730662499904,
+        "training_eligible_decisions": 72,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "THE_INSATIABLE_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "THE_INSATIABLE_BOSS",
+            "name": "The Insatiable"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 1.16,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 32
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-005",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-005"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-005",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-005",
+        "outcome": "defeat",
+        "decisions": 48,
+        "solver_calls": 13,
+        "seconds": 154.30471237799793,
+        "training_eligible_decisions": 48,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 7,
+          "room_type": "Elite",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "DECIMILLIPEDE_ELITE",
+          "is_second_boss": false,
+          "boss": {
+            "id": "KAISER_CRAB_BOSS",
+            "name": "KAISER_CRAB.name"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 7,
+        "shaped_progress_not_win_probability": 1.07,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 23
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-006",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-006"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-006",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-006",
+        "outcome": "defeat",
+        "decisions": 35,
+        "solver_calls": 10,
+        "seconds": 141.79389414499747,
+        "training_eligible_decisions": 35,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 1,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Overgrowth",
+          "floor": 17,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "VANTOM_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "VANTOM_BOSS",
+            "name": "Vantom"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 1,
+        "max_floor_in_max_act": 17,
+        "shaped_progress_not_win_probability": 0.17,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 16
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-007",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-007"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-007",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-007",
+        "outcome": "defeat",
+        "decisions": 104,
+        "solver_calls": 27,
+        "seconds": 383.7694245970051,
+        "training_eligible_decisions": 104,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 3,
+          "ascension": 10,
+          "second_boss": "TEST_SUBJECT_BOSS",
+          "act_name": "Glory",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "TEST_SUBJECT_BOSS",
+          "is_second_boss": true,
+          "boss": {
+            "id": "AEONGLASS_BOSS",
+            "name": "Aeonglass"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": true,
+        "natural_goal_success": true,
+        "provenance_supplied_by_caller": true,
+        "proof": {
+          "entry_index": 1417,
+          "encounter_id": "AEONGLASS_BOSS",
+          "combat_id": 25,
+          "floor": 15,
+          "end_index": 1510,
+          "actual_hp_after": 29,
+          "end_state_hash": "c413d4445d554e1211827a24a7df04b9d1ad9965eeea203593a4f603cd1fe736",
+          "boundary": "map_select"
+        },
+        "errors": [],
+        "max_act_observed": 3,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 4.0,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 48
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-008",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-008"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-008",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-008",
+        "outcome": "defeat",
+        "decisions": 65,
+        "solver_calls": 15,
+        "seconds": 172.48587330400187,
+        "training_eligible_decisions": 65,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "THE_INSATIABLE_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "THE_INSATIABLE_BOSS",
+            "name": "The Insatiable"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 1.16,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 32
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-009",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-009"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-009",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-009",
+        "outcome": "defeat",
+        "decisions": 70,
+        "solver_calls": 17,
+        "seconds": 249.7733361409919,
+        "training_eligible_decisions": 70,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "THE_INSATIABLE_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "THE_INSATIABLE_BOSS",
+            "name": "The Insatiable"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 1.16,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 32
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-010",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-010"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-010",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-010",
+        "outcome": "defeat",
+        "decisions": 72,
+        "solver_calls": 17,
+        "seconds": 182.2490103579912,
+        "training_eligible_decisions": 72,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "KAISER_CRAB_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "KAISER_CRAB_BOSS",
+            "name": "KAISER_CRAB.name"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 1.16,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 32
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-011",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-011"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-011",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-011",
+        "outcome": "defeat",
+        "decisions": 23,
+        "solver_calls": 6,
+        "seconds": 34.96002051200776,
+        "training_eligible_decisions": 23,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 1,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Overgrowth",
+          "floor": 11,
+          "room_type": "Monster",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "SNAPPING_JAXFRUIT_NORMAL",
+          "is_second_boss": false,
+          "boss": {
+            "id": "CEREMONIAL_BEAST_BOSS",
+            "name": "Ceremonial Beast"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 1,
+        "max_floor_in_max_act": 11,
+        "shaped_progress_not_win_probability": 0.11,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 10
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-012",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-012"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-012",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-012",
+        "outcome": "defeat",
+        "decisions": 108,
+        "solver_calls": 25,
+        "seconds": 336.3578907050105,
+        "training_eligible_decisions": 108,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 3,
+          "ascension": 10,
+          "second_boss": "AEONGLASS_BOSS",
+          "act_name": "Glory",
+          "floor": 15,
+          "room_type": "Boss",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "TEST_SUBJECT_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "TEST_SUBJECT_BOSS",
+            "name": "Test Subject #C{Count}"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 3,
+        "max_floor_in_max_act": 15,
+        "shaped_progress_not_win_probability": 2.15,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 47
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-013",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-013"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-013",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-013",
+        "outcome": "defeat",
+        "decisions": 58,
+        "solver_calls": 12,
+        "seconds": 136.25554611699772,
+        "training_eligible_decisions": 58,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 10,
+          "room_type": "Elite",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "DECIMILLIPEDE_ELITE",
+          "is_second_boss": false,
+          "boss": {
+            "id": "KAISER_CRAB_BOSS",
+            "name": "KAISER_CRAB.name"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 10,
+        "shaped_progress_not_win_probability": 1.1,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 26
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-014",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-014"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-014",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-014",
+        "outcome": "defeat",
+        "decisions": 54,
+        "solver_calls": 14,
+        "seconds": 101.8995451189985,
+        "training_eligible_decisions": 54,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 8,
+          "room_type": "Elite",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "DECIMILLIPEDE_ELITE",
+          "is_second_boss": false,
+          "boss": {
+            "id": "THE_INSATIABLE_BOSS",
+            "name": "The Insatiable"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 8,
+        "shaped_progress_not_win_probability": 1.08,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 24
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-015",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-015"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-015",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-015",
+        "outcome": "defeat",
+        "decisions": 98,
+        "solver_calls": 28,
+        "seconds": 515.7439488129894,
+        "training_eligible_decisions": 98,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 3,
+          "ascension": 10,
+          "second_boss": "TEST_SUBJECT_BOSS",
+          "act_name": "Glory",
+          "floor": 15,
+          "room_type": "Boss",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "QUEEN_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "QUEEN_BOSS",
+            "name": "Queen"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 3,
+        "max_floor_in_max_act": 15,
+        "shaped_progress_not_win_probability": 2.15,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 47
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-016",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-016"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-016",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-016",
+        "outcome": "defeat",
+        "decisions": 46,
+        "solver_calls": 11,
+        "seconds": 109.51622318099544,
+        "training_eligible_decisions": 46,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 4,
+          "room_type": "Monster",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "THE_OBSCURA_NORMAL",
+          "is_second_boss": false,
+          "boss": {
+            "id": "THE_INSATIABLE_BOSS",
+            "name": "The Insatiable"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 4,
+        "shaped_progress_not_win_probability": 1.04,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 20
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-017",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-017"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-017",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-017",
+        "outcome": "defeat",
+        "decisions": 19,
+        "solver_calls": 5,
+        "seconds": 35.06661689800967,
+        "training_eligible_decisions": 19,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 1,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Overgrowth",
+          "floor": 11,
+          "room_type": "Monster",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "OVERGROWTH_CRAWLERS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "CEREMONIAL_BEAST_BOSS",
+            "name": "Ceremonial Beast"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 1,
+        "max_floor_in_max_act": 11,
+        "shaped_progress_not_win_probability": 0.11,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 10
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-018",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-018"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-018",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-018",
+        "outcome": "defeat",
+        "decisions": 72,
+        "solver_calls": 17,
+        "seconds": 210.98966212300002,
+        "training_eligible_decisions": 72,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "KNOWLEDGE_DEMON_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "KNOWLEDGE_DEMON_BOSS",
+            "name": "Knowledge Demon"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 1.16,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 32
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-019",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-019"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-019",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-019",
+        "outcome": "defeat",
+        "decisions": 71,
+        "solver_calls": 17,
+        "seconds": 163.14836281500175,
+        "training_eligible_decisions": 71,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "THE_INSATIABLE_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "THE_INSATIABLE_BOSS",
+            "name": "The Insatiable"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 1.16,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 32
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-020",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-020"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-020",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-020",
+        "outcome": "defeat",
+        "decisions": 57,
+        "solver_calls": 11,
+        "seconds": 156.9800721900101,
+        "training_eligible_decisions": 57,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 8,
+          "room_type": "Elite",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "INFESTED_PRISMS_ELITE",
+          "is_second_boss": false,
+          "boss": {
+            "id": "KAISER_CRAB_BOSS",
+            "name": "KAISER_CRAB.name"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 8,
+        "shaped_progress_not_win_probability": 1.08,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 24
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-021",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-021"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-021",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-021",
+        "outcome": "defeat",
+        "decisions": 80,
+        "solver_calls": 23,
+        "seconds": 252.492510519005,
+        "training_eligible_decisions": 80,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 3,
+          "ascension": 10,
+          "second_boss": "TEST_SUBJECT_BOSS",
+          "act_name": "Glory",
+          "floor": 7,
+          "room_type": "Elite",
+          "combat_in_progress": true,
+          "integrity_recovery_used": false,
+          "encounter_id": "KNIGHTS_ELITE",
+          "is_second_boss": false,
+          "boss": {
+            "id": "AEONGLASS_BOSS",
+            "name": "Aeonglass"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 3,
+        "max_floor_in_max_act": 7,
+        "shaped_progress_not_win_probability": 2.07,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 39
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-022",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-022"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-022",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-022",
+        "outcome": "defeat",
+        "decisions": 31,
+        "solver_calls": 11,
+        "seconds": 71.95853816700401,
+        "training_eligible_decisions": 31,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 1,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Overgrowth",
+          "floor": 17,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "CEREMONIAL_BEAST_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "CEREMONIAL_BEAST_BOSS",
+            "name": "Ceremonial Beast"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 1,
+        "max_floor_in_max_act": 17,
+        "shaped_progress_not_win_probability": 0.17,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 16
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    },
+    {
+      "job": {
+        "name": "defect-cloud-goal-20260917-000004-023",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-023"
+      },
+      "report": {
+        "run_id": "defect-cloud-goal-20260917-000004-023",
+        "seed": "defect-cloud-goal-20260917-000004-fresh-023",
+        "outcome": "defeat",
+        "decisions": 72,
+        "solver_calls": 16,
+        "seconds": 197.37334353500046,
+        "training_eligible_decisions": 72,
+        "exclusion_reasons": [],
+        "final_context": {
+          "act": 2,
+          "ascension": 10,
+          "second_boss": null,
+          "act_name": "Hive",
+          "floor": 16,
+          "room_type": "Boss",
+          "combat_in_progress": false,
+          "integrity_recovery_used": false,
+          "encounter_id": "THE_INSATIABLE_BOSS",
+          "is_second_boss": false,
+          "boss": {
+            "id": "THE_INSATIABLE_BOSS",
+            "name": "The Insatiable"
+          }
+        },
+        "final_hp": 0,
+        "error": null
+      },
+      "goal": {
+        "schema_version": "actual-act3-first-boss-progress-v1",
+        "verified_first_boss_defeated": false,
+        "natural_goal_success": false,
+        "provenance_supplied_by_caller": true,
+        "proof": null,
+        "errors": [],
+        "max_act_observed": 2,
+        "max_floor_in_max_act": 16,
+        "shaped_progress_not_win_probability": 1.16,
+        "complete_A10_victory_claimed": false
+      },
+      "issues": [],
+      "explicit_map_readback": {
+        "passed": true,
+        "map_queries": 32
+      },
+      "policy_bound": true,
+      "integration_passed": true,
+      "not_performance_comparison": true,
+      "training_data_candidate": true
+    }
+  ],
+  "goal_complete": false,
+  "performance_improvement_claimed": false,
+  "new_natural_games": 24,
+  "metric_valid_games": 24,
+  "invalid_or_censored_games": 0,
+  "target_successes": 2,
+  "downstream_launched": false,
+  "model_updated": false
+}
