@@ -80,6 +80,26 @@
     {
       "name": "rest-heal-route-candidate",
       "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/public-status.json"
+    },
+    {
+      "name": "progress-aux-evaluation",
+      "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/run/public-status.json"
+    },
+    {
+      "name": "progress-aux-independent-assessment",
+      "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/assessment/public-status.json"
+    },
+    {
+      "name": "event-outcome-candidate",
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/models-event-outcome-v2/STATUS.json"
+    },
+    {
+      "name": "event-option-variable-regression",
+      "path": "/home/ubuntu/sts2-option-vars-regression-20260918/regression/public-status.json"
+    },
+    {
+      "name": "event-outcome-future-potions-candidate",
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/STATUS.json"
     }
   ],
   "workspace": "/home/ubuntu/sts2-agent/workspace"
