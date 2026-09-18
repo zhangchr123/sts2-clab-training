@@ -1,0 +1,3456 @@
+{
+  "schema_version": "merchant-item-paired-natural-evaluation-v1",
+  "purpose": "Prospective paired natural evaluation of the complete source-bound merchant candidate chain",
+  "planned_pairs": 60,
+  "planned_games": 120,
+  "parallel_workers": 1,
+  "jobs": [
+    {
+      "pair": 0,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-000",
+      "label": "defect-merchant-item-paired-20260918-control-000-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 0,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-000",
+      "label": "defect-merchant-item-paired-20260918-candidate-000-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 1,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-001",
+      "label": "defect-merchant-item-paired-20260918-candidate-001-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 1,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-001",
+      "label": "defect-merchant-item-paired-20260918-control-001-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 2,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-002",
+      "label": "defect-merchant-item-paired-20260918-control-002-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 2,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-002",
+      "label": "defect-merchant-item-paired-20260918-candidate-002-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 3,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-003",
+      "label": "defect-merchant-item-paired-20260918-candidate-003-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 3,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-003",
+      "label": "defect-merchant-item-paired-20260918-control-003-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 4,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-004",
+      "label": "defect-merchant-item-paired-20260918-control-004-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 4,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-004",
+      "label": "defect-merchant-item-paired-20260918-candidate-004-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 5,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-005",
+      "label": "defect-merchant-item-paired-20260918-candidate-005-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 5,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-005",
+      "label": "defect-merchant-item-paired-20260918-control-005-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 6,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-006",
+      "label": "defect-merchant-item-paired-20260918-control-006-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 6,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-006",
+      "label": "defect-merchant-item-paired-20260918-candidate-006-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 7,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-007",
+      "label": "defect-merchant-item-paired-20260918-candidate-007-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 7,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-007",
+      "label": "defect-merchant-item-paired-20260918-control-007-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 8,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-008",
+      "label": "defect-merchant-item-paired-20260918-control-008-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 8,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-008",
+      "label": "defect-merchant-item-paired-20260918-candidate-008-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 9,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-009",
+      "label": "defect-merchant-item-paired-20260918-candidate-009-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 9,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-009",
+      "label": "defect-merchant-item-paired-20260918-control-009-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 10,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-010",
+      "label": "defect-merchant-item-paired-20260918-control-010-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 10,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-010",
+      "label": "defect-merchant-item-paired-20260918-candidate-010-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 11,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-011",
+      "label": "defect-merchant-item-paired-20260918-candidate-011-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 11,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-011",
+      "label": "defect-merchant-item-paired-20260918-control-011-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 12,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-012",
+      "label": "defect-merchant-item-paired-20260918-control-012-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 12,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-012",
+      "label": "defect-merchant-item-paired-20260918-candidate-012-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 13,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-013",
+      "label": "defect-merchant-item-paired-20260918-candidate-013-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 13,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-013",
+      "label": "defect-merchant-item-paired-20260918-control-013-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 14,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-014",
+      "label": "defect-merchant-item-paired-20260918-control-014-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 14,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-014",
+      "label": "defect-merchant-item-paired-20260918-candidate-014-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 15,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-015",
+      "label": "defect-merchant-item-paired-20260918-candidate-015-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 15,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-015",
+      "label": "defect-merchant-item-paired-20260918-control-015-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 16,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-016",
+      "label": "defect-merchant-item-paired-20260918-control-016-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 16,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-016",
+      "label": "defect-merchant-item-paired-20260918-candidate-016-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 17,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-017",
+      "label": "defect-merchant-item-paired-20260918-candidate-017-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 17,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-017",
+      "label": "defect-merchant-item-paired-20260918-control-017-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 18,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-018",
+      "label": "defect-merchant-item-paired-20260918-control-018-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 18,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-018",
+      "label": "defect-merchant-item-paired-20260918-candidate-018-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 19,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-019",
+      "label": "defect-merchant-item-paired-20260918-candidate-019-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 19,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-019",
+      "label": "defect-merchant-item-paired-20260918-control-019-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 20,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-020",
+      "label": "defect-merchant-item-paired-20260918-control-020-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 20,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-020",
+      "label": "defect-merchant-item-paired-20260918-candidate-020-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 21,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-021",
+      "label": "defect-merchant-item-paired-20260918-candidate-021-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 21,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-021",
+      "label": "defect-merchant-item-paired-20260918-control-021-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 22,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-022",
+      "label": "defect-merchant-item-paired-20260918-control-022-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 22,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-022",
+      "label": "defect-merchant-item-paired-20260918-candidate-022-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 23,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-023",
+      "label": "defect-merchant-item-paired-20260918-candidate-023-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 23,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-023",
+      "label": "defect-merchant-item-paired-20260918-control-023-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 24,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-024",
+      "label": "defect-merchant-item-paired-20260918-control-024-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 24,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-024",
+      "label": "defect-merchant-item-paired-20260918-candidate-024-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 25,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-025",
+      "label": "defect-merchant-item-paired-20260918-candidate-025-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 25,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-025",
+      "label": "defect-merchant-item-paired-20260918-control-025-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 26,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-026",
+      "label": "defect-merchant-item-paired-20260918-control-026-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 26,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-026",
+      "label": "defect-merchant-item-paired-20260918-candidate-026-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 27,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-027",
+      "label": "defect-merchant-item-paired-20260918-candidate-027-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 27,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-027",
+      "label": "defect-merchant-item-paired-20260918-control-027-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 28,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-028",
+      "label": "defect-merchant-item-paired-20260918-control-028-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 28,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-028",
+      "label": "defect-merchant-item-paired-20260918-candidate-028-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 29,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-029",
+      "label": "defect-merchant-item-paired-20260918-candidate-029-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 29,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-029",
+      "label": "defect-merchant-item-paired-20260918-control-029-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 30,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-030",
+      "label": "defect-merchant-item-paired-20260918-control-030-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 30,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-030",
+      "label": "defect-merchant-item-paired-20260918-candidate-030-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 31,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-031",
+      "label": "defect-merchant-item-paired-20260918-candidate-031-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 31,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-031",
+      "label": "defect-merchant-item-paired-20260918-control-031-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 32,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-032",
+      "label": "defect-merchant-item-paired-20260918-control-032-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 32,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-032",
+      "label": "defect-merchant-item-paired-20260918-candidate-032-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 33,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-033",
+      "label": "defect-merchant-item-paired-20260918-candidate-033-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 33,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-033",
+      "label": "defect-merchant-item-paired-20260918-control-033-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 34,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-034",
+      "label": "defect-merchant-item-paired-20260918-control-034-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 34,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-034",
+      "label": "defect-merchant-item-paired-20260918-candidate-034-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 35,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-035",
+      "label": "defect-merchant-item-paired-20260918-candidate-035-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 35,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-035",
+      "label": "defect-merchant-item-paired-20260918-control-035-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 36,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-036",
+      "label": "defect-merchant-item-paired-20260918-control-036-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 36,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-036",
+      "label": "defect-merchant-item-paired-20260918-candidate-036-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 37,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-037",
+      "label": "defect-merchant-item-paired-20260918-candidate-037-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 37,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-037",
+      "label": "defect-merchant-item-paired-20260918-control-037-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 38,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-038",
+      "label": "defect-merchant-item-paired-20260918-control-038-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 38,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-038",
+      "label": "defect-merchant-item-paired-20260918-candidate-038-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 39,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-039",
+      "label": "defect-merchant-item-paired-20260918-candidate-039-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 39,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-039",
+      "label": "defect-merchant-item-paired-20260918-control-039-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 40,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-040",
+      "label": "defect-merchant-item-paired-20260918-control-040-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 40,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-040",
+      "label": "defect-merchant-item-paired-20260918-candidate-040-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 41,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-041",
+      "label": "defect-merchant-item-paired-20260918-candidate-041-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 41,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-041",
+      "label": "defect-merchant-item-paired-20260918-control-041-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 42,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-042",
+      "label": "defect-merchant-item-paired-20260918-control-042-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 42,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-042",
+      "label": "defect-merchant-item-paired-20260918-candidate-042-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 43,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-043",
+      "label": "defect-merchant-item-paired-20260918-candidate-043-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 43,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-043",
+      "label": "defect-merchant-item-paired-20260918-control-043-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 44,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-044",
+      "label": "defect-merchant-item-paired-20260918-control-044-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 44,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-044",
+      "label": "defect-merchant-item-paired-20260918-candidate-044-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 45,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-045",
+      "label": "defect-merchant-item-paired-20260918-candidate-045-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 45,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-045",
+      "label": "defect-merchant-item-paired-20260918-control-045-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 46,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-046",
+      "label": "defect-merchant-item-paired-20260918-control-046-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 46,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-046",
+      "label": "defect-merchant-item-paired-20260918-candidate-046-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 47,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-047",
+      "label": "defect-merchant-item-paired-20260918-candidate-047-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 47,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-047",
+      "label": "defect-merchant-item-paired-20260918-control-047-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 48,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-048",
+      "label": "defect-merchant-item-paired-20260918-control-048-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 48,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-048",
+      "label": "defect-merchant-item-paired-20260918-candidate-048-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 49,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-049",
+      "label": "defect-merchant-item-paired-20260918-candidate-049-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 49,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-049",
+      "label": "defect-merchant-item-paired-20260918-control-049-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 50,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-050",
+      "label": "defect-merchant-item-paired-20260918-control-050-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 50,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-050",
+      "label": "defect-merchant-item-paired-20260918-candidate-050-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 51,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-051",
+      "label": "defect-merchant-item-paired-20260918-candidate-051-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 51,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-051",
+      "label": "defect-merchant-item-paired-20260918-control-051-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 52,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-052",
+      "label": "defect-merchant-item-paired-20260918-control-052-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 52,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-052",
+      "label": "defect-merchant-item-paired-20260918-candidate-052-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 53,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-053",
+      "label": "defect-merchant-item-paired-20260918-candidate-053-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 53,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-053",
+      "label": "defect-merchant-item-paired-20260918-control-053-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 54,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-054",
+      "label": "defect-merchant-item-paired-20260918-control-054-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 54,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-054",
+      "label": "defect-merchant-item-paired-20260918-candidate-054-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 55,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-055",
+      "label": "defect-merchant-item-paired-20260918-candidate-055-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 55,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-055",
+      "label": "defect-merchant-item-paired-20260918-control-055-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 56,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-056",
+      "label": "defect-merchant-item-paired-20260918-control-056-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 56,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-056",
+      "label": "defect-merchant-item-paired-20260918-candidate-056-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 57,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-057",
+      "label": "defect-merchant-item-paired-20260918-candidate-057-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 57,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-057",
+      "label": "defect-merchant-item-paired-20260918-control-057-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 58,
+      "position": 0,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-058",
+      "label": "defect-merchant-item-paired-20260918-control-058-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    },
+    {
+      "pair": 58,
+      "position": 1,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-058",
+      "label": "defect-merchant-item-paired-20260918-candidate-058-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 59,
+      "position": 0,
+      "arm": "candidate",
+      "seed": "defect-merchant-item-paired-20260918-fresh-059",
+      "label": "defect-merchant-item-paired-20260918-candidate-059-0",
+      "model": {
+        "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+        "bytes": 4186,
+        "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+      },
+      "expected_policy_id": "whole-run-source-bound-merchant-items-v1"
+    },
+    {
+      "pair": 59,
+      "position": 1,
+      "arm": "control",
+      "seed": "defect-merchant-item-paired-20260918-fresh-059",
+      "label": "defect-merchant-item-paired-20260918-control-059-1",
+      "model": {
+        "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+        "bytes": 63922,
+        "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+      },
+      "expected_policy_id": "whole-run-functional-role-acquisition-v1"
+    }
+  ],
+  "models": {
+    "control": {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+      "bytes": 63922,
+      "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+    },
+    "candidate": {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+      "bytes": 4186,
+      "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+    }
+  },
+  "policy_ids": {
+    "control": "whole-run-functional-role-acquisition-v1",
+    "candidate": "whole-run-source-bound-merchant-items-v1"
+  },
+  "config": {
+    "first_budget_ms": 30000,
+    "replan_budget_ms": 30000,
+    "setup_budget_ms": 30000,
+    "retry_budget_ms": 30000,
+    "max_replans": 35,
+    "solver_backend": "coordinator",
+    "potion_policy": "Smart",
+    "growth_budgets": {
+      "GeneticAlgorithm": 3
+    },
+    "act_boss_hp_strategy": "ProgressionFirst",
+    "final_boss_hp_strategy": "ProgressionFirst",
+    "search_profile": {
+      "beam_width": 30,
+      "max_expanded_nodes": 5000,
+      "max_card_branches_per_node": 24,
+      "max_pile_choice_branches_per_action": 12,
+      "max_hand_choice_branches_per_action": 12,
+      "recover_deferred_turn_frontier": false
+    }
+  },
+  "sampling": {
+    "ascension": 10,
+    "epsilon": 0.0,
+    "max_seconds": 1200,
+    "max_decisions": 500,
+    "selection_budget": 256
+  },
+  "arm_order": "Alternating by pair; identical seed within each pair",
+  "first_pair_gate": "Both first-pair arms must pass integration audit; never retry",
+  "assessment": "Actual Act3 first boss; invalid retained in denominator as failure",
+  "improvement_gate": "Strictly more candidate-only target successes and exact one-sided paired p<=0.05",
+  "smoke_gate_required": true,
+  "natural_outcome_used_for_fit_or_selection": false,
+  "no_refit_on_evaluation": true,
+  "no_sample_extension": true,
+  "automatic_retry": false,
+  "automatic_deployment": false,
+  "batch_raw_budget_bytes": 25769803776,
+  "stop_when_free_below_bytes": 8589934592,
+  "assembled_replay": {
+    "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/MERCHANT_ITEM_POLICY_REPLAY.json",
+    "bytes": 142989,
+    "sha256": "843e4326c635a1e8dc91329d8adc6234d86e2869a89c1c9f30296c4579902d94"
+  },
+  "merchant_item_contract": {
+    "candidate_adjustment_abs_cap": 4.5,
+    "current_engine_source_bound": true,
+    "discard_compares_affordable_visible_shop_potions": true,
+    "natural_outcomes_used_for_parameter_selection": false,
+    "policy_weights_fitted": false,
+    "prior": {
+      "block": 0.15,
+      "block_at_full_deficit": 0.08,
+      "damage": 0.18,
+      "draw": 0.6,
+      "energy": 0.5,
+      "generated_attack_choice": 0.72,
+      "generated_colorless_choice": 0.55,
+      "generated_power_choice": 0.64,
+      "generated_skill_choice": 0.72,
+      "heal_hp": 0.1,
+      "max_hp": 0.06,
+      "orb_capacity_per_orb_source": 0.12,
+      "orb_slot_per_slot": 0.1,
+      "persistent_relic_combat_uses": 2.0,
+      "sustained_focus_per_orb_source": 0.32,
+      "temporary_focus_per_orb_source": 0.13,
+      "vulnerable": 0.12,
+      "weak": 0.1
+    },
+    "public_state_only": true,
+    "purchase_keeps_parent_gold_opportunity_cost": true,
+    "unknown_items_keep_parent_score": true,
+    "version": "public-source-bound-merchant-items-v1"
+  },
+  "candidate_parent_lineage": [
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+      "bytes": 4186,
+      "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/event-outcome-candidate-model.json",
+      "bytes": 8913,
+      "sha256": "906d75bf6adc285df1f4835c2099420252e946849608dbc4143ea85101dc45a3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+      "bytes": 17542,
+      "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/reward-mechanism-candidate-model.json",
+      "bytes": 19043,
+      "sha256": "65c4a242b7e12b9f2ba471bd645d88c33fc25281e5e47972e9b44d3e9e3c58fc"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/encounter-damage-candidate-model.json",
+      "bytes": 16161,
+      "sha256": "ba3ecb3f96a5c62e70fd9d2568b7263c777dd31c9add55b4b36f90af7ea89b5e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/full-route-candidate-model.json",
+      "bytes": 14982,
+      "sha256": "8d680af093da54a7aef1c69f0b77f40c647f167337cf7622c82aa92966ba54ec"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/selection-effect-candidate-model.json",
+      "bytes": 14599,
+      "sha256": "56d72fa2328e399e8a792fa18ec38dd231c421279bde58a4cffd52c342b64b3a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/event-effect-candidate-model.json",
+      "bytes": 14306,
+      "sha256": "ab4f77001023ead97d3d230d58c76c6f19e9bdb92faf06d357a8c1be81845bda"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+      "bytes": 63922,
+      "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+    }
+  ],
+  "live_policy_probe": {
+    "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/MERCHANT_ITEM_LIVE_POLICY_PROBE.json",
+    "bytes": 14207,
+    "sha256": "9cae2da96e76390f56c729d34fba8f825775e5d2c68a94b629cdbbabc5a981f9"
+  },
+  "frozen_sources": [
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/build_event_outcome_candidate.py",
+      "bytes": 2165,
+      "sha256": "fc2a3cf90dcdb215ed6fd787b78d84d8fa6e3d1f69a959503117df100cb2505a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/event_outcome_facts.json",
+      "bytes": 3082,
+      "sha256": "aefb164ddf7f64fba382923864e2d4013fa02dc64209316de359c2419d319ae9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/event_outcome_features.py",
+      "bytes": 20938,
+      "sha256": "2dc910854e00355e0a9198cef8e618b02b0ca575ff88b878fa93f32a24b75d40"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/event_outcome_policy.py",
+      "bytes": 8623,
+      "sha256": "b245ead2923c896b13c8edc0696d066a107f036b5f4a6c6c5e4e1eb892ac7281"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/make_event_outcome_status.py",
+      "bytes": 4321,
+      "sha256": "69d8fc9021bc19a58077e00b2f8f67261b2b554eaf012c5c161ceac408ddfc94"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/event-outcome-candidate-model.json",
+      "bytes": 8913,
+      "sha256": "906d75bf6adc285df1f4835c2099420252e946849608dbc4143ea85101dc45a3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/replay_event_outcome_candidate.py",
+      "bytes": 11329,
+      "sha256": "d75ae1d857b84eee5f0cab26595178de9472c711972c37e2187cade87b33448f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/score_live_future_potions_probe.py",
+      "bytes": 8029,
+      "sha256": "829424dbaa3746fb8e1d5a171cd5b2faf8630ac6262fd83c40884a69fe337ccc"
+    },
+    {
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/test_event_outcome_features.py",
+      "bytes": 8477,
+      "sha256": "8b95ceb0d8a94d8528c48b9b2bb24311dd9a6a861518ee808877340d78ec78d1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/BASE.json",
+      "bytes": 663004,
+      "sha256": "decfea8599925066b19a8503a5c732952c4228a1c3bf8a7bbc3cef586e2cf4ad"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/0Harmony.dll",
+      "bytes": 2328064,
+      "sha256": "ef1898322c9f5c86dc1b0758b272a9c440823b4a41ca9a0b82a3aa6b3d206387"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/MonoMod.Backports.dll",
+      "bytes": 27648,
+      "sha256": "ac3f32bfd44aab83abf71abdff6dde548d57b7c0f8a1fe6d8964e348b4eeafb1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/MonoMod.ILHelpers.dll",
+      "bytes": 4096,
+      "sha256": "fdd0e3538340fd78b8f521e62b8cac1ebb7683ac1f27f6aaedfc1044b14bf4bb"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/Sentry.Godot.dll",
+      "bytes": 59392,
+      "sha256": "bef522b322662f6dbf280891e23e2001483107f8bb981f1692c264928753112a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/Sentry.dll",
+      "bytes": 831488,
+      "sha256": "4f1619b048d0b0f604265075bc5311f9f2e4a0ecdc09662009b7ee11d50c216c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/SmartFormat.ZString.dll",
+      "bytes": 266752,
+      "sha256": "723e9ffdb9cec9565d9bbbdb27b4d19a9b0ba4ff006e1ab8b94022ae5c426450"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/SmartFormat.dll",
+      "bytes": 142848,
+      "sha256": "6220cde1dafffde5c51a4e23db4bb16e8ec620ef52bac51c0ad5f48c4769f168"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/Steamworks.NET.dll",
+      "bytes": 387584,
+      "sha256": "e1cd0bf2436cefbb8bfcfcc1cea0587e5b9c740769e8340f7b9e9de72785fcf0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/System.IO.Hashing.dll",
+      "bytes": 56104,
+      "sha256": "fbe8c2fcb4adc01da5c3c8ed0d727903b8fda1e6b84da3c447c9794615f30664"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-cli/lib/sts2.dll",
+      "bytes": 9676288,
+      "sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/runtime/host/bin/Debug/net9.0/0Harmony.dll",
+      "bytes": 2328064,
+      "sha256": "ef1898322c9f5c86dc1b0758b272a9c440823b4a41ca9a0b82a3aa6b3d206387"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/runtime/host/bin/Debug/net9.0/SolverBridge.dll",
+      "bytes": 192000,
+      "sha256": "8e7cdad1ff9dde0d669b21e98513f5140a5101bda34194dc693e9db833c8da9e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-paired-eval-20260918/run_merchant_item_paired_eval.py",
+      "bytes": 20383,
+      "sha256": "cd80675b1c893634d8cdae5d672e1e794c3ece56b27734ee30e0bd10d0401340"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/build_event_outcome_candidate.py",
+      "bytes": 2165,
+      "sha256": "fc2a3cf90dcdb215ed6fd787b78d84d8fa6e3d1f69a959503117df100cb2505a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/build_merchant_item_candidate.py",
+      "bytes": 1433,
+      "sha256": "3facebb42d65fdf5db763d839e65c683719a5799be06a86194fed57611af8736"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/event_outcome_facts.json",
+      "bytes": 3082,
+      "sha256": "aefb164ddf7f64fba382923864e2d4013fa02dc64209316de359c2419d319ae9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/make_event_outcome_status.py",
+      "bytes": 4321,
+      "sha256": "69d8fc9021bc19a58077e00b2f8f67261b2b554eaf012c5c161ceac408ddfc94"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/merchant_item_facts.json",
+      "bytes": 8075,
+      "sha256": "eaf1257dbb8c28d7e537cdea79dc81810c7caaefac02d4473596f3c583aac387"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/merchant_item_features.py",
+      "bytes": 13863,
+      "sha256": "1413c004e0e179cc4f437580c78233d95c7f2a932b2d1d5c76ec61eda01ec609"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/merchant_item_policy.py",
+      "bytes": 5784,
+      "sha256": "996a427983b5f611a98da3b24c2c04f722d3cae03d87a8e3d437bca7172a3978"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/MERCHANT_ITEM_LIVE_POLICY_PROBE.json",
+      "bytes": 14207,
+      "sha256": "9cae2da96e76390f56c729d34fba8f825775e5d2c68a94b629cdbbabc5a981f9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/MERCHANT_ITEM_POLICY_REPLAY.json",
+      "bytes": 142989,
+      "sha256": "843e4326c635a1e8dc91329d8adc6234d86e2869a89c1c9f30296c4579902d94"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/merchant-item-candidate-model.json",
+      "bytes": 4186,
+      "sha256": "c0cc36c69dada7468d08ee3971437106032a100efddf8bc18b18ebd1584e444d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/bridge/DefectRewardPoolProbe.cs",
+      "bytes": 2724,
+      "sha256": "ec81c7b0e39b6b60705925a3b64fd4ba71e47a56fe3a5114cb68768798d46310"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/bridge/RunSimulator.EventOptionVars.cs",
+      "bytes": 1986,
+      "sha256": "84257d083fde432b8fbe329e72d1cf5f6366bb02ecfc486736d67460be94638c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/bridge/RunSimulator.EventOptionVars.integration.patch",
+      "bytes": 1332,
+      "sha256": "1777128420003b834788fe90205de65c95218262255feff53db9b95a85743747"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/bridge/cards_eng.json",
+      "bytes": 99783,
+      "sha256": "c469a0be87d57c1476b75a5d0d3031cebf47e65d380a4646aae0028a20c993c0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/bridge/defect-current-public-reward-pool-v1.json",
+      "bytes": 60821,
+      "sha256": "5d9ff0baedfff3e8d6988db48ee6e6be387d06606b06a84108a0df3d833f1d7f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/bridge/event-option-vars-live-probe-input.jsonl",
+      "bytes": 278,
+      "sha256": "59fe905bdf542bc6a6d7336630b33da3d8f6ce63b23ba98f7b302c056434e0df"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/bridge/event-option-vars-live-probe-output.jsonl",
+      "bytes": 22111,
+      "sha256": "262cabea0e4946691978be7fca55ab29bea94eebf1a3670edbe75ac04717d404"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/Bugslayer.cs",
+      "bytes": 1677,
+      "sha256": "772fd742b0fefeb21a2f849a9d78524e5b7291bf99306cc71c9cd71fe34ce11b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/CardCreationOptions.cs",
+      "bytes": 10054,
+      "sha256": "c87c4b261686d2b1c54c578aa425734c4ea17eac84b4e19049e41278647b6a73"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/CardFactory.cs",
+      "bytes": 14506,
+      "sha256": "6e404e3de100d5477dd77cc91d54b251da3f089468ae685097964cb4ef16a95e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/CardReward.cs",
+      "bytes": 13857,
+      "sha256": "352e40b1010d2388ed8d1581e527a92bbdf7b9d9a258cfa5ddf9b2f3f62ba40a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/Exterminate.cs",
+      "bytes": 1131,
+      "sha256": "307cf98977f462c7d7dc66f0f9fbd2275b7bd108f2aa37ca3f0b43ed1c9ba3d9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/Nimble.cs",
+      "bytes": 397,
+      "sha256": "5b1e5a9075e3f0cff0e39b644dae1a749cc6460721a13423c62231ec93f75142"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/SelfHelpBook.cs",
+      "bytes": 5211,
+      "sha256": "efaa3eeaf96fb3ca30477b12e1598bdb8374d58b87880f8129efa888ee6ed46e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/Sharp.cs",
+      "bytes": 520,
+      "sha256": "1de8537303cbb6860d4f55b117c0a8cd6179f3c455456b87393c0a7d135339c5"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/Squash.cs",
+      "bytes": 1603,
+      "sha256": "9cb71457028fd46cb215b872850fe3f3178e84867467f6546e69ef9bca024d0d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/Swift.cs",
+      "bytes": 688,
+      "sha256": "d8fd0ca9b8a13b21c409f2a281633b04f97cb6d303a48457e44d768c83ca1ad5"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/TheFutureOfPotions.cs",
+      "bytes": 5497,
+      "sha256": "d41b850f9c988274803a7fdac9ce15c5ed372d35fd1a8f5c69e481a8fef1989a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/current_engine/ThisOrThat.cs",
+      "bytes": 1942,
+      "sha256": "4402a2f72326ffecc103ea1f2bd246cd86f07bb63df929bd362f44dc12dc70d3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/potions.json",
+      "bytes": 10802,
+      "sha256": "2b3c5e0f6b80741273f4060444d0b40e9db5115ac3252f8476340858a701f5ca"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/relics.json",
+      "bytes": 91491,
+      "sha256": "7379d2f141bc507fad392fd38d6d718667c6f55df5d2f6ce50ed0f5649403183"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/reference_facts/sts2_db.json",
+      "bytes": 528686,
+      "sha256": "05aea04ad9169ff7bb91e09607fbe0c1079347a80076b2287a70a4aecb6160f2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/replay_event_outcome_candidate.py",
+      "bytes": 11329,
+      "sha256": "d75ae1d857b84eee5f0cab26595178de9472c711972c37e2187cade87b33448f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/replay_merchant_item_candidate.py",
+      "bytes": 6216,
+      "sha256": "140423bc840dd45121745ac60d0cd615f4c9a30f08cde81e55e0cd96926d4541"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/score_live_future_potions_probe.py",
+      "bytes": 8029,
+      "sha256": "829424dbaa3746fb8e1d5a171cd5b2faf8630ac6262fd83c40884a69fe337ccc"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/test_event_outcome_features.py",
+      "bytes": 8477,
+      "sha256": "8b95ceb0d8a94d8528c48b9b2bb24311dd9a6a861518ee808877340d78ec78d1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/test_merchant_item_features.py",
+      "bytes": 5824,
+      "sha256": "1c2c1e47410c873bb5de581b1c54f78eec9817479c2fafbcd348b73c90eb5aa7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-smoke-runtime-20260918/audit_batch.py",
+      "bytes": 43761,
+      "sha256": "74ed569138d27509c2a8c2965999e458a3aaa33cc4cf6e536cdfecd529438fd2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-smoke-runtime-20260918/sample_runs.py",
+      "bytes": 24405,
+      "sha256": "86a9c59a7e3d5057902cf70f737fa0dd19154daeadcd37c59cfb6bcb6e8b4f59"
+    },
+    {
+      "path": "/home/ubuntu/sts2-merchant-smoke-runtime-20260918/whole_run_audit.py",
+      "bytes": 9455,
+      "sha256": "6406aa9acd70b27a0f9f352db40b79ef305010326a492991c4b84acb7f02af89"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/ENCOUNTER_DAMAGE_FINALIZE_RESULT.json",
+      "bytes": 471,
+      "sha256": "44d994a76953838b82387348fdb94a29bd184aa719a3006252c11c01a37ad8f3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/FULL_ROUTE_FINALIZE_RESULT.json",
+      "bytes": 292,
+      "sha256": "11ede0cb29a5f4625417df4d7f5016c0805bd4b326d492e5b54e334d7be16f8f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/REWARD_MECHANISM_FINALIZE_RESULT.json",
+      "bytes": 491,
+      "sha256": "cb6cd56cb1707081ba8a28e576179a565197e5e1d84050ec889cf590f7c1b821"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/acquisition_residual_features.py",
+      "bytes": 2837,
+      "sha256": "fc8a11aa94fdf64cb31415c0cd3281e220ac0aaeeb09843bce13873f31011f4e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/advisor_scores.py",
+      "bytes": 2398,
+      "sha256": "5c62dcf7705df5885182ceb535c51709ae596b563c23e1a424d05f5b1ddf2dbd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/analyze_rest_heal_route_gaps.py",
+      "bytes": 14836,
+      "sha256": "3426484c5c08acce84b3a4b6ff3771272759cdfd7ace94b44baa9b59d67109b6"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/analyze_reward_feature_gaps.py",
+      "bytes": 10648,
+      "sha256": "c1b6a94624cf6666bea15ef9fd6291dd5601b1ad03b8f868d30451c310cbf978"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/ancient_reward_catalog.json",
+      "bytes": 6703,
+      "sha256": "c0a0bb69a62fec74a34db26df23922a166df915ed36aff906b478411e4ba9382"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/ancient_reward_features.py",
+      "bytes": 5660,
+      "sha256": "b89cbbe5c412b97fe8f0d600976645b48cf17bc3ce2d4382fb46304228567135"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/archive_contextual_training.py",
+      "bytes": 6022,
+      "sha256": "e03101da413f0ec419556149b51f187b9a86592af08ce2a3a8899ee4a2f01662"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/arena_spec.py",
+      "bytes": 19824,
+      "sha256": "a4837e94d468d217e912d890f1807c34b37ce9e8c7773be003fdfd6b9fa29d4a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/audit_batch.py",
+      "bytes": 44314,
+      "sha256": "4ca3b1ab258006bd1aed35350d1caa359f443efac4c53dd8ec945f43560f6608"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/audit_prefix_interventions.py",
+      "bytes": 17873,
+      "sha256": "d5971e35096505c39200f5f9cf9bce11e6431e23734387880c20b1a474f2508d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/audit_run.py",
+      "bytes": 2921,
+      "sha256": "c9b611b5d03c9b066837ed0fe3dc2107d6867d4b67c436fc87dd02b518418f42"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/boss_progress.py",
+      "bytes": 5326,
+      "sha256": "1a1306a7f736014d7841b7011baf8b048f79ad87f0734e94f5a8944183305282"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/branch_audit.py",
+      "bytes": 15736,
+      "sha256": "deba230c46a7ed24a86a3186b597aca720813581fa1e734beb0ac72313bd8c05"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/build_encounter_damage_candidate.py",
+      "bytes": 10120,
+      "sha256": "e7a9199acc26b7a0e67541c450ac4476ca74cbb5122e257e973a62a1c66def69"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/build_event_effect_catalog.py",
+      "bytes": 4398,
+      "sha256": "9dc8b7639ab8378b3f519bcc6c15781c1941db90c4b23cc4b734d96e37d37b49"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/build_full_route_candidate.py",
+      "bytes": 13682,
+      "sha256": "9015c380c5b16e8e2e61499d3056d1ea1a3fca934163e054d4763abe5c2be621"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/build_rest_heal_route_candidate.py",
+      "bytes": 12610,
+      "sha256": "2c35dee5e1474430221fe7a098a01e7297fde6fe5bb37434513979e0929fc630"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/build_reward_mechanism_candidate.py",
+      "bytes": 11653,
+      "sha256": "fa6aa0e54b49ae1a93119867d3e0d07ec3c35773d834b59ca78bb1608afaded5"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/build_selection_effect_candidate.py",
+      "bytes": 12092,
+      "sha256": "a91f9291ae0ebdcec66085d361c27abdc9e2f10dbecfb84f304581aa45b0bd15"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/card_identity_features.py",
+      "bytes": 1963,
+      "sha256": "a761cf75e7ca3dd841af14c0198060f7b5553a7c93532de7934623d98eaba835"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/card_identity_policy.py",
+      "bytes": 7006,
+      "sha256": "ea73573a583953727538a137fe9db13c0c73c215ffe5f5eb38202e87de1f4565"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/card_identity_vocabulary.py",
+      "bytes": 3508,
+      "sha256": "f600116c057c975e3248bbec144248dfdf13369288c00ab82346d987e32535cd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/circulation_capability_features.py",
+      "bytes": 4731,
+      "sha256": "1ed45414d09163a4d20e1b7c2136155f6003ac698bfe49f7832228dd01b93c9c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/circulation_capability_policy.py",
+      "bytes": 6043,
+      "sha256": "8b34396bdff4b528316676a09f0cbeefe4f63e1ead22f709f96b5b3460c1a739"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/circulation_context_features.py",
+      "bytes": 3385,
+      "sha256": "248df9160d62afa33352752113be4bf0d223233fe263b42ac1e1142d2c011bf1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/circulation_context_policy.py",
+      "bytes": 6022,
+      "sha256": "8651afdf0f32235709268653d66c64c84a659ad441f0e43d52f4de03bbf670ae"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/combat_executor.py",
+      "bytes": 189524,
+      "sha256": "88df5a6985cb3012d463d62a2df5d465383abb9a8fc60b2fa63838dc84035baa"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/compact_deck_policy.py",
+      "bytes": 8398,
+      "sha256": "41cf32585a3c9791881dfa2f7da7bd2efe317cb0b4da09d1cf5dff520e10d423"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/compare_batches.py",
+      "bytes": 35883,
+      "sha256": "42cfa7715eea79e6d07f44869053c561ee49ef7fab84b0308ca3c36968b640a7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/compare_policy_batches.py",
+      "bytes": 25649,
+      "sha256": "7a7fdd9ef0bb0feaa0b6734ed3965b5b7b490cf32bfd7749281fd6f08e4ff4cf"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/contextual_effects.py",
+      "bytes": 3098,
+      "sha256": "7640de971fdac9302fe484298258ccab5e52ff43f54d2d3c88733937b362354e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/contextual_features.py",
+      "bytes": 4410,
+      "sha256": "ddbe897f319ecdb6693ecb3b5925d48b741241e037e1a4d0dd3853f998646d0e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/contextual_policy.py",
+      "bytes": 6602,
+      "sha256": "a7251ce3a64dc056a6856a4099b515867acc3192fb85355d36168683e8d0331c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/control.py",
+      "bytes": 2412,
+      "sha256": "51f2282d0d1bef046021a226c28edb9a61a578d5cc5b24b70061ed21bf834e39"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/current_cards_eng.json",
+      "bytes": 99783,
+      "sha256": "c469a0be87d57c1476b75a5d0d3031cebf47e65d380a4646aae0028a20c993c0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/current_relics_eng.json",
+      "bytes": 91491,
+      "sha256": "7379d2f141bc507fad392fd38d6d718667c6f55df5d2f6ce50ed0f5649403183"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/decision_data.py",
+      "bytes": 37777,
+      "sha256": "9ac8b3f0ec25039774bb17201604094220c2907f5d5435bca6c7e11d7f9fe2ee"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/deck_discipline.py",
+      "bytes": 6877,
+      "sha256": "bd5904ac355461b0c1e8d5567bf0bf6b9c6eefe9f0f08b90e2390fbd8655a91b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/defect_public_reference_prior.json",
+      "bytes": 120003,
+      "sha256": "c9dc7a55fe1d56b7063cf4accfb755f9de22f02941863a3090142ddd1ae3cb4f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/diagnose_reward_parent_diff.py",
+      "bytes": 2163,
+      "sha256": "7c083c7460817353dabc7656c51237353836c3278e2b26d8c38292e0bdcac124"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/distilled_chaos_replan.py",
+      "bytes": 3181,
+      "sha256": "a202785c03a2282a668d739ff14ee358296d8af456723cbb10b9cace0bda1fde"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/encounter_damage_catalog_v3.json",
+      "bytes": 90833,
+      "sha256": "ada21748c09c039627fa4e395b471e7e2d541aa67633aab93518bea2a3f3886d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/encounter_damage_features.py",
+      "bytes": 14133,
+      "sha256": "b99d771aaaa1b1ddbf0ae025f80c199d4953cb7c115b34945b9f7fa6e36100ad"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/encounter_damage_policy.py",
+      "bytes": 8500,
+      "sha256": "0df53d11ecd03e849d9f030e5911d32dcb1e92aacb01b26f80d13fe489aa1cc5"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/evaluate_contextual_run.py",
+      "bytes": 10178,
+      "sha256": "aa0adf45479ab7f07a369a775edf494558fec04aac64eba14c0f75a0337f4ba4"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/evaluate_whole_run.py",
+      "bytes": 13710,
+      "sha256": "31d1c91fce3cf63e7b4a9262cab0ce0b433869a6413ebd2be17f43c1a761e7ee"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/event_cost_features.py",
+      "bytes": 4370,
+      "sha256": "68dd35fc7557d30b55c23d83fad489a6c7fbebc99e57ec90f0872d3a77761623"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/event_effect_catalog.json",
+      "bytes": 57657,
+      "sha256": "e07aa9f039196b9cb4ba1fa6e45d010e2da4c2be9d796503704d2e7354ad6549"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/event_effect_features.py",
+      "bytes": 13195,
+      "sha256": "98a19ae098fbc78def9da55c50765b9dfbac55160257461087b4126e393c5a0b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/event_effect_policy.py",
+      "bytes": 6378,
+      "sha256": "7c15ea1d033a1994c2554dc6ab2dcd06641989b88ef8b5d9a0a02100418990ca"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/event_risk_guard.py",
+      "bytes": 3096,
+      "sha256": "3205b3ef780bbe9318e441c00507753b6fe4b68b2d22bd818d979b0eaf0c6f44"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/event_risk_policy.py",
+      "bytes": 8788,
+      "sha256": "9f95283391ab961ffcb485e5b80ab07e2970220fe25df62c7aa6196a2640529e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/finalize_encounter_damage_candidate.py",
+      "bytes": 5417,
+      "sha256": "7cd977372f477e52614b81a933699d61dc9382d1fdecf64a892b17ab7ed596a8"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/finalize_full_route_candidate.py",
+      "bytes": 5110,
+      "sha256": "b45b34761e8114f4e94895315c0427226938d3737097f3f086352759295c64ba"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/finalize_reward_mechanism_candidate.py",
+      "bytes": 6978,
+      "sha256": "a9314ea9a2a20b2b492b1af790fc393e7ea5c415906dca6f9f0969f855baa092"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/full_route_features.py",
+      "bytes": 13391,
+      "sha256": "121b8313e1a47a84a701dff72dc57489320f438bae5cf0feb46f2b739fd4e16f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/full_route_policy.py",
+      "bytes": 6068,
+      "sha256": "c073a18d1c3eccf1453a2784a271789181675ad39c5aaf44a8023c6e0f40932f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/functional_role_features.py",
+      "bytes": 9098,
+      "sha256": "352c1ec3f06f03b668203d040deca335d03e91e53a0b8fc86fac5a26281dde27"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/gambling_setup.py",
+      "bytes": 4928,
+      "sha256": "e9d4ad78575b6dec54933c36ee3ff8a05bda27087ff8042e8bef0fa5534d708f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/hologram_series.py",
+      "bytes": 15907,
+      "sha256": "3309a9cf4849a29ab4ecc5470e0e0b1dfa4120e9282dc83e19f35e4ae6d803cb"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/initial_policy.py",
+      "bytes": 38312,
+      "sha256": "f6f89736e57a7c95981250be90283549c853618198dea969fb95453f5204ea9c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/interaction_features.py",
+      "bytes": 10744,
+      "sha256": "5ff8dad6433c5d87b3c45bb0e70ab4287470df6982bac2d7b969ef1aab2f2f9d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/interaction_survival_policy.py",
+      "bytes": 1348,
+      "sha256": "c53814b7cbe0c9a11a34ec7cfed9f919f5301f992740fb8676988498cef05056"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/map_observation.py",
+      "bytes": 6352,
+      "sha256": "872a4e227f7f9d36e928479f9489d9f4bd5cd7d7014b598d103b478f07376421"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/mechanism_facts.py",
+      "bytes": 4984,
+      "sha256": "4b21dcc112a6ac0647319084305cbd7a579e2967865ad0dc19b64245aa7dff89"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/merchant_removal_audit.py",
+      "bytes": 8115,
+      "sha256": "02f8df5c26f91f6916fbbff4be4290b49f1a028e4da61ac1f7f47370a7adeddb"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/merchant_removal_value.py",
+      "bytes": 6904,
+      "sha256": "0ab0313af233db325a30756a05b40a8b0c522466aef660f98b001b8d54abf0cd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/encounter-damage-candidate-model.json",
+      "bytes": 16161,
+      "sha256": "ba3ecb3f96a5c62e70fd9d2568b7263c777dd31c9add55b4b36f90af7ea89b5e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/event-effect-candidate-model.json",
+      "bytes": 14306,
+      "sha256": "ab4f77001023ead97d3d230d58c76c6f19e9bdb92faf06d357a8c1be81845bda"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/full-route-candidate-model.json",
+      "bytes": 14982,
+      "sha256": "8d680af093da54a7aef1c69f0b77f40c647f167337cf7622c82aa92966ba54ec"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/migrated-baseline-model.json",
+      "bytes": 63922,
+      "sha256": "eb400cc24c4a46cc3011fcf0aa9a2c7fa959d8ac30f573f07d6d1cc6b307a8ba"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/rest-heal-route-candidate-model.json",
+      "bytes": 17542,
+      "sha256": "55b287eb546953267a6ee61a6e81a105179e47e784a050b231e4d99fc056c9b8"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/reward-mechanism-candidate-model.json",
+      "bytes": 19043,
+      "sha256": "65c4a242b7e12b9f2ba471bd645d88c33fc25281e5e47972e9b44d3e9e3c58fc"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/models-rest-heal-route-v1/selection-effect-candidate-model.json",
+      "bytes": 14599,
+      "sha256": "56d72fa2328e399e8a792fa18ec38dd231c421279bde58a4cffd52c342b64b3a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/neow_preference_features.py",
+      "bytes": 2335,
+      "sha256": "f1418b42c83d8d4ecaaa03b5dbe7ee134c7924eda69c43a9bee51a7c5771b630"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/neow_preference_policy.py",
+      "bytes": 8634,
+      "sha256": "76ce061142e54e8d8033d12d78fd1923169704b8057c6e587915d26bae51d9bc"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/neows_empty_series.py",
+      "bytes": 7168,
+      "sha256": "53008c66b2cbefbb1a81e279a8ae634ec803445a6e17996b04a7d4dcbce08aa7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/neows_full_hand_completion.py",
+      "bytes": 7483,
+      "sha256": "f5d7a8bc9acffcb06e4fc71faed2e883f4ec9466782288dcdefaad718d049e84"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/noncombat_potions.py",
+      "bytes": 3492,
+      "sha256": "b1d8faf3313ab0a9296bb3d650324c61bd35708e685d4c0c5fffa16433ebe7ec"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/persistent_acquisition_features.py",
+      "bytes": 1323,
+      "sha256": "336c53f6cb532fa5c15b9e696e539be1735a89b209034f2927cd47a5982066d1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/persistent_acquisition_features_438.py",
+      "bytes": 2205,
+      "sha256": "55c94ce867741c764b5339462d47320b3025da44983249ee843abd99f617cb6a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/persistent_acquisition_policy.py",
+      "bytes": 11045,
+      "sha256": "eb4884181091a8db2f46a809bfdb8d0d009801f85c10bca3258b246a0ad42300"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/persistent_power_features.py",
+      "bytes": 4985,
+      "sha256": "57507bdc0a1aa8ae0a6ec7b595015f9c67e041f6774ed697eda4724ef9e8d55d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/prefix_health_policy.py",
+      "bytes": 18365,
+      "sha256": "0c234e19a566502f84ff91139c58bfb5c654c3e3f94ccab0252d3c853187084f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/prefix_interventions.py",
+      "bytes": 29109,
+      "sha256": "4f3c976357a50c3a3ec8a5b07cfb383d8eb291bef4a613ad2ade1d7ae14e6ee1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/probe.py",
+      "bytes": 4864,
+      "sha256": "f93a1c622eb75cc3a12de1f522ac3a28cd16ec61d2c9482f8d94705abfb5785c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/public_route_learning.py",
+      "bytes": 7479,
+      "sha256": "2d0c9851607ca65dc595bebb3082e045e0a391d8b7924964ea71a0a24f21ecbb"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/public_route_policy.py",
+      "bytes": 9543,
+      "sha256": "7dab07461c47a3393fe3d919ebe36a7d4e1950089100173bcec0cdc87809790b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/reconcile_contextual_evaluation.py",
+      "bytes": 4779,
+      "sha256": "7afdecb091803e672ccb853bf180e80b847dc2980f026f17da8309e00ba8441f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/reconcile_contextual_generation.py",
+      "bytes": 6410,
+      "sha256": "5b84be3a3dc35e695d58b31de5ad1f8ecabac5c3f2a99dc59db24c2d86398718"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/reference_archetype_features.py",
+      "bytes": 8895,
+      "sha256": "bcd591cbf8734bfb4ec882c28dcc1b44c1c2ba0b35f96d8addaf7dd0727c3c88"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/reference_archetype_policy.py",
+      "bytes": 8772,
+      "sha256": "f96694f1da6c554c180320b9fd416b990e233351ff284c118e51352b70f9d168"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/replay_encounter_damage_candidate.py",
+      "bytes": 13678,
+      "sha256": "9edd8f57c8a46d5aaaae97ecfa3ad79aac074303bc69e1d37bd62072f714050c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/replay_event_effect_candidate.py",
+      "bytes": 9612,
+      "sha256": "412bb7f6cf5a64bce8341ee7019e4bbc108ce6f692ee645cf00274ade336cea3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/replay_evidence.py",
+      "bytes": 46845,
+      "sha256": "500d8ea4c2a6952e6a921fd9edb632ba8cd77dafe43f8e17f2cb8c7d3b96b3f7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/replay_full_route_candidate.py",
+      "bytes": 10649,
+      "sha256": "31dcd65d97ceff935eb0709665ef67e5f45b257d3e2d9fff2a384e71c96a34a2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/replay_rest_heal_route_candidate.py",
+      "bytes": 11928,
+      "sha256": "c148920b829b9631844b3ab4d9f52ecd303dbabf4172817733cb6d0a30ecd04c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/replay_reward_mechanism_candidate.py",
+      "bytes": 11479,
+      "sha256": "b5a8d38db2e0552bbc6fa35c15691b26d71892d14b6dffffd479fe4925f13b33"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/replay_selection_effect_candidate.py",
+      "bytes": 11994,
+      "sha256": "52780820187dbf0347c1307a32c5c6b0c3f2fe1c6f53d2065a5165a2a4153f6a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/rest_heal_route_features.py",
+      "bytes": 13061,
+      "sha256": "165a60c05db82098bb6613c7e3d3b1b59b4db880b262e87567ca2fbf46fc3ff3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/rest_heal_route_policy.py",
+      "bytes": 7273,
+      "sha256": "faefc9e5595c4b93fe38fa16284a7375b3686c80b84a29d162af54142239ff89"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/reward_mechanism_facts.py",
+      "bytes": 7720,
+      "sha256": "ce0b70c50fc216ac57723c79f3ab60e3024f3eeecc45918d4af62a2b91ca0c2c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/reward_mechanism_features.py",
+      "bytes": 13871,
+      "sha256": "f7d2c943fa19b0d43171f92d48faa767e32cf89e9ef539b9d40e67bf2d5fc22c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/reward_mechanism_policy.py",
+      "bytes": 5832,
+      "sha256": "ea8802143aca49f6dc7d3c448e36bc11a81f5998483c112d11fb3f07ad4e1db6"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/route_features.py",
+      "bytes": 9652,
+      "sha256": "21e70044bac40a71fbe1ebe4cffb92aa39dc466119908ce32286f1b45e385232"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_cli_regression.py",
+      "bytes": 2460,
+      "sha256": "112976cdee869dc0f02f453315340b9affe9faed17f12c2b1b83e5da398234b8"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_event_effect_paired_eval.py",
+      "bytes": 18063,
+      "sha256": "8dbd607db8b0280fa3e39f1cdbdea48b4811cd3c4cda25591188bcab7fc82904"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_event_effect_smoke.py",
+      "bytes": 14987,
+      "sha256": "325387a77e176a6b4eecf319ad1891510a767373111cc4065ec95780e647fa82"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_metadata.py",
+      "bytes": 2160,
+      "sha256": "673e3ee1b38b88a254d5edba12d666dc4e03ac029c97261a7e90a86f5ff1d74e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_paired_experiment.py",
+      "bytes": 4151,
+      "sha256": "ba98681f0dfb1c7fef22d04bff8e45da896100d5fabac7733143e0fb3a8671b6"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_policy_experiment.py",
+      "bytes": 8278,
+      "sha256": "e2724c309aedbb6adbe11f8b53cbbcb43b728d31537057a4a2474943010685b4"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_selection_effect_paired_eval.py",
+      "bytes": 19861,
+      "sha256": "335189d89c6ca0dbc9bde00fc32212464ebe93aa5ce11075fa241476ca0eb49c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_selection_effect_smoke.py",
+      "bytes": 16602,
+      "sha256": "f9188570565881b87a4ab8a69bd12d404a147e1505028dae5f990878e3e80745"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/run_session.py",
+      "bytes": 5315,
+      "sha256": "7f32b32693639fc2777946a313abdb37d756b8745ba73826faa697bfdc2b9325"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/sample_runs.py",
+      "bytes": 23705,
+      "sha256": "2f328d3288855dd45b32d1c904e04b57ce3a28661822f7440d9f27f5bf3d9995"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/seeker_continuation.py",
+      "bytes": 20202,
+      "sha256": "9abd4dc03f9935ef9e6b7841e88062ef9cbcf90e29687cc4eccb04d4d2a8943f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/selection_context.py",
+      "bytes": 15690,
+      "sha256": "0b1480952562049da2a842d2c776f9bc45e53c145fbc4c81948a6505ac20a228"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/selection_effect_features.py",
+      "bytes": 8135,
+      "sha256": "9fe60ce904a46a6fab2a688365e209fe2a15e4ae7203df094ae02be0f6ab3d29"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/selection_effect_policy.py",
+      "bytes": 6049,
+      "sha256": "ceff7563d7bb7c7b3d2a8778800e5002087e735a4e9dfcba13c38b8a0a3281ba"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/selection_policy.py",
+      "bytes": 27417,
+      "sha256": "7b75e5def87a7cbf0c44ccbaa226e6dd560af629c9281ee008919c743af9b944"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/selection_space.py",
+      "bytes": 7063,
+      "sha256": "44e9152058858043d6fc3448f6182857de43f3d233b3ecea72c82055d7342b10"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/selection_target_features.py",
+      "bytes": 3225,
+      "sha256": "2ed361e5c157c432ec4160a8c9c263ddef382986b0464b032a2d9ff5b651a338"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/selection_target_policy.py",
+      "bytes": 8438,
+      "sha256": "a375f255e13d752183dc4a7b78cc8c3be4946ca7f7692ed4fdc0dd764622f6b7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/setup.py",
+      "bytes": 2762,
+      "sha256": "907e22d1fe93b65eaa87884ef6cb0cfc5554b2dcf17251ab4d3a4dea66884851"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/smoke_controller.py",
+      "bytes": 2794,
+      "sha256": "a60fbae6fe409f42a66201999f2f32c89f927f32aaefafe4cd7ecc7a0e070e5b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/solver_evidence.py",
+      "bytes": 4169,
+      "sha256": "cae8aa9ef76da5a684a2acf193ed554e7b1b2fdcf829b72206b48c506d8d1802"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/survival_policy.py",
+      "bytes": 12613,
+      "sha256": "d46fb5e57928731c1cb46dae64ca152bedf7bf4df5055608c3c7ccc2f481189a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_acquisition_residual.py",
+      "bytes": 5944,
+      "sha256": "a284810fafeed912e7aac4deec5457d1dd94c7a4f8d83b31c869ed92a9cb9639"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_advisor_scores.py",
+      "bytes": 2910,
+      "sha256": "4c27c0dec7cc32ee78d7ec2ccebe00b7d2bb4eca4e9e2bb7a6b54e7d71e3c463"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_amalgamator.py",
+      "bytes": 3805,
+      "sha256": "6d4343b7656a0adcdb62f9400a8b8cbd9007baf566ad8e5d43987e759f325203"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_analyze_rest_heal_route_gaps.py",
+      "bytes": 1360,
+      "sha256": "2dcfe4cf71ad68b936475d446bc1ea548ad390855eef1f804a689e8a9a6505f5"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_arena_spec.py",
+      "bytes": 15218,
+      "sha256": "07385a986ed61b258f5f813089da18aaa978a041a16c57dd2798e463c7ff7396"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_audit_prefix_interventions.py",
+      "bytes": 16131,
+      "sha256": "33efbb22165024b92374a1b0c7a3ae3a50c46a5815e01b308eb400b0df42e789"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_batch_audit.py",
+      "bytes": 14896,
+      "sha256": "70c0243d3d5be0a56d4c6c39420f884f50d87a86f0e90da7419cd237c2866098"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_begone_return.py",
+      "bytes": 10048,
+      "sha256": "7653de6ff99b9b5e4596cff7ad20822cad07893c1ecb2ec33a265415c2881d34"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_boss_progress.py",
+      "bytes": 3032,
+      "sha256": "a46b40cb8c4d647d6ecf1f16fe14d06f80b8089254f2d46b9fb3e637dcd5405a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_branch_audit.py",
+      "bytes": 5099,
+      "sha256": "af32c0eaa69e171aabea3dba2196378a7abf796f2ba2ad6f2e64eb7f1e539126"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_brand_return.py",
+      "bytes": 11751,
+      "sha256": "6b842366c22a43235ebdc04bae673cfd947b2830ce6ae74bf503cbf763f7186a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_bridge.py",
+      "bytes": 3028,
+      "sha256": "a1a32c9ce4d45ae33f54892a932f515b0b6cb971f4e5d774ec4fef1345c0c9d2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_build_event_effect_catalog.py",
+      "bytes": 1941,
+      "sha256": "6c12375bc175f1c364bec2366b685bdcb1c4d0b55a2978a01b7ccbac425fecfb"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_card_identity_policy.py",
+      "bytes": 8804,
+      "sha256": "d6a8e64ff7cf6ead7dd31fcba7e615c5d5b701a641413b818826a76345dec1e9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_card_playability.py",
+      "bytes": 11203,
+      "sha256": "97f8d45024a24ded67069c48fb209d5520a3af868f4ddc7b3161363fc180a152"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_catastrophe_heirloom_return.py",
+      "bytes": 8156,
+      "sha256": "271ce99c6cb17c5dccac1645c992d9d1463279aa6729abfea09d244645ddbf9d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_charge_return.py",
+      "bytes": 9135,
+      "sha256": "f7a601fedcb8742a1f60959551aa280fe7854202e89c5a20d24608bc7b581137"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_cheese_nominal_cost.py",
+      "bytes": 8242,
+      "sha256": "508a18f6d96fb2668411d0cd36762ce9e9ac669bb17bdb0e642fc2a99abb484f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_choice_return.py",
+      "bytes": 4075,
+      "sha256": "34be29c1ac3d4fcf6e8186a9e1e5610a654e6176095d14e7e25dd4869c75f4ff"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_circulation_capability_policy.py",
+      "bytes": 10466,
+      "sha256": "9f6ae07d8b0d746c322be8fab83624a10e90b4dc48301277cd57d01685128cf8"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_circulation_context_policy.py",
+      "bytes": 10101,
+      "sha256": "edaa05677fdfe428ce9f1f4c392bbc5ff1977c59f7917f991412185c17d04d3d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_combat_executor.py",
+      "bytes": 19040,
+      "sha256": "ea807e8f891323e869061934d17b8c5b7bc9d7ee6ee7cacea181ba57f2f102b3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_compact_deck_policy.py",
+      "bytes": 4844,
+      "sha256": "8f054cb3bd11e6b535655b76cf3328df23975ff624eb2e34f695caedbe87f81f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_compare_batches.py",
+      "bytes": 23810,
+      "sha256": "ea9e744bd96c0dabad044b22649a6f0734e514fea08cf5ebd54d3b959f8bb4d1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_compare_policy_batches.py",
+      "bytes": 10567,
+      "sha256": "0517c3f6b8a49cc8802c60088f499eaf305281ba7770c5ba70421f9df7fdb3b7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_compare_policy_replay.py",
+      "bytes": 6159,
+      "sha256": "62fe394bff93b1fbbfcd4cfceddb9b0e6e150ac97ee88ae289309d34acdf19bf"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_contextual_pipeline.py",
+      "bytes": 5278,
+      "sha256": "e3c915d89f5c523efdc69a886b72981fd5a1b7e5fe28652a48d69277aff2ba30"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_contextual_policy.py",
+      "bytes": 8173,
+      "sha256": "854a35e25275edee8624e6b969ed768598b8c508084237987bd1b40b3b1f9ec2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_contextual_training.py",
+      "bytes": 7954,
+      "sha256": "2f7a6748d5b7572095d3563510f8c9fc4fa6f06e07618124a98905e260d205d3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_coordinator.py",
+      "bytes": 6939,
+      "sha256": "68ecd49c16ed8eb94451b2ce2f5383902aabe5d5e4438d64e4709acb9ea49651"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_cosmic_hand_trick_return.py",
+      "bytes": 9984,
+      "sha256": "4e75c84e0042172efd9c0a5a54d1f4d50b20195d52327f432b0163ef46777d97"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_crab_rage_order.py",
+      "bytes": 10760,
+      "sha256": "23f03d6e43edae4dd0bc1a033a4997d72b7b44a687c10f952b1f0876ead92395"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_crystal_sphere.py",
+      "bytes": 8335,
+      "sha256": "0d3ce7543e1480cc2277a6d6cc69cde3abc4ec6c941afbca0d828b6b67d80393"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_dagger_photon_live_return.py",
+      "bytes": 10728,
+      "sha256": "927cf480c0e40509656bd5dafb755b1b87268620fc716439b39863388df6e564"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_decision_data.py",
+      "bytes": 24722,
+      "sha256": "e0563176d3f266f9f26de1ee4e3cff88404f2aba54225112a137d10489968fbd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_dense_vegetation.py",
+      "bytes": 3897,
+      "sha256": "d39801c8dd5d59caaf0a98d8d43237797056f46213927187438f285c396e43cd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_diagnose_boss_budget.py",
+      "bytes": 2937,
+      "sha256": "e8ef4df2fdb861266346825fcf6813a5181910e24b4652a64dfc2e814ab28e71"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_doll_room_policy.py",
+      "bytes": 5614,
+      "sha256": "fee3ce25a078fed7e29a2fa5c1a095878ab073a1fb348a7fef2304a54fc719c3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_dredge_return.py",
+      "bytes": 12907,
+      "sha256": "2ea07fbbf1b346be801e07ee9b6fe53ca2d1a4829c773da00598804ce3f78461"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_empty_source_choice.py",
+      "bytes": 4311,
+      "sha256": "80d1ccf132d7eadfc60bc1e4994ea23ee415156c2f675f9cb3b609468096018a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_empty_source_executor.py",
+      "bytes": 8225,
+      "sha256": "e1fba70f2cf702c625d8d2bb3ab03ee38989c34ee83c03f6bf88c45828599018"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_encounter_damage_features.py",
+      "bytes": 3889,
+      "sha256": "b47c477c46bc149e55eee2a742234957ab52bc6a6f5a2ad2024e0ed5eebd7a8d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_encounter_damage_policy.py",
+      "bytes": 1007,
+      "sha256": "ddb5d3ecddd097a907463e0a9e5ef14ef8ac5383a89fcede51ca074606fc7ccc"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_evaluate_whole_run.py",
+      "bytes": 6762,
+      "sha256": "0de085b5881948be5fe2395f3e1ee70a9f790e2f8aba8f274b323404c0caca62"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_event_cost_features.py",
+      "bytes": 3260,
+      "sha256": "37279279a7f6a15fc55823725a0ee4129fbc07e07bb248a5808230920d9a53c4"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_event_effect_features.py",
+      "bytes": 5631,
+      "sha256": "e5ef62e1066f90cb1f48dc8faa1fb52a156f45a8d199423c39e7ef446c8f0eab"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_event_effect_policy.py",
+      "bytes": 732,
+      "sha256": "414ec3a501bbd092168364cae2f7c8d852c11d6fcaade168b4e6804f897b6a6b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_event_risk_binding.py",
+      "bytes": 2929,
+      "sha256": "74be2128066d08f91345f0b7203e5ddce7c456be9cef1ab7bd3f5e7e623e1b78"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_event_risk_guard.py",
+      "bytes": 5230,
+      "sha256": "1ec83f6154e39d810178e0d2cb678ef0200ce0020ec4acf640f6fcf3479e8804"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_event_risk_policy.py",
+      "bytes": 4914,
+      "sha256": "45e340664c30b6738623fbd0191b3fb909bb16ccccf7203963d292f42d1bab67"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_forced_choice_order.py",
+      "bytes": 5820,
+      "sha256": "8bf2f1f58493a94fcfcba35ae47c9a0d17cebe2512d80223e8b0a3df89f3b073"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_full_route_features.py",
+      "bytes": 3164,
+      "sha256": "be528413e8d6edf4db0479dfd8266c88a2b892519a2e1624e010115aa84e80e8"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_full_route_policy.py",
+      "bytes": 895,
+      "sha256": "4c8bd700bc8de1c2531f67245252d29ec6030c7ff582494ffd1191cf17e808cd"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_headbutt_return.py",
+      "bytes": 7602,
+      "sha256": "b271f7e985b4047df509c13c96a3720cb2d02e9147af16acf0721233470cdc8e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_hidden_sculpting_return.py",
+      "bytes": 13773,
+      "sha256": "58a219b2cbb990b8bcbf4179e5aefd196c367a8d321199e568dcbcba9201c518"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_hologram_paels_audit.py",
+      "bytes": 7846,
+      "sha256": "bbfe7ac88f47c8cd90626940221c3fdc2bc400c7a4348c85b5d1459f2141d618"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_hologram_razor_audit.py",
+      "bytes": 6956,
+      "sha256": "6970783efafa894bb0759af340b8bfc29866798291d8e1070821ba3e6089287b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_hologram_series.py",
+      "bytes": 11390,
+      "sha256": "0f9b2b60b2db8c2a733055563af35b1943b61c3681810984ab2fe8481dd9a18f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_initial_policy.py",
+      "bytes": 24601,
+      "sha256": "4e4276446df2ba2888a11da738413f371e7d5d19a4f0f2ddbee500cfe779fb7c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_integrity.py",
+      "bytes": 6623,
+      "sha256": "8af315a5a36e15cb996b1dc941650b5e300860b6403b5bb097a49fd62135a4a0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_interaction_batch_audit.py",
+      "bytes": 6887,
+      "sha256": "81cbb60f86affe07ec8b070205f393bd6f0b8523f362db6b1b3ae29748b69df3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_interaction_features.py",
+      "bytes": 13071,
+      "sha256": "0200783fa414b07b164cf6f210cc49a1a3a2eec2af7c13c99c6b66caf2e95fb1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_interaction_survival_policy.py",
+      "bytes": 11903,
+      "sha256": "b882a41c487cf61ca385a2bb6380a0da440eac6e2f7358afa46f737cab2fd349"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_jungle_maze.py",
+      "bytes": 2365,
+      "sha256": "5f486af8df6c11867d8d4299a64feaffd69e2281005c8a0ed5579296b2796152"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_knowledge_demon.py",
+      "bytes": 8619,
+      "sha256": "6572a0cbb20cc93ccc6341a1077f3d33b1af4d9eb3322b1ff17db2d7be97527e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_liquid_memories.py",
+      "bytes": 6431,
+      "sha256": "05070ad2f75791e02ad2947fe98c9e8b716f0a74e79f192e8c59021145edcd51"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_map_observation.py",
+      "bytes": 7707,
+      "sha256": "b975def46dac73dadf57aa354d5997cadb954d9cb1159d4670e73c2beb81cf39"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_neows_repeat_ending.py",
+      "bytes": 8867,
+      "sha256": "e9dcc3089542b44bf8f6acb6ce9bf6c380a07f9ace58a5331cdaebf70e2c198e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_neows_zero_replay.py",
+      "bytes": 6624,
+      "sha256": "b2d54323b581d10cc169d00383fd60aa49908b546aced721de736ea8230bd717"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_nightmare_return.py",
+      "bytes": 11257,
+      "sha256": "58eb8ec5cad09d7469d71c20b526da597a8306b2bc47011aa57a12569d57293f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_original_return_executor.py",
+      "bytes": 7343,
+      "sha256": "c34f6d1e50170d2005bc858c058c5fc106a0583ea101fbdc6b5bcee6199f88b0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_original_return_live.py",
+      "bytes": 12223,
+      "sha256": "01ac1f283f7510e7fcab0f6bf306a3550d2d532cb64cccbc3218ef8a0604d093"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_paels_eye_order.py",
+      "bytes": 5618,
+      "sha256": "6a373fb2b7577ba2b33089a9d55dbef1b7b6974e1a014df9c05e0a20bd3ea635"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_play_card_completion.py",
+      "bytes": 8762,
+      "sha256": "39c7b8c35a18d421e7863bc7fbbd84d01ea7cadd8816f63c1cf85284979455b2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_player_turn.py",
+      "bytes": 4827,
+      "sha256": "3726474d7728c1c7961a29f707a9b516d3972d9a0d1fcfbb1860d2111260cea9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_prefix_health_policy.py",
+      "bytes": 16658,
+      "sha256": "3d9229591fe24cb86bbcabd5d4e8e587b10ddcdc778f0aae1142726bedb2a3bf"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_prefix_interventions.py",
+      "bytes": 7672,
+      "sha256": "f966ee25ca0d537d6ef8398a027ec9b140a4829ec14103b88f7634e3e3465788"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_prefix_policy_audit.py",
+      "bytes": 10869,
+      "sha256": "00ac11c2fcb150db560805097af07fc427c2b334f125309f1171960833efde08"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_prefix_policy_comparison.py",
+      "bytes": 10294,
+      "sha256": "c9d0a537a218d9dee81cff7f4366679cca37a49c0a94afda674b85ba69544f14"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_prefix_policy_sampling.py",
+      "bytes": 7656,
+      "sha256": "53586066d78c5a7e0a6e7d8b2467f9a3f4926ecebd319953aed2a7f5d280cf99"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_prepared_return.py",
+      "bytes": 10450,
+      "sha256": "fc271832d0770ec52d420d397032f241a171ece768b2cb8508b3f30cb7fbfa42"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_public_route_learning.py",
+      "bytes": 7919,
+      "sha256": "281effcd6f38d52270626916ef484d307da763f76a281542b1bc9548ba5a051f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_reference_archetype_features.py",
+      "bytes": 10329,
+      "sha256": "460ceaff18d6332e4ba61930e70a6548a6dfe91e6d1e6728d3dcdf73faf0fd95"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_replay_event_effect_candidate.py",
+      "bytes": 1949,
+      "sha256": "2e56ede102a7d9cd238ed0d063262300c9d513645cd45e967df79b5642a31d1e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_replay_evidence.py",
+      "bytes": 8934,
+      "sha256": "8dd65834382b4c81210b53e9148c8281b2fb3a02f1893a9f8cba091bdaf8abed"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_replay_selection_effect_candidate.py",
+      "bytes": 2091,
+      "sha256": "ee7def2aa18a82a947d2dc07881a97017e15c0ab9677bb17462f42d691a5f2e3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_rest_heal_route_features.py",
+      "bytes": 4115,
+      "sha256": "849d5e31359b7538e0f4efdce8ad04b521e6c17d1dddde2585fe7bcb92781dd7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_rest_heal_route_policy.py",
+      "bytes": 1012,
+      "sha256": "a8dc2a48917450642a510dba7f0530accb521c296daddaddcf62815d2502d3fe"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_reward_mechanism_features.py",
+      "bytes": 6844,
+      "sha256": "345be59ff68e6297da4ca3b9ac64b8badd520c50e6063733abf99a104e1e43e2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_reward_mechanism_policy.py",
+      "bytes": 1048,
+      "sha256": "97b6cb4d9c51fbebc1258e7fa040280d43c20cfa1d8f684880d3ef03950dabb2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_route_features.py",
+      "bytes": 14681,
+      "sha256": "311d599561206854e6de9c3c49f7498ecea6d3eae543d70417485b3580d33ac4"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_run_event_effect_paired_eval.py",
+      "bytes": 1435,
+      "sha256": "b6cab2c44e3d6efed818487b10506c06c4585a180f2a402c44ed9ecbfe8d8870"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_run_event_effect_smoke.py",
+      "bytes": 1956,
+      "sha256": "8f0baf92a918cbfd9913cf8100afaf30fd8ab3fdfc78fc996654429686d282b0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_run_metadata.py",
+      "bytes": 2015,
+      "sha256": "8ebcd99daf96794572e568d54e93bb804ac061a73048878874df602e176e9326"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_run_policy_experiment.py",
+      "bytes": 7937,
+      "sha256": "c8232892faa934b2344e387fb83026c5fc8d9732558f0a487032f0a251ebf50c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_sample_runs.py",
+      "bytes": 24328,
+      "sha256": "4380b8e11da99c323c51a74d120ca7d36db54f0f9b42e7115ddc46df4c6027fe"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_scavenge_repeat.py",
+      "bytes": 6916,
+      "sha256": "b10e99f3a0b7f73d13ef10ec63d79e4f46e7f2df0cee816a73f04b110bc2b383"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_search_profile.py",
+      "bytes": 6155,
+      "sha256": "133214f9636e2672f1424cb013b1eba700f8ee88670a61539b5f833f6f65ddd2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_secret_catastrophe_return.py",
+      "bytes": 11997,
+      "sha256": "9339ee969ff6704adc92a36391a840bdca81ccd40c9b917d02d7495675f9f8df"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_secret_technique_repeat_return.py",
+      "bytes": 9623,
+      "sha256": "88ce58dc7e957f19d182d9ef342b6ea96fa9bf880b207a8d2790f1cc7cb4852a"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_secret_technique_return.py",
+      "bytes": 12563,
+      "sha256": "12d90c409df5426b1df1558d387421b0480b0ec84e5384f2985a2db2281250e3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_seeker_choice_return.py",
+      "bytes": 11218,
+      "sha256": "dae0aaf63acdd8bfc2dc146fa55fd543d092ba7a1c369d5369367aeeb6c2699c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_seeker_manual_repeat.py",
+      "bytes": 10194,
+      "sha256": "9bbeee479cc8a7461bb59df46fbe1dc649879baa5e40e772028e485815c99108"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_seeker_option_order.py",
+      "bytes": 11344,
+      "sha256": "b36a47d7c3dab2d23535be6d81b82d3929df7136f4f11901b220b6e35d67940c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_seeker_repeat_boundaries.py",
+      "bytes": 3720,
+      "sha256": "cce5904c986d6a41c5a9248214504c9c0a6a804e1c0ea3f5a8fd83a200a4c53f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_seeker_singleton.py",
+      "bytes": 4518,
+      "sha256": "ab3a91e3626b8e2328a2885d67490f52e0424fe9e3365eb37b317fc3a334e15e"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_context.py",
+      "bytes": 8297,
+      "sha256": "b00fda4fda53435ca1bde57df2eae5f84b73caf7234d5dea5d908d466084094d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_effect_features.py",
+      "bytes": 3237,
+      "sha256": "d5eac43cf9f45b4755661ace85d67147e486000ab2410b752a8c0ef74863ecf0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_effect_policy.py",
+      "bytes": 804,
+      "sha256": "d7cc7f9e0ec7340ba2709cb3b401ae7cf36ddf3db20baf33cfae4fa567e8098f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_policy.py",
+      "bytes": 16204,
+      "sha256": "ec7083a1004dcdbe5e14edea52aab40950f774f93d7091d85b4a2a209cc39746"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_space.py",
+      "bytes": 4523,
+      "sha256": "d7b3829548af37730822cd8380faad13cacc7bc39671d58f80f88abdcaf47897"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_target_binding.py",
+      "bytes": 1557,
+      "sha256": "c1b5dacfd1e6b28b4456a4778fb534495d26455f3c164278638060553cf07a4f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_target_features.py",
+      "bytes": 4001,
+      "sha256": "bd55692d6a7a9a1e51b89f992bc494194743b154ff2592a0ae37d901f1e1a760"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_target_policy.py",
+      "bytes": 4944,
+      "sha256": "a9eeae87c162770e26ee0063b0807faf401c2e3763dccd8529ebe002f3882064"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_selection_threshold.py",
+      "bytes": 3982,
+      "sha256": "16ed3403c538bced32d174fb47c26c0b3d0606bedde8edf3648f910d95e9932f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_setup_plan_continuation.py",
+      "bytes": 10187,
+      "sha256": "5906d4c836fc7ab157ddbdb471279f49dea6a9b2c2a588481c53a1f0335ebc01"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_setup_plan_continuation_live.py",
+      "bytes": 4007,
+      "sha256": "90db18de027f99689417912c8c9126400ef7f39b867c66d70fd249ae9b2f946c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_shop_purchase.py",
+      "bytes": 2249,
+      "sha256": "d4ef53332b82f3dae7f0c79ee5cb0974f23274c25e10cacacbe8b2a01d7cdf5b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_solver_evidence.py",
+      "bytes": 3220,
+      "sha256": "4f1b88067aefcdd40daa9a575e926ca49849a7696f0d0c71c6b9337727bdf6ae"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_soul_nexus.py",
+      "bytes": 1937,
+      "sha256": "070e70996927d0174a9322893cbc1008fd0236287452a546c29bdc890c40b4c4"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_stampede_return.py",
+      "bytes": 10821,
+      "sha256": "3505e73e62eac31d40ee0588f1aa1d842fd73d73176d9d32f9183e1711e72850"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_survival_policy.py",
+      "bytes": 13087,
+      "sha256": "f9225dae82f1c32f56d17ed3bdb0b9055b6e2b45bc8bf02bd504378a25a27db7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_target_replan.py",
+      "bytes": 4040,
+      "sha256": "e83f3fd821135ed4d5473bdb4df533b907cce749f0429935adabcc6a662ff1e1"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_test_subject_color_live.py",
+      "bytes": 4331,
+      "sha256": "898ed12ff659fdc2d5abe0aa707e95aba5922fbc1ed42fcef014f0512a1bc8aa"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_thinking_ahead_return.py",
+      "bytes": 11313,
+      "sha256": "2d99305092b6bb612ff29f76b5e5e3ebb3ea9384555b20ccba773f4ea99789c6"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_toasty_end_turn_origin.py",
+      "bytes": 9495,
+      "sha256": "1cbb7673ae585317ae3ddaaa681a1735006a78a9436f8d63705155fb3c5b5d38"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_toasty_setup_ending.py",
+      "bytes": 8217,
+      "sha256": "b45b09bb8f488817d69e64884b9554eb77f50b2b72bd77adfec6aa17998fce5c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_toasty_without_loop.py",
+      "bytes": 4123,
+      "sha256": "a6fe47a0e3eaac120a73c75d30e7353cd96c5d93a63a7a8e2442f8d986e93761"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_touch_empty_return.py",
+      "bytes": 10689,
+      "sha256": "b7dc3daa8e693f376cb0e21f88b59dda8d944fddb247de07cf64f8e9d43cf91b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_train_act_survival.py",
+      "bytes": 12750,
+      "sha256": "7ea3a89f88637b0bbea485cfabe7579d8713a94221447cdc0d4f588db2e24787"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_train_encounter_damage_catalog.py",
+      "bytes": 3603,
+      "sha256": "2328dcfda7209b962808d0f9f5a8d1a5f899ef86bf63fed33c134311fa4242e7"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_train_interaction_survival.py",
+      "bytes": 12824,
+      "sha256": "4f386291399607ab4f3c20462d24f4a670d2d7829d13d160f0bc56ce2255dc16"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_train_prefix_artifact.py",
+      "bytes": 10383,
+      "sha256": "2c326dab1fc54ee82afc28a52701f0410e5cf8265d2167bce61067635a5001a3"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_train_prefix_ranker.py",
+      "bytes": 3345,
+      "sha256": "6654537d7c495bbd4252809d934a1762b24bc539014fe73cf1310a70ab1ae0f2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_train_ranker.py",
+      "bytes": 23687,
+      "sha256": "47d59821bcfd7af9d08b6030ae8fc6adf8600bb349a040841f420053f3cdf285"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_trial_abandon_policy.py",
+      "bytes": 2413,
+      "sha256": "2c44421b80a6ee82e000aa859200c18df658547cbeb1628fe697e5522adf4108"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_unpredicted_setup.py",
+      "bytes": 7774,
+      "sha256": "c7f6d35358c5c55048525f2a293280e1ab1b47880de041e2e0087a9124eb578b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_upgrade_preview.py",
+      "bytes": 5432,
+      "sha256": "58abb40b197cb6046ac1e76645eb22f7b5689c3cec73ec8e1189786eaf568a7d"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_uproar_heirloom_return.py",
+      "bytes": 8018,
+      "sha256": "313cae3ed8ff5b549e0c8ccd99d0d0c296e0d4541351044031f52a4bf079dc4f"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_uproar_neows_ending.py",
+      "bytes": 8938,
+      "sha256": "99fdeb8519caed6d01864fe6ffa944636599b90628a3ea05a607626c78e26146"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_warmstart_training.py",
+      "bytes": 5451,
+      "sha256": "e339284fef6591f3aa6875af2a85cbf321ad516edca8d73d53a66840a3b7bcac"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_whole_run_policy.py",
+      "bytes": 7933,
+      "sha256": "78ed13a20bf60f3c0494f5347d83d8ad60cd92ef316445ea8f30f24034060af9"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/test_wish_return.py",
+      "bytes": 11185,
+      "sha256": "798805b6806266650c0fb8e772e3362ca535c8cb971ae5178341607a008cdaf4"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/train_act_survival.py",
+      "bytes": 21001,
+      "sha256": "3e3e5edcd935fcd9892924636c9228039a85e1132f52887b80c673b3484c949b"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/train_contextual_run.py",
+      "bytes": 17441,
+      "sha256": "d5a85188b188104b84cae5fc4f2c3a63dbd0a0fd58cee0f6c5a9c1cf0d8b7e36"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/train_encounter_damage_catalog.py",
+      "bytes": 15619,
+      "sha256": "036294f22aec6bd683d96768b46d845aacd6a2bf6011a8fe1d24f9a51d699a36"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/train_interaction_survival.py",
+      "bytes": 13983,
+      "sha256": "853b85957dcf4e92c0fb0c56f9b2a05160ab816c0a9e7454c95e43262c5a4b62"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/train_prefix_ranker.py",
+      "bytes": 16623,
+      "sha256": "580348b65c92d6c69f7c0791d83c0d7f6d88ec47c99c9b7f5e14f116ee9c0ca5"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/train_ranker.py",
+      "bytes": 22167,
+      "sha256": "38e34433bdfb6ead2a74142cd225bf03610f0b30425f0f28e81e8b25cca0c038"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/train_whole_run.py",
+      "bytes": 15722,
+      "sha256": "741f3324990f23ef722d46289fefcc9b2de2169acf6f9da78dfab94e2188eff0"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/unpredicted_setup.py",
+      "bytes": 6069,
+      "sha256": "f1287114088d5a51834756ecff0912e238e9f1f79760572d9cfcd9c1555b5f9c"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/verify_event_policy_replay.py",
+      "bytes": 5570,
+      "sha256": "2fd995f1730bbeef3e6cb29a8e5b3bfbd3bb886f62cc370d9c0a94916a8c1051"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/verify_migrated_parent_equivalence.py",
+      "bytes": 3760,
+      "sha256": "81a6409e81e902a0cfb0e7912a143593dca0ec03f1e4266f38d0d6767a5ffd76"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/whole_run_audit.py",
+      "bytes": 9182,
+      "sha256": "f58fe429b02a14d4e5e65b05c0f9e525b3838be59d5dd15399e3edef0edf29b2"
+    },
+    {
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge/whole_run_policy.py",
+      "bytes": 7503,
+      "sha256": "533a80857f76f1defaeec9e8feaa88ddb9a04dd8fa7f58959c5e2b8e808194e3"
+    }
+  ]
+}

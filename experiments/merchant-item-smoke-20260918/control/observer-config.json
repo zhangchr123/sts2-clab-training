@@ -112,6 +112,10 @@
     {
       "name": "merchant-item-smoke",
       "path": "/home/ubuntu/sts2-merchant-item-smoke-20260918/run/public-status.json"
+    },
+    {
+      "name": "merchant-item-paired-evaluation",
+      "path": "/home/ubuntu/sts2-merchant-item-paired-eval-20260918/run/public-status.json"
     }
   ],
   "workspace": "/home/ubuntu/sts2-agent/workspace"

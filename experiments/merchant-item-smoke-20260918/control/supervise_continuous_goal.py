@@ -39,6 +39,7 @@ EXCLUSIVE_UNITS = (
     "sts2-selection-effect-paired-eval.service",
     "sts2-merchant-item-smoke.service",
     "sts2-merchant-item-smoke-handoff.service",
+    "sts2-merchant-item-paired-eval.service",
 )
 STALE_SECONDS = 20 * 60
 
@@ -93,6 +94,8 @@ def evaluation_owns_boundary() -> bool:
         "waiting_for_merchant_smoke_boundary",
         "merchant_smoke_boundary_acquired",
         "merchant_smoke_active",
+        "merchant_smoke_passed_starting_paired_evaluation",
+        "merchant_paired_evaluation_active",
     }
     for path in HANDOFF_STATUS_PATHS:
         handoff = read_json(path)

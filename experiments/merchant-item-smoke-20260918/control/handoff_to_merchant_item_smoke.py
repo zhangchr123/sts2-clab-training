@@ -1,4 +1,4 @@
-"""Run one merchant-item smoke at a clean sampling boundary, then resume the goal."""
+"""Run merchant smoke and paired evaluation at one clean boundary, then resume."""
 from __future__ import annotations
 
 import json
@@ -16,6 +16,8 @@ RUN = BASE / "run"
 STATUS = BASE / "HANDOFF_STATUS.json"
 GOAL_UNIT = "sts2-cloud-goal.service"
 SMOKE_UNIT = "sts2-merchant-item-smoke.service"
+PAIRED_UNIT = "sts2-merchant-item-paired-eval.service"
+PAIRED_RUN = Path("/home/ubuntu/sts2-merchant-item-paired-eval-20260918/run")
 
 
 def atomic(value):
@@ -136,6 +138,41 @@ def smoke_passed():
     return result.get("passed") is True and result.get("integration_passed") is True
 
 
+def start_paired_and_monitor(*, start=True):
+    if start:
+        command("systemctl", "start", PAIRED_UNIT)
+        time.sleep(1)
+        if not active(PAIRED_UNIT):
+            command("systemctl", "start", GOAL_UNIT)
+            raise RuntimeError("merchant-item paired evaluation failed to become active")
+    while active(PAIRED_UNIT):
+        progress = {}
+        path = PAIRED_RUN / "public-status.json"
+        if path.exists():
+            progress = json.loads(path.read_text(encoding="utf-8"))
+        atomic({
+            "phase": "merchant_paired_evaluation_active",
+            "progress": progress,
+            "updated_unix": time.time(),
+            "automatic_retry": False,
+        })
+        time.sleep(30)
+    result = show(PAIRED_UNIT, "Result")
+    exit_status = show(PAIRED_UNIT, "ExecMainStatus")
+    command("systemctl", "start", GOAL_UNIT)
+    atomic({
+        "phase": "merchant_paired_evaluation_terminal_goal_resumed",
+        "service_result": result,
+        "exit_status": exit_status,
+        "result_exists": (PAIRED_RUN / "RESULT.json").exists(),
+        "runner_error_exists": (PAIRED_RUN / "RUNNER_ERROR.json").exists(),
+        "goal_service_active": active(GOAL_UNIT),
+        "candidate_deployed": False,
+        "updated_unix": time.time(),
+        "automatic_retry": False,
+    })
+
+
 def monitor_smoke():
     while active(SMOKE_UNIT):
         progress = {}
@@ -151,10 +188,19 @@ def monitor_smoke():
         time.sleep(15)
     result = show(SMOKE_UNIT, "Result")
     exit_status = show(SMOKE_UNIT, "ExecMainStatus")
-    command("systemctl", "start", GOAL_UNIT)
     passed = result == "success" and exit_status == "0" and smoke_passed()
+    if passed:
+        atomic({
+            "phase": "merchant_smoke_passed_starting_paired_evaluation",
+            "result_exists": True,
+            "updated_unix": time.time(),
+            "automatic_retry": False,
+        })
+        start_paired_and_monitor()
+        return
+    command("systemctl", "start", GOAL_UNIT)
     atomic({
-        "phase": "merchant_smoke_passed_goal_resumed" if passed else "merchant_smoke_failed_goal_resumed",
+        "phase": "merchant_smoke_failed_goal_resumed",
         "service_result": result,
         "exit_status": exit_status,
         "result_exists": (RUN / "RESULT.json").exists(),
@@ -167,11 +213,17 @@ def monitor_smoke():
 
 
 def main():
-    if not (RUN / "PROTOCOL.json").exists():
-        raise RuntimeError("merchant-item smoke was not fully prepared")
+    if not (RUN / "PROTOCOL.json").exists() or not (PAIRED_RUN / "PROTOCOL.json").exists():
+        raise RuntimeError("merchant-item smoke or paired evaluation was not fully prepared")
     if (RUN / "STARTED.json").exists():
         if active(SMOKE_UNIT):
             monitor_smoke()
+        elif smoke_passed() and not (PAIRED_RUN / "STARTED.json").exists():
+            if active(GOAL_UNIT) or goal_runners():
+                wait_for_boundary()
+            start_paired_and_monitor()
+        elif active(PAIRED_UNIT):
+            start_paired_and_monitor(start=False)
         else:
             command("systemctl", "start", GOAL_UNIT)
             atomic({
@@ -202,6 +254,6 @@ if __name__ == "__main__":
             "updated_unix": time.time(),
             "automatic_retry": False,
         })
-        if not active(SMOKE_UNIT) and not goal_runners():
+        if not active(SMOKE_UNIT) and not active(PAIRED_UNIT) and not goal_runners():
             command("systemctl", "start", GOAL_UNIT, check=False)
         raise

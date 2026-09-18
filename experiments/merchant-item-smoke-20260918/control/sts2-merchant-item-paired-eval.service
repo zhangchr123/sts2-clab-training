@@ -1,0 +1,22 @@
+[Unit]
+Description=One-shot serialized merchant-item paired natural evaluation
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONPATH=/home/ubuntu/sts2-merchant-item-smoke-20260918:/home/ubuntu/sts2-merchant-smoke-runtime-20260918:/home/ubuntu/sts2-merchant-item-stage-20260918:/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918:/home/ubuntu/sts2-rest-heal-route-stage-20260918/sts2-solver-bridge
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-merchant-item-paired-eval-20260918/run_merchant_item_paired_eval.py run
+TimeoutStartSec=infinity
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=yes
+MemoryMax=3000M
+CPUQuota=300%
+TasksMax=160
+StandardOutput=journal
+StandardError=journal
