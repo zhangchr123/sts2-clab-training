@@ -1,0 +1,20 @@
+[Unit]
+Description=Queue merchant-item smoke after current sampling batch at a clean boundary
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/ubuntu/sts2-merchant-item-smoke-20260918
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-merchant-item-smoke-20260918/handoff_to_merchant_item_smoke.py
+Restart=on-failure
+RestartSec=30
+MemoryMax=128M
+TimeoutStartSec=infinity
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

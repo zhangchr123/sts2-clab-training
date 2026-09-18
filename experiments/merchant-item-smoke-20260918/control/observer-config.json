@@ -1,0 +1,118 @@
+{
+  "command": [
+    "/home/ubuntu/sts2-agent/node-v24.21.0-linux-x64/bin/node",
+    "/home/ubuntu/sts2-agent/cli/node_modules/@deepseek-ai/dsh/lib/bin.js",
+    "--profile",
+    "acp",
+    "--patch",
+    "/home/ubuntu/sts2-agent/runtime/observer.patch.yml"
+  ],
+  "disks": [
+    {
+      "min_free_bytes": 5368709120,
+      "name": "cloud-training",
+      "path": "/home/ubuntu"
+    }
+  ],
+  "dsh_home": "/home/ubuntu/sts2-agent/home",
+  "max_calls_per_hour": 12,
+  "max_output_chars": 4000,
+  "min_call_interval_seconds": 600,
+  "poll_seconds": 30,
+  "processes": [],
+  "prompt_timeout_seconds": 180,
+  "spool": "/home/ubuntu/sts2-agent/spool",
+  "status_files": [
+    {
+      "name": "continuous-defect-goal",
+      "path": "/home/ubuntu/sts2-cloud-goal/public-status.json"
+    },
+    {
+      "name": "progress-aux-evaluation-handoff",
+      "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/HANDOFF_STATUS.json"
+    },
+    {
+      "name": "event-effect-smoke-handoff",
+      "path": "/home/ubuntu/sts2-event-effect-smoke-20260918/HANDOFF_STATUS.json"
+    },
+    {
+      "name": "event-effect-smoke",
+      "path": "/home/ubuntu/sts2-event-effect-smoke-20260918/run/public-status.json"
+    },
+    {
+      "name": "event-effect-paired-evaluation",
+      "path": "/home/ubuntu/sts2-event-effect-paired-eval-20260918/run/public-status.json"
+    },
+    {
+      "name": "event-effect-independent-assessment",
+      "path": "/home/ubuntu/sts2-event-effect-paired-eval-20260918/assessment/public-status.json"
+    },
+    {
+      "name": "selection-effect-smoke-handoff",
+      "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/HANDOFF_STATUS.json"
+    },
+    {
+      "name": "selection-effect-smoke",
+      "optional_missing": true,
+      "path": "/home/ubuntu/sts2-selection-effect-smoke-20260918/run/public-status.json"
+    },
+    {
+      "name": "selection-effect-paired-evaluation",
+      "optional_missing": true,
+      "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/run/public-status.json"
+    },
+    {
+      "name": "selection-effect-independent-assessment",
+      "path": "/home/ubuntu/sts2-selection-effect-paired-eval-20260918/assessment/public-status.json"
+    },
+    {
+      "name": "full-route-candidate",
+      "path": "/home/ubuntu/sts2-full-route-stage-20260918/public-status.json"
+    },
+    {
+      "name": "encounter-damage-candidate",
+      "path": "/home/ubuntu/sts2-encounter-damage-stage-20260918/public-status.json"
+    },
+    {
+      "name": "reward-mechanism-candidate",
+      "path": "/home/ubuntu/sts2-reward-mechanism-stage-20260918/public-status.json"
+    },
+    {
+      "name": "rest-heal-route-candidate",
+      "path": "/home/ubuntu/sts2-rest-heal-route-stage-20260918/public-status.json"
+    },
+    {
+      "name": "progress-aux-evaluation",
+      "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/run/public-status.json"
+    },
+    {
+      "name": "progress-aux-independent-assessment",
+      "path": "/home/ubuntu/sts2-cloud-eval/progress-aux/assessment/public-status.json"
+    },
+    {
+      "name": "event-outcome-candidate",
+      "path": "/home/ubuntu/sts2-event-outcome-stage-20260918/models-event-outcome-v2/STATUS.json"
+    },
+    {
+      "name": "event-option-variable-regression",
+      "path": "/home/ubuntu/sts2-option-vars-regression-20260918/regression/public-status.json"
+    },
+    {
+      "name": "event-outcome-future-potions-candidate",
+      "path": "/home/ubuntu/sts2-event-outcome-future-potions-v2-stage-20260918/models-event-outcome-v3/STATUS.json"
+    },
+    {
+      "name": "merchant-item-candidate",
+      "path": "/home/ubuntu/sts2-merchant-item-stage-20260918/models-merchant-item-v1/STATUS.json"
+    },
+    {
+      "name": "merchant-item-smoke-handoff",
+      "path": "/home/ubuntu/sts2-merchant-item-smoke-20260918/HANDOFF_STATUS.json"
+    },
+    {
+      "name": "merchant-item-smoke",
+      "path": "/home/ubuntu/sts2-merchant-item-smoke-20260918/run/public-status.json"
+    }
+  ],
+  "workspace": "/home/ubuntu/sts2-agent/workspace"
+}
