@@ -1,0 +1,55 @@
+{
+  "schema_version": "git-worktree-preserved-evidence-quarantine-v1",
+  "reason": "Valid batch-3 game 016/017 archives left by an interrupted publisher transaction; preserve without staging so later goal snapshots can publish.",
+  "files": [
+    "batches/defect-cloud-goal-20260917-000003/games/defect-cloud-goal-20260917-000003-016.manifest.json",
+    "batches/defect-cloud-goal-20260917-000003/games/defect-cloud-goal-20260917-000003-016.zip",
+    "batches/defect-cloud-goal-20260917-000003/games/defect-cloud-goal-20260917-000003-017.manifest.json",
+    "batches/defect-cloud-goal-20260917-000003/games/defect-cloud-goal-20260917-000003-017.zip"
+  ],
+  "verified": [
+    {
+      "run_id": "defect-cloud-goal-20260917-000003-016",
+      "manifest": {
+        "path": "/home/ubuntu/sts2-cloud-repo/batches/defect-cloud-goal-20260917-000003/games/defect-cloud-goal-20260917-000003-016.manifest.json",
+        "bytes": 1315,
+        "sha256": "abd75361875b8070f670da90b3c33348d016b4537715dcc36958e9ada7699d77"
+      },
+      "archive": {
+        "path": "/home/ubuntu/sts2-cloud-repo/batches/defect-cloud-goal-20260917-000003/games/defect-cloud-goal-20260917-000003-016.zip",
+        "bytes": 1965150,
+        "sha256": "0a59c68cb1e9e0a1f3b73a7d7c7e2d5ba5abe26b6ff260c31b838661e42ae227"
+      },
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000003/defect-cloud-goal-20260917-000003-016-audit.json",
+        "bytes": 1765,
+        "sha256": "a061975a34530965a4030a090ed70324d47c2abfae46387233eb294ccb80116b"
+      },
+      "zip_readback_passed": true,
+      "raw_originals_retained": true
+    },
+    {
+      "run_id": "defect-cloud-goal-20260917-000003-017",
+      "manifest": {
+        "path": "/home/ubuntu/sts2-cloud-repo/batches/defect-cloud-goal-20260917-000003/games/defect-cloud-goal-20260917-000003-017.manifest.json",
+        "bytes": 1312,
+        "sha256": "ce38c18dd1b5e110da108d7809d2538e2bcaa4ea65c8431d04d88d31ca3de58a"
+      },
+      "archive": {
+        "path": "/home/ubuntu/sts2-cloud-repo/batches/defect-cloud-goal-20260917-000003/games/defect-cloud-goal-20260917-000003-017.zip",
+        "bytes": 619848,
+        "sha256": "eb4ce46910e5525ac6d664eb3c6e692b39b05448c9b9edefb61a792acdfee38f"
+      },
+      "audit": {
+        "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000003/defect-cloud-goal-20260917-000003-017-audit.json",
+        "bytes": 1476,
+        "sha256": "4316b252ce83438d75cac006f9107f963974849bb09854b32e97471c01c3cb6f"
+      },
+      "zip_readback_passed": true,
+      "raw_originals_retained": true
+    }
+  ],
+  "deleted": false,
+  "modified": false,
+  "created_unix": 1789704676.0270355
+}

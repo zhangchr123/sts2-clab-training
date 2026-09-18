@@ -54,7 +54,8 @@ class GoalTests(unittest.TestCase):
     def test_batch_end_authorizes_next_batch_instead_of_stop(self):
         with tempfile.TemporaryDirectory() as t:
             root=Path(t); batch={'id':'batch-1','path':str(root),'published':0}
-            state={'current':batch,'pending':{'x':1},'closed':[]}
+            state={'current':batch,'pending':{'x':1},'closed':[],
+                   'upload_needs_review':{'reason':'stale prior transaction'}}
             snap={'snapshot_id':'snap','completed':24,'valid':24,'invalid':0,'target_successes':0,
                   'phase':'complete','model_updated':True,'model_sha256':'abc','model_label':'candidate'}
             pending={'kind':'review','job_id':'goal_1','snapshot':snap}
@@ -67,6 +68,7 @@ class GoalTests(unittest.TestCase):
             self.assertTrue(state['closed'][0]['model_updated'])
             self.assertEqual(state['closed'][0]['model_sha256'],'abc')
             self.assertEqual(state['closed'][0]['model_label'],'candidate')
+            self.assertNotIn('upload_needs_review',state)
 
     def test_interrupted_seeds_are_not_replayed(self):
         with tempfile.TemporaryDirectory() as t:

@@ -17,7 +17,9 @@ STATUS = BASE / "HANDOFF_STATUS.json"
 GOAL_UNIT = "sts2-cloud-goal.service"
 SMOKE_UNIT = "sts2-merchant-item-smoke.service"
 PAIRED_UNIT = "sts2-merchant-item-paired-eval.service"
+ASSESS_UNIT = "sts2-merchant-item-independent-assess.service"
 PAIRED_RUN = Path("/home/ubuntu/sts2-merchant-item-paired-eval-20260918/run")
+ASSESSMENT = Path("/home/ubuntu/sts2-merchant-item-paired-eval-20260918/assessment/ASSESSMENT.json")
 
 
 def atomic(value):
@@ -138,6 +140,42 @@ def smoke_passed():
     return result.get("passed") is True and result.get("integration_passed") is True
 
 
+def assess_and_resume_goal():
+    if not ASSESSMENT.exists():
+        command("systemctl", "start", "--no-block", ASSESS_UNIT)
+        time.sleep(1)
+    while active(ASSESS_UNIT):
+        progress = {}
+        path = ASSESSMENT.parent / "public-status.json"
+        if path.exists():
+            progress = json.loads(path.read_text(encoding="utf-8"))
+        atomic({
+            "phase": "merchant_independent_assessment_active",
+            "progress": progress,
+            "updated_unix": time.time(),
+            "automatic_retry": False,
+        })
+        time.sleep(15)
+    assessment = {}
+    if ASSESSMENT.exists():
+        assessment = json.loads(ASSESSMENT.read_text(encoding="utf-8"))
+    service_result = show(ASSESS_UNIT, "Result")
+    exit_status = show(ASSESS_UNIT, "ExecMainStatus")
+    command("systemctl", "start", GOAL_UNIT)
+    atomic({
+        "phase": "merchant_independent_assessment_terminal_goal_resumed",
+        "service_result": service_result,
+        "exit_status": exit_status,
+        "assessment_exists": ASSESSMENT.exists(),
+        "assessment_passed": assessment.get("passed"),
+        "candidate_gate_passed": assessment.get("candidate_gate_passed"),
+        "goal_service_active": active(GOAL_UNIT),
+        "candidate_deployed": False,
+        "updated_unix": time.time(),
+        "automatic_retry": False,
+    })
+
+
 def start_paired_and_monitor(*, start=True):
     if start:
         command("systemctl", "start", PAIRED_UNIT)
@@ -159,18 +197,17 @@ def start_paired_and_monitor(*, start=True):
         time.sleep(30)
     result = show(PAIRED_UNIT, "Result")
     exit_status = show(PAIRED_UNIT, "ExecMainStatus")
-    command("systemctl", "start", GOAL_UNIT)
     atomic({
-        "phase": "merchant_paired_evaluation_terminal_goal_resumed",
+        "phase": "merchant_paired_evaluation_terminal_starting_independent_assessment",
         "service_result": result,
         "exit_status": exit_status,
         "result_exists": (PAIRED_RUN / "RESULT.json").exists(),
         "runner_error_exists": (PAIRED_RUN / "RUNNER_ERROR.json").exists(),
-        "goal_service_active": active(GOAL_UNIT),
         "candidate_deployed": False,
         "updated_unix": time.time(),
         "automatic_retry": False,
     })
+    assess_and_resume_goal()
 
 
 def monitor_smoke():
@@ -224,6 +261,8 @@ def main():
             start_paired_and_monitor()
         elif active(PAIRED_UNIT):
             start_paired_and_monitor(start=False)
+        elif (PAIRED_RUN / "RESULT.json").exists() or (PAIRED_RUN / "RUNNER_ERROR.json").exists():
+            assess_and_resume_goal()
         else:
             command("systemctl", "start", GOAL_UNIT)
             atomic({
@@ -254,6 +293,6 @@ if __name__ == "__main__":
             "updated_unix": time.time(),
             "automatic_retry": False,
         })
-        if not active(SMOKE_UNIT) and not active(PAIRED_UNIT) and not goal_runners():
+        if not active(SMOKE_UNIT) and not active(PAIRED_UNIT) and not active(ASSESS_UNIT) and not goal_runners():
             command("systemctl", "start", GOAL_UNIT, check=False)
         raise

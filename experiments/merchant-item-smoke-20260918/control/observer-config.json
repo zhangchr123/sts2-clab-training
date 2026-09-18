@@ -116,6 +116,11 @@
     {
       "name": "merchant-item-paired-evaluation",
       "path": "/home/ubuntu/sts2-merchant-item-paired-eval-20260918/run/public-status.json"
+    },
+    {
+      "name": "merchant-item-independent-assessment",
+      "optional_missing": true,
+      "path": "/home/ubuntu/sts2-merchant-item-paired-eval-20260918/assessment/public-status.json"
     }
   ],
   "workspace": "/home/ubuntu/sts2-agent/workspace"

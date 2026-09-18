@@ -1,0 +1,19 @@
+[Unit]
+Description=Independently verify the public merchant-item paired evaluation
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/sts2-merchant-item-paired-eval-20260918
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 -u /home/ubuntu/sts2-merchant-item-paired-eval-20260918/assessment/assess_merchant_item_paired_eval.py
+TimeoutStartSec=infinity
+TimeoutStopSec=15
+UMask=0077
+NoNewPrivileges=yes
+MemoryMax=768M
+StandardOutput=journal
+StandardError=journal

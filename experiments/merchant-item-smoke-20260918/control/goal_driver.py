@@ -304,6 +304,7 @@ def execute(state, pending, decision, reply):
         d = {'snapshot_id':snap['snapshot_id'],'action':'publish_snapshot','summary_zh':decision['summary_zh']+'\n下一步：'+decision['next_focus']}
         receipt = pub.publish(snap,d,reply)
         batch['published'] = snap['completed']; state['last_upload'] = receipt
+        state.pop('upload_needs_review', None)
         record(state,'goal_snapshot_uploaded',batch_id=batch['id'],commit=receipt['commit'])
     except Exception as exc:
         # Do not rerun model requests or stop acquisition just because upload is ambiguous.
