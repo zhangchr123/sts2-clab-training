@@ -1,10 +1,10 @@
 {
   "batch": "defect-cloud-goal-20260917-000089",
   "planned": 24,
-  "completed": 8,
-  "valid": 8,
+  "completed": 16,
+  "valid": 16,
   "invalid": 0,
-  "target_successes": 1,
+  "target_successes": 2,
   "phase": "running",
   "receipts": [
     {
@@ -110,6 +110,110 @@
       "target_success": false,
       "max_act": 3,
       "max_floor": 15
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000089-008",
+      "seed": "defect-cloud-goal-20260917-000089-fresh-008",
+      "audit": {
+        "bytes": 1781,
+        "sha256": "a95ddef94f4c3a058ecbec30c4dc82f139e3ff4ec1f5663ba2a8130f28e9e603"
+      },
+      "valid": true,
+      "outcome": "victory",
+      "target_success": true,
+      "max_act": 3,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000089-009",
+      "seed": "defect-cloud-goal-20260917-000089-fresh-009",
+      "audit": {
+        "bytes": 1484,
+        "sha256": "6215d8007fc74ab507f0040cff0a15f40edb40cdcd2d2262b7f8cf2e10695628"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000089-010",
+      "seed": "defect-cloud-goal-20260917-000089-fresh-010",
+      "audit": {
+        "bytes": 1479,
+        "sha256": "4815b6183606b8b9b97308dbf89acd708e6c7ec7f48d9b2a5cf345ae5f7bdc4d"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 3,
+      "max_floor": 15
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000089-011",
+      "seed": "defect-cloud-goal-20260917-000089-fresh-011",
+      "audit": {
+        "bytes": 1491,
+        "sha256": "3b85526642aa94e35d9d7e16e7076d8af43ee87e8922e24f1ea5246dda3b1c8b"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000089-012",
+      "seed": "defect-cloud-goal-20260917-000089-fresh-012",
+      "audit": {
+        "bytes": 1486,
+        "sha256": "4d6bcf4ce3cccf91e3f6020aa5be8fccdf04a6bda6f78302ba600a16fe320d7e"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 5
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000089-013",
+      "seed": "defect-cloud-goal-20260917-000089-fresh-013",
+      "audit": {
+        "bytes": 1491,
+        "sha256": "3bdc3b358f191a791289823eb349c3e42257ded272fc71044d48dd5f66211666"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000089-014",
+      "seed": "defect-cloud-goal-20260917-000089-fresh-014",
+      "audit": {
+        "bytes": 1484,
+        "sha256": "f320cefcf5569362b3a7168a7ec545852e706076e69684bc7cc9db50a5691ec6"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 2,
+      "max_floor": 16
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000089-015",
+      "seed": "defect-cloud-goal-20260917-000089-fresh-015",
+      "audit": {
+        "bytes": 1476,
+        "sha256": "0115f26924232b9c70738c02675687336837917e346cb51eeecf896a76f31af5"
+      },
+      "valid": true,
+      "outcome": "defeat",
+      "target_success": false,
+      "max_act": 3,
+      "max_floor": 15
     }
   ],
   "protocol": {
@@ -123,6 +227,6 @@
   "partial_upload_authorized": true,
   "adapter_revision": 3,
   "owner_state": "live",
-  "snapshot_id": "fe1a3bb130207c30e9c4e98d",
+  "snapshot_id": "b2e8d6434c7910bb2cacffd6",
   "goal_id": "defect-continuous-training-20260917"
 }
