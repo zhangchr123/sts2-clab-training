@@ -1,0 +1,1366 @@
+{
+  "purpose": "Independent natural training-data collection using already integrated fixed 471-weight policy; no fitting, no model selection, no paired comparison",
+  "batch_id": "defect-cloud-goal-20260917-000099",
+  "planned_games": 24,
+  "local_training_remains_paused": true,
+  "batch_raw_budget_bytes": 8589934592,
+  "stop_when_free_below_bytes": 8589934592,
+  "downstream_launch": false,
+  "jobs": [
+    {
+      "name": "defect-cloud-goal-20260917-000099-000",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-000"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-001",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-001"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-002",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-002"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-003",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-003"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-004",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-004"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-005",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-005"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-006",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-006"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-007",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-007"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-008",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-008"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-009",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-009"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-010",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-010"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-011",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-011"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-012",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-012"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-013",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-013"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-014",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-014"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-015",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-015"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-016",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-016"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-017",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-017"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-018",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-018"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-019",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-019"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-020",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-020"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-021",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-021"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-022",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-022"
+    },
+    {
+      "name": "defect-cloud-goal-20260917-000099-023",
+      "seed": "defect-cloud-goal-20260917-000099-fresh-023"
+    }
+  ],
+  "model": {
+    "path": "/home/ubuntu/sts2-cloud-checks-20260917/linux-rebound-model.json",
+    "sha256": "59d11c9fe8c6d94d2968928aaf567a3fb73ec6b53252feb0e2b7f7e164eacac4",
+    "bytes": 63584
+  },
+  "config": {
+    "first_budget_ms": 30000,
+    "replan_budget_ms": 30000,
+    "setup_budget_ms": 30000,
+    "retry_budget_ms": 30000,
+    "max_replans": 35,
+    "solver_backend": "coordinator",
+    "potion_policy": "Smart",
+    "growth_budgets": {
+      "GeneticAlgorithm": 3
+    },
+    "act_boss_hp_strategy": "ProgressionFirst",
+    "final_boss_hp_strategy": "ProgressionFirst",
+    "search_profile": {
+      "beam_width": 30,
+      "max_expanded_nodes": 5000,
+      "max_card_branches_per_node": 24,
+      "max_pile_choice_branches_per_action": 12,
+      "max_hand_choice_branches_per_action": 12,
+      "recover_deferred_turn_frontier": false
+    }
+  },
+  "sampling": {
+    "ascension": 10,
+    "epsilon": 0.0,
+    "max_seconds": 1200,
+    "max_decisions": 500,
+    "selection_budget": 256
+  },
+  "frozen_sources": [
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_paels_eye_order.py",
+      "sha256": "6a373fb2b7577ba2b33089a9d55dbef1b7b6974e1a014df9c05e0a20bd3ea635",
+      "bytes": 5618
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/noncombat_potions.py",
+      "sha256": "b1d8faf3313ab0a9296bb3d650324c61bd35708e685d4c0c5fffa16433ebe7ec",
+      "bytes": 3492
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/selection_target_features.py",
+      "sha256": "2ed361e5c157c432ec4160a8c9c263ddef382986b0464b032a2d9ff5b651a338",
+      "bytes": 3225
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/archive_contextual_training.py",
+      "sha256": "e03101da413f0ec419556149b51f187b9a86592af08ce2a3a8899ee4a2f01662",
+      "bytes": 6022
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_jungle_maze.py",
+      "sha256": "5f486af8df6c11867d8d4299a64feaffd69e2281005c8a0ed5579296b2796152",
+      "bytes": 2365
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_setup_plan_continuation_live.py",
+      "sha256": "90db18de027f99689417912c8c9126400ef7f39b867c66d70fd249ae9b2f946c",
+      "bytes": 4007
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/run_paired_experiment.py",
+      "sha256": "ba98681f0dfb1c7fef22d04bff8e45da896100d5fabac7733143e0fb3a8671b6",
+      "bytes": 4151
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_reference_archetype_features.py",
+      "sha256": "460ceaff18d6332e4ba61930e70a6548a6dfe91e6d1e6728d3dcdf73faf0fd95",
+      "bytes": 10329
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/hologram_series.py",
+      "sha256": "3309a9cf4849a29ab4ecc5470e0e0b1dfa4120e9282dc83e19f35e4ae6d803cb",
+      "bytes": 15907
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/decision_data.py",
+      "sha256": "9ac8b3f0ec25039774bb17201604094220c2907f5d5435bca6c7e11d7f9fe2ee",
+      "bytes": 37777
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/evaluate_contextual_run.py",
+      "sha256": "aa0adf45479ab7f07a369a775edf494558fec04aac64eba14c0f75a0337f4ba4",
+      "bytes": 10178
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/compare_policy_batches.py",
+      "sha256": "7a7fdd9ef0bb0feaa0b6734ed3965b5b7b490cf32bfd7749281fd6f08e4ff4cf",
+      "bytes": 25649
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/advisor_scores.py",
+      "sha256": "5c62dcf7705df5885182ceb535c51709ae596b563c23e1a424d05f5b1ddf2dbd",
+      "bytes": 2398
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_initial_policy.py",
+      "sha256": "4e4276446df2ba2888a11da738413f371e7d5d19a4f0f2ddbee500cfe779fb7c",
+      "bytes": 24601
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_decision_data.py",
+      "sha256": "e0563176d3f266f9f26de1ee4e3cff88404f2aba54225112a137d10489968fbd",
+      "bytes": 24722
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_card_playability.py",
+      "sha256": "97f8d45024a24ded67069c48fb209d5520a3af868f4ddc7b3161363fc180a152",
+      "bytes": 11203
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/whole_run_audit.py",
+      "sha256": "336ef4abaa25e4d2450135639ccb7b5fd64200d924879bb65099604d13a8e8b8",
+      "bytes": 6257
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_event_cost_features.py",
+      "sha256": "37279279a7f6a15fc55823725a0ee4129fbc07e07bb248a5808230920d9a53c4",
+      "bytes": 3260
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/arena_spec.py",
+      "sha256": "a4837e94d468d217e912d890f1807c34b37ce9e8c7773be003fdfd6b9fa29d4a",
+      "bytes": 19824
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_prefix_policy_sampling.py",
+      "sha256": "53586066d78c5a7e0a6e7d8b2467f9a3f4926ecebd319953aed2a7f5d280cf99",
+      "bytes": 7656
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_amalgamator.py",
+      "sha256": "6d4343b7656a0adcdb62f9400a8b8cbd9007baf566ad8e5d43987e759f325203",
+      "bytes": 3805
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_nightmare_return.py",
+      "sha256": "58eb8ec5cad09d7469d71c20b526da597a8306b2bc47011aa57a12569d57293f",
+      "bytes": 11257
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/circulation_capability_policy.py",
+      "sha256": "8b34396bdff4b528316676a09f0cbeefe4f63e1ead22f709f96b5b3460c1a739",
+      "bytes": 6043
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_target_replan.py",
+      "sha256": "e83f3fd821135ed4d5473bdb4df533b907cce749f0429935adabcc6a662ff1e1",
+      "bytes": 4040
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_selection_threshold.py",
+      "sha256": "16ed3403c538bced32d174fb47c26c0b3d0606bedde8edf3648f910d95e9932f",
+      "bytes": 3982
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_secret_technique_repeat_return.py",
+      "sha256": "88ce58dc7e957f19d182d9ef342b6ea96fa9bf880b207a8d2790f1cc7cb4852a",
+      "bytes": 9623
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/initial_policy.py",
+      "sha256": "f6f89736e57a7c95981250be90283549c853618198dea969fb95453f5204ea9c",
+      "bytes": 38312
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_hologram_razor_audit.py",
+      "sha256": "6970783efafa894bb0759af340b8bfc29866798291d8e1070821ba3e6089287b",
+      "bytes": 6956
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/train_interaction_survival.py",
+      "sha256": "853b85957dcf4e92c0fb0c56f9b2a05160ab816c0a9e7454c95e43262c5a4b62",
+      "bytes": 13983
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_compare_policy_batches.py",
+      "sha256": "0517c3f6b8a49cc8802c60088f499eaf305281ba7770c5ba70421f9df7fdb3b7",
+      "bytes": 10567
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/circulation_context_features.py",
+      "sha256": "248df9160d62afa33352752113be4bf0d223233fe263b42ac1e1142d2c011bf1",
+      "bytes": 3385
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_interaction_survival_policy.py",
+      "sha256": "b882a41c487cf61ca385a2bb6380a0da440eac6e2f7358afa46f737cab2fd349",
+      "bytes": 11903
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/persistent_power_features.py",
+      "sha256": "57507bdc0a1aa8ae0a6ec7b595015f9c67e041f6774ed697eda4724ef9e8d55d",
+      "bytes": 4985
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_seeker_manual_repeat.py",
+      "sha256": "9bbeee479cc8a7461bb59df46fbe1dc649879baa5e40e772028e485815c99108",
+      "bytes": 10194
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_compare_policy_replay.py",
+      "sha256": "62fe394bff93b1fbbfcd4cfceddb9b0e6e150ac97ee88ae289309d34acdf19bf",
+      "bytes": 6159
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/merchant_removal_value.py",
+      "sha256": "0ab0313af233db325a30756a05b40a8b0c522466aef660f98b001b8d54abf0cd",
+      "bytes": 6904
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/merchant_removal_audit.py",
+      "sha256": "02f8df5c26f91f6916fbbff4be4290b49f1a028e4da61ac1f7f47370a7adeddb",
+      "bytes": 8115
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_selection_target_binding.py",
+      "sha256": "c1b5dacfd1e6b28b4456a4778fb534495d26455f3c164278638060553cf07a4f",
+      "bytes": 1557
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/branch_audit.py",
+      "sha256": "deba230c46a7ed24a86a3186b597aca720813581fa1e734beb0ac72313bd8c05",
+      "bytes": 15736
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/combat_executor.py",
+      "sha256": "88df5a6985cb3012d463d62a2df5d465383abb9a8fc60b2fa63838dc84035baa",
+      "bytes": 189524
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_forced_choice_order.py",
+      "sha256": "8bf2f1f58493a94fcfcba35ae47c9a0d17cebe2512d80223e8b0a3df89f3b073",
+      "bytes": 5820
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_seeker_option_order.py",
+      "sha256": "b36a47d7c3dab2d23535be6d81b82d3929df7136f4f11901b220b6e35d67940c",
+      "bytes": 11344
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_archetype_features.py",
+      "sha256": "bcd591cbf8734bfb4ec882c28dcc1b44c1c2ba0b35f96d8addaf7dd0727c3c88",
+      "bytes": 8895
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/selection_space.py",
+      "sha256": "44e9152058858043d6fc3448f6182857de43f3d233b3ecea72c82055d7342b10",
+      "bytes": 7063
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/persistent_acquisition_policy.py",
+      "sha256": "eb4884181091a8db2f46a809bfdb8d0d009801f85c10bca3258b246a0ad42300",
+      "bytes": 11045
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_contextual_policy.py",
+      "sha256": "854a35e25275edee8624e6b969ed768598b8c508084237987bd1b40b3b1f9ec2",
+      "bytes": 8173
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_player_turn.py",
+      "sha256": "3726474d7728c1c7961a29f707a9b516d3972d9a0d1fcfbb1860d2111260cea9",
+      "bytes": 4827
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_train_prefix_ranker.py",
+      "sha256": "6654537d7c495bbd4252809d934a1762b24bc539014fe73cf1310a70ab1ae0f2",
+      "bytes": 3345
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_brand_return.py",
+      "sha256": "6b842366c22a43235ebdc04bae673cfd947b2830ce6ae74bf503cbf763f7186a",
+      "bytes": 11751
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_secret_catastrophe_return.py",
+      "sha256": "9339ee969ff6704adc92a36391a840bdca81ccd40c9b917d02d7495675f9f8df",
+      "bytes": 11997
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_toasty_without_loop.py",
+      "sha256": "a6fe47a0e3eaac120a73c75d30e7353cd96c5d93a63a7a8e2442f8d986e93761",
+      "bytes": 4123
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_prepared_return.py",
+      "sha256": "fc271832d0770ec52d420d397032f241a171ece768b2cb8508b3f30cb7fbfa42",
+      "bytes": 10450
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_selection_space.py",
+      "sha256": "d7b3829548af37730822cd8380faad13cacc7bc39671d58f80f88abdcaf47897",
+      "bytes": 4523
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_uproar_neows_ending.py",
+      "sha256": "99fdeb8519caed6d01864fe6ffa944636599b90628a3ea05a607626c78e26146",
+      "bytes": 8938
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/functional_role_features.py",
+      "sha256": "352c1ec3f06f03b668203d040deca335d03e91e53a0b8fc86fac5a26281dde27",
+      "bytes": 9098
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_train_ranker.py",
+      "sha256": "47d59821bcfd7af9d08b6030ae8fc6adf8600bb349a040841f420053f3cdf285",
+      "bytes": 23687
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_dagger_photon_live_return.py",
+      "sha256": "927cf480c0e40509656bd5dafb755b1b87268620fc716439b39863388df6e564",
+      "bytes": 10728
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/solver_evidence.py",
+      "sha256": "cae8aa9ef76da5a684a2acf193ed554e7b1b2fdcf829b72206b48c506d8d1802",
+      "bytes": 4169
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_secret_technique_return.py",
+      "sha256": "12d90c409df5426b1df1558d387421b0480b0ec84e5384f2985a2db2281250e3",
+      "bytes": 12563
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_hologram_series.py",
+      "sha256": "0f9b2b60b2db8c2a733055563af35b1943b61c3681810984ab2fe8481dd9a18f",
+      "bytes": 11390
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_seeker_singleton.py",
+      "sha256": "ab3a91e3626b8e2328a2885d67490f52e0424fe9e3365eb37b317fc3a334e15e",
+      "bytes": 4518
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_doll_room_policy.py",
+      "sha256": "fee3ce25a078fed7e29a2fa5c1a095878ab073a1fb348a7fef2304a54fc719c3",
+      "bytes": 5614
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_crystal_sphere.py",
+      "sha256": "0d3ce7543e1480cc2277a6d6cc69cde3abc4ec6c941afbca0d828b6b67d80393",
+      "bytes": 8335
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/gambling_setup.py",
+      "sha256": "e9d4ad78575b6dec54933c36ee3ff8a05bda27087ff8042e8bef0fa5534d708f",
+      "bytes": 4928
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_toasty_end_turn_origin.py",
+      "sha256": "1cbb7673ae585317ae3ddaaa681a1735006a78a9436f8d63705155fb3c5b5d38",
+      "bytes": 9495
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_original_return_live.py",
+      "sha256": "01ac1f283f7510e7fcab0f6bf306a3550d2d532cb64cccbc3218ef8a0604d093",
+      "bytes": 12223
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_upgrade_preview.py",
+      "sha256": "58abb40b197cb6046ac1e76645eb22f7b5689c3cec73ec8e1189786eaf568a7d",
+      "bytes": 5432
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_card_identity_policy.py",
+      "sha256": "d6a8e64ff7cf6ead7dd31fcba7e615c5d5b701a641413b818826a76345dec1e9",
+      "bytes": 8804
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_prefix_policy_comparison.py",
+      "sha256": "c9d0a537a218d9dee81cff7f4366679cca37a49c0a94afda674b85ba69544f14",
+      "bytes": 10294
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/public_route_policy.py",
+      "sha256": "7dab07461c47a3393fe3d919ebe36a7d4e1950089100173bcec0cdc87809790b",
+      "bytes": 9543
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_diagnose_boss_budget.py",
+      "sha256": "e8ef4df2fdb861266346825fcf6813a5181910e24b4652a64dfc2e814ab28e71",
+      "bytes": 2937
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/whole_run_policy.py",
+      "sha256": "533a80857f76f1defaeec9e8feaa88ddb9a04dd8fa7f58959c5e2b8e808194e3",
+      "bytes": 7503
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_begone_return.py",
+      "sha256": "7653de6ff99b9b5e4596cff7ad20822cad07893c1ecb2ec33a265415c2881d34",
+      "bytes": 10048
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/selection_target_policy.py",
+      "sha256": "a375f255e13d752183dc4a7b78cc8c3be4946ca7f7692ed4fdc0dd764622f6b7",
+      "bytes": 8438
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/train_act_survival.py",
+      "sha256": "3e3e5edcd935fcd9892924636c9228039a85e1132f52887b80c673b3484c949b",
+      "bytes": 21001
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_shop_purchase.py",
+      "sha256": "d4ef53332b82f3dae7f0c79ee5cb0974f23274c25e10cacacbe8b2a01d7cdf5b",
+      "bytes": 2249
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_liquid_memories.py",
+      "sha256": "05070ad2f75791e02ad2947fe98c9e8b716f0a74e79f192e8c59021145edcd51",
+      "bytes": 6431
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/contextual_policy.py",
+      "sha256": "a7251ce3a64dc056a6856a4099b515867acc3192fb85355d36168683e8d0331c",
+      "bytes": 6602
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_survival_policy.py",
+      "sha256": "f9225dae82f1c32f56d17ed3bdb0b9055b6e2b45bc8bf02bd504378a25a27db7",
+      "bytes": 13087
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_search_profile.py",
+      "sha256": "133214f9636e2672f1424cb013b1eba700f8ee88670a61539b5f833f6f65ddd2",
+      "bytes": 6155
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/selection_policy.py",
+      "sha256": "7b75e5def87a7cbf0c44ccbaa226e6dd560af629c9281ee008919c743af9b944",
+      "bytes": 27417
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_train_act_survival.py",
+      "sha256": "7ea3a89f88637b0bbea485cfabe7579d8713a94221447cdc0d4f588db2e24787",
+      "bytes": 12750
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_prefix_health_policy.py",
+      "sha256": "3d9229591fe24cb86bbcabd5d4e8e587b10ddcdc778f0aae1142726bedb2a3bf",
+      "bytes": 16658
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_bridge.py",
+      "sha256": "a1a32c9ce4d45ae33f54892a932f515b0b6cb971f4e5d774ec4fef1345c0c9d2",
+      "bytes": 3028
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_stampede_return.py",
+      "sha256": "3505e73e62eac31d40ee0588f1aa1d842fd73d73176d9d32f9183e1711e72850",
+      "bytes": 10821
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_run_metadata.py",
+      "sha256": "8ebcd99daf96794572e568d54e93bb804ac061a73048878874df602e176e9326",
+      "bytes": 2015
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/event_cost_features.py",
+      "sha256": "68dd35fc7557d30b55c23d83fad489a6c7fbebc99e57ec90f0872d3a77761623",
+      "bytes": 4370
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_route_features.py",
+      "sha256": "311d599561206854e6de9c3c49f7498ecea6d3eae543d70417485b3580d33ac4",
+      "bytes": 14681
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/neow_preference_policy.py",
+      "sha256": "76ce061142e54e8d8033d12d78fd1923169704b8057c6e587915d26bae51d9bc",
+      "bytes": 8634
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reconcile_contextual_generation.py",
+      "sha256": "5b84be3a3dc35e695d58b31de5ad1f8ecabac5c3f2a99dc59db24c2d86398718",
+      "bytes": 6410
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_branch_audit.py",
+      "sha256": "af32c0eaa69e171aabea3dba2196378a7abf796f2ba2ad6f2e64eb7f1e539126",
+      "bytes": 5099
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/interaction_survival_policy.py",
+      "sha256": "c53814b7cbe0c9a11a34ec7cfed9f919f5301f992740fb8676988498cef05056",
+      "bytes": 1348
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/boss_progress.py",
+      "sha256": "1a1306a7f736014d7841b7011baf8b048f79ad87f0734e94f5a8944183305282",
+      "bytes": 5326
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_audit_prefix_interventions.py",
+      "sha256": "33efbb22165024b92374a1b0c7a3ae3a50c46a5815e01b308eb400b0df42e789",
+      "bytes": 16131
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_interaction_features.py",
+      "sha256": "0200783fa414b07b164cf6f210cc49a1a3a2eec2af7c13c99c6b66caf2e95fb1",
+      "bytes": 13071
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/unpredicted_setup.py",
+      "sha256": "f1287114088d5a51834756ecff0912e238e9f1f79760572d9cfcd9c1555b5f9c",
+      "bytes": 6069
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_run_policy_experiment.py",
+      "sha256": "c8232892faa934b2344e387fb83026c5fc8d9732558f0a487032f0a251ebf50c",
+      "bytes": 7937
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/prefix_interventions.py",
+      "sha256": "4f3c976357a50c3a3ec8a5b07cfb383d8eb291bef4a613ad2ade1d7ae14e6ee1",
+      "bytes": 29109
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_cosmic_hand_trick_return.py",
+      "sha256": "4e75c84e0042172efd9c0a5a54d1f4d50b20195d52327f432b0163ef46777d97",
+      "bytes": 9984
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_event_risk_binding.py",
+      "sha256": "74be2128066d08f91345f0b7203e5ddce7c456be9cef1ab7bd3f5e7e623e1b78",
+      "bytes": 2929
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_scavenge_repeat.py",
+      "sha256": "b10e99f3a0b7f73d13ef10ec63d79e4f46e7f2df0cee816a73f04b110bc2b383",
+      "bytes": 6916
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/contextual_effects.py",
+      "sha256": "7640de971fdac9302fe484298258ccab5e52ff43f54d2d3c88733937b362354e",
+      "bytes": 3098
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_setup_plan_continuation.py",
+      "sha256": "5906d4c836fc7ab157ddbdb471279f49dea6a9b2c2a588481c53a1f0335ebc01",
+      "bytes": 10187
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_contextual_pipeline.py",
+      "sha256": "e3c915d89f5c523efdc69a886b72981fd5a1b7e5fe28652a48d69277aff2ba30",
+      "bytes": 5278
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_compare_batches.py",
+      "sha256": "ea9e744bd96c0dabad044b22649a6f0734e514fea08cf5ebd54d3b959f8bb4d1",
+      "bytes": 23810
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_thinking_ahead_return.py",
+      "sha256": "2d99305092b6bb612ff29f76b5e5e3ebb3ea9384555b20ccba773f4ea99789c6",
+      "bytes": 11313
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/compact_deck_policy.py",
+      "sha256": "41cf32585a3c9791881dfa2f7da7bd2efe317cb0b4da09d1cf5dff520e10d423",
+      "bytes": 8398
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_boss_progress.py",
+      "sha256": "a46b40cb8c4d647d6ecf1f16fe14d06f80b8089254f2d46b9fb3e637dcd5405a",
+      "bytes": 3032
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_catastrophe_heirloom_return.py",
+      "sha256": "271ce99c6cb17c5dccac1645c992d9d1463279aa6729abfea09d244645ddbf9d",
+      "bytes": 8156
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_prefix_interventions.py",
+      "sha256": "f966ee25ca0d537d6ef8398a027ec9b140a4829ec14103b88f7634e3e3465788",
+      "bytes": 7672
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/run_metadata.py",
+      "sha256": "673e3ee1b38b88a254d5edba12d666dc4e03ac029c97261a7e90a86f5ff1d74e",
+      "bytes": 2160
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_contextual_training.py",
+      "sha256": "2f7a6748d5b7572095d3563510f8c9fc4fa6f06e07618124a98905e260d205d3",
+      "bytes": 7954
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_play_card_completion.py",
+      "sha256": "39c7b8c35a18d421e7863bc7fbbd84d01ea7cadd8816f63c1cf85284979455b2",
+      "bytes": 8762
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_original_return_executor.py",
+      "sha256": "c34f6d1e50170d2005bc858c058c5fc106a0583ea101fbdc6b5bcee6199f88b0",
+      "bytes": 7343
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/persistent_acquisition_features.py",
+      "sha256": "336c53f6cb532fa5c15b9e696e539be1735a89b209034f2927cd47a5982066d1",
+      "bytes": 1323
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/card_identity_vocabulary.py",
+      "sha256": "f600116c057c975e3248bbec144248dfdf13369288c00ab82346d987e32535cd",
+      "bytes": 3508
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/interaction_features.py",
+      "sha256": "5ff8dad6433c5d87b3c45bb0e70ab4287470df6982bac2d7b969ef1aab2f2f9d",
+      "bytes": 10744
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/circulation_capability_features.py",
+      "sha256": "1ed45414d09163a4d20e1b7c2136155f6003ac698bfe49f7832228dd01b93c9c",
+      "bytes": 4731
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/train_ranker.py",
+      "sha256": "38e34433bdfb6ead2a74142cd225bf03610f0b30425f0f28e81e8b25cca0c038",
+      "bytes": 22167
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_neows_zero_replay.py",
+      "sha256": "b2d54323b581d10cc169d00383fd60aa49908b546aced721de736ea8230bd717",
+      "bytes": 6624
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_sample_runs.py",
+      "sha256": "4380b8e11da99c323c51a74d120ca7d36db54f0f9b42e7115ddc46df4c6027fe",
+      "bytes": 24328
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_interaction_batch_audit.py",
+      "sha256": "81cbb60f86affe07ec8b070205f393bd6f0b8523f362db6b1b3ae29748b69df3",
+      "bytes": 6887
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_advisor_scores.py",
+      "sha256": "4c27c0dec7cc32ee78d7ec2ccebe00b7d2bb4eca4e9e2bb7a6b54e7d71e3c463",
+      "bytes": 2910
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_empty_source_executor.py",
+      "sha256": "e1fba70f2cf702c625d8d2bb3ab03ee38989c34ee83c03f6bf88c45828599018",
+      "bytes": 8225
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_unpredicted_setup.py",
+      "sha256": "c7f6d35358c5c55048525f2a293280e1ab1b47880de041e2e0087a9124eb578b",
+      "bytes": 7774
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/public_route_learning.py",
+      "sha256": "2d0c9851607ca65dc595bebb3082e045e0a391d8b7924964ea71a0a24f21ecbb",
+      "bytes": 7479
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/distilled_chaos_replan.py",
+      "sha256": "a202785c03a2282a668d739ff14ee358296d8af456723cbb10b9cace0bda1fde",
+      "bytes": 3181
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_warmstart_training.py",
+      "sha256": "e339284fef6591f3aa6875af2a85cbf321ad516edca8d73d53a66840a3b7bcac",
+      "bytes": 5451
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/train_contextual_run.py",
+      "sha256": "d5a85188b188104b84cae5fc4f2c3a63dbd0a0fd58cee0f6c5a9c1cf0d8b7e36",
+      "bytes": 17441
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/audit_batch.py",
+      "sha256": "880c82bef6a9f9cabcf5196fac8b1615ed9cf707717f3c25ed8632ef8313cff0",
+      "bytes": 43725
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/card_identity_features.py",
+      "sha256": "a761cf75e7ca3dd841af14c0198060f7b5553a7c93532de7934623d98eaba835",
+      "bytes": 1963
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_selection_target_features.py",
+      "sha256": "bd55692d6a7a9a1e51b89f992bc494194743b154ff2592a0ae37d901f1e1a760",
+      "bytes": 4001
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/event_risk_guard.py",
+      "sha256": "3205b3ef780bbe9318e441c00507753b6fe4b68b2d22bd818d979b0eaf0c6f44",
+      "bytes": 3096
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_hidden_sculpting_return.py",
+      "sha256": "58a219b2cbb990b8bcbf4179e5aefd196c367a8d321199e568dcbcba9201c518",
+      "bytes": 13773
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_seeker_repeat_boundaries.py",
+      "sha256": "cce5904c986d6a41c5a9248214504c9c0a6a804e1c0ea3f5a8fd83a200a4c53f",
+      "bytes": 3720
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/acquisition_residual_features.py",
+      "sha256": "fc8a11aa94fdf64cb31415c0cd3281e220ac0aaeeb09843bce13873f31011f4e",
+      "bytes": 2837
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_toasty_setup_ending.py",
+      "sha256": "b45b09bb8f488817d69e64884b9554eb77f50b2b72bd77adfec6aa17998fce5c",
+      "bytes": 8217
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/neows_empty_series.py",
+      "sha256": "53008c66b2cbefbb1a81e279a8ae634ec803445a6e17996b04a7d4dcbce08aa7",
+      "bytes": 7168
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/sample_runs.py",
+      "sha256": "d2d84cf1ca635333d42108f8d54479601c0b5a55f4383eed51e20de56a50d97e",
+      "bytes": 20287
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reconcile_contextual_evaluation.py",
+      "sha256": "7afdecb091803e672ccb853bf180e80b847dc2980f026f17da8309e00ba8441f",
+      "bytes": 4779
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_whole_run_policy.py",
+      "sha256": "78ed13a20bf60f3c0494f5347d83d8ad60cd92ef316445ea8f30f24034060af9",
+      "bytes": 7933
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/run_session.py",
+      "sha256": "7f32b32693639fc2777946a313abdb37d756b8745ba73826faa697bfdc2b9325",
+      "bytes": 5315
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_trial_abandon_policy.py",
+      "sha256": "2c44421b80a6ee82e000aa859200c18df658547cbeb1628fe697e5522adf4108",
+      "bytes": 2413
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/neow_preference_features.py",
+      "sha256": "f1418b42c83d8d4ecaaa03b5dbe7ee134c7924eda69c43a9bee51a7c5771b630",
+      "bytes": 2335
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/smoke_controller.py",
+      "sha256": "a60fbae6fe409f42a66201999f2f32c89f927f32aaefafe4cd7ecc7a0e070e5b",
+      "bytes": 2794
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_train_prefix_artifact.py",
+      "sha256": "2c326dab1fc54ee82afc28a52701f0410e5cf8265d2167bce61067635a5001a3",
+      "bytes": 10383
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_selection_policy.py",
+      "sha256": "ec7083a1004dcdbe5e14edea52aab40950f774f93d7091d85b4a2a209cc39746",
+      "bytes": 16204
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_replay_evidence.py",
+      "sha256": "8dd65834382b4c81210b53e9148c8281b2fb3a02f1893a9f8cba091bdaf8abed",
+      "bytes": 8934
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_archetype_policy.py",
+      "sha256": "f96694f1da6c554c180320b9fd416b990e233351ff284c118e51352b70f9d168",
+      "bytes": 8772
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/prefix_health_policy.py",
+      "sha256": "0c234e19a566502f84ff91139c58bfb5c654c3e3f94ccab0252d3c853187084f",
+      "bytes": 18365
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/train_prefix_ranker.py",
+      "sha256": "580348b65c92d6c69f7c0791d83c0d7f6d88ec47c99c9b7f5e14f116ee9c0ca5",
+      "bytes": 16623
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_circulation_context_policy.py",
+      "sha256": "edaa05677fdfe428ce9f1f4c392bbc5ff1977c59f7917f991412185c17d04d3d",
+      "bytes": 10101
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/probe.py",
+      "sha256": "f93a1c622eb75cc3a12de1f522ac3a28cd16ec61d2c9482f8d94705abfb5785c",
+      "bytes": 4864
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_prefix_policy_audit.py",
+      "sha256": "00ac11c2fcb150db560805097af07fc427c2b334f125309f1171960833efde08",
+      "bytes": 10869
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_batch_audit.py",
+      "sha256": "70c0243d3d5be0a56d4c6c39420f884f50d87a86f0e90da7419cd237c2866098",
+      "bytes": 14896
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_map_observation.py",
+      "sha256": "b975def46dac73dadf57aa354d5997cadb954d9cb1159d4670e73c2beb81cf39",
+      "bytes": 7707
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/persistent_acquisition_features_438.py",
+      "sha256": "55c94ce867741c764b5339462d47320b3025da44983249ee843abd99f617cb6a",
+      "bytes": 2205
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/audit_run.py",
+      "sha256": "c9b611b5d03c9b066837ed0fe3dc2107d6867d4b67c436fc87dd02b518418f42",
+      "bytes": 2921
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_arena_spec.py",
+      "sha256": "07385a986ed61b258f5f813089da18aaa978a041a16c57dd2798e463c7ff7396",
+      "bytes": 15218
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_empty_source_choice.py",
+      "sha256": "80d1ccf132d7eadfc60bc1e4994ea23ee415156c2f675f9cb3b609468096018a",
+      "bytes": 4311
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_charge_return.py",
+      "sha256": "f7a601fedcb8742a1f60959551aa280fe7854202e89c5a20d24608bc7b581137",
+      "bytes": 9135
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_seeker_choice_return.py",
+      "sha256": "dae0aaf63acdd8bfc2dc146fa55fd543d092ba7a1c369d5369367aeeb6c2699c",
+      "bytes": 11218
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/event_risk_policy.py",
+      "sha256": "9f95283391ab961ffcb485e5b80ab07e2970220fe25df62c7aa6196a2640529e",
+      "bytes": 8788
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/ancient_reward_features.py",
+      "sha256": "b89cbbe5c412b97fe8f0d600976645b48cf17bc3ce2d4382fb46304228567135",
+      "bytes": 5660
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_uproar_heirloom_return.py",
+      "sha256": "313cae3ed8ff5b549e0c8ccd99d0d0c296e0d4541351044031f52a4bf079dc4f",
+      "bytes": 8018
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/selection_context.py",
+      "sha256": "0b1480952562049da2a842d2c776f9bc45e53c145fbc4c81948a6505ac20a228",
+      "bytes": 15690
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_touch_empty_return.py",
+      "sha256": "b7dc3daa8e693f376cb0e21f88b59dda8d944fddb247de07cf64f8e9d43cf91b",
+      "bytes": 10689
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/train_whole_run.py",
+      "sha256": "741f3324990f23ef722d46289fefcc9b2de2169acf6f9da78dfab94e2188eff0",
+      "bytes": 15722
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_choice_return.py",
+      "sha256": "34be29c1ac3d4fcf6e8186a9e1e5610a654e6176095d14e7e25dd4869c75f4ff",
+      "bytes": 4075
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/run_policy_experiment.py",
+      "sha256": "e2724c309aedbb6adbe11f8b53cbbcb43b728d31537057a4a2474943010685b4",
+      "bytes": 8278
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/replay_evidence.py",
+      "sha256": "500d8ea4c2a6952e6a921fd9edb632ba8cd77dafe43f8e17f2cb8c7d3b96b3f7",
+      "bytes": 46845
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/contextual_features.py",
+      "sha256": "ddbe897f319ecdb6693ecb3b5925d48b741241e037e1a4d0dd3853f998646d0e",
+      "bytes": 4410
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_soul_nexus.py",
+      "sha256": "070e70996927d0174a9322893cbc1008fd0236287452a546c29bdc890c40b4c4",
+      "bytes": 1937
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/audit_prefix_interventions.py",
+      "sha256": "d5971e35096505c39200f5f9cf9bce11e6431e23734387880c20b1a474f2508d",
+      "bytes": 17873
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/route_features.py",
+      "sha256": "21e70044bac40a71fbe1ebe4cffb92aa39dc466119908ce32286f1b45e385232",
+      "bytes": 9652
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_selection_target_policy.py",
+      "sha256": "a9eeae87c162770e26ee0063b0807faf401c2e3763dccd8529ebe002f3882064",
+      "bytes": 4944
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_public_route_learning.py",
+      "sha256": "281effcd6f38d52270626916ef484d307da763f76a281542b1bc9548ba5a051f",
+      "bytes": 7919
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_hologram_paels_audit.py",
+      "sha256": "bbfe7ac88f47c8cd90626940221c3fdc2bc400c7a4348c85b5d1459f2141d618",
+      "bytes": 7846
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/circulation_context_policy.py",
+      "sha256": "8651afdf0f32235709268653d66c64c84a659ad441f0e43d52f4de03bbf670ae",
+      "bytes": 6022
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_dense_vegetation.py",
+      "sha256": "d39801c8dd5d59caaf0a98d8d43237797056f46213927187438f285c396e43cd",
+      "bytes": 3897
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/mechanism_facts.py",
+      "sha256": "4b21dcc112a6ac0647319084305cbd7a579e2967865ad0dc19b64245aa7dff89",
+      "bytes": 4984
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/setup.py",
+      "sha256": "907e22d1fe93b65eaa87884ef6cb0cfc5554b2dcf17251ab4d3a4dea66884851",
+      "bytes": 2762
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_test_subject_color_live.py",
+      "sha256": "898ed12ff659fdc2d5abe0aa707e95aba5922fbc1ed42fcef014f0512a1bc8aa",
+      "bytes": 4331
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_train_interaction_survival.py",
+      "sha256": "4f386291399607ab4f3c20462d24f4a670d2d7829d13d160f0bc56ce2255dc16",
+      "bytes": 12824
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_event_risk_policy.py",
+      "sha256": "45e340664c30b6738623fbd0191b3fb909bb16ccccf7203963d292f42d1bab67",
+      "bytes": 4914
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_wish_return.py",
+      "sha256": "798805b6806266650c0fb8e772e3362ca535c8cb971ae5178341607a008cdaf4",
+      "bytes": 11185
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/compare_batches.py",
+      "sha256": "42cfa7715eea79e6d07f44869053c561ee49ef7fab84b0308ca3c36968b640a7",
+      "bytes": 35883
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/run_cli_regression.py",
+      "sha256": "112976cdee869dc0f02f453315340b9affe9faed17f12c2b1b83e5da398234b8",
+      "bytes": 2460
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/map_observation.py",
+      "sha256": "872a4e227f7f9d36e928479f9489d9f4bd5cd7d7014b598d103b478f07376421",
+      "bytes": 6352
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_coordinator.py",
+      "sha256": "68ecd49c16ed8eb94451b2ce2f5383902aabe5d5e4438d64e4709acb9ea49651",
+      "bytes": 6939
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/evaluate_whole_run.py",
+      "sha256": "31d1c91fce3cf63e7b4a9262cab0ce0b433869a6413ebd2be17f43c1a761e7ee",
+      "bytes": 13710
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_combat_executor.py",
+      "sha256": "ea807e8f891323e869061934d17b8c5b7bc9d7ee6ee7cacea181ba57f2f102b3",
+      "bytes": 19040
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_dredge_return.py",
+      "sha256": "2ea07fbbf1b346be801e07ee9b6fe53ca2d1a4829c773da00598804ce3f78461",
+      "bytes": 12907
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/survival_policy.py",
+      "sha256": "d46fb5e57928731c1cb46dae64ca152bedf7bf4df5055608c3c7ccc2f481189a",
+      "bytes": 12613
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/control.py",
+      "sha256": "51f2282d0d1bef046021a226c28edb9a61a578d5cc5b24b70061ed21bf834e39",
+      "bytes": 2412
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_acquisition_residual.py",
+      "sha256": "a284810fafeed912e7aac4deec5457d1dd94c7a4f8d83b31c869ed92a9cb9639",
+      "bytes": 5944
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_event_risk_guard.py",
+      "sha256": "1ec83f6154e39d810178e0d2cb678ef0200ce0020ec4acf640f6fcf3479e8804",
+      "bytes": 5230
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/deck_discipline.py",
+      "sha256": "bd5904ac355461b0c1e8d5567bf0bf6b9c6eefe9f0f08b90e2390fbd8655a91b",
+      "bytes": 6877
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_integrity.py",
+      "sha256": "8af315a5a36e15cb996b1dc941650b5e300860b6403b5bb097a49fd62135a4a0",
+      "bytes": 6623
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_evaluate_whole_run.py",
+      "sha256": "0de085b5881948be5fe2395f3e1ee70a9f790e2f8aba8f274b323404c0caca62",
+      "bytes": 6762
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_knowledge_demon.py",
+      "sha256": "6572a0cbb20cc93ccc6341a1077f3d33b1af4d9eb3322b1ff17db2d7be97527e",
+      "bytes": 8619
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_compact_deck_policy.py",
+      "sha256": "8f054cb3bd11e6b535655b76cf3328df23975ff624eb2e34f695caedbe87f81f",
+      "bytes": 4844
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_cheese_nominal_cost.py",
+      "sha256": "508a18f6d96fb2668411d0cd36762ce9e9ac669bb17bdb0e642fc2a99abb484f",
+      "bytes": 8242
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_circulation_capability_policy.py",
+      "sha256": "9f6ae07d8b0d746c322be8fab83624a10e90b4dc48301277cd57d01685128cf8",
+      "bytes": 10466
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_selection_context.py",
+      "sha256": "b00fda4fda53435ca1bde57df2eae5f84b73caf7234d5dea5d908d466084094d",
+      "bytes": 8297
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_solver_evidence.py",
+      "sha256": "4f1b88067aefcdd40daa9a575e926ca49849a7696f0d0c71c6b9337727bdf6ae",
+      "bytes": 3220
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_neows_repeat_ending.py",
+      "sha256": "e9dcc3089542b44bf8f6acb6ce9bf6c380a07f9ace58a5331cdaebf70e2c198e",
+      "bytes": 8867
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_crab_rage_order.py",
+      "sha256": "23f03d6e43edae4dd0bc1a033a4997d72b7b44a687c10f952b1f0876ead92395",
+      "bytes": 10760
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/seeker_continuation.py",
+      "sha256": "9abd4dc03f9935ef9e6b7841e88062ef9cbcf90e29687cc4eccb04d4d2a8943f",
+      "bytes": 20202
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/card_identity_policy.py",
+      "sha256": "ea73573a583953727538a137fe9db13c0c73c215ffe5f5eb38202e87de1f4565",
+      "bytes": 7006
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/test_headbutt_return.py",
+      "sha256": "b271f7e985b4047df509c13c96a3720cb2d02e9147af16acf0721233470cdc8e",
+      "bytes": 7602
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/neows_full_hand_completion.py",
+      "sha256": "f5d7a8bc9acffcb06e4fc71faed2e883f4ec9466782288dcdefaad718d049e84",
+      "bytes": 7483
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/defect_public_reference_prior.json",
+      "sha256": "c9dc7a55fe1d56b7063cf4accfb755f9de22f02941863a3090142ddd1ae3cb4f",
+      "bytes": 120003
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/ancient_reward_catalog.json",
+      "sha256": "c0a0bb69a62fec74a34db26df23922a166df915ed36aff906b478411e4ba9382",
+      "bytes": 6703
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/SOURCE_EXTRACTED.original.json",
+      "sha256": "3bfbeb7653dade3be248a9f8fd3d77b144a2a741face9b6d75f8896310fc80f4",
+      "bytes": 4528
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/SOURCE_EXTRACTED.json",
+      "sha256": "dbb570d87d6a47eec9959467e4c274cfee7a3b052209f1fb1c95c37c2e2af7e6",
+      "bytes": 4538
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/LoopPower.cs",
+      "sha256": "9a3570eb24c1657f32177d71049d9b7c687d717808adac0372b0d5e011264625",
+      "bytes": 909
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/CreativeAi.cs",
+      "sha256": "3edbfda654a87a58290976ec0c4196cd5f0626cadb58706816648c90efdbbb43",
+      "bytes": 1225
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/EchoForm.cs",
+      "sha256": "e86af0bdbcb3cc873646ea552c527053125ece5aa22d11de793e7f116fc9861e",
+      "bytes": 1362
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/LightningRod.cs",
+      "sha256": "212bbdf1aed9dc6ce8e91eff82e26b290de977c23879b0839131b72b622edbd9",
+      "bytes": 1723
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/StormPower.cs",
+      "sha256": "d9625d0f66e2bdce93a870551a1f027a3bc5ba863db6b7abf3f1e8581456e5d0",
+      "bytes": 1853
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/LightningRodPower.cs",
+      "sha256": "b0d2c49fdf2052c877b3a76bfc9d6f18f81aa6dcc0de8deacbfee8778988b88b",
+      "bytes": 1123
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/Storm.cs",
+      "sha256": "dc8f12d69440c3980e7b4b554cf62aff80d960a59127b2e8a2be151b650aa76e",
+      "bytes": 1480
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/EchoFormPower.cs",
+      "sha256": "21a17f4e46c72568518323f35f27f4a842a333ecee55f5fac7dcdb68a680b300",
+      "bytes": 2640
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/CreativeAiPower.cs",
+      "sha256": "e09e1c3b1d522aca539a99af5698737cad67e8f18530ebd90cafa872a6679aa6",
+      "bytes": 1335
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/reference_facts/sources/Loop.cs",
+      "sha256": "652573fa9913129b7e7883505a0e41fcf5ecfc13dac1af05e37f427113374aca",
+      "bytes": 1201
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/MonoMod.ILHelpers.dll",
+      "sha256": "fdd0e3538340fd78b8f521e62b8cac1ebb7683ac1f27f6aaedfc1044b14bf4bb",
+      "bytes": 4096
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/System.IO.Hashing.dll",
+      "sha256": "fbe8c2fcb4adc01da5c3c8ed0d727903b8fda1e6b84da3c447c9794615f30664",
+      "bytes": 56104
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/MonoMod.Backports.dll",
+      "sha256": "ac3f32bfd44aab83abf71abdff6dde548d57b7c0f8a1fe6d8964e348b4eeafb1",
+      "bytes": 27648
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/Steamworks.NET.dll",
+      "sha256": "e1cd0bf2436cefbb8bfcfcc1cea0587e5b9c740769e8340f7b9e9de72785fcf0",
+      "bytes": 387584
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/Sentry.Godot.dll",
+      "sha256": "bef522b322662f6dbf280891e23e2001483107f8bb981f1692c264928753112a",
+      "bytes": 59392
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/sts2.dll",
+      "sha256": "14b57dbaee1b58cb919625a662831054fd714b3b75b13b7449eac0e95b98a3e4",
+      "bytes": 9676288
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/Sentry.dll",
+      "sha256": "4f1619b048d0b0f604265075bc5311f9f2e4a0ecdc09662009b7ee11d50c216c",
+      "bytes": 831488
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/SmartFormat.dll",
+      "sha256": "6220cde1dafffde5c51a4e23db4bb16e8ec620ef52bac51c0ad5f48c4769f168",
+      "bytes": 142848
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/SmartFormat.ZString.dll",
+      "sha256": "723e9ffdb9cec9565d9bbbdb27b4d19a9b0ba4ff006e1ab8b94022ae5c426450",
+      "bytes": 266752
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-cli/lib/0Harmony.dll",
+      "sha256": "ef1898322c9f5c86dc1b0758b272a9c440823b4a41ca9a0b82a3aa6b3d206387",
+      "bytes": 2328064
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/runtime/host/bin/Debug/net9.0/0Harmony.dll",
+      "sha256": "ef1898322c9f5c86dc1b0758b272a9c440823b4a41ca9a0b82a3aa6b3d206387",
+      "bytes": 2328064
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/sts2-solver-bridge/runtime/host/bin/Debug/net9.0/SolverBridge.dll",
+      "sha256": "8e7cdad1ff9dde0d669b21e98513f5140a5101bda34194dc693e9db833c8da9e",
+      "bytes": 192000
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-checks-20260917/linux-rebound-model.json",
+      "sha256": "59d11c9fe8c6d94d2968928aaf567a3fb73ec6b53252feb0e2b7f7e164eacac4",
+      "bytes": 63584
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-goal/batches/defect-cloud-goal-20260917-000099/run_batch.py",
+      "sha256": "e421dfc47b1d5a06e280e702a02739714eee80ece40019a2327881e4ce8e52df",
+      "bytes": 8395
+    },
+    {
+      "path": "/home/ubuntu/sts2-linux-smoke-20260917/BASE.json",
+      "sha256": "decfea8599925066b19a8503a5c732952c4228a1c3bf8a7bbc3cef586e2cf4ad",
+      "bytes": 663004
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-checks-20260917/LINUX_NATURAL_RESULT.json",
+      "sha256": "5392928af7234341aa05e06e2ea8745e6937ec48754ca64ff1e6353b9a4efc94",
+      "bytes": 3485
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-checks-20260917/LINUX_PROTOCOL.json",
+      "sha256": "46d33cb72297a94acf1a487882593d990478208c3355b528db99e54537b8e372",
+      "bytes": 53972
+    },
+    {
+      "path": "/home/ubuntu/sts2-cloud-checks-20260917/PORTABILITY_RESULT.json",
+      "sha256": "eeb2180acef88d0000ced6cd5739b82114f8bcc52bb74a1f84df82d6575b710d",
+      "bytes": 1343
+    }
+  ],
+  "parallel_workers": 1,
+  "automatic_retry": false,
+  "goal_claim": false
+}
